@@ -3,6 +3,7 @@ import { useDisclosure, useLocalStorage } from '@mantine/hooks';
 import { IconInfoCircle } from '@tabler/icons-react';
 import { useEffect, useState } from 'react';
 import ExternalLink from '../components/ExternalLink';
+import classes from './style.module.css';
 
 const STORAGE_KEY = "hide-disclaimer";
 const getInitialValue = (): boolean => {
@@ -45,16 +46,16 @@ export default function ProjectInfoModal() {
                         <Modal.CloseButton />
                     </Modal.Header>
                     <Modal.Body>
-                        <Alert variant='light' icon={<IconInfoCircle />}>
+                        <Alert variant='light' icon={<IconInfoCircle />} classNames={{ icon: classes.alertIcon }}>
                             <Text>Dies ist <b>kein</b> offizielles Projekt der DLRG (Deutsche Lebens-Rettungs-Gesellschaft)!</Text>
-                            <Flex direction='row' align='center'>
+                            <Flex direction='row' align='center' wrap='wrap'>
                                 <Text>Offizielle Seite der DLRG:</Text>
                                 <ExternalLink text='www.dlrg.de' href='https://www.dlrg.de' />
                             </Flex>
                         </Alert>
-                        <Alert mt='md' variant='light' icon={<IconInfoCircle />}>
+                        <Alert mt='md' variant='light' icon={<IconInfoCircle />} classNames={{ icon: classes.alertIcon }}>
                             <Text>Jegliche Inhalte, die zum Anzeigen der Qualifikationen genutzt werden, stammen aus der öffentlichen API der DLRG.</Text>
-                            <Flex direction='row' align='center'>
+                            <Flex direction='row' align='center' wrap='wrap'>
                                 <Text>Link zur API:</Text>
                                 <ExternalLink text='api.dlrg.net' href='https://api.dlrg.net/?urls.primaryName=Digitale%20Pr%C3%BCfungsordnung' />
                             </Flex>

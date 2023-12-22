@@ -152,3 +152,10 @@
     width: rem(25px);
     height: rem(25px);
 }
+
+/* ----------------------------
+ * STYLE FOR THE PROJECT INFO MODAL
+ * ---------------------------- */
+.alertIcon {
+    margin-right: var(--mantine-spacing-sm);
+}

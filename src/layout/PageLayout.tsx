@@ -24,7 +24,7 @@ export default function PageLayout({ pos }: { pos?: PruefungsordnungInfo[] }) {
             <header className={classes.header}>
                 <Group h="100%" px="md" justify='space-between'>
                     <UnstyledButton component={NavLink} to="/" title="Home">
-                        <Title c='#ffed00' size='1.4rem'>Digitale Prüfungsordnung</Title>
+                        <Title c='#ffed00' size='1em'>Digitale Prüfungsordnung</Title>
                         {/* <Image height={40} src="https://api.dlrg.net/logo/v1/stammverband/svg?size=144&line1=Digitale&line2=Pr%C3%BCfungsordnung&farbe=vollfarbe&stacked=false" alt="Logo" /> */}
                     </UnstyledButton>
                     <Burger opened={opened} onClick={toggle} hiddenFrom="sm" size="md" color='white' />
