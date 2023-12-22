@@ -1,0 +1,154 @@
+:root {
+    --header-height: 60px;
+    --navbar-width: 400px;
+}
+
+
+/* ----------------------------
+ * STYLE FOR THE LOADING ANIMATION
+ * ---------------------------- */
+.ring {
+    animation: rotation 4.5s linear infinite;
+}
+
+/* rotate the icon infinitly */
+@keyframes rotation {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* ----------------------------
+ * STYLE FOR THE PAGE LAYOUT
+ * ---------------------------- */
+.appshell {
+    height: 100%;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.header {
+    width: 100%;
+    height: var(--header-height);
+    background-color: #E30613;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 150;
+}
+
+.nav {
+    width: 100%;
+    height: 100%;
+    max-height: calc(100vh - var(--header-height));
+    margin-top: var(--header-height);
+    padding: var(--mantine-spacing-sm);
+    border-right: unset;
+    display: block;
+    visibility: hidden;
+    background-color: var(--mantine-color-body);
+    z-index: 100;
+    position: fixed;
+    left: 110vw;
+}
+
+.nav[data-resizing="false"] {
+    /* only allow animation when not currently resizing */
+    transition-property: left, visibility;
+    transition-duration: 400ms;
+    transition-timing-function: ease;
+}
+
+.nav[data-opened="true"] {
+    visibility: inherit;
+    left: 0px;
+}
+
+.nav[data-opened="false"] {
+    left: 110vw;
+}
+
+.main {
+    height: calc(100vh - var(--header-height));
+    width: 100%;
+    margin-top: var(--header-height);
+    padding: var(--mantine-spacing-sm);
+}
+
+/* $mantine-breakpoint-sm will be replaced by postcss to '48em' */
+@media screen and (min-width: $mantine-breakpoint-sm) {
+
+    .nav[data-opened][data-resizing] {
+        height: unset;
+        display: block;
+        transition: none;
+        visibility: visible;
+        left: 0px;
+        position: relative;
+        width: calc(var(--navbar-width) * 0.75);
+        border-right: calc(0.0625rem * var(--mantine-scale)) solid var(--mantine-color-gray-3);
+    }
+
+    .main {
+        display: block;
+        width: calc(100% - var(--navbar-width) * 0.75);
+    }
+}
+
+@media screen and (min-width: $mantine-breakpoint-md) {
+    .nav[data-opened] {
+        width: var(--navbar-width);
+    }
+
+    .main[data-hidden] {
+        width: calc(100% - var(--navbar-width));
+    }
+}
+
+.scrollbarViewport>div {
+    height: 100% !important;
+}
+
+/* ----------------------------
+ * STYLE FOR THE NAVIGATION CONTENT
+ * ---------------------------- */
+.link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: var(--mantine-font-size-md);
+    color: var(--mantine-color-text);
+    padding: 7px;
+    border-radius: var(--mantine-radius-sm);
+    font-weight: 500;
+    width: 100%;
+    margin-bottom: 5px;
+    border: 1px solid var(--mantine-color-gray-3);
+
+    @mixin hover {
+        background-color: var(--mantine-primary-color-light);
+        color: var(--mantine-color-black);
+
+        .linkIcon {
+            color: var(--mantine-color-black);
+        }
+    }
+
+    &[data-active="true"] {
+        & {
+            border: 1px solid var(--mantine-primary-color-filled);
+        }
+
+        .linkIcon {
+            color: var(--mantine-primary-color-filled);
+        }
+    }
+}
+
+.linkIcon {
+    color: var(--mantine-color-text);
+    margin-right: var(--mantine-spacing-sm);
+    width: rem(25px);
+    height: rem(25px);
+}

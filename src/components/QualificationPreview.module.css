@@ -1,0 +1,17 @@
+.preview {
+    display: flex;
+    width: 100%;
+    border: 1px solid var(--mantine-color-gray-3);
+    padding: 10px;
+    border-radius: var(--mantine-radius-sm);
+
+    @mixin hover {
+        background-color: var(--mantine-primary-color-light);
+        color: var(--mantine-color-black);
+    }
+}
+
+.previewGroup {
+    flex-direction: row;
+    flex-wrap: nowrap;
+}

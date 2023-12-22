@@ -1,0 +1,23 @@
+.linkedQualification {
+    @mixin hover {
+        text-decoration: underline;
+        text-decoration-color: var(--text-color);
+    }
+}
+
+.listItemWrapper {
+    align-items: flex-start !important;
+}
+
+.dokumenteRoot {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    align-content: center;
+    gap: 7px;
+
+    @mixin hover {
+        text-decoration: underline;
+        text-decoration-color: var(--mantine-color-blue-filled);
+    }
+}

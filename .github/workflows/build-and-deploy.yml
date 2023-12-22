@@ -1,0 +1,40 @@
+on:
+  push:
+    branches: [ "main" ]
+
+name: build and deploy
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Repo
+      uses: actions/checkout@v3
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: 18
+
+    - name: npm install
+      run: npm install
+
+    - name: npm build
+      run: npm run build
+      env:
+        HASH: ${{ github.sha }}
+        REPO: ${{ github.repository }}
+      
+    - name: copy files via ssh
+      uses: appleboy/scp-action@v0.1.4
+      with:
+        host: ${{ secrets.SCP_HOST }}
+        username: ${{ secrets.SCP_USERNAME }}
+        key: ${{ secrets.SCP_KEY }}
+        port: 22
+        source: "build/*"
+        target: ${{ secrets.SCP_TARGET }}
+        strip_components: 1
