@@ -8,6 +8,7 @@ import type { PruefungsordnungInfo } from "../types/DLRGTypes";
 import { useParams, NavLink } from 'react-router-dom';
 import ExternalLink from '../components/ExternalLink';
 import ProjectInfoModal from './ProjectInfo';
+import { FORMATTING_OPTIONS } from '../util/CommonProps';
 
 /* 
     the icons that will be used in the navigation, order of icons matters,
@@ -21,6 +22,7 @@ export default function Navigation({ pos }: { pos?: PruefungsordnungInfo[] }) {
     const { po } = useParams();
     const selectedPo = po ? parseInt(po) : 0;
     const entries: PruefungsordnungInfo[] = [{ nr: 0, name: "Vorauswahl" }, ...(pos ? pos : [])];
+    const date = new Date("__DATE__").toLocaleString('de-DE', FORMATTING_OPTIONS)
 
     return (
         <ScrollArea type='hover' h='100%' w='100%' mah='100%' classNames={{ viewport: classes.scrollbarViewport }}>
@@ -52,7 +54,7 @@ export default function Navigation({ pos }: { pos?: PruefungsordnungInfo[] }) {
                         <Text>Source:</Text>
                         <ExternalLink text='GitHub' href='__REPO_URL__' />
                     </Flex>
-                    <Text>Released: __DATE__</Text>
+                    <Text>Released: {date}</Text>
                     <Flex direction='row' align='center'>
                         <Text>Build:</Text>
                         <ExternalLink text='__BUILD__' href='__COMMIT_URL__' />

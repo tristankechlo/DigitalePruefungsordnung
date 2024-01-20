@@ -1,7 +1,7 @@
 {
     "name": "digitale-pruefungsordnung",
     "private": true,
-    "version": "1.0.0",
+    "version": "1.0.1",
     "type": "module",
     "homepage": "https://dlrg-abzeichen.de/",
     "scripts": {
@@ -10,24 +10,24 @@
         "preview": "vite preview"
     },
     "dependencies": {
-        "@mantine/core": "^7.3.2",
+        "@mantine/core": "^7.4.2",
         "@mantine/hooks": "^7.3.2",
-        "@tabler/icons-react": "^2.44.0",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
-        "react-router-dom": "^6.21.0"
+        "react-router-dom": "^6.21.3"
     },
     "devDependencies": {
-        "@rollup/plugin-replace": "^5.0.2",
-        "@types/react": "^18.2.45",
+        "@rollup/plugin-replace": "^5.0.5",
+        "@tabler/icons-react": "^2.46.0",
+        "@types/react": "^18.2.48",
         "@types/react-dom": "^18.2.18",
         "@vitejs/plugin-react": "^4.2.1",
-        "postcss": "^8.4.31",
+        "postcss": "^8.4.33",
         "postcss-preset-mantine": "1.12.0",
         "postcss-simple-vars": "^7.0.1",
-        "typescript": "^5.0.2",
-        "vite": "^4.4.12",
-        "vite-plugin-pwa": "^0.16.5",
+        "typescript": "^5.3.3",
+        "vite": "^5.0.12",
+        "vite-plugin-pwa": "^0.17.4",
         "workbox-core": "^7.0.0",
         "workbox-expiration": "^7.0.0",
         "workbox-precaching": "^7.0.0",
