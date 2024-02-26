@@ -56,7 +56,8 @@ export default function Qualification(props: QualificationProps) {
         <Container size={rem(1100)} my='md' className={classes.container}>
             <Title order={1} size='h3' mb='md' className={classes.mainTitle}>{quali.name}</Title>
 
-            {quali.abkuerzung ? <Text {...TEXT_PROPS} className={classes.abkuerzung}><b>Abkürzung:</b> {quali.abkuerzung}</Text> : null}
+            {quali.abkuerzung ? <Text {...TEXT_PROPS} pb={0} className={classes.abkuerzung}><b>Abkürzung:</b> {quali.abkuerzung}</Text> : null}
+            {quali.nr ? <Text {...TEXT_PROPS} className={classes.abkuerzung}><b>Nummer der Qualifikation (Prüfungsschlüssel):</b> {quali.nr}</Text> : null}
 
             <Accordion multiple value={props.openTabs} onChange={props.setOpenTabs} classNames={{
                 label: classes.accordionLabel,
