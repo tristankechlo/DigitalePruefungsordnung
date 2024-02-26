@@ -1,6 +1,6 @@
 import { VoraussetzungGeneric, VoraussetzungMindestalter } from './qualification/VoraussetzungEntries';
-import { PruefungEinordnung, InhaltEinordnung } from '../types/DLRGTypes';
-import { Container, Title, rem, Text, Accordion } from '@mantine/core';
+import { PruefungEinordnung, InhaltEinordnung, DokumentTyp } from '../types/DLRGTypes';
+import { Container, Title, rem, Text, Accordion, Grid, Image } from '@mantine/core';
 import { InhaltCategory, PrüfungCategory } from './qualification/SortableEntries';
 import { TEXT_PROPS, SUBTITLE_PROPS } from '../util/CommonProps';
 import type { Qualifikation } from '../types/DLRGTypes';
@@ -51,13 +51,24 @@ export default function Qualification(props: QualificationProps) {
 
     const hasVoraussetzungen = shouldRenderVoraussetzungen(quali);
     const hasSonstiges = shouldRenderSonstiges(quali);
+    const abzeichenUrl = quali.dokumente.find((d) => d.typ === DokumentTyp.Abzeichen)?.link.replace('www.dlrg.net', 'dlrg.net');
+    const hasIcon = abzeichenUrl === undefined ? false : true;
+    const gridSizes = "content";
 
     return (
         <Container size={rem(1100)} my='md' className={classes.container}>
-            <Title order={1} size='h3' mb='md' className={classes.mainTitle}>{quali.name}</Title>
 
-            {quali.abkuerzung ? <Text {...TEXT_PROPS} pb={0} className={classes.abkuerzung}><b>Abkürzung:</b> {quali.abkuerzung}</Text> : null}
-            {quali.nr ? <Text {...TEXT_PROPS} className={classes.abkuerzung}><b>Nummer der Qualifikation (Prüfungsschlüssel):</b> {quali.nr}</Text> : null}
+            <Grid>
+                <Grid.Col span="auto">
+                    <Title order={1} size='h3' mb='md' className={classes.mainTitle}>{quali.name}</Title>
+                    {quali.abkuerzung ? <Text {...TEXT_PROPS} pb={0} className={classes.abkuerzung}><b>Abkürzung:</b> {quali.abkuerzung}</Text> : null}
+                    {quali.nr ? <Text {...TEXT_PROPS} className={classes.abkuerzung}><b>Nummer der Qualifikation (Prüfungsschlüssel):</b> {quali.nr}</Text> : null}
+                </Grid.Col>
+                {hasIcon ?
+                    <Grid.Col span={gridSizes}>
+                        <Image m={5} src={abzeichenUrl} w={50} fallbackSrc='/image-not-found.svg' />
+                    </Grid.Col> : null}
+            </Grid>
 
             <Accordion multiple value={props.openTabs} onChange={props.setOpenTabs} classNames={{
                 label: classes.accordionLabel,
