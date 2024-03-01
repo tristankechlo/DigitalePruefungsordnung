@@ -1,7 +1,7 @@
 {
     "name": "digitale-pruefungsordnung",
     "private": true,
-    "version": "1.0.1",
+    "version": "1.0.2",
     "type": "module",
     "homepage": "https://dlrg-abzeichen.de/",
     "scripts": {
