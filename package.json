@@ -1,10 +1,11 @@
 {
     "name": "digitale-pruefungsordnung",
     "private": true,
-    "version": "1.0.2",
+    "version": "1.0.3",
     "type": "module",
     "homepage": "https://dlrg-abzeichen.de/",
     "scripts": {
+        "lint": "eslint --max-warnings=0 src",
         "dev": "vite",
         "build": "tsc && vite build",
         "preview": "vite preview"
@@ -22,10 +23,12 @@
         "@types/react": "^18.2.48",
         "@types/react-dom": "^18.2.18",
         "@vitejs/plugin-react": "^4.2.1",
+        "eslint": "^8.57.0",
+        "eslint-config-react-app": "^7.0.1",
         "postcss": "^8.4.33",
         "postcss-preset-mantine": "1.12.0",
         "postcss-simple-vars": "^7.0.1",
-        "typescript": "^5.3.3",
+        "typescript": "5.1.x",
         "vite": "^5.0.12",
         "vite-plugin-pwa": "^0.17.4",
         "workbox-core": "^7.0.0",

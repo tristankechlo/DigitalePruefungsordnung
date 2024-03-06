@@ -3,12 +3,12 @@ import { useDisclosure } from "@mantine/hooks";
 import { NavLink, Outlet, useLocation } from "react-router-dom";
 import Navigation from "./Navigation";
 import classes from './style.module.css';
-import { PruefungsordnungInfo } from "../types/DLRGTypes";
+import { IPruefungsordnungInfo } from "../types/DLRGTypes";
 import { useEffect } from "react";
 import { useResizing } from "../types/use-resizing";
 
 
-export default function PageLayout({ pos }: { pos?: PruefungsordnungInfo[] }) {
+export default function PageLayout({ pos }: { pos?: IPruefungsordnungInfo[] }) {
 
     const [opened, { toggle, close }] = useDisclosure(false);
 
@@ -17,7 +17,7 @@ export default function PageLayout({ pos }: { pos?: PruefungsordnungInfo[] }) {
 
     // close the navbar when navigating to a new page, and not when clicking on the nav-item
     const location = useLocation();
-    useEffect(() => close(), [location]);
+    useEffect(() => close(), [location, close]);
 
     return (
         <div className={classes.appshell}>

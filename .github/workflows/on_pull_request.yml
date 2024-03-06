@@ -1,0 +1,27 @@
+on:
+  pull_request:
+    types: [ opened, reopened, synchronize ]
+    branches: [ "main" ]
+
+name: lint
+concurrency:
+  group: ${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Repo
+      uses: actions/checkout@v4
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: 18
+
+    - name: npm install
+      run: npm install
+
+    - name: EsLint
+      run: npm run lint

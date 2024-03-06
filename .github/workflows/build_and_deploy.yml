@@ -1,6 +1,7 @@
+# only build and deploy when new tags are pushed
 on:
-  push:
-    branches: [ "main" ]
+  release:
+    types: [ published ]
 
 name: build and deploy
 concurrency:
@@ -12,15 +13,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout Repo
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: Set up Node.js
-      uses: actions/setup-node@v3
+      uses: actions/setup-node@v4
       with:
         node-version: 18
 
     - name: npm install
       run: npm install
+
+    - name: EsLint
+      run: npm run lint
 
     - name: npm build
       run: npm run build
@@ -29,7 +33,7 @@ jobs:
         REPO: ${{ github.repository }}
       
     - name: copy files via ssh
-      uses: appleboy/scp-action@v0.1.4
+      uses: appleboy/scp-action@v0.1.7
       with:
         host: ${{ secrets.SCP_HOST }}
         username: ${{ secrets.SCP_USERNAME }}

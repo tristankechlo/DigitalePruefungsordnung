@@ -1,10 +1,10 @@
 import {
-    IconSwimming, IconWaterpolo, IconFirstAidKit, IconLifebuoy, IconSpeedboat, IconScubaMask, IconCloudStorm, IconBan, IconStar
+    IconSwimming, IconWaterpolo, IconFirstAidKit, IconLifebuoy, IconSpeedboat, IconScubaMask, IconCloudStorm, IconBan, IconStar, IconJacket
 } from '@tabler/icons-react';
-import { IconLifeJacket, IconWalkieTalkie, IconWhistle } from '../util/Icons';
+import { IconWalkieTalkie, IconWhistle } from '../util/Icons';
 import { Box, Divider, Flex, ScrollArea, Skeleton, Stack, Text, UnstyledButton } from "@mantine/core";
 import classes from './style.module.css';
-import type { PruefungsordnungInfo } from "../types/DLRGTypes";
+import type { IPruefungsordnungInfo } from "../types/DLRGTypes";
 import { useParams, NavLink } from 'react-router-dom';
 import ExternalLink from '../components/ExternalLink';
 import ProjectInfoModal from './ProjectInfo';
@@ -14,14 +14,17 @@ import { FORMATTING_OPTIONS } from '../util/CommonProps';
     the icons that will be used in the navigation, order of icons matters,
     based on the assumption that the number of the departmets stays the same
 */
-const ICONS = [IconStar, IconSwimming, IconWaterpolo, IconFirstAidKit, IconLifebuoy, IconSpeedboat, IconScubaMask, IconWalkieTalkie, IconCloudStorm, IconWhistle, IconLifeJacket];
+const ICONS = [
+    IconStar, IconSwimming, IconWaterpolo, IconFirstAidKit, IconLifebuoy, 
+    IconSpeedboat, IconScubaMask, IconWalkieTalkie, IconCloudStorm, IconWhistle, IconJacket
+];
 
 
-export default function Navigation({ pos }: { pos?: PruefungsordnungInfo[] }) {
+export default function Navigation({ pos }: { pos?: IPruefungsordnungInfo[] }) {
 
     const { po } = useParams();
     const selectedPo = po ? parseInt(po) : 0;
-    const entries: PruefungsordnungInfo[] = [{ nr: 0, name: "Vorauswahl" }, ...(pos ? pos : [])];
+    const entries: IPruefungsordnungInfo[] = [{ nr: 0, name: "Vorauswahl" }, ...(pos ? pos : [])];
     const date = new Date("__DATE__").toLocaleString('de-DE', FORMATTING_OPTIONS)
 
     return (

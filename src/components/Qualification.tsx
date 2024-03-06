@@ -3,7 +3,7 @@ import { PruefungEinordnung, InhaltEinordnung, DokumentTyp } from '../types/DLRG
 import { Container, Title, rem, Text, Accordion, Grid, Image } from '@mantine/core';
 import { InhaltCategory, PrüfungCategory } from './qualification/SortableEntries';
 import { TEXT_PROPS, SUBTITLE_PROPS } from '../util/CommonProps';
-import type { Qualifikation } from '../types/DLRGTypes';
+import type { IQualifikation } from '../types/DLRGTypes';
 import LinkedQualification from './qualification/LinkedQualification';
 import ConditionalEntry from './qualification/ConditionalEntry';
 import { useParams } from 'react-router-dom';
@@ -12,7 +12,7 @@ import classes from './Qualification.module.css';
 
 
 // check if the categorie 'sonstiges' should be rendered
-function shouldRenderSonstiges(q: Qualifikation) {
+function shouldRenderSonstiges(q: IQualifikation) {
     return q.stellenLfdNr || q.gueltigkeit || q.beauftragung || q.wiederholung
         || q.pruefungenGueltigkeit || q.verlaengerungUE || q.verlaengerungBeauftragungUE
         || q.prueferberechtigungen.filter((q) => q.istAktiv).length > 0;
@@ -20,7 +20,7 @@ function shouldRenderSonstiges(q: Qualifikation) {
 
 
 // check if the categorie 'vorraussetzungen' should be rendered
-function shouldRenderVoraussetzungen(q: Qualifikation) {
+function shouldRenderVoraussetzungen(q: IQualifikation) {
     return q.voraussetzungen.mindestalter.istErforderlich
         || q.voraussetzungen.aerztliche_tauglichkeit.istErforderlich
         || q.voraussetzungen.mitgliedschaft.istErforderlich
@@ -31,7 +31,7 @@ function shouldRenderVoraussetzungen(q: Qualifikation) {
 }
 
 interface QualificationProps {
-    qualifikations?: Qualifikation[];
+    qualifikations?: IQualifikation[];
     openTabs?: string[];
     setOpenTabs: (tabs: string[]) => void;
 }

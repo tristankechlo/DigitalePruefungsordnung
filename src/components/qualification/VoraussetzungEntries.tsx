@@ -1,8 +1,8 @@
-import type { Voraussetzung, VoraussetzungMindestalter } from "../../types/DLRGTypes";
+import type { IVoraussetzung, IVoraussetzungMindestalter } from "../../types/DLRGTypes";
 import { Text } from "@mantine/core";
 import { TEXT_PROPS } from '../../util/CommonProps';
 
-interface VoraussetzungGenericProps extends Voraussetzung {
+interface VoraussetzungGenericProps extends IVoraussetzung {
     text: string;
 }
 
@@ -22,7 +22,7 @@ export function VoraussetzungGeneric({ istErforderlich, kommentar, text }: Vorau
 }
 
 // render the required minimum age for a qualification
-export function VoraussetzungMindestalter({ istErforderlich, alter, kommentar }: VoraussetzungMindestalter) {
+export function VoraussetzungMindestalter({ istErforderlich, alter, kommentar }: IVoraussetzungMindestalter) {
 
     if (!istErforderlich) { return null; }
 

@@ -1,11 +1,11 @@
 import { Text, UnstyledButton } from '@mantine/core';
-import type { QualifikationInfo } from '../../types/DLRGTypes';
+import type { IQualifikationInfo } from '../../types/DLRGTypes';
 import { TEXT_PROPS } from '../../util/CommonProps';
 import { NavLink } from 'react-router-dom';
 import classes from './main.module.css';
 
 // renders a qualification that is associated with the current one
-export default function LinkedQualification({ po, q, c }: { po: number; q: QualifikationInfo; c?: string; }) {
+export default function LinkedQualification({ po, q, c }: { po: number; q: IQualifikationInfo; c?: string; }) {
 
     const suffix = c && c.length > 0 ? ` (${c})` : "";
 
