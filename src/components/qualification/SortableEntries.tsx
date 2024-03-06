@@ -1,17 +1,17 @@
 import { InhaltEinordnung, PruefungEinordnung } from "../../types/DLRGTypes";
 import { TEXT_PROPS, SUBTITLE_PROPS } from '../../util/CommonProps';
-import type { Inhalt, Pruefung } from "../../types/DLRGTypes";
+import type { IInhalt, IPruefung } from "../../types/DLRGTypes";
 import { Text, List } from "@mantine/core";
 import classes from './main.module.css';
 import React from "react";
 
 
-function hasType(array: (Inhalt | Pruefung)[], e: InhaltEinordnung | PruefungEinordnung) {
+function hasType(array: (IInhalt | IPruefung)[], e: InhaltEinordnung | PruefungEinordnung) {
     return array.some((a) => a.einordnung === e);
 }
 
 // single entry of the category 'inhalte'
-export function InhaltCategory({ inhalte, e, title }: { inhalte: Inhalt[], e: InhaltEinordnung, title: string }) {
+export function InhaltCategory({ inhalte, e, title }: { inhalte: IInhalt[], e: InhaltEinordnung, title: string }) {
 
     if (!hasType(inhalte, e)) {
         return null;
@@ -29,7 +29,7 @@ export function InhaltCategory({ inhalte, e, title }: { inhalte: Inhalt[], e: In
 }
 
 interface PrüfungCategoryProps {
-    pruefungen: Pruefung[];
+    pruefungen: IPruefung[];
     einordnung: PruefungEinordnung;
     title: string;
 }

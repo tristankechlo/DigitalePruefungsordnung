@@ -24,7 +24,7 @@ export default function ProjectInfoModal() {
         hideDisclaimer(initial);
         // set initial state of the checkbox
         setChecked(initial);
-    }, []);
+    }, [open, hideDisclaimer]);
 
     const closeModal = () => {
         hideDisclaimer(!!checked)

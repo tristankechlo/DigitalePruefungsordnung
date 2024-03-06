@@ -1,15 +1,15 @@
 import { UnstyledButton, Group, Image, Text } from '@mantine/core';
-import type { Qualifikation } from '../types/DLRGTypes';
+import type { IQualifikation } from '../types/DLRGTypes';
 import { DokumentTyp } from '../types/DLRGTypes';
 import { NavLink, useParams } from 'react-router-dom';
 import classes from './QualificationPreview.module.css';
 
-function hasAbzeichen(q: Qualifikation) {
+function hasAbzeichen(q: IQualifikation) {
     return q.dokumente.some((d) => d.typ === DokumentTyp.Abzeichen);
 }
 
 interface QualificationPreviewProps {
-    q: Qualifikation;
+    q: IQualifikation;
     largeIcon: boolean;
 }
 

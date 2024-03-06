@@ -1,11 +1,11 @@
 import { IconFileTypePng, IconFileTypePdf, IconFileUnknown } from '@tabler/icons-react';
 import { Text, UnstyledButton } from '@mantine/core';
-import type { Dokument } from '../../types/DLRGTypes';
+import type { IDokument } from '../../types/DLRGTypes';
 import { DokumentTyp } from '../../types/DLRGTypes';
 import classes from './main.module.css';
 import { TEXT_PROPS } from '../../util/CommonProps';
 
-function getDocIcon(d: Dokument) {
+function getDocIcon(d: IDokument) {
     if (d.titel.endsWith(".png")) {
         return IconFileTypePng;
     } else if (d.titel.endsWith(".pdf")) {
@@ -15,7 +15,7 @@ function getDocIcon(d: Dokument) {
 }
 
 interface DokumenteProps {
-    dokumente: Dokument[];
+    dokumente: IDokument[];
     title: string;
 }
 

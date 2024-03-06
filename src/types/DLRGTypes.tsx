@@ -1,5 +1,5 @@
 
-interface Error {
+interface IError {
     code: string;
     message: string;
 }
@@ -10,7 +10,7 @@ enum DokumentTyp {
     Abzeichen = "abzeichen"
 }
 
-interface Dokument {
+interface IDokument {
     id: number; // integer
     titel: string;
     beschreibung?: string;
@@ -18,18 +18,18 @@ interface Dokument {
     link: string; // Link zum Abrufen des Dokuments (Assets) aus der globalen Medienverwaltung
 }
 
-interface PruefungsordnungInfo {
+interface IPruefungsordnungInfo {
     nr: number; // integer, Eindeutige Nummer der Prüfungsordnung
     name: string; // example: Schwimmen / Rettungsschwimmen
 }
 
-interface Pruefungsordnung {
+interface IPruefungsordnung {
     nr: number; // integer, Nummer der Prüfungsordnung (PO)
     name: string; // Name der Prüfungsordnung
-    qualifikationen: Qualifikation[];
+    qualifikationen: IQualifikation[];
 }
 
-interface Qualifikation {
+interface IQualifikation {
     id: string; // Eindeutige UUID der Qualifikation
     nr: string; // Eindeutige PO Nummer (Prüfungsschlüssel) der Qualifikation gemäß der Prüfungsordnung
     poNr: number; // integer, Nummer der Prüfungsordnung (PO) in der die Qualifikation beschrieben ist
@@ -43,14 +43,14 @@ interface Qualifikation {
     pruefungenGueltigkeit?: number; // integer, In welchem Zeitraum (in Monaten) müssen die Prüfungsleistungen abgelegt werden?
     verlaengerungUE?: number; // double, Anzahl der benötigten Lehreinheiten für die Verlängerung der Qualifikation.
     verlaengerungBeauftragungUE?: number; // double, Anzahl der benötigten Lehreinheiten für die Verländerung der Beauftragung der Qualifikation.
-    inhalt: Inhalt[]; // Inhhalte der Qualifikation, sortiert
-    voraussetzungen: Vorraussetzungen;
-    pruefungen: Pruefung[]; // Notwendige Prüfungen für diese Qualifikation, sortiert
-    prueferberechtigungen: QualifikationInfo[]; // Ausbildungen, die mit dieser Ausbildung ausgestellt werden dürfen
-    dokumente: Dokument[]; // Zusätzliche Dokumente mit weiteren Informationen zur Qualifikation
+    inhalt: IInhalt[]; // Inhhalte der Qualifikation, sortiert
+    voraussetzungen: IVorraussetzungen;
+    pruefungen: IPruefung[]; // Notwendige Prüfungen für diese Qualifikation, sortiert
+    prueferberechtigungen: IQualifikationInfo[]; // Ausbildungen, die mit dieser Ausbildung ausgestellt werden dürfen
+    dokumente: IDokument[]; // Zusätzliche Dokumente mit weiteren Informationen zur Qualifikation
 }
 
-interface QualifikationInfo {
+interface IQualifikationInfo {
     id: string; // Eindeutige UUID der Qualifikation
     nr: string; // Eindeutige PO Nummer (Prüfungsschlüssel) der Qualifikation gemäß der Prüfungsordnung
     poNr: number; // integer, Nummer der Prüfungsordnung (PO) in der die Qualifikation beschrieben ist
@@ -64,7 +64,7 @@ enum PruefungEinordnung {
     Praktisch = "praktisch"
 }
 
-interface Pruefung { // In einer Qualifikation enthaltene Prüfung
+interface IPruefung { // In einer Qualifikation enthaltene Prüfung
     id: string; // Eindeutige UUID der Prüfung
     beschreibung: string; // example: Startsprung und 25 m Kraulschwimmen
     einordnung: PruefungEinordnung;
@@ -77,46 +77,48 @@ enum InhaltEinordnung {
     Methodisch_Didaktisch = "methodisch_didaktisch"
 }
 
-interface Inhalt { // Inhalt einer Qualifikation
+interface IInhalt { // Inhalt einer Qualifikation
     lehreinheiten: number; // double, example: 2.5
     inhalt: string;
     einordnung: InhaltEinordnung;
 }
 
-interface Vorraussetzungen { // Für eine Qualifikation notwendige Voraussetzung
-    qualifikationen: VoraussetzungQualifikation[];
-    hospitationen: VoraussetzungHospitation[];
-    sonstiges: VoraussetzungSonstiges[];
-    mindestalter: VoraussetzungMindestalter;
-    aerztliche_tauglichkeit: Voraussetzung;
-    mitgliedschaft: Voraussetzung;
-    befuerwortung: Voraussetzung;
+interface IVorraussetzungen { // Für eine Qualifikation notwendige Voraussetzung
+    qualifikationen: IVoraussetzungQualifikation[];
+    hospitationen: IVoraussetzungHospitation[];
+    sonstiges: IVoraussetzungSonstiges[];
+    mindestalter: IVoraussetzungMindestalter;
+    aerztliche_tauglichkeit: IVoraussetzung;
+    mitgliedschaft: IVoraussetzung;
+    befuerwortung: IVoraussetzung;
 }
 
-interface VoraussetzungQualifikation {
-    qualifikation: QualifikationInfo;
+interface IVoraussetzungQualifikation {
+    qualifikation: IQualifikationInfo;
     kommentar: string;
 }
 
-interface VoraussetzungHospitation {
+interface IVoraussetzungHospitation {
     kommentar: string;
 }
 
-interface VoraussetzungSonstiges {
+interface IVoraussetzungSonstiges {
     anzahl: number;
     kommentar: string;
 }
 
-interface VoraussetzungMindestalter {
+interface IVoraussetzungMindestalter {
     istErforderlich: boolean;
     alter: number;
     kommentar: string;
 }
 
-interface Voraussetzung {
+interface IVoraussetzung {
     istErforderlich: boolean;
     kommentar: string;
 }
 
-export type { Error, Dokument, PruefungsordnungInfo, Pruefungsordnung, Qualifikation, QualifikationInfo, Pruefung, Inhalt, Vorraussetzungen, VoraussetzungQualifikation, VoraussetzungHospitation, VoraussetzungSonstiges, VoraussetzungMindestalter, Voraussetzung };
+export type { IError, IDokument, IPruefungsordnungInfo, IPruefungsordnung, IQualifikation, IQualifikationInfo, IPruefung, 
+    IInhalt, IVorraussetzungen, IVoraussetzungQualifikation, IVoraussetzungHospitation, IVoraussetzungSonstiges, 
+    IVoraussetzungMindestalter, IVoraussetzung };
 export { DokumentTyp, PruefungEinordnung, InhaltEinordnung };
