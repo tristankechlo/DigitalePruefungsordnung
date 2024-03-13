@@ -53,7 +53,6 @@ export default function Qualification(props: QualificationProps) {
     const hasSonstiges = shouldRenderSonstiges(quali);
     const abzeichenUrl = quali.dokumente.find((d) => d.typ === DokumentTyp.Abzeichen)?.link.replace('www.dlrg.net', 'dlrg.net');
     const hasIcon = abzeichenUrl === undefined ? false : true;
-    const gridSizes = "content";
 
     return (
         <Container size={rem(1100)} my='md' className={classes.container}>
@@ -65,8 +64,8 @@ export default function Qualification(props: QualificationProps) {
                     {quali.nr ? <Text {...TEXT_PROPS} className={classes.abkuerzung}><b>Nummer der Qualifikation (Prüfungsschlüssel):</b> {quali.nr}</Text> : null}
                 </Grid.Col>
                 {hasIcon ?
-                    <Grid.Col span={gridSizes}>
-                        <Image m={5} src={abzeichenUrl} w={50} fallbackSrc='/image-not-found.svg' />
+                    <Grid.Col span="content">
+                        <Image m={5} src={abzeichenUrl} w={{ base: 60, xs: 75, md: 100 }} fallbackSrc='/image-not-found.svg' />
                     </Grid.Col> : null}
             </Grid>
 
