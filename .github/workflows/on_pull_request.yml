@@ -2,6 +2,7 @@ on:
   pull_request:
     types: [ opened, reopened, synchronize ]
     branches: [ "main" ]
+  workflow_dispatch:
 
 name: lint
 concurrency:
@@ -18,10 +19,23 @@ jobs:
     - name: Set up Node.js
       uses: actions/setup-node@v4
       with:
-        node-version: 18
+        node-version: 20
         cache: 'npm'
 
+    - name: Get version from package.json
+      shell: bash
+      run: echo "PACKAGE_VERSION=$(cat package.json | jq '.version' | tr -d '"')" >> $GITHUB_ENV
+
+    - name: Cache dependencies
+      id: cache
+      uses: actions/cache@v4
+      with:
+        path: ./node_modules
+        key: modules-${{ env.PACKAGE_VERSION }}
+        restore-keys: modules-
+
     - name: npm install
+      if: steps.cache.outputs.cache-hit != 'true'
       run: npm ci
 
     - name: EsLint
