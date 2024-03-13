@@ -2,6 +2,7 @@
 on:
   release:
     types: [ published ]
+  workflow_dispatch:
 
 name: build and deploy
 concurrency:
@@ -18,10 +19,23 @@ jobs:
     - name: Set up Node.js
       uses: actions/setup-node@v4
       with:
-        node-version: 18
+        node-version: 20
         cache: 'npm'
 
+    - name: Get version from package.json
+      shell: bash
+      run: echo "PACKAGE_VERSION=$(cat package.json | jq '.version' | tr -d '"')" >> $GITHUB_ENV
+
+    - name: Cache dependencies
+      id: cache
+      uses: actions/cache@v4
+      with:
+        path: ./node_modules
+        key: modules-${{ env.PACKAGE_VERSION }}
+        restore-keys: modules-
+
     - name: npm install
+      if: steps.cache.outputs.cache-hit != 'true'
       run: npm ci
 
     - name: EsLint
@@ -32,7 +46,7 @@ jobs:
       env:
         HASH: ${{ github.sha }}
         REPO: ${{ github.repository }}
-      
+
     - name: copy files via ssh
       uses: appleboy/scp-action@v0.1.7
       with:
