@@ -54,6 +54,7 @@ jobs:
         username: ${{ secrets.SCP_USERNAME }}
         key: ${{ secrets.SCP_KEY }}
         port: 22
+        rm: true
         source: "build/*"
         target: ${{ secrets.SCP_TARGET }}
         strip_components: 1
