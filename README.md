@@ -1,5 +1,10 @@
 # Digitale Prüfungsordnung
 
+[![build and deploy](https://github.com/tristankechlo/DigitalePruefungsordnung/actions/workflows/build_and_deploy.yml/badge.svg)](https://github.com/tristankechlo/DigitalePruefungsordnung/actions/workflows/build_and_deploy.yml)&nbsp;
+[![CodeQL](https://github.com/tristankechlo/DigitalePruefungsordnung/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/tristankechlo/DigitalePruefungsordnung/actions/workflows/github-code-scanning/codeql)
+
+
+
 > [!IMPORTANT]
 > Dies ist kein offizielles Projekt der DLRG (Deutsche Lebens-Rettungs-Gesellschaft) [www.dlrg.de](https://www.dlrg.de).
 
