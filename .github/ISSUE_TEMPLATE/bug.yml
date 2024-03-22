@@ -1,0 +1,24 @@
+name: Bug Report
+description: Melde einen Fehler/ein Problem bei der Application
+title: "[Bug]: "
+labels: ["bug"]
+assignees:
+  - tristankechlo
+body:
+  - type: markdown
+    attributes:
+      value: Vielen Dank, dass Sie sich die Zeit nehmen, diesen Fehlerbericht auszufüllen!
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Was ist passiert?
+      description: Eine genaue/ausführliche Beschreibung des Problems.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Weitere Infos
+      description: Fügen Sie hier weiteren Kontext zum Problem hinzu. Wenn Sie Screenshots haben, können Sie diese hier anhängen.
+    validations:
+      required: false
