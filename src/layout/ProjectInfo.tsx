@@ -59,7 +59,7 @@ export default function ProjectInfoModal() {
                                 <Text>Link zur API:</Text>
                                 <ExternalLink text='api.dlrg.net' href='https://api.dlrg.net/?urls.primaryName=Digitale%20Pr%C3%BCfungsordnung' />
                             </Flex>
-                            <Text mt='sm'>Bei fehlenden Informationen oder inhaltlichen Fehlern ist es wahrscheinlich, dass dort sind die Daten nicht korrekt eingepflegt wurden.</Text>
+                            <Text mt='sm'>Bei fehlenden Informationen oder inhaltlichen Fehlern ist es wahrscheinlich, dass die Daten dort nicht korrekt eingepflegt worden sind.</Text>
                         </Alert>
                         <Checkbox mt='md' checked={checked} onChange={(event) => setChecked(event.currentTarget.checked)} label="Nicht erneut anzeigen" />
                         <Button fullWidth mt='md' onClick={closeModal}>Schließen</Button>
