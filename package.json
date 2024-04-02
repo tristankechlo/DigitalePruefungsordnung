@@ -3,7 +3,7 @@
     "private": true,
     "version": "1.1.0",
     "type": "module",
-    "homepage": "https://dlrg-abzeichen.de/",
+    "homepage": "https://dlrg-abzeichen.de",
     "scripts": {
         "lint": "eslint --max-warnings=0 src",
         "dev": "vite",

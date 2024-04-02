@@ -5,6 +5,7 @@ import { defineConfig } from 'vite'
 import pwaOptions from './vite-pwa.config.js';
 
 const VERSION = require('./package.json').version;
+const MAIN_URL = require('./package.json').homepage;
 const HASH = (process.env.HASH ?? "").substring(0, 8);
 const REPO = process.env.REPO ?? "";
 
@@ -15,7 +16,8 @@ var replaceOptions: RollupReplaceOptions = {
         __HASH__: HASH,
         __BUILD__: `${VERSION}+${HASH}`,
         __REPO_URL__: `https://github.com/${REPO}`,
-        __COMMIT_URL__: `https://github.com/${REPO}/commit/${HASH}`
+        __COMMIT_URL__: `https://github.com/${REPO}/commit/${HASH}`,
+        __MAIN_URL__: MAIN_URL,
     },
     preventAssignment: true
 };

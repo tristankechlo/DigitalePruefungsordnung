@@ -1,0 +1,10 @@
+<svg width="822.39" height="822.39" viewBox="0 0 217.591 217.591" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(89.386 37.384)">
+    <circle style="fill:#ffffff00;stroke:#669;stroke-width:3.93134;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" cx="19.409" cy="71.412" r="98.111"/>
+    <path style="fill:#669;fill-opacity:1;stroke:none;stroke-width:.260042px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" d="M46.265 166.48v-37.922l41.994-9.417v9.417h10.18c-9.12 15.44-31.856 31.517-52.174 37.922"/>
+    <path style="fill:none;stroke:#669;stroke-width:6.87985;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" d="M-51.897 140.902c10.138 2.166 21.088 2.041 30.461-.374 12.047 3.03 23.584 3.005 34.23-.455 12.133 3.753 25.469 1.711 36.583-1.344m-82.958 17.272c3.222-.124 9.302-1.732 12.525-1.857 11.158 3.078 22.825 3.101 33.475.071 12.13 3.028 26.79 1.137 37.138-1.944M-1.215 169.32c3.99-.435 11.94-1.049 15.93-2.742 4.388 1.768 12.735 3.176 17.483 3.865"/>
+    <circle style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#fabc09;fill-opacity:1;stroke:#669;stroke-width:2.45709;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000;stop-opacity:1" cx="-40.102" cy="55.89" r="15.875"/>
+    <path style="fill:#fabc09;fill-opacity:1;stroke:#669;stroke-width:2.45709;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" d="M45.606 32.18 16.452 47.657c-7.449 3.721-4.835 6.377-3.96 8.278l31.126 58.737c7.627 14.455 26.96 2.823 19.445-11.226L40.697 59.894c-2.07-4.468-3.87-8.036 0-10.165L60.404 38.35c21.03-12.182 3.977-53.58-23.616-40.905l-50.21 26.275c-10.858 5.28-8.939 16.317-3.42 24.475l32.574 62.628c5.803 11.714 27.886 3.848 19.796-11.338l-22.349-42.19"/>
+    <circle style="fill:none;stroke:#fabc09;stroke-width:3.93134;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" cx="19.409" cy="71.412" r="101.83"/>
+  </g>
+</svg>
