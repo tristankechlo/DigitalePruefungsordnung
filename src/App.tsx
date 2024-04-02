@@ -33,8 +33,8 @@ export default function App() {
                     <Qualification qualifikations={qualifications} openTabs={openTabs} setOpenTabs={setOpenTabs} />
                 } />
                 <Route path='/:po?' element={
-                    <QualificationOverview qualifications={qualifications} />}
-                />
+                    <QualificationOverview qualifications={qualifications} />
+                } />
             </Route>
         </Routes>
     );

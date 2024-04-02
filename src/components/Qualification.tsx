@@ -57,7 +57,7 @@ export default function Qualification(props: QualificationProps) {
     return (
         <Container size={rem(1100)} my='md' className={classes.container}>
 
-            <Grid>
+            <Grid gutter={0}>
                 <Grid.Col span="auto">
                     <Title order={1} size='h3' mb='md' className={classes.mainTitle}>{quali.name}</Title>
                     {quali.abkuerzung ? <Text {...TEXT_PROPS} pb={0} className={classes.abkuerzung}><b>Abkürzung:</b> {quali.abkuerzung}</Text> : null}
