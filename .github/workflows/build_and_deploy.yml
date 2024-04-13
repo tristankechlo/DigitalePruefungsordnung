@@ -47,12 +47,6 @@ jobs:
         HASH: ${{ github.sha }}
         REPO: ${{ github.repository }}
 
-    - name: Replace Date
-      shell: bash
-      run: |
-        BUILD_DATE=$(date +'%Y-%m-%d')
-        sed -i 's/__DATE_SHORT__/'"$BUILD_DATE"'/g' ./build/sitemap.xml
-
     - name: copy files via ssh
       uses: appleboy/scp-action@v0.1.7
       with:

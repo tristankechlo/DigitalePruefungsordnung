@@ -3,6 +3,7 @@ import { VitePWA } from 'vite-plugin-pwa'
 import react from '@vitejs/plugin-react'
 import { defineConfig } from 'vite'
 import pwaOptions from './vite-pwa.config.js';
+import sitemapPlugin from './vite-plugin.js';
 
 const VERSION = require('./package.json').version;
 const MAIN_URL = require('./package.json').homepage;
@@ -31,6 +32,7 @@ export default defineConfig({
     },
     plugins: [
         react(),
+        sitemapPlugin(),
         VitePWA(pwaOptions),
         replace(replaceOptions)
     ],
