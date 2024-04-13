@@ -31,10 +31,10 @@ export default function QualificationPreview({ q, largeIcon }: QualificationPrev
     // if the given qualification has an icon, render the preview with an icon
     if (hasAbzeichen(q)) {
         const abzeichenUrl = q.dokumente.find((d) => d.typ === DokumentTyp.Abzeichen)?.link.replace('www.dlrg.net', 'dlrg.net');
-        const size = largeIcon ? 50 : 25;
+        const size = largeIcon ? "50px" : "25px";
         return (
             <QualifikationWrapper to={to}>
-                <Image src={abzeichenUrl} w={size} fallbackSrc='/image-not-found.svg' loading='lazy'/>
+                <Image src={abzeichenUrl} w={size} width={size} height='auto' fallbackSrc='/image-not-found.svg' loading='lazy' />
                 <Text>{largeIcon ? null : `${q.nr} - `}{q.name}</Text>
             </QualifikationWrapper>
         );
