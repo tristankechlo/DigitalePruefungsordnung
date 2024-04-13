@@ -45,7 +45,6 @@ jobs:
       run: npm run build
       env:
         HASH: ${{ github.sha }}
-        REPO: ${{ github.repository }}
 
     - name: copy files via ssh
       uses: appleboy/scp-action@v0.1.7
