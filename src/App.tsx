@@ -1,11 +1,12 @@
 import { useSessionStorage } from '@mantine/hooks';
 import QualificationOverview from './components/QualificationOverview';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, lazy } from 'react';
 import DLRG_API from './util/DLRG-API';
 import type { IPruefungsordnungInfo, IQualifikation } from './types/DLRGTypes';
 import { Route, Routes } from 'react-router-dom';
-import Qualification from './components/Qualification';
 import PageLayout from './layout/PageLayout';
+
+const Qualification = lazy(() => import('./components/Qualification'));
 
 
 export default function App() {

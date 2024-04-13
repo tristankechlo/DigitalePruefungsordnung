@@ -4,8 +4,9 @@ import { NavLink, Outlet, useLocation } from "react-router-dom";
 import Navigation from "./Navigation";
 import classes from './style.module.css';
 import { IPruefungsordnungInfo } from "../types/DLRGTypes";
-import { useEffect } from "react";
+import { Suspense, useEffect } from "react";
 import { useResizing } from "../types/use-resizing";
+import Loading from "./Loading";
 
 
 export default function PageLayout({ pos }: { pos?: IPruefungsordnungInfo[] }) {
@@ -35,7 +36,9 @@ export default function PageLayout({ pos }: { pos?: IPruefungsordnungInfo[] }) {
             </nav>
             <main className={classes.main}>
                 <ScrollArea.Autosize type='hover' h='100%'>
-                    <Outlet />
+                    <Suspense fallback={<Loading />}>
+                        <Outlet />
+                    </Suspense>
                 </ScrollArea.Autosize>
             </main>
         </div>
