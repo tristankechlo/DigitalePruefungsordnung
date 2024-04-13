@@ -34,7 +34,7 @@ export default function QualificationPreview({ q, largeIcon }: QualificationPrev
         const size = largeIcon ? 50 : 25;
         return (
             <QualifikationWrapper to={to}>
-                <Image src={abzeichenUrl} w={size} fallbackSrc='/image-not-found.svg' />
+                <Image src={abzeichenUrl} w={size} fallbackSrc='/image-not-found.svg' loading='lazy'/>
                 <Text>{largeIcon ? null : `${q.nr} - `}{q.name}</Text>
             </QualifikationWrapper>
         );

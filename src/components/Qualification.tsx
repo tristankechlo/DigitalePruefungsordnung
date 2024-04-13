@@ -65,7 +65,7 @@ export default function Qualification(props: QualificationProps) {
                 </Grid.Col>
                 {hasIcon ?
                     <Grid.Col span="content">
-                        <Image m={5} src={abzeichenUrl} w={{ base: 60, xs: 75, md: 100 }} fallbackSrc='/image-not-found.svg' />
+                        <Image m={5} src={abzeichenUrl} w={{ base: 60, xs: 75, md: 100 }} fallbackSrc='/image-not-found.svg' loading='lazy' />
                     </Grid.Col> : null}
             </Grid>
 
