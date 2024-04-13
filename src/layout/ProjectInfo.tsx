@@ -40,10 +40,10 @@ export default function ProjectInfoModal() {
         <>
             <Modal.Root opened={opened} onClose={closeModal} size='lg'>
                 <Modal.Overlay />
-                <Modal.Content>
+                <Modal.Content aria-label='Informationen über dieses Projekt'>
                     <Modal.Header>
                         <Title order={3}>Über dieses Projekt</Title>
-                        <Modal.CloseButton />
+                        <Modal.CloseButton title='Info schließen' aria-label='Info schließen' />
                     </Modal.Header>
                     <Modal.Body>
                         <Alert variant='light' icon={<IconInfoCircle />} classNames={{ icon: classes.alertIcon }}>
