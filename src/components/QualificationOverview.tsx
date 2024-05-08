@@ -1,13 +1,11 @@
 import { Container, rem } from '@mantine/core';
 import type { IQualifikation } from '../types/DLRGTypes';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useContext } from 'react';
 import Loading from '../layout/Loading';
 import QualificationPreview from './QualificationPreview';
-import { useNavigate, useParams } from 'react-router-dom';
-
-interface MainContentProps {
-    qualifications?: IQualifikation[];
-}
+import { useLocation, useNavigate } from 'react-router-dom';
+import { AppState } from '../App';
+import { getActivePO } from '../util/Utils';
 
 // pre selected list of qualifications displayed
 // TODO: replace with user selectable favorites
@@ -16,30 +14,33 @@ const DEFAULT_FILTER = (q: IQualifikation) => {
     return DEFAULT_QUALIFICATIONS.includes(q.nr);
 };
 
-const PO_FILTER = (po: number, q: IQualifikation) => {
-    return q.poNr === po;
-}
-
 // component that renderes all qualifications related to the currently selected 'prüfungsordnung'
-export default function QualificationOverview(props: MainContentProps) {
+export default function QualificationOverview() {
+
+    const appState = useContext(AppState);
+    
+    document.title = "__TITLE__";
+    (document.getElementById('canonical') as HTMLLinkElement).href = `__MAIN_URL__`
 
     const [filteredQualifications, setFilteredQualifications] = useState<IQualifikation[] | undefined>(undefined);
-    const { po } = useParams(); // read the selected 'prüfungsordnung' from the path
-    const selectedPo = po ? parseInt(po) : 0;
+    const { pathname } = useLocation();
+    const selectedPo = getActivePO(pathname, appState);
     const navigate = useNavigate();
-
+    
     useEffect(() => {
+        let qualifications = Array.from(appState.qualifications?.values() ?? []);
         if (selectedPo && (selectedPo < 0 || selectedPo > 10)) {
+            // invalid number for PO
             navigate('/', { replace: true });
         }
-        if (selectedPo && props.qualifications) {
+        if (selectedPo && appState.qualifications) {
             // show qualifications
-            setFilteredQualifications(props.qualifications.filter((q) => PO_FILTER(selectedPo, q)));
-        } else if (props.qualifications) {
+            setFilteredQualifications(qualifications.filter((q) => selectedPo === q.poNr));
+        } else if (appState.qualifications) {
             // show the preselected qualifications
-            setFilteredQualifications(props.qualifications.filter(DEFAULT_FILTER));
+            setFilteredQualifications(qualifications.filter(DEFAULT_FILTER));
         }
-    }, [props.qualifications, selectedPo, navigate]);
+    }, [appState.qualifications, selectedPo, navigate]);
 
     return (
         <Container size={rem(1200)} my='md' px={0}>

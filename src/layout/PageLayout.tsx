@@ -3,13 +3,12 @@ import { useDisclosure } from "@mantine/hooks";
 import { NavLink, Outlet, useLocation } from "react-router-dom";
 import Navigation from "./Navigation";
 import classes from './style.module.css';
-import { IPruefungsordnungInfo } from "../types/DLRGTypes";
 import { Suspense, useEffect } from "react";
 import { useResizing } from "../types/use-resizing";
 import Loading from "./Loading";
 
 
-export default function PageLayout({ pos }: { pos?: IPruefungsordnungInfo[] }) {
+export default function PageLayout() {
 
     const [opened, { toggle, close }] = useDisclosure(false);
 
@@ -32,7 +31,7 @@ export default function PageLayout({ pos }: { pos?: IPruefungsordnungInfo[] }) {
                 </Group>
             </header>
             <nav className={classes.nav} data-opened={opened} data-resizing={resizing}>
-                <Navigation pos={pos} />
+                <Navigation />
             </nav>
             <main className={classes.main}>
                 <ScrollArea.Autosize type='hover' h='100%'>

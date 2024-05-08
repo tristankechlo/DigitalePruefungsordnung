@@ -159,3 +159,7 @@
 .alertIcon {
     margin-right: var(--mantine-spacing-sm);
 }
+
+.openButton:hover {
+    text-decoration: underline;
+}

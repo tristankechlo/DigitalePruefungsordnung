@@ -19,6 +19,7 @@ var replaceOptions: RollupReplaceOptions = {
         __REPO_URL__: `https://github.com/tristankechlo/DigitalePruefungsordnung/`,
         __COMMIT_URL__: `https://github.com/tristankechlo/DigitalePruefungsordnung/commit/${HASH}`,
         __MAIN_URL__: MAIN_URL,
+        __TITLE__: "Digitale Prüfungsordnung",
     },
     preventAssignment: true
 };
