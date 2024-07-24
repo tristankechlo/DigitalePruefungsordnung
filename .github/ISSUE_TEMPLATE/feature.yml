@@ -1,0 +1,24 @@
+name: Feature Request
+description: Mach einen Vorschlag für ein neues Feature in der Anwendung
+title: "[Feature]: "
+labels: ["feature request"]
+assignees:
+  - tristankechlo
+body:
+  - type: markdown
+    attributes:
+      value: Verbesserungsvorschläge sind immer gerne gesehen!
+  - type: textarea
+    id: idea
+    attributes:
+      label: Was ist die Idee?
+      description: Eine genaue/ausführliche Beschreibung der Idee.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Weitere Infos
+      description: Fügen Sie hier weiteren Kontext zu der Idee hinzu. Wenn Sie Screenshots haben, können Sie diese hier anhängen.
+    validations:
+      required: false
