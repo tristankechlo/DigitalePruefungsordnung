@@ -23,16 +23,16 @@ jobs:
         cache: 'npm'
 
     - name: Get version from package.json
+      id: props
       shell: bash
-      run: echo "PACKAGE_VERSION=$(cat package.json | jq '.version' | tr -d '"')" >> $GITHUB_ENV
+      run: echo "PACKAGE_VERSION=$(cat package.json | jq '.version' | tr -d '"')" >> $GITHUB_OUTPUT
 
     - name: Cache dependencies
       id: cache
       uses: actions/cache@v4
       with:
         path: ./node_modules
-        key: modules-${{ env.PACKAGE_VERSION }}
-        restore-keys: modules-
+        key: modules-${{ steps.props.outputs.PACKAGE_VERSION }}-${{ hashFiles('package.json') }}
 
     - name: npm install
       if: steps.cache.outputs.cache-hit != 'true'
