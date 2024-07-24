@@ -1,7 +1,7 @@
 # Digitale Prüfungsordnung
 
 [![build and deploy](https://github.com/tristankechlo/DigitalePruefungsordnung/actions/workflows/build_and_deploy.yml/badge.svg)](https://github.com/tristankechlo/DigitalePruefungsordnung/actions/workflows/build_and_deploy.yml)&nbsp;
-[![CodeQL](https://github.com/tristankechlo/DigitalePruefungsordnung/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/tristankechlo/DigitalePruefungsordnung/actions/workflows/github-code-scanning/codeql)
+[![lint](https://github.com/tristankechlo/DigitalePruefungsordnung/actions/workflows/on_pull_request.yml/badge.svg)](https://github.com/tristankechlo/DigitalePruefungsordnung/actions/workflows/on_pull_request.yml)
 
 
 
