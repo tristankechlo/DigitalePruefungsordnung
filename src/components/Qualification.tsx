@@ -1,7 +1,8 @@
 import { VoraussetzungGeneric, VoraussetzungMindestalter } from './qualification/VoraussetzungEntries';
 import { PruefungEinordnung, InhaltEinordnung, DokumentTyp } from '../types/DLRGTypes';
 import { Container, Title, rem, Text, Accordion, Grid, Image } from '@mantine/core';
-import { InhaltCategory, PrüfungCategory } from './qualification/SortableEntries';
+import { InhaltCategory } from './qualification/InhaltCategory';
+import { PrüfungCategory } from './qualification/PrüfungCategory';
 import { TEXT_PROPS, SUBTITLE_PROPS } from '../util/CommonProps';
 import type { IQualifikation } from '../types/DLRGTypes';
 import LinkedQualification from './qualification/LinkedQualification';

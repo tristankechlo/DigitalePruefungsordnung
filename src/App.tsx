@@ -30,8 +30,8 @@ export default function App() {
             setPos(pos.sort((a, b) => a.nr - b.nr));
         });
         DLRG_API.getAllQualifications().then((qualifications) => {
-            let quickAccessMap = new Map<string, string>(DEFAULT_SITES);
-            let qualiMap = new Map<string, IQualifikation>();
+            const quickAccessMap = new Map<string, string>(DEFAULT_SITES);
+            const qualiMap = new Map<string, IQualifikation>();
 
             qualifications.sort((a, b) => a.nr.localeCompare(b.nr));
             qualifications.forEach((q) => {

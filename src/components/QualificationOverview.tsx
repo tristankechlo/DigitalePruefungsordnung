@@ -28,7 +28,7 @@ export default function QualificationOverview() {
     const navigate = useNavigate();
     
     useEffect(() => {
-        let qualifications = Array.from(appState.qualifications?.values() ?? []);
+        const qualifications = Array.from(appState.qualifications?.values() ?? []);
         if (selectedPo && (selectedPo < 0 || selectedPo > 10)) {
             // invalid number for PO
             navigate('/', { replace: true });

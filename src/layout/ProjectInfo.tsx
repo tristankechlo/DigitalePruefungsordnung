@@ -7,7 +7,7 @@ import classes from './style.module.css';
 
 const STORAGE_KEY = "hide-disclaimer";
 const getInitialValue = (): boolean => {
-    let temp = localStorage.getItem(STORAGE_KEY);
+    const temp = localStorage.getItem(STORAGE_KEY);
     return temp === "true";
 }
 
@@ -18,7 +18,7 @@ export default function ProjectInfoModal() {
     const [checked, setChecked] = useState(false);
 
     useEffect(() => {
-        let initial = getInitialValue();
+        const initial = getInitialValue();
         // open disclaimer if it is not already accepted
         if (initial === false) { open(); }
         hideDisclaimer(initial);

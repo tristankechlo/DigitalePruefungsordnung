@@ -10,24 +10,6 @@ function hasType(array: (IInhalt | IPruefung)[], e: InhaltEinordnung | PruefungE
     return array.some((a) => a.einordnung === e);
 }
 
-// single entry of the category 'inhalte'
-export function InhaltCategory({ inhalte, e, title }: { inhalte: IInhalt[], e: InhaltEinordnung, title: string }) {
-
-    if (!hasType(inhalte, e)) {
-        return null;
-    }
-
-    return (
-        <React.Fragment>
-            <Text {...SUBTITLE_PROPS}>{title}:</Text>
-            {inhalte.filter((i) => i.einordnung === e).map((inhalt, i) => {
-                const suffix = inhalt.lehreinheiten > 0 ? ` (${inhalt.lehreinheiten} LE)` : "";
-                return (<Text {...TEXT_PROPS} key={i}>- {inhalt.inhalt}{suffix}</Text>);
-            })}
-        </React.Fragment>
-    );
-}
-
 interface PrüfungCategoryProps {
     pruefungen: IPruefung[];
     einordnung: PruefungEinordnung;
@@ -42,7 +24,7 @@ export function PrüfungCategory({ pruefungen, einordnung, title }: PrüfungCate
     }
 
     return (
-        <>
+        <React.Fragment>
             <Text {...SUBTITLE_PROPS}>{title}</Text>
             <List {...TEXT_PROPS} withPadding={true} pl="0.5rem" icon="•" classNames={{
                 itemWrapper: classes.listItemWrapper
@@ -52,7 +34,7 @@ export function PrüfungCategory({ pruefungen, einordnung, title }: PrüfungCate
                     return (<List.Item key={i} className='listItem'>{pruefung.beschreibung}{suffix}</List.Item>);
                 })}
             </List>
-        </>
+        </React.Fragment>
     );
 
 }

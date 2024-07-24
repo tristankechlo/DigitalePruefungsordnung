@@ -16,11 +16,11 @@ export function sanitizeName(name: string) {
 
 export function getActivePO(search: string, appState: IAppState): number {
     search = search.replace(/\//g, ''); // remove slashes
-    let po = appState.pos?.find((po) => search === sanitizeName(po.name));
+    const po = appState.pos?.find((po) => search === sanitizeName(po.name));
     if (po !== undefined) {
         return po.nr;
     }
-    let quali = getQualification(search, appState);
+    const quali = getQualification(search, appState);
     if (quali !== undefined) {
         return quali.poNr;
     }

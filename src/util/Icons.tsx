@@ -4,12 +4,11 @@ const defaultProps = {
     width: 24,
     height: 24,
     color: 'currentColor',
-    stroke: 2,
 } as TablerIconsProps;
 
 export const IconWalkieTalkie = (props: TablerIconsProps) => {
 
-    const { width, height, color, stroke, ...rest } = props;
+    const { width, height, color, ...rest } = props;
 
     return (
         <svg {...rest} xmlns="http://www.w3.org/2000/svg" width={width} height={height} viewBox="0 0 24 24" stroke={color} strokeWidth={0.4} fill={color}>
@@ -21,7 +20,7 @@ export const IconWalkieTalkie = (props: TablerIconsProps) => {
 
 export const IconWhistle = (props: TablerIconsProps) => {
 
-    const { width, height, color, stroke, ...rest } = props;
+    const { width, height, color, ...rest } = props;
 
     return (
         <svg {...rest} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width={width} height={height} stroke={color} strokeWidth={0} fill={color}>
