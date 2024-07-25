@@ -5,6 +5,7 @@
 - asynchrones Laden von Bildern
 - nutzerfeundliche URLs
 - automatisch generierte sitemap.xml
+- bessere Offline-Funktionalität
 
 ## Version 1.1.0 - 2024-04-02
 
