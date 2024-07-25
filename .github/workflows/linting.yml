@@ -2,6 +2,8 @@ on:
   pull_request:
     types: [ opened, reopened, synchronize ]
     branches: [ "main" ]
+  push:
+    branches: [ "main" ]
   workflow_dispatch:
 
 name: lint
