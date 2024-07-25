@@ -7,7 +7,7 @@ import { ExpirationPlugin } from 'workbox-expiration'
 declare const self: ServiceWorkerGlobalScope;
 self.__WB_DISABLE_DEV_LOGS = true;
 
-let DLRG_ASSETS: Set<string>;
+let DLRG_ASSETS = new Set<string>();
 const FETCH_OPTIONS = { mode: 'cors', credentials: 'omit' } as RequestInit;
 
 clientsClaim();

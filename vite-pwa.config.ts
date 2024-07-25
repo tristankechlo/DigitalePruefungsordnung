@@ -10,6 +10,9 @@ const pwaOptions: Partial<VitePWAOptions> = {
     registerType: 'autoUpdate',
     includeAssets: [ // include static assets for caching
         'image-not-found.svg',
+        'favicon.ico',
+        'favicon-16x16.png',
+        'favicon-32x32.png',
     ],
     manifest: {
         name: "Digitale Prüfungsordnung",
