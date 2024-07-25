@@ -1,14 +1,18 @@
 import { VoraussetzungGeneric, VoraussetzungMindestalter } from './qualification/VoraussetzungEntries';
 import { PruefungEinordnung, InhaltEinordnung, DokumentTyp } from '../types/DLRGTypes';
 import { Container, Title, rem, Text, Accordion, Grid, Image } from '@mantine/core';
-import { InhaltCategory, PrüfungCategory } from './qualification/SortableEntries';
+import { InhaltCategory } from './qualification/InhaltCategory';
+import { PrüfungCategory } from './qualification/PrüfungCategory';
 import { TEXT_PROPS, SUBTITLE_PROPS } from '../util/CommonProps';
 import type { IQualifikation } from '../types/DLRGTypes';
 import LinkedQualification from './qualification/LinkedQualification';
 import ConditionalEntry from './qualification/ConditionalEntry';
-import { useParams } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 import Dokumente from './qualification/DokumenteEntry';
 import classes from './Qualification.module.css';
+import { AppState } from '../App';
+import { useContext } from 'react';
+import { getQualification, sanitizeName } from '../util/Utils';
 
 
 // check if the categorie 'sonstiges' should be rendered
@@ -31,15 +35,15 @@ function shouldRenderVoraussetzungen(q: IQualifikation) {
 }
 
 interface QualificationProps {
-    qualifikations?: IQualifikation[];
     openTabs?: string[];
     setOpenTabs: (tabs: string[]) => void;
 }
 
 export default function Qualification(props: QualificationProps) {
 
-    const { id } = useParams();
-    const quali = props.qualifikations?.find((q1) => q1.id === id);
+    const appState = useContext(AppState);
+    const { pathname } = useLocation();
+    const quali = getQualification(pathname.replace(/\//g, ''), appState);
 
     if (quali === undefined) {
         return (
@@ -48,6 +52,9 @@ export default function Qualification(props: QualificationProps) {
             </Container>
         );
     }
+
+    document.title = `${quali.name} | __TITLE__`;
+    (document.getElementById('canonical') as HTMLLinkElement).href = `__MAIN_URL__/${sanitizeName(quali.name)}`
 
     const hasVoraussetzungen = shouldRenderVoraussetzungen(quali);
     const hasSonstiges = shouldRenderSonstiges(quali);
@@ -65,7 +72,7 @@ export default function Qualification(props: QualificationProps) {
                 </Grid.Col>
                 {hasIcon ?
                     <Grid.Col span="content">
-                        <Image m={5} src={abzeichenUrl} w={{ base: 60, xs: 75, md: 100 }} fallbackSrc='/image-not-found.svg' />
+                        <Image m={5} src={abzeichenUrl} w={{ base: 60, xs: 75, md: 100 }} width={60} height='auto' fallbackSrc='/image-not-found.svg' loading='lazy' />
                     </Grid.Col> : null}
             </Grid>
 
@@ -84,7 +91,7 @@ export default function Qualification(props: QualificationProps) {
                             <VoraussetzungGeneric {...quali.voraussetzungen.befuerwortung} text='Befürwortung durch den Ortsverein erforderlich' />
                             {quali.voraussetzungen.qualifikationen.filter((q) => q.qualifikation.istAktiv).length > 0 ? <Text {...SUBTITLE_PROPS}>Erforderliche Qualifikationen:</Text> : null}
                             {quali.voraussetzungen.qualifikationen.filter((q) => q.qualifikation.istAktiv).map((q, i) =>
-                                <LinkedQualification key={i} po={q.qualifikation.poNr} q={q.qualifikation} c={q.kommentar} />
+                                <LinkedQualification key={i} q={q.qualifikation} c={q.kommentar} />
                             )}
                             {quali.voraussetzungen.hospitationen.length > 0 ? <Text {...SUBTITLE_PROPS}>Erforderliche Hospitationen:</Text> : null}
                             {quali.voraussetzungen.hospitationen.map((h, i) => {
@@ -131,7 +138,7 @@ export default function Qualification(props: QualificationProps) {
 
                             {quali.prueferberechtigungen.filter((q) => q.istAktiv).length > 0 ? <Text {...SUBTITLE_PROPS}>Ausbildungen, die mit dieser Ausbildung ausgestellt werden dürfen:</Text> : null}
                             {quali.prueferberechtigungen.filter((q) => q.istAktiv).map((q, i) =>
-                                <LinkedQualification key={i} po={q.poNr} q={q} />
+                                <LinkedQualification key={i} q={q} />
                             )}
                         </Accordion.Panel>
                     </Accordion.Item> : null}

@@ -3,11 +3,12 @@ import { VitePWA } from 'vite-plugin-pwa'
 import react from '@vitejs/plugin-react'
 import { defineConfig } from 'vite'
 import pwaOptions from './vite-pwa.config.js';
+import sitemapPlugin from './vite-plugin.js';
 
-const VERSION = require('./package.json').version;
-const MAIN_URL = require('./package.json').homepage;
+import packageJson from './package.json';
+const VERSION = packageJson.version;
+const MAIN_URL = packageJson.homepage;
 const HASH = (process.env.HASH ?? "").substring(0, 8);
-const REPO = process.env.REPO ?? "";
 
 var replaceOptions: RollupReplaceOptions = {
     values: {
@@ -15,9 +16,10 @@ var replaceOptions: RollupReplaceOptions = {
         __VERSION__: VERSION,
         __HASH__: HASH,
         __BUILD__: `${VERSION}+${HASH}`,
-        __REPO_URL__: `https://github.com/${REPO}`,
-        __COMMIT_URL__: `https://github.com/${REPO}/commit/${HASH}`,
+        __REPO_URL__: `https://github.com/tristankechlo/DigitalePruefungsordnung/`,
+        __COMMIT_URL__: `https://github.com/tristankechlo/DigitalePruefungsordnung/commit/${HASH}`,
         __MAIN_URL__: MAIN_URL,
+        __TITLE__: "Digitale Prüfungsordnung",
     },
     preventAssignment: true
 };
@@ -31,6 +33,7 @@ export default defineConfig({
     },
     plugins: [
         react(),
+        sitemapPlugin(),
         VitePWA(pwaOptions),
         replace(replaceOptions)
     ],

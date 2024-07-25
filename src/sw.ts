@@ -59,13 +59,13 @@ async function fetchAssets() {
         if (!reponse.ok) {
             throw reponse;
         }
-        let assets = new Set<string>(defaultAssets);
+        const assets = new Set<string>(defaultAssets);
         const json = await reponse.json();
         for (let i = 0; i < json.length; i++) {
-            let qualification = json[i];
+            const qualification = json[i];
             if (qualification.dokumente) {
                 for (let j = 0; j < qualification.dokumente.length; j++) {
-                    let document = qualification.dokumente[j];
+                    const document = qualification.dokumente[j];
                     if (document.typ === "abzeichen") {
                         assets.add(document.link.replace("www.dlrg.net", "dlrg.net"));
                     }

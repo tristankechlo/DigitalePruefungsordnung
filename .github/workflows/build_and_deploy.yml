@@ -23,16 +23,16 @@ jobs:
         cache: 'npm'
 
     - name: Get version from package.json
+      id: props
       shell: bash
-      run: echo "PACKAGE_VERSION=$(cat package.json | jq '.version' | tr -d '"')" >> $GITHUB_ENV
+      run: echo "PACKAGE_VERSION=$(cat package.json | jq '.version' | tr -d '"')" >> $GITHUB_OUTPUT
 
     - name: Cache dependencies
       id: cache
       uses: actions/cache@v4
       with:
         path: ./node_modules
-        key: modules-${{ env.PACKAGE_VERSION }}
-        restore-keys: modules-
+        key: modules-${{ steps.props.outputs.PACKAGE_VERSION }}-${{ hashFiles('package.json') }}
 
     - name: npm install
       if: steps.cache.outputs.cache-hit != 'true'
@@ -45,13 +45,6 @@ jobs:
       run: npm run build
       env:
         HASH: ${{ github.sha }}
-        REPO: ${{ github.repository }}
-
-    - name: Replace Date
-      shell: bash
-      run: |
-        BUILD_DATE=$(date +'%Y-%m-%d')
-        sed -i 's/__DATE_SHORT__/'"$BUILD_DATE"'/g' ./build/sitemap.xml
 
     - name: copy files via ssh
       uses: appleboy/scp-action@v0.1.7

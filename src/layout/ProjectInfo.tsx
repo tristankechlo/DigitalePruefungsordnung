@@ -7,7 +7,7 @@ import classes from './style.module.css';
 
 const STORAGE_KEY = "hide-disclaimer";
 const getInitialValue = (): boolean => {
-    let temp = localStorage.getItem(STORAGE_KEY);
+    const temp = localStorage.getItem(STORAGE_KEY);
     return temp === "true";
 }
 
@@ -18,7 +18,7 @@ export default function ProjectInfoModal() {
     const [checked, setChecked] = useState(false);
 
     useEffect(() => {
-        let initial = getInitialValue();
+        const initial = getInitialValue();
         // open disclaimer if it is not already accepted
         if (initial === false) { open(); }
         hideDisclaimer(initial);
@@ -40,10 +40,10 @@ export default function ProjectInfoModal() {
         <>
             <Modal.Root opened={opened} onClose={closeModal} size='lg'>
                 <Modal.Overlay />
-                <Modal.Content>
+                <Modal.Content aria-label='Informationen über dieses Projekt'>
                     <Modal.Header>
                         <Title order={3}>Über dieses Projekt</Title>
-                        <Modal.CloseButton />
+                        <Modal.CloseButton title='Info schließen' aria-label='Info schließen' />
                     </Modal.Header>
                     <Modal.Body>
                         <Alert variant='light' icon={<IconInfoCircle />} classNames={{ icon: classes.alertIcon }}>
@@ -66,7 +66,7 @@ export default function ProjectInfoModal() {
                     </Modal.Body>
                 </Modal.Content>
             </Modal.Root>
-            <UnstyledButton onClick={openModal}>Über dieses Projekt</UnstyledButton>
+            <UnstyledButton onClick={openModal} classNames={{ root: classes.openButton }}>Über dieses Projekt</UnstyledButton>
         </>
     );
 }

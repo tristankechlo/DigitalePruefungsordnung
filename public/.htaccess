@@ -1,15 +1,11 @@
-
 RewriteEngine on
 
-#redirect to https
+# redirect to https
 RewriteCond %{HTTPS} !on
 RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
-<IfModule mod_headers.c>
-    Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
-</IfModule>
 
 
-#redirect all not found to index.html
+# redirect all not found to index.html
 <IfModule mod_rewrite.c>
     RewriteEngine On
     RewriteCond %{REQUEST_FILENAME} !-f
@@ -17,3 +13,10 @@ RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
     RewriteCond %{REQUEST_FILENAME} !-l
     RewriteRule ^(.*)$ /index.html [L]
 </IfModule>
+
+
+# set some security headers
+Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+Header always set Content-Security-Policy "default-src https:"
+Header always set X-Content-Type-Options "nosniff"
+Header always set X-Frame-Options "SAMEORIGIN"
