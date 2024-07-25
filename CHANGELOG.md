@@ -1,5 +1,16 @@
 # Changelog
 
+## Version 1.2.0 - 2024-07-25
+
+- asynchrones Laden von Bildern
+- nutzerfeundliche URLs
+- automatisch generierte sitemap.xml
+
+## Version 1.1.0 - 2024-04-02
+
+- Verbesserte Detailseite der Qualifikationen
+- Überarbeitete Meta-Tags für bessere Linkvorschau
+
 ## Version 1.0.2 - 2024-03-01
 
 - Icon der Strömungsrettung geändert
