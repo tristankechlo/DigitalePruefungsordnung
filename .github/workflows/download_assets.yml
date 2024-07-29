@@ -50,6 +50,7 @@ jobs:
         add-paths: public/dlrg-assets
         branch: update/assets
         assignees: tristankechlo
+        reviewers: tristankechlo
         title: "[Update] Update der DLRG-Assets"
         body: "Die Assets von `api.dlrg.net` und `dlrg.de` wurden aktualisiert."
         commit-message: "update assets"
