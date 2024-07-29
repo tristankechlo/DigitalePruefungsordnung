@@ -3,7 +3,7 @@ on:
     - cron: "00 12 * * 5"
   workflow_dispatch: 
 
-name: download DLRG assets
+name: Download DLRG assets
 concurrency:
   group: ${{ github.workflow }}
   cancel-in-progress: true
@@ -13,16 +13,16 @@ permissions:
   pull-requests: write
 
 jobs:
-  build:
+  download:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout Repo
       uses: actions/checkout@v4
 
-    - name: checkout correct branch
-      run: |
-        git checkout -B update/assets
-        git fetch -p
+    # - name: checkout correct branch
+    #   run: |
+    #     git checkout -B update/assets
+    #     git fetch -p
 
     - name: Set up Node.js
       uses: actions/setup-node@v4
@@ -39,9 +39,9 @@ jobs:
       shell: bash
       id: changes
       run: |
-        clean=$(git status | grep "nothing to commit (working directory clean)")
-        if [ -z "$clean" ]; then a="false"; else a="true"; fi
-        echo "CLEAN=$a" >> $GITHUB_OUTPUT
+        clean=$(git status --porcelain)
+        if [ -n "$clean" ]; then result="false"; else result="true"; fi
+        echo "CLEAN=${result}" >> $GITHUB_OUTPUT
 
     - name: Create/Update Pull Request
       uses: peter-evans/create-pull-request@v6
