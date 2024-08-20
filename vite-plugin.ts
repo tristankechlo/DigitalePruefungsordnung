@@ -82,7 +82,7 @@ class SitemapBuilder {
     public build() {
         let result = this.start;
         for (let entry of this.entries) {
-            result += `\n<url><loc>${entry.loc}</loc><lastmod>${entry.lastmod}</lastmod><changefreq>monthly</changefreq></url>`
+            result += `\n<url><loc>${entry.loc}</loc><lastmod>${entry.lastmod}</lastmod><changefreq>weekly</changefreq></url>`
         }
         result += this.end;
         return result;
