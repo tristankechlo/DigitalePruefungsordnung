@@ -15,7 +15,6 @@ const defaultAssets: Asset[] = [
     { url: 'https://dlrg.de/global/layout/2019/font/dlrg_regular.woff', fileName: "dlrg_regular.woff", dirName: "fonts" },
     { url: 'https://dlrg.de/global/layout/2019/font/dlrg_bold.woff2', fileName: "dlrg_bold.woff2", dirName: "fonts" },
     { url: 'https://dlrg.de/global/layout/2019/font/dlrg_bold.woff', fileName: "dlrg_bold.woff", dirName: "fonts" },
-    // 'https://api.dlrg.net/logo/v1/stammverband/svg?size=144&line1=Digitale&line2=Pr%C3%BCfungsordnung&farbe=vollfarbe&stacked=false', // logo
 ];
 
 (async () => {
