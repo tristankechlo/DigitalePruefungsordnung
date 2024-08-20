@@ -36,7 +36,7 @@ export default function App() {
             qualifications.sort((a, b) => a.nr.localeCompare(b.nr));
             qualifications.forEach((q) => {
                 qualiMap.set(q.id, q);
-                quickAccessMap.set(sanitizeName(q.name), q.id);
+                quickAccessMap.set(sanitizeName(q.name), q.id); // TODO: DSTA zweimal vorhanden
                 quickAccessMap.set(sanitizeName(q.nr), q.id);
             });
 

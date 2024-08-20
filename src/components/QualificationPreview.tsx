@@ -26,11 +26,12 @@ function QualifikationWrapper({ children, to }: { children: React.ReactNode, to:
 
 export default function QualificationPreview({ q, largeIcon }: QualificationPreviewProps) {
 
-    const to = `/${sanitizeName(q.name)}`;
+    const to = `/${sanitizeName(q.name)}`; // TODO: DSTA zweimal
 
     // if the given qualification has an icon, render the preview with an icon
     if (hasAbzeichen(q)) {
-        const abzeichenUrl = q.dokumente.find((d) => d.typ === DokumentTyp.Abzeichen)?.link.replace('www.dlrg.net', 'dlrg.net');
+        const titel = q.dokumente.find((d) => d.typ === DokumentTyp.Abzeichen)?.titel;
+        const abzeichenUrl = "__MAIN_URL__/dlrg-assets/icons/" + titel;
         const size = largeIcon ? "50px" : "25px";
         return (
             <QualifikationWrapper to={to}>

@@ -1,4 +1,4 @@
-import type { IPruefungsordnungInfo, IPruefungsordnung, IQualifikation, IError } from "../types/DLRGTypes";
+import type { IPruefungsordnungInfo, IQualifikation, IError } from "../types/DLRGTypes";
 
 async function fetchWrapper<T>(url: string): Promise<T> {
     const options = {
@@ -23,33 +23,19 @@ async function fetchWrapper<T>(url: string): Promise<T> {
 
 /* Gibt die Nummern und Namen aller Prüfungsordnungen aus */
 async function getAllPOs(): Promise<IPruefungsordnungInfo[]> {
-    const url = "https://api.dlrg.net/ausbildung/v1/po";
-    return fetchWrapper(url);
-}
-
-/* Gibt alle Qualifikationen der spezifizierten Prüfungsordnung aus */
-async function getPo(nr: number, activeOnly: boolean = true): Promise<IPruefungsordnung> {
-    const url = `https://api.dlrg.net/ausbildung/v1/po/${nr}?activeOnly=${activeOnly}`;
+    const url = "__MAIN_URL__/dlrg-assets/po.json";
     return fetchWrapper(url);
 }
 
 /* Gibt alle Qualifikationen mit sämtlichen Inhalten aus */
-async function getAllQualifications(activeOnly: boolean = true): Promise<IQualifikation[]> {
-    const url = `https://api.dlrg.net/ausbildung/v1/qualifikationen?activeOnly=${activeOnly}`;
-    return fetchWrapper(url);
-}
-
-/* Gibt die spezifizierte Qualifikation mit sämtlichen Inhalten aus */
-async function getQualification(id: string): Promise<IQualifikation> {
-    const url = `https://api.dlrg.net/ausbildung/v1/qualifikationen/${id}`;
+async function getAllQualifications(): Promise<IQualifikation[]> {
+    const url = `__MAIN_URL__/dlrg-assets/qualifications.json`;
     return fetchWrapper(url);
 }
 
 const DLRG_API = {
     getAllPOs,
-    getPo,
     getAllQualifications,
-    getQualification
 };
 
 export default DLRG_API;
