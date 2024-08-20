@@ -3,7 +3,7 @@ import type { IQualifikation } from '../types/DLRGTypes';
 import { DokumentTyp } from '../types/DLRGTypes';
 import { NavLink } from 'react-router-dom';
 import classes from './QualificationPreview.module.css';
-import { sanitizeName } from '../util/Utils';
+import { qualificationToUrl } from '../util/Utils';
 
 function hasAbzeichen(q: IQualifikation) {
     return q.dokumente.some((d) => d.typ === DokumentTyp.Abzeichen);
@@ -26,7 +26,7 @@ function QualifikationWrapper({ children, to }: { children: React.ReactNode, to:
 
 export default function QualificationPreview({ q, largeIcon }: QualificationPreviewProps) {
 
-    const to = `/${sanitizeName(q.name)}`; // TODO: DSTA zweimal
+    const to = `/${qualificationToUrl(q)}`;
 
     // if the given qualification has an icon, render the preview with an icon
     if (hasAbzeichen(q)) {

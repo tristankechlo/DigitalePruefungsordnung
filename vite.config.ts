@@ -15,7 +15,7 @@ var replaceOptions: RollupReplaceOptions = {
         __DATE__: new Date().toISOString(),
         __VERSION__: VERSION,
         __HASH__: HASH,
-        __BUILD__: `${VERSION}+${HASH}`,
+        __BUILD__: HASH === "" ? `${VERSION}` : `${VERSION}+${HASH}`,
         __REPO_URL__: `https://github.com/tristankechlo/DigitalePruefungsordnung/`,
         __COMMIT_URL__: `https://github.com/tristankechlo/DigitalePruefungsordnung/commit/${HASH}`,
         __MAIN_URL__: MAIN_URL,
