@@ -38,10 +38,12 @@ const defaultAssets: Asset[] = [
     let pos = "https://api.dlrg.net/ausbildung/v1/po";
     let fileName = path.join(p, "po.json");
     await downloadAsset(pos, fileName);
+    await formatJson(fileName);
 
     let qualifications = "https://api.dlrg.net/ausbildung/v1/qualifikationen?activeOnly=true";
     fileName = path.join(p, "qualifications.json");
     await downloadAsset(qualifications, fileName);
+    await formatJson(fileName);
 
     process.exit(0);
 })();
@@ -99,5 +101,14 @@ async function downloadAsset(url: string, filePath: string) {
                 resolve();
             });
         });
+    });
+}
+
+async function formatJson(filePath: string) {
+    return new Promise<void>((resolve) => {
+        const content = fs.readFileSync(filePath, { encoding: "utf8" });
+        const json = JSON.parse(content);
+        fs.writeFileSync(filePath, JSON.stringify(json, null, "    "), { encoding: "utf8" });
+        resolve();
     });
 }

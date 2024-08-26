@@ -9,6 +9,7 @@
     "include": [
         "vite-pwa.config.ts",
         "vite.config.ts",
-        "vite-plugin.ts"
+        "vite-plugins/sitemap.ts",
+        "vite-plugins/minify-json.ts"
     ]
 }
