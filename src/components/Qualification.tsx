@@ -58,13 +58,14 @@ export default function Qualification(props: QualificationProps) {
 
     const hasVoraussetzungen = shouldRenderVoraussetzungen(quali);
     const hasSonstiges = shouldRenderSonstiges(quali);
-    const abzeichenUrl = quali.dokumente.find((d) => d.typ === DokumentTyp.Abzeichen)?.link.replace('www.dlrg.net', 'dlrg.net');
-    const hasIcon = abzeichenUrl === undefined ? false : true;
+    const titel = quali.dokumente.find((d) => d.typ === DokumentTyp.Abzeichen)?.titel;
+    const abzeichenUrl = "__MAIN_URL__/dlrg-assets/icons/" + titel;
+    const hasIcon = titel === undefined ? false : true;
 
     return (
         <Container size={rem(1100)} my='md' className={classes.container}>
 
-            <Grid gutter={0}>
+            <Grid gutter={0} justify='space-between'>
                 <Grid.Col span="auto">
                     <Title order={1} size='h3' mb='md' className={classes.mainTitle}>{quali.name}</Title>
                     {quali.abkuerzung ? <Text {...TEXT_PROPS} pb={0} className={classes.abkuerzung}><b>Abkürzung:</b> {quali.abkuerzung}</Text> : null}

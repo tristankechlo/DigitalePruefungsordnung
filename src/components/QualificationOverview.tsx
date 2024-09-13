@@ -18,7 +18,7 @@ const DEFAULT_FILTER = (q: IQualifikation) => {
 export default function QualificationOverview() {
 
     const appState = useContext(AppState);
-    
+
     document.title = "__TITLE__";
     (document.getElementById('canonical') as HTMLLinkElement).href = `__MAIN_URL__`
 
@@ -26,7 +26,7 @@ export default function QualificationOverview() {
     const { pathname } = useLocation();
     const selectedPo = getActivePO(pathname, appState);
     const navigate = useNavigate();
-    
+
     useEffect(() => {
         const qualifications = Array.from(appState.qualifications?.values() ?? []);
         if (selectedPo && (selectedPo < 0 || selectedPo > 10)) {

@@ -1,6 +1,6 @@
 on:
   schedule:
-    - cron: "00 12 * * 5"
+    - cron: "15 9 * * 5"
   workflow_dispatch: 
 
 name: Download DLRG assets
@@ -40,7 +40,13 @@ jobs:
       id: changes
       run: |
         clean=$(git status --porcelain)
-        if [ -n "$clean" ]; then result="false"; else result="true"; fi
+        if [ -n "$clean" ]; then
+          echo "No changes found, skipping next step";
+          result="false";
+        else
+          echo "New/changed assets found, creating PR";
+          result="true";
+        fi
         echo "CLEAN=${result}" >> $GITHUB_OUTPUT
 
     - name: Create/Update Pull Request
@@ -51,7 +57,7 @@ jobs:
         branch: update/assets
         assignees: tristankechlo
         reviewers: tristankechlo
-        title: "[Update] Update der DLRG-Assets"
+        title: "Update der DLRG-Assets"
         body: "Die Assets von `api.dlrg.net` und `dlrg.de` wurden aktualisiert."
         commit-message: "update assets"
         author: tristankechlo <66692834+tristankechlo@users.noreply.github.com>

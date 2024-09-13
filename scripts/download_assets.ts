@@ -15,7 +15,6 @@ const defaultAssets: Asset[] = [
     { url: 'https://dlrg.de/global/layout/2019/font/dlrg_regular.woff', fileName: "dlrg_regular.woff", dirName: "fonts" },
     { url: 'https://dlrg.de/global/layout/2019/font/dlrg_bold.woff2', fileName: "dlrg_bold.woff2", dirName: "fonts" },
     { url: 'https://dlrg.de/global/layout/2019/font/dlrg_bold.woff', fileName: "dlrg_bold.woff", dirName: "fonts" },
-    // 'https://api.dlrg.net/logo/v1/stammverband/svg?size=144&line1=Digitale&line2=Pr%C3%BCfungsordnung&farbe=vollfarbe&stacked=false', // logo
 ];
 
 (async () => {
@@ -39,10 +38,12 @@ const defaultAssets: Asset[] = [
     let pos = "https://api.dlrg.net/ausbildung/v1/po";
     let fileName = path.join(p, "po.json");
     await downloadAsset(pos, fileName);
+    await formatJson(fileName);
 
     let qualifications = "https://api.dlrg.net/ausbildung/v1/qualifikationen?activeOnly=true";
     fileName = path.join(p, "qualifications.json");
     await downloadAsset(qualifications, fileName);
+    await formatJson(fileName);
 
     process.exit(0);
 })();
@@ -50,6 +51,7 @@ const defaultAssets: Asset[] = [
 
 async function fetchAssets(): Promise<Set<Asset>> {
     try {
+        console.log("Starting Download of all qualifications");
         const response = await fetch('https://api.dlrg.net/ausbildung/v1/qualifikationen?activeOnly=false', FETCH_OPTIONS);
         if (!response.ok) {
             throw response;
@@ -99,5 +101,14 @@ async function downloadAsset(url: string, filePath: string) {
                 resolve();
             });
         });
+    });
+}
+
+async function formatJson(filePath: string) {
+    return new Promise<void>((resolve) => {
+        const content = fs.readFileSync(filePath, { encoding: "utf8" });
+        const json = JSON.parse(content);
+        fs.writeFileSync(filePath, JSON.stringify(json, null, "    "), { encoding: "utf8" });
+        resolve();
     });
 }

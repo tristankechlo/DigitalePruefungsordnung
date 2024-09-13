@@ -54,7 +54,8 @@ export default function sitemapPlugin(): PluginOption {
             // add qualifications to sitemap
             json.sort(compare);
             json.forEach((q) => {
-                builder.add({ loc: `${URL}/${sanitizeName(q.name)}`, lastmod: today });
+                let number = q.nr == "Ohne" ? '' : `${q.nr}-`;
+                builder.add({ loc: `${URL}/${number}${sanitizeName(q.name)}`, lastmod: today });
             });
 
             // add sitemap to bundle
@@ -81,7 +82,7 @@ class SitemapBuilder {
     public build() {
         let result = this.start;
         for (let entry of this.entries) {
-            result += `\n<url><loc>${entry.loc}</loc><lastmod>${entry.lastmod}</lastmod><changefreq>monthly</changefreq></url>`
+            result += `\n<url><loc>${entry.loc}</loc><lastmod>${entry.lastmod}</lastmod><changefreq>weekly</changefreq></url>`
         }
         result += this.end;
         return result;

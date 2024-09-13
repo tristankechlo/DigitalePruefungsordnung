@@ -43,7 +43,8 @@
     height: 100%;
     max-height: calc(100vh - var(--header-height));
     margin-top: var(--header-height);
-    padding: var(--mantine-spacing-sm);
+    padding-left: var(--mantine-spacing-sm);
+    padding-right: var(--mantine-spacing-sm);
     border-right: unset;
     display: block;
     visibility: hidden;
@@ -73,7 +74,8 @@
     height: calc(100vh - var(--header-height));
     width: 100%;
     margin-top: var(--header-height);
-    padding: var(--mantine-spacing-sm);
+    padding-left: var(--mantine-spacing-sm);
+    padding-right: var(--mantine-spacing-sm);
 }
 
 /* $mantine-breakpoint-sm will be replaced by postcss to '48em' */

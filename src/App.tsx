@@ -5,7 +5,7 @@ import DLRG_API from './util/DLRG-API';
 import type { IPruefungsordnungInfo, IQualifikation } from './types/DLRGTypes';
 import { Route, Routes } from 'react-router-dom';
 import PageLayout from './layout/PageLayout';
-import { DEFAULT_SITES, sanitizeName } from './util/Utils';
+import { DEFAULT_SITES, qualificationToUrl, sanitizeName } from './util/Utils';
 
 const Qualification = lazy(() => import('./components/Qualification'));
 
@@ -36,7 +36,7 @@ export default function App() {
             qualifications.sort((a, b) => a.nr.localeCompare(b.nr));
             qualifications.forEach((q) => {
                 qualiMap.set(q.id, q);
-                quickAccessMap.set(sanitizeName(q.name), q.id);
+                quickAccessMap.set(qualificationToUrl(q), q.id);
                 quickAccessMap.set(sanitizeName(q.nr), q.id);
             });
 

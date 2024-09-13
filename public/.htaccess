@@ -1,9 +1,12 @@
 RewriteEngine on
+ErrorDocument 404 /index.html
 
 # redirect to https
 RewriteCond %{HTTPS} !on
 RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 
+# return 404 for old url schemes, matches a single uuid at the end of the url
+RewriteRule ^(.*[/]{1}[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}[/]*)$ - [R=404,NC,L]
 
 # redirect all not found to index.html
 <IfModule mod_rewrite.c>

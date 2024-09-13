@@ -3,7 +3,7 @@ import type { IQualifikation } from '../types/DLRGTypes';
 import { DokumentTyp } from '../types/DLRGTypes';
 import { NavLink } from 'react-router-dom';
 import classes from './QualificationPreview.module.css';
-import { sanitizeName } from '../util/Utils';
+import { qualificationToUrl } from '../util/Utils';
 
 function hasAbzeichen(q: IQualifikation) {
     return q.dokumente.some((d) => d.typ === DokumentTyp.Abzeichen);
@@ -26,11 +26,12 @@ function QualifikationWrapper({ children, to }: { children: React.ReactNode, to:
 
 export default function QualificationPreview({ q, largeIcon }: QualificationPreviewProps) {
 
-    const to = `/${sanitizeName(q.name)}`;
+    const to = `/${qualificationToUrl(q)}`;
 
     // if the given qualification has an icon, render the preview with an icon
     if (hasAbzeichen(q)) {
-        const abzeichenUrl = q.dokumente.find((d) => d.typ === DokumentTyp.Abzeichen)?.link.replace('www.dlrg.net', 'dlrg.net');
+        const titel = q.dokumente.find((d) => d.typ === DokumentTyp.Abzeichen)?.titel;
+        const abzeichenUrl = "__MAIN_URL__/dlrg-assets/icons/" + titel;
         const size = largeIcon ? "50px" : "25px";
         return (
             <QualifikationWrapper to={to}>

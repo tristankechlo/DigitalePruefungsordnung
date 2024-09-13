@@ -8,12 +8,10 @@ const pwaOptions: Partial<VitePWAOptions> = {
     filename: 'sw.ts',
     srcDir: 'src',
     registerType: 'autoUpdate',
-    includeAssets: [ // include static assets for caching
-        'image-not-found.svg',
-        'favicon.ico',
-        'favicon-16x16.png',
-        'favicon-32x32.png',
-    ],
+    injectManifest: {
+        rollupFormat: 'iife',
+        globPatterns: ['**/*.{js,css,html,ico,png,jpg,svg,json,woff,woff2,gif,xml,txt}']
+    },
     manifest: {
         name: "Digitale Prüfungsordnung",
         short_name: "Prüfungsordnung",

@@ -14,6 +14,11 @@ export function sanitizeName(name: string) {
     return name;
 }
 
+export function qualificationToUrl(q: IQualifikation) {
+    const number = q.nr == "Ohne" ? '' : `${q.nr}-`;
+    return number + sanitizeName(q.name);
+}
+
 export function getActivePO(search: string, appState: IAppState): number {
     search = search.replace(/\//g, ''); // remove slashes
     const po = appState.pos?.find((po) => search === sanitizeName(po.name));
@@ -37,7 +42,7 @@ export function getQualification(search: string, appState: IAppState): IQualifik
 
 // collection of special links, where routing should work too
 export const DEFAULT_SITES = new Map<string, string>([
-    ['seepferdchen', '0017fa5d-fa6d-c933-ce51-a8afe2b02922'], 
+    ['seepferdchen', '0017fa5d-fa6d-c933-ce51-a8afe2b02922'],
     ['dsa-bronze', '0017fa5d-15b3-f192-cdb3-ceeda7f4fa81'],
     ['dsa-silber', '0017fa5d-1750-4b68-5b5f-acf50201417e'],
     ['dsa-gold', '0017fa5d-18ec-a53d-fdd1-f63a1f5272b3'],
