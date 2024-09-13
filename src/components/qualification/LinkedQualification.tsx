@@ -9,7 +9,7 @@ import { sanitizeName } from '../../util/Utils';
 export default function LinkedQualification({ q, c }: { q: IQualifikationInfo; c?: string; }) {
 
     const suffix = c && c.length > 0 ? ` (${c})` : "";
-    const to = `/${sanitizeName(q.name)}`
+    const to = `/${q.id}-${sanitizeName(q.name)}`
 
     return (
         <UnstyledButton component={NavLink} to={to} mb={TEXT_PROPS.pb} className={classes.linkedQualification}>
