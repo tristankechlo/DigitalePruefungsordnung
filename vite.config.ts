@@ -5,6 +5,7 @@ import { defineConfig } from 'vite'
 import pwaOptions from './vite-pwa.config.js';
 import sitemapPlugin from './vite-plugins/sitemap.js';
 import minifyJson from './vite-plugins/minify-json.js';
+import path from 'path';
 
 import packageJson from './package.json';
 const VERSION = packageJson.version;
@@ -25,6 +26,8 @@ var replaceOptions: RollupReplaceOptions = {
     preventAssignment: true
 };
 
+const publicDir = path.join(path.dirname(import.meta.filename), "public");
+
 // https://vitejs.dev/config/
 export default defineConfig({
     build: {
@@ -37,6 +40,6 @@ export default defineConfig({
         sitemapPlugin(),
         VitePWA(pwaOptions),
         replace(replaceOptions),
-        minifyJson()
+        minifyJson(publicDir)
     ],
 })
