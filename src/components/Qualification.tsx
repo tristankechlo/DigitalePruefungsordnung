@@ -12,7 +12,7 @@ import Dokumente from './qualification/DokumenteEntry';
 import classes from './Qualification.module.css';
 import { AppState } from '../App';
 import { useContext } from 'react';
-import { getQualification, sanitizeName } from '../util/Utils';
+import { getQualification, qualificationToUrl } from '../util/Utils';
 
 
 // check if the categorie 'sonstiges' should be rendered
@@ -54,7 +54,7 @@ export default function Qualification(props: QualificationProps) {
     }
 
     document.title = `${quali.name} | __TITLE__`;
-    (document.getElementById('canonical') as HTMLLinkElement).href = `__MAIN_URL__/${sanitizeName(quali.name)}`
+    (document.getElementById('canonical') as HTMLLinkElement).href = `__MAIN_URL__/${qualificationToUrl(quali)}`
 
     const hasVoraussetzungen = shouldRenderVoraussetzungen(quali);
     const hasSonstiges = shouldRenderSonstiges(quali);

@@ -1,5 +1,5 @@
 import type { IAppState } from "../App";
-import type { IQualifikation } from "../types/DLRGTypes";
+import type { IQualifikation, IQualifikationInfo } from "../types/DLRGTypes";
 
 // changes also needed in vite-plugin.ts
 export function sanitizeName(name: string) {
@@ -14,7 +14,7 @@ export function sanitizeName(name: string) {
     return name;
 }
 
-export function qualificationToUrl(q: IQualifikation) {
+export function qualificationToUrl(q: IQualifikation | IQualifikationInfo) {
     const number = q.nr == "Ohne" ? '' : `${q.nr}-`;
     return number + sanitizeName(q.name);
 }

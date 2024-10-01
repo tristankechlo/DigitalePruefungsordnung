@@ -19,12 +19,13 @@ export default function QualificationOverview() {
 
     const appState = useContext(AppState);
 
-    document.title = "__TITLE__";
-    (document.getElementById('canonical') as HTMLLinkElement).href = `__MAIN_URL__`
-
-    const [filteredQualifications, setFilteredQualifications] = useState<IQualifikation[] | undefined>(undefined);
     const { pathname } = useLocation();
     const selectedPo = getActivePO(pathname, appState);
+    const prefix = selectedPo == 0 ? "" : `${appState.pos?.find((po) => po.nr == selectedPo)?.name} | `;
+    document.title = `${prefix}__TITLE__`;
+    (document.getElementById('canonical') as HTMLLinkElement).href = `__MAIN_URL__/${pathname.replace(/\//g, '')}`
+
+    const [filteredQualifications, setFilteredQualifications] = useState<IQualifikation[] | undefined>(undefined);
     const navigate = useNavigate();
 
     useEffect(() => {
