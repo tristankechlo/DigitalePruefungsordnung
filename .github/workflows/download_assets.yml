@@ -51,7 +51,7 @@ jobs:
 
     - name: Create/Update Pull Request
       uses: peter-evans/create-pull-request@v6
-      if: ${{ steps.changes.outputs.CLEAN  == 'false' }}
+      if: ${{ steps.changes.outputs.CLEAN  == 'false' || steps.changes.outputs.CLEAN  == false }}
       with:
         add-paths: public/dlrg-assets
         branch: update/assets
