@@ -39,8 +39,8 @@ jobs:
       shell: bash
       id: changes
       run: |
-        clean=$(git status --porcelain)
-        if [ -n "$clean" ]; then
+        clean=$(git update-index --really-refresh || (git diff && false))
+        if [ -z "$clean" ]; then
           echo "No changes found, skipping next step";
           result="false";
         else
