@@ -162,6 +162,15 @@
     margin-right: var(--mantine-spacing-sm);
 }
 
+.openButton {
+    display: flex;
+    align-items: center;
+}
+
+.openButton svg {
+    margin-left: 5px;
+}
+
 .openButton:hover {
     text-decoration: underline;
 }

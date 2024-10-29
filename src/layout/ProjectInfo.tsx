@@ -66,7 +66,10 @@ export default function ProjectInfoModal() {
                     </Modal.Body>
                 </Modal.Content>
             </Modal.Root>
-            <UnstyledButton onClick={openModal} classNames={{ root: classes.openButton }}>Über dieses Projekt</UnstyledButton>
+            <UnstyledButton onClick={openModal} classNames={{ root: classes.openButton }}>
+                Über dieses Projekt
+                <IconInfoCircle size={16} />
+            </UnstyledButton>
         </>
     );
 }
