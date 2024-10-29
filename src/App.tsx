@@ -1,20 +1,15 @@
 import { useSessionStorage } from '@mantine/hooks';
 import QualificationOverview from './components/QualificationOverview';
-import { useState, useEffect, lazy, createContext } from 'react';
+import { useState, useEffect, lazy } from 'react';
 import DLRG_API from './util/DLRG-API';
 import type { IPruefungsordnungInfo, IQualifikation } from './types/DLRGTypes';
 import { Route, Routes } from 'react-router-dom';
 import PageLayout from './layout/PageLayout';
 import { DEFAULT_SITES, qualificationToUrl, sanitizeName } from './util/Utils';
+import { AppState } from './util/AppState';
 
 const Qualification = lazy(() => import('./components/Qualification'));
 
-export interface IAppState {
-    pos?: IPruefungsordnungInfo[];
-    qualifications?: Map<string, IQualifikation>;
-    quickAccess?: Map<string, string>;
-}
-export const AppState = createContext<IAppState>({  });
 
 export default function App() {
 

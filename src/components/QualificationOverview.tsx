@@ -4,7 +4,7 @@ import { useState, useEffect, useContext } from 'react';
 import Loading from '../layout/Loading';
 import QualificationPreview from './QualificationPreview';
 import { useLocation, useNavigate } from 'react-router-dom';
-import { AppState } from '../App';
+import { AppState } from '../util/AppState';
 import { getActivePO } from '../util/Utils';
 
 // pre selected list of qualifications displayed
