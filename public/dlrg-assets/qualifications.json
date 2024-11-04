@@ -1791,67 +1791,6 @@
         ]
     },
     {
-        "id": "0017fa5d-3923-a9ff-b983-ac7d3250a8d8",
-        "nr": "611",
-        "poNr": 6,
-        "istAktiv": true,
-        "abkuerzung": "DSTA",
-        "name": "Deutsches Schnorcheltauchabzeichen",
-        "stellenLfdNr": 3,
-        "gueltigkeit": null,
-        "beauftragung": null,
-        "wiederholung": null,
-        "pruefungenGueltigkeit": null,
-        "verlaengerungUE": null,
-        "verlaengerungBeauftragungUE": null,
-        "inhalt": [],
-        "voraussetzungen": {
-            "qualifikationen": [
-                {
-                    "qualifikation": {
-                        "id": "0017fa5d-20fa-666b-61ad-ad4a8f2cfeef",
-                        "nr": "151",
-                        "poNr": 1,
-                        "istAktiv": true,
-                        "abkuerzung": "DRSA Bronze",
-                        "name": "Deutsches Rettungsschwimmabzeichen Bronze"
-                    },
-                    "kommentar": ""
-                }
-            ],
-            "hospitationen": [],
-            "sonstiges": [],
-            "mindestalter": {
-                "istErforderlich": true,
-                "alter": 12,
-                "kommentar": "bei Minderjährigen ist die Einverständniserklärung der Erziehungsberechtigten erforderlich"
-            },
-            "aerztliche_tauglichkeit": {
-                "istErforderlich": true,
-                "kommentar": "Eine Tauchtauglichkeit muss unmittelbar vor Beginn der praktischen \nAusbildung durch eine ärztliche Bescheinigung oder das Formblatt \n„Selbsterklärung zum Gesundheitszustand“ nachgewiesen werden"
-            },
-            "mitgliedschaft": {
-                "istErforderlich": false,
-                "kommentar": ""
-            },
-            "befuerwortung": {
-                "istErforderlich": false,
-                "kommentar": ""
-            }
-        },
-        "pruefungen": [],
-        "prueferberechtigungen": [],
-        "dokumente": [
-            {
-                "id": 68,
-                "titel": "Prüfungsordnung Tauchen",
-                "beschreibung": null,
-                "typ": "po",
-                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=219&wm=no&v=o"
-            }
-        ]
-    },
-    {
         "id": "0017fa5d-3ac0-03d7-103c-c2748500d20b",
         "nr": "612",
         "poNr": 6,
@@ -6279,7 +6218,7 @@
         "poNr": 6,
         "istAktiv": true,
         "abkuerzung": null,
-        "name": "DLRG-Multiplikator Einsatztauchen",
+        "name": "Multiplikator Einsatztauchen",
         "stellenLfdNr": 3,
         "gueltigkeit": null,
         "beauftragung": null,
@@ -13885,7 +13824,7 @@
         "nr": "288",
         "poNr": 2,
         "istAktiv": true,
-        "abkuerzung": null,
+        "abkuerzung": "ÜL-B Ki/Ju",
         "name": "DOSB Übungsleiter-B „Sport in der Prävention“ (Bewegungsraum Wasser) (Zielgruppe Kinder / Jugendliche)",
         "stellenLfdNr": 3,
         "gueltigkeit": 4,
@@ -14927,12 +14866,12 @@
             "qualifikationen": [
                 {
                     "qualifikation": {
-                        "id": "0017fa5e-3adb-d49e-302c-10b7b7cacf70",
+                        "id": "0017fa5e-b6e2-df38-86b2-27d0b1fc2376",
                         "nr": "781",
                         "poNr": 7,
-                        "istAktiv": false,
+                        "istAktiv": true,
                         "abkuerzung": null,
-                        "name": "Ausbilder Sprechfunk bis 12-2020"
+                        "name": "Ausbilder Sprechfunk"
                     },
                     "kommentar": "Ausbilder Sprechfunk"
                 },
@@ -15742,7 +15681,7 @@
         "nr": "289",
         "poNr": 2,
         "istAktiv": true,
-        "abkuerzung": null,
+        "abkuerzung": "ÜL-B Erw",
         "name": "DOSB Übungsleiter-B „Sport in der Prävention“ (Bewegungsraum Wasser) (Zielgruppe Erwachsene)",
         "stellenLfdNr": 3,
         "gueltigkeit": 4,
@@ -15831,7 +15770,7 @@
                         "nr": "289",
                         "poNr": 2,
                         "istAktiv": true,
-                        "abkuerzung": null,
+                        "abkuerzung": "ÜL-B Erw",
                         "name": "DOSB Übungsleiter-B „Sport in der Prävention“ (Bewegungsraum Wasser) (Zielgruppe Erwachsene)"
                     },
                     "kommentar": "Besitz einer gültigen DOSB Lizenz Übungsleiter-B „Sport in der Prävention“ (Bewegungsraum Wasser) (siehe Teil B V 1)"
@@ -15842,7 +15781,7 @@
                         "nr": "288",
                         "poNr": 2,
                         "istAktiv": true,
-                        "abkuerzung": null,
+                        "abkuerzung": "ÜL-B Ki/Ju",
                         "name": "DOSB Übungsleiter-B „Sport in der Prävention“ (Bewegungsraum Wasser) (Zielgruppe Kinder / Jugendliche)"
                     },
                     "kommentar": "DOSB Übungsleiter-B „Sport in der Prävention“ (Bewegungsraum Wasser) (Zielgruppe Kinder/Jugendliche) (Besitz einer gültigen DOSB Lizenz Übungsleiter-B „Sport in der Prävention“ (Bewegungsraum Wasser) (siehe Teil B V 1))"
@@ -15912,7 +15851,7 @@
                 "nr": "289",
                 "poNr": 2,
                 "istAktiv": true,
-                "abkuerzung": null,
+                "abkuerzung": "ÜL-B Erw",
                 "name": "DOSB Übungsleiter-B „Sport in der Prävention“ (Bewegungsraum Wasser) (Zielgruppe Erwachsene)"
             },
             {
@@ -15920,7 +15859,7 @@
                 "nr": "288",
                 "poNr": 2,
                 "istAktiv": true,
-                "abkuerzung": null,
+                "abkuerzung": "ÜL-B Ki/Ju",
                 "name": "DOSB Übungsleiter-B „Sport in der Prävention“ (Bewegungsraum Wasser) (Zielgruppe Kinder / Jugendliche)"
             },
             {
