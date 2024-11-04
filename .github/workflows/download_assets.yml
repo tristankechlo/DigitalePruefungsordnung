@@ -57,3 +57,5 @@ jobs:
         commit-message: "update assets"
         author: tristankechlo <66692834+tristankechlo@users.noreply.github.com>
         committer: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+        labels: |
+          changed assets
