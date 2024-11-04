@@ -42,11 +42,11 @@ jobs:
           echo "No changes found, skipping next step";
           result="clean";
         fi
-        echo "status=${result}" >> $GITHUB_OUTPUT
+        echo "gitstatus=${result}" >> $GITHUB_OUTPUT
 
     - name: Create/Update Pull Request
       uses: peter-evans/create-pull-request@v6
-      if: ${{ steps.changes.outputs.status  == 'dirty' }}
+      if: ${{ steps.changes.outputs.gitstatus  == 'dirty' }}
       with:
         add-paths: public/dlrg-assets
         branch: update/assets
