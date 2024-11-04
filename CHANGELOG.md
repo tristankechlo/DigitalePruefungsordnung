@@ -1,5 +1,19 @@
 # Changelog
 
+## Version 1.2.3 - 2024-10-25
+
+- CORS-Header angepasst
+- kleines Icon neben 'Über dieses Projekt'
+
+## Version 1.2.2 - 2024-10-01
+
+- kanonischen Link im Header gefixt
+
+## Version 1.2.1 - 2024-09-13
+
+- Anwendung nun komplett Offline nutzbar
+- DLRG-Assets werden nun in diesem Repository zwischengespeichert
+
 ## Version 1.2.0 - 2024-07-25
 
 - asynchrones Laden von Bildern

@@ -10,7 +10,7 @@ import ExternalLink from '../components/ExternalLink';
 import ProjectInfoModal from './ProjectInfo';
 import { FORMATTING_OPTIONS } from '../util/CommonProps';
 import { useContext } from 'react';
-import { AppState } from '../App';
+import { AppState } from '../util/AppState';
 import { getActivePO, sanitizeName } from '../util/Utils';
 
 /* 

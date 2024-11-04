@@ -10,7 +10,7 @@ import ConditionalEntry from './qualification/ConditionalEntry';
 import { useLocation } from 'react-router-dom';
 import Dokumente from './qualification/DokumenteEntry';
 import classes from './Qualification.module.css';
-import { AppState } from '../App';
+import { AppState } from '../util/AppState';
 import { useContext } from 'react';
 import { getQualification, qualificationToUrl } from '../util/Utils';
 

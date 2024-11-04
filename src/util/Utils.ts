@@ -1,4 +1,4 @@
-import type { IAppState } from "../App";
+import { IAppState } from "./AppState";
 import type { IQualifikation, IQualifikationInfo } from "../types/DLRGTypes";
 
 // changes also needed in vite-plugin.ts
