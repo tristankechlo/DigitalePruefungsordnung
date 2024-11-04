@@ -34,19 +34,19 @@ jobs:
       shell: bash
       id: changes
       run: |
-        clean=$(git status | grep "nothing to commit (working directory clean)")
+        clean=$(git status --porcelain)
         if [ -z "$clean" ]; then
-          echo "New/changed assets found, creating PR";
-          result="dirty";
-        else
           echo "No changes found, skipping next step";
           result="clean";
+        else
+          echo "New/changed assets found, creating PR";
+          result="dirty";
         fi
-        echo "gitstatus=${result}" >> $GITHUB_OUTPUT
+        echo "status=${result}" >> $GITHUB_OUTPUT
 
     - name: Create/Update Pull Request
       uses: peter-evans/create-pull-request@v6
-      if: ${{ steps.changes.outputs.gitstatus  == 'dirty' }}
+      if: ${{ steps.changes.outputs.status  == 'dirty' }}
       with:
         add-paths: public/dlrg-assets
         branch: update/assets
