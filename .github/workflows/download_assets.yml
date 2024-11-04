@@ -34,13 +34,13 @@ jobs:
       shell: bash
       id: changes
       run: |
-        clean=$(git update-index --really-refresh || (git diff && false))
+        clean=$(git status | grep "nothing to commit (working directory clean)")
         if [ -z "$clean" ]; then
-          echo "No changes found, skipping next step";
-          result="clean";
-        else
           echo "New/changed assets found, creating PR";
           result="dirty";
+        else
+          echo "No changes found, skipping next step";
+          result="clean";
         fi
         echo "status=${result}" >> $GITHUB_OUTPUT
 
