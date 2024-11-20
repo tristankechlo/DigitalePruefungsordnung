@@ -1,6 +1,6 @@
 # Changelog
 
-## Version 1.2.3 - 2024-10-25
+## Version 1.2.3 - 2024-11-04
 
 - CORS-Header angepasst
 - kleines Icon neben 'Über dieses Projekt'
