@@ -4095,6 +4095,30 @@
                 "istAktiv": true,
                 "abkuerzung": null,
                 "name": "Einsatzfähigkeit"
+            },
+            {
+                "id": "0017fa5e-f5b4-9230-f74a-d475a051fd59",
+                "nr": "162",
+                "poNr": 1,
+                "istAktiv": true,
+                "abkuerzung": "DSchnA Basic",
+                "name": "Deutsches Schnorchelabzeichen Basic (Bronze)"
+            },
+            {
+                "id": "0017fa5e-f750-ec1e-b3f0-0101be414a8c",
+                "nr": "163",
+                "poNr": 1,
+                "istAktiv": true,
+                "abkuerzung": "DSchnA Challenge",
+                "name": "Deutsches Schnorchelabzeichen Challenge (Silber)"
+            },
+            {
+                "id": "0017fa5e-f8ed-460c-855b-999b90bd272a",
+                "nr": "164",
+                "poNr": 1,
+                "istAktiv": false,
+                "abkuerzung": "DSchnA Master",
+                "name": "Deutsches Schnorchelabzeichen Master (Gold)"
             }
         ],
         "dokumente": [
@@ -5519,6 +5543,30 @@
                 "istAktiv": true,
                 "abkuerzung": "HLW",
                 "name": "Herz-Lungen-Wiederbelebung"
+            },
+            {
+                "id": "0017fa5e-f5b4-9230-f74a-d475a051fd59",
+                "nr": "162",
+                "poNr": 1,
+                "istAktiv": true,
+                "abkuerzung": "DSchnA Basic",
+                "name": "Deutsches Schnorchelabzeichen Basic (Bronze)"
+            },
+            {
+                "id": "0017fa5e-f750-ec1e-b3f0-0101be414a8c",
+                "nr": "163",
+                "poNr": 1,
+                "istAktiv": true,
+                "abkuerzung": "DSchnA Challenge",
+                "name": "Deutsches Schnorchelabzeichen Challenge (Silber)"
+            },
+            {
+                "id": "0017fa5e-f8ed-460c-855b-999b90bd272a",
+                "nr": "164",
+                "poNr": 1,
+                "istAktiv": false,
+                "abkuerzung": "DSchnA Master",
+                "name": "Deutsches Schnorchelabzeichen Master (Gold)"
             }
         ],
         "dokumente": [
@@ -5786,6 +5834,30 @@
                 "istAktiv": true,
                 "abkuerzung": null,
                 "name": "Einsatzfähigkeit"
+            },
+            {
+                "id": "0017fa5e-f5b4-9230-f74a-d475a051fd59",
+                "nr": "162",
+                "poNr": 1,
+                "istAktiv": true,
+                "abkuerzung": "DSchnA Basic",
+                "name": "Deutsches Schnorchelabzeichen Basic (Bronze)"
+            },
+            {
+                "id": "0017fa5e-f750-ec1e-b3f0-0101be414a8c",
+                "nr": "163",
+                "poNr": 1,
+                "istAktiv": true,
+                "abkuerzung": "DSchnA Challenge",
+                "name": "Deutsches Schnorchelabzeichen Challenge (Silber)"
+            },
+            {
+                "id": "0017fa5e-f8ed-460c-855b-999b90bd272a",
+                "nr": "164",
+                "poNr": 1,
+                "istAktiv": false,
+                "abkuerzung": "DSchnA Master",
+                "name": "Deutsches Schnorchelabzeichen Master (Gold)"
             }
         ],
         "dokumente": [
@@ -9303,6 +9375,30 @@
                 "istAktiv": false,
                 "abkuerzung": "DSA Gold",
                 "name": "Deutsches Schwimmabzeichen Gold - bis 2020"
+            },
+            {
+                "id": "0017fa5e-f5b4-9230-f74a-d475a051fd59",
+                "nr": "162",
+                "poNr": 1,
+                "istAktiv": true,
+                "abkuerzung": "DSchnA Basic",
+                "name": "Deutsches Schnorchelabzeichen Basic (Bronze)"
+            },
+            {
+                "id": "0017fa5e-f750-ec1e-b3f0-0101be414a8c",
+                "nr": "163",
+                "poNr": 1,
+                "istAktiv": true,
+                "abkuerzung": "DSchnA Challenge",
+                "name": "Deutsches Schnorchelabzeichen Challenge (Silber)"
+            },
+            {
+                "id": "0017fa5e-f8ed-460c-855b-999b90bd272a",
+                "nr": "164",
+                "poNr": 1,
+                "istAktiv": false,
+                "abkuerzung": "DSchnA Master",
+                "name": "Deutsches Schnorchelabzeichen Master (Gold)"
             }
         ],
         "dokumente": [
@@ -9459,6 +9555,30 @@
                 "istAktiv": true,
                 "abkuerzung": null,
                 "name": "Einsatzfähigkeit"
+            },
+            {
+                "id": "0017fa5e-f5b4-9230-f74a-d475a051fd59",
+                "nr": "162",
+                "poNr": 1,
+                "istAktiv": true,
+                "abkuerzung": "DSchnA Basic",
+                "name": "Deutsches Schnorchelabzeichen Basic (Bronze)"
+            },
+            {
+                "id": "0017fa5e-f750-ec1e-b3f0-0101be414a8c",
+                "nr": "163",
+                "poNr": 1,
+                "istAktiv": true,
+                "abkuerzung": "DSchnA Challenge",
+                "name": "Deutsches Schnorchelabzeichen Challenge (Silber)"
+            },
+            {
+                "id": "0017fa5e-f8ed-460c-855b-999b90bd272a",
+                "nr": "164",
+                "poNr": 1,
+                "istAktiv": false,
+                "abkuerzung": "DSchnA Master",
+                "name": "Deutsches Schnorchelabzeichen Master (Gold)"
             }
         ],
         "dokumente": [
@@ -17203,5 +17323,287 @@
                 "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=215&wm=no&v=o"
             }
         ]
+    },
+    {
+        "id": "0017fa5e-f5b4-9230-f74a-d475a051fd59",
+        "nr": "162",
+        "poNr": 1,
+        "istAktiv": true,
+        "abkuerzung": "DSchnA Basic",
+        "name": "Deutsches Schnorchelabzeichen Basic (Bronze)",
+        "stellenLfdNr": 3,
+        "gueltigkeit": null,
+        "beauftragung": null,
+        "wiederholung": null,
+        "pruefungenGueltigkeit": 6,
+        "verlaengerungUE": null,
+        "verlaengerungBeauftragungUE": null,
+        "inhalt": [],
+        "voraussetzungen": {
+            "qualifikationen": [
+                {
+                    "qualifikation": {
+                        "id": "0017fa5d-15b3-f192-cdb3-ceeda7f4fa81",
+                        "nr": "121",
+                        "poNr": 1,
+                        "istAktiv": true,
+                        "abkuerzung": "DSA Bronze",
+                        "name": "Deutsches Schwimmabzeichen Bronze (Freischwimmer)"
+                    },
+                    "kommentar": ""
+                }
+            ],
+            "hospitationen": [],
+            "sonstiges": [],
+            "mindestalter": {
+                "istErforderlich": false,
+                "alter": 0,
+                "kommentar": ""
+            },
+            "aerztliche_tauglichkeit": {
+                "istErforderlich": true,
+                "kommentar": "Ärztliche Bescheinigung oder Selbsterklärung zum Gesundheitszustand"
+            },
+            "mitgliedschaft": {
+                "istErforderlich": false,
+                "kommentar": ""
+            },
+            "befuerwortung": {
+                "istErforderlich": false,
+                "kommentar": ""
+            }
+        },
+        "pruefungen": [
+            {
+                "id": "0017fa5f-12b2-e4f4-603e-79bbb1f28c27",
+                "beschreibung": "Zeichensprache OK",
+                "einordnung": "theoretisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-144f-3ee3-92d7-3fa6f17fe222",
+                "beschreibung": "Grundausrüstung, Schnorcheltechnik",
+                "einordnung": "theoretisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-15eb-98d2-da36-71ac7508c2b1",
+                "beschreibung": "Gefahren beim Schnorcheln",
+                "einordnung": "theoretisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-1787-f2c2-365c-0fccef2fca1e",
+                "beschreibung": "Pflege der Ausrüstung",
+                "einordnung": "theoretisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-1924-4cb1-a748-1a09129794b6",
+                "beschreibung": "Atmung (Atemwiderstand im Wasser. Hyperventilation)",
+                "einordnung": "theoretisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-1ac0-a6a1-2cfa-906191e2bec9",
+                "beschreibung": "Aktiver Druckausgleich",
+                "einordnung": "theoretisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-1c5d-0090-c773-72d71fb3e4aa",
+                "beschreibung": "Wasserdruck, Wassertemperatur, evtl. Gefahren durch Wassertrübung und Strömung",
+                "einordnung": "theoretisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-1df9-5a80-76b2-c16a6eada2af",
+                "beschreibung": "Ursachen und Anzeichen für Verletzungen des Mittelohres und der Schädelhöhlen",
+                "einordnung": "theoretisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-1f95-b470-3ab8-7c1c31729531",
+                "beschreibung": "Einstieg / Ausstieg",
+                "einordnung": "praktisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-2132-0e60-1384-a2ed1aa5588c",
+                "beschreibung": "100m Flossenschwimmen. je 25 m Brustlage, Rückenlage, Seitenlage rechts/links",
+                "einordnung": "praktisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-22ce-6850-0117-35dddce8891f",
+                "beschreibung": "25m Wasser-Nase-Reflex-Schwimmen",
+                "einordnung": "praktisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-246a-c240-0370-34ef2adec34c",
+                "beschreibung": "ca. 1m absinken durch Ausatmen",
+                "einordnung": "praktisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-2607-1c30-1a8f-a021b72aa378",
+                "beschreibung": "25 m Flossenschwimmen dabei zweimal kopfgesteuert Abtauchen, Ring heraufholen, OK-Zeichen",
+                "einordnung": "praktisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-27a3-7620-4675-7776346ec60b",
+                "beschreibung": "10 m Streckentauchen ohne Schnorchel, OK-Zeichen",
+                "einordnung": "praktisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-293f-d010-8721-baed554dc770",
+                "beschreibung": "Kombi-Prüfung Basic:\nAnlegen der ABC-Ausrüstung, Einstieg ins Wasser (Schrittsprung - Auftauchen - Schnorchel ausblasen - OK-Zeichen), Druckausgleich - OK-Zeichen, Schnorcheln dann Tauchparcours:\nAbtauchen mit kopfgesteuerter Abtauchtechnik mit Druckausgleich. z.B. Dreieckskurs 4m x 4m x 4m. Als Markierung z.B. Tauchring auf dem Beckenboden. Erste Tauchstation / Ring ist auch gleichzeitig letzte Tauchstation / Ring. Dort kleinen Tauchring auf dem Boden greifen, einmal hochheben, nach oben zeigen und wieder auf dem Boden ablegen.\nAuftauchen - Schnorchel ausblasen - OK-Zeichen, Ausstieg aus dem Wasser und Ablegen der ABC-Ausrüstung",
+                "einordnung": "praktisch",
+                "gueltigkeit": null
+            }
+        ],
+        "prueferberechtigungen": [],
+        "dokumente": []
+    },
+    {
+        "id": "0017fa5e-f750-ec1e-b3f0-0101be414a8c",
+        "nr": "163",
+        "poNr": 1,
+        "istAktiv": true,
+        "abkuerzung": "DSchnA Challenge",
+        "name": "Deutsches Schnorchelabzeichen Challenge (Silber)",
+        "stellenLfdNr": 3,
+        "gueltigkeit": null,
+        "beauftragung": null,
+        "wiederholung": null,
+        "pruefungenGueltigkeit": 6,
+        "verlaengerungUE": null,
+        "verlaengerungBeauftragungUE": null,
+        "inhalt": [],
+        "voraussetzungen": {
+            "qualifikationen": [
+                {
+                    "qualifikation": {
+                        "id": "0017fa5d-15b3-f192-cdb3-ceeda7f4fa81",
+                        "nr": "121",
+                        "poNr": 1,
+                        "istAktiv": true,
+                        "abkuerzung": "DSA Bronze",
+                        "name": "Deutsches Schwimmabzeichen Bronze (Freischwimmer)"
+                    },
+                    "kommentar": ""
+                }
+            ],
+            "hospitationen": [],
+            "sonstiges": [],
+            "mindestalter": {
+                "istErforderlich": false,
+                "alter": 0,
+                "kommentar": ""
+            },
+            "aerztliche_tauglichkeit": {
+                "istErforderlich": true,
+                "kommentar": "Ärztliche Bescheinigung oder Selbsterklärung zum Gesundheitszustand"
+            },
+            "mitgliedschaft": {
+                "istErforderlich": false,
+                "kommentar": ""
+            },
+            "befuerwortung": {
+                "istErforderlich": false,
+                "kommentar": ""
+            }
+        },
+        "pruefungen": [
+            {
+                "id": "0017fa5f-2adc-2a00-dc94-6a87cc6a4415",
+                "beschreibung": "Zeichensprache OK",
+                "einordnung": "theoretisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-2c78-83f1-46cd-86464c66d86b",
+                "beschreibung": "Grundausrüstung, Schnorcheltechnik",
+                "einordnung": "theoretisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-2e14-dde1-c5cd-0e2987e620e6",
+                "beschreibung": "Gefahren beim Schnorcheln",
+                "einordnung": "theoretisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-2fb1-37d2-5993-0232318ab9fd",
+                "beschreibung": "Pflege der Ausrüstung",
+                "einordnung": "theoretisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-314d-91c3-021f-6260fbf7402a",
+                "beschreibung": "Atmung (Atemwiderstand im Wasser, Hyperventilation)",
+                "einordnung": "theoretisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-32e9-ebb3-bf72-2eb699ce4fea",
+                "beschreibung": "Aktiver Druckausgleich",
+                "einordnung": "theoretisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-3486-45a4-918b-6733bdb285bd",
+                "beschreibung": "Wasserdruck, Wassertemperatur, evtl. Gefahren durch Wassertrübung und Strömung",
+                "einordnung": "theoretisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-3622-9f95-786b-0bd91a467e26",
+                "beschreibung": "Ursache und Anzeichen für Verletzungen des Mittelohres und der Schädelhöhlen",
+                "einordnung": "theoretisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-37be-f986-7411-1ca7622cd5ab",
+                "beschreibung": "Einstieg / Ausstieg",
+                "einordnung": "praktisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-395b-5377-847d-999f480828d5",
+                "beschreibung": "Maske ausblasen auf max. 2m Tiefe",
+                "einordnung": "praktisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-3af7-ad68-a9b0-82c17e7b1430",
+                "beschreibung": "200 m Flossenschwimmen, davon 100 m Brustlage. 50 m Rückenlage, je 25 m Seitenlage rechts / links",
+                "einordnung": "praktisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-3c94-0759-e3a9-d80eb828344b",
+                "beschreibung": "mind. 1,50 m absinken durch Ausatmen, Ring heraufholen",
+                "einordnung": "praktisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-3e30-614b-3269-9987a7b225b8",
+                "beschreibung": "50 m Flossenschwimmen, dabei viermal kopfgesteuert Abtauchen, dabei jeweils einen Ring aus mind. 1,80m Tiefe heraufholen, OK-Zeichen",
+                "einordnung": "praktisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-3fcc-bb3c-95ef-c72cffbb850c",
+                "beschreibung": "Kombi-Prüfung Challenge: Anlegen der ABC-Ausrüstung, Schrittsprung vom Beckenrand - Auftauchen - Schnorchel ausblasen - OK-Zeichen, 10m Schnorcheln, Druckausgleich - OK-Zeichen, Tauchparcours: Abtauchen mit kopfgesteuerter Abtauchtechnik an der ersten Markierung (Tauchring auf dem Beckenboden), z.B. Viereckskurs 5 m x 5 m x 5m x 5m. Als Markierung z.B. Tauchring auf dem Beckenboden. Erste Tauchstation / Ring ist auch gleichzeitig letzte Tauchstation / Ring ablegen. Dort kleinen Tauchring auf dem Boden greifen, einmal hochheben, nach oben zeigen und wieder auf dem Boden ablegen. Auftauchen - Schnorchel ausblasen - OK-Zeichen. Ausstieg aus dem Wasser über den Beckenrand und Ablegen der ABC-Ausrüstung",
+                "einordnung": "praktisch",
+                "gueltigkeit": null
+            }
+        ],
+        "prueferberechtigungen": [],
+        "dokumente": []
     }
 ]
