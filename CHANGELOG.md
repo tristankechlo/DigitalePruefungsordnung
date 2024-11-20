@@ -1,5 +1,9 @@
 # Changelog
 
+## Version 1.2.4 - 2024-11-20
+
+- aktuellste DLRG-Assets
+
 ## Version 1.2.3 - 2024-11-04
 
 - CORS-Header angepasst
