@@ -1,7 +1,8 @@
-# only build and deploy when new tags are pushed
 on:
   release:
     types: [ published ]
+  push: # additional check later to run only when message contains '[CI]'
+    branches: [ "main" ]
   workflow_dispatch:
 
 name: build and deploy
@@ -11,6 +12,7 @@ concurrency:
 
 jobs:
   build:
+    if: github.event_name == 'release' || github.event_name == 'workflow_dispatch' || (github.event_name == 'push' && contains(github.event.head_commit.message, '[CI]')) 
     runs-on: ubuntu-latest
     steps:
     - name: Checkout Repo
