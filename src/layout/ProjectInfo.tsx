@@ -61,6 +61,10 @@ export default function ProjectInfoModal() {
                             </Flex>
                             <Text mt='sm'>Bei fehlenden Informationen oder inhaltlichen Fehlern ist es wahrscheinlich, dass die Daten dort nicht korrekt eingepflegt worden sind.</Text>
                         </Alert>
+                        <Alert mt='md' variant='light' icon={<IconInfoCircle />} classNames={{ icon: classes.alertIcon }}>
+                            <Text>Die API kann auch Inhalte (Qualifikationen/Prüfungsinhalte,...) enthalten, die noch nicht in einer Prüfungsordnung veröffentlicht wurden.</Text>
+                            <Text mt='sm'>Bitte prüfe immer die aktuelle Prüfungsordnung für eine genaue Aussage welche Vorraussetzungen zum Erreichen einer Qualifikation benötigt werden.</Text>
+                        </Alert>
                         <Checkbox mt='md' checked={checked} onChange={(event) => setChecked(event.currentTarget.checked)} label="Nicht erneut anzeigen" />
                         <Button fullWidth mt='md' onClick={closeModal}>Schließen</Button>
                     </Modal.Body>

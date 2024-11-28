@@ -10,4 +10,8 @@
 
 > [!IMPORTANT]
 > Jegliche Inhalte, die zum Anzeigen der Qualifikationen genutzt werden, stammen aus der öffentlichen API der DLRG [api.dlrg.net](https://api.dlrg.net/?urls.primaryName=Digitale%20Pr%C3%BCfungsordnung).  
-> Bei fehlenden Informationen oder inhaltlichen Fehlern ist es wahrscheinlich, dass die Daten dort nicht korrekt eingepflegt worden sind.    
+> Bei fehlenden Informationen oder inhaltlichen Fehlern ist es wahrscheinlich, dass die Daten dort nicht korrekt eingepflegt worden sind.
+
+> [!IMPORTANT]
+> Die API kann auch Inhalte (Qualifikationen/Prüfungsinhalte,...) enthalten, die noch nicht in einer Prüfungsordnung veröffentlicht wurden.  
+> Bitte prüfe immer die aktuelle Prüfungsordnung für eine genaue Aussage welche Vorraussetzungen zum Erreichen einer Qualifikation benötigt werden.
