@@ -3615,10 +3615,10 @@
         "dokumente": [
             {
                 "id": 93,
-                "titel": "Pruefungsordnung_Sprechfunk.pdf",
+                "titel": "11401207 PO IuK 2024_7.Auflage-digital.pdf",
                 "beschreibung": "PO 7",
                 "typ": "po",
-                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=220&wm=no&v=o"
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=829117&wm=no&v=o"
             }
         ]
     },
@@ -3682,10 +3682,10 @@
         "dokumente": [
             {
                 "id": 94,
-                "titel": "Pruefungsordnung_Sprechfunk.pdf",
+                "titel": "11401207 PO IuK 2024_7.Auflage-digital.pdf",
                 "beschreibung": null,
                 "typ": "po",
-                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=220&wm=no&v=o"
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=829117&wm=no&v=o"
             }
         ]
     },
@@ -6904,10 +6904,10 @@
             },
             {
                 "id": 284,
-                "titel": "05_PO_Bootswesen_ab_2018.pdf",
+                "titel": "PO Boot - Auflage 13_web.pdf",
                 "beschreibung": null,
                 "typ": "po",
-                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=1394&wm=no&v=o"
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=829118&wm=no&v=o"
             }
         ]
     },
@@ -7104,10 +7104,10 @@
             },
             {
                 "id": 285,
-                "titel": "05_PO_Bootswesen_ab_2018.pdf",
+                "titel": "PO Boot - Auflage 13_web.pdf",
                 "beschreibung": null,
                 "typ": "po",
-                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=1394&wm=no&v=o"
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=829118&wm=no&v=o"
             }
         ]
     },
@@ -7237,10 +7237,10 @@
             },
             {
                 "id": 175,
-                "titel": "05_PO_Bootswesen_ab_2018.pdf",
+                "titel": "PO Boot - Auflage 13_web.pdf",
                 "beschreibung": null,
                 "typ": "po",
-                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=1394&wm=no&v=o"
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=829118&wm=no&v=o"
             }
         ]
     },
@@ -7370,10 +7370,10 @@
             },
             {
                 "id": 176,
-                "titel": "05_PO_Bootswesen_ab_2018.pdf",
+                "titel": "PO Boot - Auflage 13_web.pdf",
                 "beschreibung": null,
                 "typ": "po",
-                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=1394&wm=no&v=o"
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=829118&wm=no&v=o"
             }
         ]
     },
@@ -7482,18 +7482,11 @@
         ],
         "dokumente": [
             {
-                "id": 62,
-                "titel": "05_PO_Bootswesen_bis_2017.pdf",
-                "beschreibung": null,
-                "typ": "po",
-                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=218&wm=no&v=o"
-            },
-            {
                 "id": 179,
-                "titel": "05_PO_Bootswesen_ab_2018.pdf",
+                "titel": "PO Boot - Auflage 13_web.pdf",
                 "beschreibung": null,
                 "typ": "po",
-                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=1394&wm=no&v=o"
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=829118&wm=no&v=o"
             }
         ]
     },
@@ -7602,18 +7595,11 @@
         ],
         "dokumente": [
             {
-                "id": 63,
-                "titel": "05_PO_Bootswesen_bis_2017.pdf",
+                "id": 322,
+                "titel": "PO Boot - Auflage 13_web.pdf",
                 "beschreibung": null,
                 "typ": "po",
-                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=218&wm=no&v=o"
-            },
-            {
-                "id": 180,
-                "titel": "05_PO_Bootswesen_ab_2018.pdf",
-                "beschreibung": null,
-                "typ": "po",
-                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=1394&wm=no&v=o"
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=829118&wm=no&v=o"
             }
         ]
     },
@@ -8324,11 +8310,11 @@
         "prueferberechtigungen": [],
         "dokumente": [
             {
-                "id": 92,
-                "titel": "Pruefungsordnung_Sprechfunk.pdf",
+                "id": 320,
+                "titel": "11401207 PO IuK 2024_7.Auflage-digital.pdf",
                 "beschreibung": null,
                 "typ": "po",
-                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=220&wm=no&v=o"
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=829117&wm=no&v=o"
             }
         ]
     },
@@ -9074,10 +9060,10 @@
         "dokumente": [
             {
                 "id": 95,
-                "titel": "Pruefungsordnung_Sprechfunk.pdf",
+                "titel": "11401207 PO IuK 2024_7.Auflage-digital.pdf",
                 "beschreibung": null,
                 "typ": "po",
-                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=220&wm=no&v=o"
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=829117&wm=no&v=o"
             }
         ]
     },
@@ -10753,10 +10739,10 @@
             },
             {
                 "id": 283,
-                "titel": "05_PO_Bootswesen_ab_2018.pdf",
+                "titel": "PO Boot - Auflage 13_web.pdf",
                 "beschreibung": null,
                 "typ": "po",
-                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=1394&wm=no&v=o"
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=829118&wm=no&v=o"
             }
         ]
     },
@@ -11672,10 +11658,10 @@
         "dokumente": [
             {
                 "id": 217,
-                "titel": "Pruefungsordnung_Sprechfunk.pdf",
+                "titel": "11401207 PO IuK 2024_7.Auflage-digital.pdf",
                 "beschreibung": "PO 7",
                 "typ": "po",
-                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=220&wm=no&v=o"
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=829117&wm=no&v=o"
             }
         ]
     },
@@ -11802,10 +11788,10 @@
         "dokumente": [
             {
                 "id": 216,
-                "titel": "Pruefungsordnung_Sprechfunk.pdf",
+                "titel": "11401207 PO IuK 2024_7.Auflage-digital.pdf",
                 "beschreibung": "PO 7",
                 "typ": "po",
-                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=220&wm=no&v=o"
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=829117&wm=no&v=o"
             }
         ]
     },
@@ -14803,10 +14789,10 @@
         "dokumente": [
             {
                 "id": 224,
-                "titel": "Pruefungsordnung_Sprechfunk.pdf",
+                "titel": "11401207 PO IuK 2024_7.Auflage-digital.pdf",
                 "beschreibung": "PO 7",
                 "typ": "po",
-                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=220&wm=no&v=o"
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=829117&wm=no&v=o"
             }
         ]
     },
@@ -14960,10 +14946,10 @@
         "dokumente": [
             {
                 "id": 226,
-                "titel": "Pruefungsordnung_Sprechfunk.pdf",
+                "titel": "11401207 PO IuK 2024_7.Auflage-digital.pdf",
                 "beschreibung": "PO 7",
                 "typ": "po",
-                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=220&wm=no&v=o"
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=829117&wm=no&v=o"
             }
         ]
     },
@@ -15145,10 +15131,10 @@
         "dokumente": [
             {
                 "id": 229,
-                "titel": "Pruefungsordnung_Sprechfunk.pdf",
+                "titel": "11401207 PO IuK 2024_7.Auflage-digital.pdf",
                 "beschreibung": "PO 7",
                 "typ": "po",
-                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=220&wm=no&v=o"
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=829117&wm=no&v=o"
             }
         ]
     },
@@ -15292,10 +15278,10 @@
         "dokumente": [
             {
                 "id": 233,
-                "titel": "Pruefungsordnung_Sprechfunk.pdf",
+                "titel": "11401207 PO IuK 2024_7.Auflage-digital.pdf",
                 "beschreibung": "PO 7",
                 "typ": "po",
-                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=220&wm=no&v=o"
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=829117&wm=no&v=o"
             }
         ]
     },
@@ -16648,7 +16634,15 @@
         },
         "pruefungen": [],
         "prueferberechtigungen": [],
-        "dokumente": []
+        "dokumente": [
+            {
+                "id": 321,
+                "titel": "PO SR 3. Auflage_A4_web.pdf",
+                "beschreibung": null,
+                "typ": "po",
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=785029&wm=no&v=o"
+            }
+        ]
     },
     {
         "id": "0017fa5e-e735-68d8-fc5d-417e2ccee946",
@@ -17604,6 +17598,14 @@
             }
         ],
         "prueferberechtigungen": [],
-        "dokumente": []
+        "dokumente": [
+            {
+                "id": 319,
+                "titel": "20240000 DSchnA Silber.jpg",
+                "beschreibung": null,
+                "typ": "abzeichen",
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=827651&wm=no&v=o"
+            }
+        ]
     }
 ]
