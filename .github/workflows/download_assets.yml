@@ -30,23 +30,8 @@ jobs:
     - name: download assets
       run: npx tsx scripts/download_assets.ts
 
-    - name: check if there are uncommitted changes
-      shell: bash
-      id: changes
-      run: |
-        clean=$(git status --porcelain)
-        if [ -z "$clean" ]; then
-          echo "No changes found, skipping next step";
-          result="clean";
-        else
-          echo "New/changed assets found, creating PR";
-          result="dirty";
-        fi
-        echo "status=${result}" >> $GITHUB_OUTPUT
-
     - name: Create/Update Pull Request
       uses: peter-evans/create-pull-request@v6
-      if: ${{ steps.changes.outputs.status  == 'dirty' }}
       with:
         add-paths: public/dlrg-assets
         branch: update/assets
@@ -57,5 +42,4 @@ jobs:
         commit-message: "update assets"
         author: tristankechlo <66692834+tristankechlo@users.noreply.github.com>
         committer: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
-        labels: |
-          changed assets
+        labels: changed assets
