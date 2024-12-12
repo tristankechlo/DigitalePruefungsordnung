@@ -39,7 +39,7 @@ jobs:
         reviewers: tristankechlo
         title: "Update der DLRG-Assets"
         body: "Die Assets von `api.dlrg.net` und `dlrg.de` wurden aktualisiert."
-        commit-message: "update assets"
+        commit-message: "Update der DLRG-Assets"
         author: tristankechlo <66692834+tristankechlo@users.noreply.github.com>
         committer: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
-        labels: changed assets
+        labels: "changed assets"
