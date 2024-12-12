@@ -1,15 +1,12 @@
 on:
-  pull_request:
-    types: [ opened, reopened, synchronize ]
-    branches: [ "main" ]
   push:
-    branches: [ "main" ]
+    branches: '**'
   workflow_dispatch:
 
 name: lint
 concurrency:
-  group: ${{ github.ref }}
-  cancel-in-progress: true
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
 
 jobs:
   lint:
