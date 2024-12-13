@@ -74,7 +74,7 @@
             {
                 "id": 113,
                 "titel": "Merkblatt_M3-002-17.pdf",
-                "beschreibung": null,
+                "beschreibung": "Selbsterklärung zum Gesundheitszustand",
                 "typ": "merkblatt",
                 "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=177&wm=no&v=o"
             },
@@ -4116,7 +4116,7 @@
                 "id": "0017fa5e-f8ed-460c-855b-999b90bd272a",
                 "nr": "164",
                 "poNr": 1,
-                "istAktiv": false,
+                "istAktiv": true,
                 "abkuerzung": "DSchnA Master",
                 "name": "Deutsches Schnorchelabzeichen Master (Gold)"
             }
@@ -5572,7 +5572,7 @@
                 "id": "0017fa5e-f8ed-460c-855b-999b90bd272a",
                 "nr": "164",
                 "poNr": 1,
-                "istAktiv": false,
+                "istAktiv": true,
                 "abkuerzung": "DSchnA Master",
                 "name": "Deutsches Schnorchelabzeichen Master (Gold)"
             }
@@ -5863,7 +5863,7 @@
                 "id": "0017fa5e-f8ed-460c-855b-999b90bd272a",
                 "nr": "164",
                 "poNr": 1,
-                "istAktiv": false,
+                "istAktiv": true,
                 "abkuerzung": "DSchnA Master",
                 "name": "Deutsches Schnorchelabzeichen Master (Gold)"
             }
@@ -9376,7 +9376,7 @@
                 "id": "0017fa5e-f8ed-460c-855b-999b90bd272a",
                 "nr": "164",
                 "poNr": 1,
-                "istAktiv": false,
+                "istAktiv": true,
                 "abkuerzung": "DSchnA Master",
                 "name": "Deutsches Schnorchelabzeichen Master (Gold)"
             }
@@ -9556,7 +9556,7 @@
                 "id": "0017fa5e-f8ed-460c-855b-999b90bd272a",
                 "nr": "164",
                 "poNr": 1,
-                "istAktiv": false,
+                "istAktiv": true,
                 "abkuerzung": "DSchnA Master",
                 "name": "Deutsches Schnorchelabzeichen Master (Gold)"
             }
@@ -17454,7 +17454,29 @@
             }
         ],
         "prueferberechtigungen": [],
-        "dokumente": []
+        "dokumente": [
+            {
+                "id": 324,
+                "titel": "20240000 DSchnA Bronze.jpg",
+                "beschreibung": "Abzeichen DSchnA Bronze",
+                "typ": "abzeichen",
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=827648&wm=no&v=o"
+            },
+            {
+                "id": 325,
+                "titel": "Prüfungsordnung Schwimmen-Rettungsschwimmen.pdf",
+                "beschreibung": "Prüfungsordnung Schwimmen Rettungsschwimmen",
+                "typ": "po",
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=215&wm=no&v=o"
+            },
+            {
+                "id": 327,
+                "titel": "Merkblatt_M3-002-17.pdf",
+                "beschreibung": "Selbsterklärung zum Gesundheitszustand",
+                "typ": "merkblatt",
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=177&wm=no&v=o"
+            }
+        ]
     },
     {
         "id": "0017fa5e-f750-ec1e-b3f0-0101be414a8c",
@@ -17599,6 +17621,186 @@
                 "beschreibung": null,
                 "typ": "abzeichen",
                 "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=827651&wm=no&v=o"
+            },
+            {
+                "id": 326,
+                "titel": "Prüfungsordnung Tauchen",
+                "beschreibung": "Prüfungsordnung Schwimmen Rettungsschwimmen",
+                "typ": "po",
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=219&wm=no&v=o"
+            },
+            {
+                "id": 328,
+                "titel": "Merkblatt_M3-002-17.pdf",
+                "beschreibung": "Selbsterklärung zum Gesundheitszustand",
+                "typ": "merkblatt",
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=177&wm=no&v=o"
+            }
+        ]
+    },
+    {
+        "id": "0017fa5e-f8ed-460c-855b-999b90bd272a",
+        "nr": "164",
+        "poNr": 1,
+        "istAktiv": true,
+        "abkuerzung": "DSchnA Master",
+        "name": "Deutsches Schnorchelabzeichen Master (Gold)",
+        "stellenLfdNr": 3,
+        "gueltigkeit": null,
+        "beauftragung": null,
+        "wiederholung": null,
+        "pruefungenGueltigkeit": 6,
+        "verlaengerungUE": null,
+        "verlaengerungBeauftragungUE": null,
+        "inhalt": [],
+        "voraussetzungen": {
+            "qualifikationen": [
+                {
+                    "qualifikation": {
+                        "id": "0017fa5d-15b3-f192-cdb3-ceeda7f4fa81",
+                        "nr": "121",
+                        "poNr": 1,
+                        "istAktiv": true,
+                        "abkuerzung": "DSA Bronze",
+                        "name": "Deutsches Schwimmabzeichen Bronze (Freischwimmer)"
+                    },
+                    "kommentar": ""
+                }
+            ],
+            "hospitationen": [],
+            "sonstiges": [],
+            "mindestalter": {
+                "istErforderlich": false,
+                "alter": 0,
+                "kommentar": ""
+            },
+            "aerztliche_tauglichkeit": {
+                "istErforderlich": true,
+                "kommentar": "Ärztliche Bescheinigung oder Selbsterklärung zum Gesundheitszustand"
+            },
+            "mitgliedschaft": {
+                "istErforderlich": false,
+                "kommentar": ""
+            },
+            "befuerwortung": {
+                "istErforderlich": false,
+                "kommentar": ""
+            }
+        },
+        "pruefungen": [
+            {
+                "id": "0017fa5f-4169-152e-0e3c-60ff72e6eedf",
+                "beschreibung": "Zeichensprache OK",
+                "einordnung": "theoretisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-4305-6f1f-9b4f-66ffb3d6ffcc",
+                "beschreibung": "Grundausrüstung, Schnorcheltechnik",
+                "einordnung": "theoretisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-44a1-c911-3d28-d92e752e5471",
+                "beschreibung": "Gefahren beim Schnorcheln",
+                "einordnung": "theoretisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-463e-2302-f3c8-b78c698f896f",
+                "beschreibung": "Pflege der Ausrüstung",
+                "einordnung": "theoretisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-47da-7cf4-bf2f-021a439d3b6a",
+                "beschreibung": "Atmung (Atemwiderstand im Wasser, Hyperventilation)",
+                "einordnung": "theoretisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-4976-d6e6-9f5b-b8d8b5fa0709",
+                "beschreibung": "Aktiver Druckausgleich",
+                "einordnung": "theoretisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-4b13-30d8-944e-dbc8734888f6",
+                "beschreibung": "Wasserdruck, Wassertemperatur, evtl. Gefahren durch Wassertrübung und Strömung",
+                "einordnung": "theoretisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-4caf-8aca-9e08-6aea2e2b5dde",
+                "beschreibung": "Ursachen und Anzeichen für Verletzungen des Mittelohres und der Schädelhöhlen",
+                "einordnung": "theoretisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-4e4b-e4bc-bc88-663e99452271",
+                "beschreibung": "Einstieg / Ausstieg",
+                "einordnung": "praktisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-4fe8-3eae-efce-cdc667387362",
+                "beschreibung": "Maske auf 2 m ausblasen, auftauchen, Schnorchel ausblasen, 25m Flossenschwimmen",
+                "einordnung": "praktisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-5184-98a1-37db-a1824aa7ed67",
+                "beschreibung": "400 m Flossenschwimmen, davon 200 m Brustlage, 100 m Rückenlage, je 50 m Seitenlage rechts / links",
+                "einordnung": "praktisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-5320-f293-94ae-e172f6362d39",
+                "beschreibung": "mind. 1,50 m absinken durch Ausatmen, 10 Sek. verbleiben, auftauchen",
+                "einordnung": "praktisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-54bd-4c86-0648-8d991c85cf94",
+                "beschreibung": "100 m Flossenschwimmen dabei viermal kopfgesteuertes Abtauchen, dabei jeweils einen Ring aus mind. 1,80 m Tiefe heraufholen, OK-Zeichen",
+                "einordnung": "praktisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-5659-a678-8ca8-a5f570397137",
+                "beschreibung": "Abtauchen von der Wasseroberfläche, 25 bis 30 m Streckentauchen ohne Schnorchel, OK-Zeichen",
+                "einordnung": "praktisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-57f6-006b-27cf-2a88a3f3aee4",
+                "beschreibung": "Kombi-Prüfung Master: Anlegen der ABC Ausrüstung, Schrittsprung vom Beckenrand - Auftauchen - Schnorchel ausblasen - OK-Zeichen, 10 m Schnorcheln, Druckausgleich - OK-Zeichen, Tauchparcours: Abtauchen mit kopfgesteuerter Abtauchtechnik an der ersten Markierung (Tauchring auf dem Beckenboden), z.B. Viereckkurs als Rechts / Linkskurs 6 m x 6 m x 6 m x 6 m) durch Ringe (verschiedene Höhen) Erste Tauchstation/Ring ist auch gleichzeitig letzte Tauchstation/Ring. Dort kleinen Tauchring auf dem Boden greifen, einmal hochheben, nach oben zeigen und wieder auf dem Boden ablegen. Auftauchen - Schnorchel ausblasen - OK-Zeichen, Ausstieg aus dem Wasser über den Beckenrand und Ablegen der ABC Ausrüstung.",
+                "einordnung": "praktisch",
+                "gueltigkeit": null
+            }
+        ],
+        "prueferberechtigungen": [],
+        "dokumente": [
+            {
+                "id": 318,
+                "titel": "20240000 DSchnA Gold.jpg",
+                "beschreibung": null,
+                "typ": "abzeichen",
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=827650&wm=no&v=o"
+            },
+            {
+                "id": 329,
+                "titel": "Merkblatt_M3-002-17.pdf",
+                "beschreibung": "Selbsterklärung zum Gesundheitszustand",
+                "typ": "merkblatt",
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=177&wm=no&v=o"
+            },
+            {
+                "id": 330,
+                "titel": "Prüfungsordnung Tauchen",
+                "beschreibung": "Prüfungsordnung Schwimmen Rettungsschwimmen",
+                "typ": "po",
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=219&wm=no&v=o"
             }
         ]
     }
