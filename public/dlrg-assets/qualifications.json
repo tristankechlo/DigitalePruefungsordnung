@@ -12019,7 +12019,7 @@
             {
                 "id": "0017fa5e-5caf-3469-bf22-5cbc56467c35",
                 "beschreibung": "Details regelt die Ausbildungsvorschrift.",
-                "einordnung": "praktisch",
+                "einordnung": "theoretisch",
                 "gueltigkeit": null
             },
             {
@@ -12382,7 +12382,7 @@
                         "abkuerzung": null,
                         "name": "Modul Wildwasser"
                     },
-                    "kommentar": "ODER\nNachweis entsprechender schwimmerischer Erfahrung im Wildwasser mind. WW Stufe 2"
+                    "kommentar": "ODER\nNachweis entsprechender schwimmerischer Erfahrung im Wildwasser mind. Wildwasser Stufe 2"
                 },
                 {
                     "qualifikation": {
@@ -12505,10 +12505,10 @@
         "dokumente": [
             {
                 "id": 294,
-                "titel": "11401212 PO SR 2021_2.Auflage_online.pdf",
+                "titel": "PO SR 3. Auflage_A4_web.pdf",
                 "beschreibung": null,
                 "typ": "po",
-                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=1588&wm=no&v=o"
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=785029&wm=no&v=o"
             }
         ]
     },
@@ -12577,10 +12577,10 @@
         "dokumente": [
             {
                 "id": 295,
-                "titel": "11401212 PO SR 2021_2.Auflage_online.pdf",
+                "titel": "PO SR 3. Auflage_A4_web.pdf",
                 "beschreibung": null,
                 "typ": "po",
-                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=1588&wm=no&v=o"
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=785029&wm=no&v=o"
             }
         ]
     },
@@ -12822,7 +12822,15 @@
                 "name": "Sachkundiger PSA gegen Absturz"
             }
         ],
-        "dokumente": []
+        "dokumente": [
+            {
+                "id": 331,
+                "titel": "PO SR 3. Auflage_A4_web.pdf",
+                "beschreibung": null,
+                "typ": "po",
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=785029&wm=no&v=o"
+            }
+        ]
     },
     {
         "id": "0017fa5e-8d01-bd82-23e9-612405799ff0",
@@ -12922,7 +12930,15 @@
                 "name": "Modul Absturzsicherung"
             }
         ],
-        "dokumente": []
+        "dokumente": [
+            {
+                "id": 332,
+                "titel": "PO SR 3. Auflage_A4_web.pdf",
+                "beschreibung": null,
+                "typ": "po",
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=785029&wm=no&v=o"
+            }
+        ]
     },
     {
         "id": "0017fa5e-903a-7153-2537-52d8743191dc",
@@ -13159,7 +13175,15 @@
                 "name": "Gemeinsamer Grundausbildungsblock - Personen- und vereinsbezogener Bereich"
             }
         ],
-        "dokumente": []
+        "dokumente": [
+            {
+                "id": 333,
+                "titel": "PO SR 3. Auflage_A4_web.pdf",
+                "beschreibung": null,
+                "typ": "po",
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=785029&wm=no&v=o"
+            }
+        ]
     },
     {
         "id": "0017fa5e-950f-7f0d-42fc-6680b216460a",
@@ -15481,10 +15505,10 @@
         "dokumente": [
             {
                 "id": 270,
-                "titel": "",
+                "titel": "PO SR 3. Auflage_A4_web.pdf",
                 "beschreibung": null,
                 "typ": "po",
-                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=2569&wm=no&v=o"
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=785029&wm=no&v=o"
             }
         ]
     },
@@ -15590,10 +15614,10 @@
         "dokumente": [
             {
                 "id": 271,
-                "titel": "",
+                "titel": "PO SR 3. Auflage_A4_web.pdf",
                 "beschreibung": null,
                 "typ": "po",
-                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=2569&wm=no&v=o"
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=785029&wm=no&v=o"
             }
         ]
     },
@@ -16607,7 +16631,16 @@
         "voraussetzungen": {
             "qualifikationen": [],
             "hospitationen": [],
-            "sonstiges": [],
+            "sonstiges": [
+                {
+                    "anzahl": 1,
+                    "kommentar": "Fachbezogene Fortbildung oder Einsatzübung"
+                },
+                {
+                    "anzahl": 1,
+                    "kommentar": "Nachweis 400 m Schwimmen in 8 min"
+                }
+            ],
             "mindestalter": {
                 "istErforderlich": false,
                 "alter": 0,
@@ -16780,7 +16813,7 @@
                         "abkuerzung": null,
                         "name": "Modul Wildwasser"
                     },
-                    "kommentar": "ODER\nNachweis entsprechender schwimmerischer Erfahrung im Wildwasser mind. WW Stufe 2"
+                    "kommentar": "ODER\nNachweis entsprechender schwimmerischer Erfahrung im Wildwasser mind. Wildwasser Stufe 2"
                 }
             ],
             "hospitationen": [],
@@ -17088,10 +17121,10 @@
         "dokumente": [
             {
                 "id": 302,
-                "titel": "11401212 PO SR 2021_2.Auflage_online.pdf",
+                "titel": "PO SR 3. Auflage_A4_web.pdf",
                 "beschreibung": null,
                 "typ": "po",
-                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=1588&wm=no&v=o"
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=785029&wm=no&v=o"
             }
         ]
     },
@@ -17175,7 +17208,32 @@
                 "kommentar": ""
             }
         },
-        "pruefungen": [],
+        "pruefungen": [
+            {
+                "id": "0017fa5f-5992-5a5d-d7bc-1b536a572560",
+                "beschreibung": "Prüfung der Qualifikation im Verlauf des Lehrgangs gemäß Ausbildungsvorschrift anhand Anforderungs-Checklisten",
+                "einordnung": "praktisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-5b2e-b450-9c6f-785676067173",
+                "beschreibung": "Durchführung einer Lehrprobe aus ausgewählten Technik- oder SR-Basismodulen",
+                "einordnung": "praktisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-5ccb-0e43-75e9-419279a42fe8",
+                "beschreibung": "Organisation und Durchführung einer Einsatzübung",
+                "einordnung": "praktisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-5e67-6836-6429-770827d2fd8d",
+                "beschreibung": "Schriftliche Ausarbeitung",
+                "einordnung": "theoretisch",
+                "gueltigkeit": null
+            }
+        ],
         "prueferberechtigungen": [
             {
                 "id": "0017fa5e-5caf-346a-0462-6eb3d7e11604",
