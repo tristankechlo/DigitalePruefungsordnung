@@ -3686,6 +3686,13 @@
                 "beschreibung": null,
                 "typ": "po",
                 "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=829282&wm=no&v=o"
+            },
+            {
+                "id": 347,
+                "titel": "Verpflichtung_Handout_Gesetztestexte_20250101.pdf",
+                "beschreibung": "Auszug aus dem Strafgesetzbuch & TDDDG",
+                "typ": "merkblatt",
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=834573&wm=no&v=o"
             }
         ]
     },
@@ -9058,6 +9065,13 @@
                 "beschreibung": null,
                 "typ": "po",
                 "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=829282&wm=no&v=o"
+            },
+            {
+                "id": 348,
+                "titel": "Verpflichtung_Handout_Gesetztestexte_20250101.pdf",
+                "beschreibung": "Auszug aus dem Strafgesetzbuch & TDDDG",
+                "typ": "merkblatt",
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=834573&wm=no&v=o"
             }
         ]
     },
@@ -11901,17 +11915,6 @@
                 },
                 {
                     "qualifikation": {
-                        "id": "0017fa5d-2296-c041-80c6-7a10e772322b",
-                        "nr": "152",
-                        "poNr": 1,
-                        "istAktiv": true,
-                        "abkuerzung": "DRSA Silber",
-                        "name": "Deutsches Rettungsschwimmabzeichen Silber"
-                    },
-                    "kommentar": "nicht älter als 2 Jahre"
-                },
-                {
-                    "qualifikation": {
                         "id": "0017fa5d-2c40-db47-efa2-1346fd511f42",
                         "nr": "331",
                         "poNr": 3,
@@ -11920,6 +11923,17 @@
                         "name": "Sanitätsausbildung A"
                     },
                     "kommentar": ""
+                },
+                {
+                    "qualifikation": {
+                        "id": "0017fa5d-2296-c041-80c6-7a10e772322b",
+                        "nr": "152",
+                        "poNr": 1,
+                        "istAktiv": true,
+                        "abkuerzung": "DRSA Silber",
+                        "name": "Deutsches Rettungsschwimmabzeichen Silber"
+                    },
+                    "kommentar": "nicht älter als 2 Jahre"
                 }
             ],
             "hospitationen": [],
@@ -12304,7 +12318,7 @@
             },
             "aerztliche_tauglichkeit": {
                 "istErforderlich": true,
-                "kommentar": ""
+                "kommentar": "ODER Selbsterklärung zum Gesundheitszustand"
             },
             "mitgliedschaft": {
                 "istErforderlich": true,
@@ -12470,12 +12484,12 @@
                 },
                 {
                     "qualifikation": {
-                        "id": "0017fa5e-3fb0-e24b-66b4-2e6f4ce604a4",
-                        "nr": "190",
-                        "poNr": 1,
+                        "id": "0017fa5e-3606-c6f1-b49d-bc9cb4c77eda",
+                        "nr": "830",
+                        "poNr": 8,
                         "istAktiv": true,
                         "abkuerzung": null,
-                        "name": "Allgemeine Multiplikatorenschulung"
+                        "name": "Truppführerausbildung"
                     },
                     "kommentar": ""
                 }
@@ -12766,32 +12780,28 @@
             "qualifikationen": [
                 {
                     "qualifikation": {
-                        "id": "0017fa5e-6659-4fcf-6615-7f055b12c492",
-                        "nr": "1021",
+                        "id": "0017fa5e-6320-9c02-9d15-750b58967e35",
+                        "nr": "1012",
                         "poNr": 10,
                         "istAktiv": true,
                         "abkuerzung": null,
-                        "name": "Seiltechnik 1"
+                        "name": "Sachkundiger PSA gegen Absturz"
                     },
-                    "kommentar": "Sachkundiger PSA gegen Absturz gem. DGUV"
+                    "kommentar": "gem. DGUV"
                 },
                 {
                     "qualifikation": {
-                        "id": "0017fa5e-25eb-440d-5f24-a8bb8da95860",
-                        "nr": "12",
+                        "id": "0017fa5e-2116-3664-0dd0-bd6d4d8bc2b4",
+                        "nr": "180.1",
                         "poNr": 1,
-                        "istAktiv": false,
+                        "istAktiv": true,
                         "abkuerzung": null,
-                        "name": "DRSA Silber (bis 1990)"
+                        "name": "Gemeinsamer Grundausbildungsblock"
                     },
-                    "kommentar": "gemeinsamer Grundausbildungsblock"
+                    "kommentar": ""
                 }
             ],
-            "hospitationen": [
-                {
-                    "kommentar": "Nachweis der Hospitation als Ausbilder bei einem Sachkundelehrgang\r\n(1021)"
-                }
-            ],
+            "hospitationen": [],
             "sonstiges": [],
             "mindestalter": {
                 "istErforderlich": false,
@@ -12811,7 +12821,14 @@
                 "kommentar": ""
             }
         },
-        "pruefungen": [],
+        "pruefungen": [
+            {
+                "id": "0017fa5f-6003-c229-6730-18b833357733",
+                "beschreibung": "Durchführung einer Lehrprobe aus ausgewählten Themen der Sachkunde",
+                "einordnung": "theoretisch",
+                "gueltigkeit": null
+            }
+        ],
         "prueferberechtigungen": [
             {
                 "id": "0017fa5e-6320-9c02-9d15-750b58967e35",
@@ -12851,14 +12868,14 @@
             "qualifikationen": [
                 {
                     "qualifikation": {
-                        "id": "0017fa5e-8690-55e1-1a9a-8c316279f3e5",
-                        "nr": "1081",
-                        "poNr": 10,
-                        "istAktiv": false,
+                        "id": "0017fa5e-2116-3664-0dd0-bd6d4d8bc2b4",
+                        "nr": "180.1",
+                        "poNr": 1,
+                        "istAktiv": true,
                         "abkuerzung": null,
-                        "name": "Ausbilder Strömungsrettung"
+                        "name": "Gemeinsamer Grundausbildungsblock"
                     },
-                    "kommentar": "Ausbilder Strömungsrettung"
+                    "kommentar": ""
                 },
                 {
                     "qualifikation": {
@@ -12874,7 +12891,7 @@
             ],
             "hospitationen": [
                 {
-                    "kommentar": "Nachweis der Hospitation als Ausbilder an einem Lehrgang SRT\r\n(1051) oder Modul Evakuierung (1041)"
+                    "kommentar": "Nachweis der Hospitation als Ausbilder an einem Lehrgang SRT (1051) und Lehrgang Seiltechnik 2 (1041)"
                 }
             ],
             "sonstiges": [],
@@ -12899,8 +12916,26 @@
         "pruefungen": [
             {
                 "id": "0017fa5e-8d01-bd81-dea9-4ee6bc5a6dd3",
-                "beschreibung": "Die Prüfung ist als Lehrprobe zu einem ausgewählten Thema aus\r\nder Seiltechnik im Rahmen eines bestehenden Lehrgangs abzulegen.",
+                "beschreibung": "im Verlauf des Lehrgangs gemäß Ausbildungsvorschrift anhand Anforderungs-Checklisten",
                 "einordnung": "praktisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-61a0-1c1c-7efd-26a34e6e39ae",
+                "beschreibung": "Durchführung einer Lehrprobe",
+                "einordnung": "praktisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-633c-760f-ab90-a0ca2c1fe1d5",
+                "beschreibung": "Organisation und Durchführung einer Einsatzübung",
+                "einordnung": "praktisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-64d8-d002-ecea-872d7eed0c82",
+                "beschreibung": "Schriftliche Ausarbeiten einer Gefährdungsanalyse",
+                "einordnung": "theoretisch",
                 "gueltigkeit": null
             }
         ],
@@ -12970,14 +13005,14 @@
                 },
                 {
                     "qualifikation": {
-                        "id": "0017fa5e-8d01-bd82-23e9-612405799ff0",
-                        "nr": "1083",
+                        "id": "0017fa5e-f27b-de55-bc53-bf83b78ea0f3",
+                        "nr": "1081",
                         "poNr": 10,
                         "istAktiv": true,
                         "abkuerzung": null,
-                        "name": "Ausbilder Seiltechnik"
+                        "name": "Ausbilder Strömungsrettung"
                     },
-                    "kommentar": "Ausbilder SRT"
+                    "kommentar": ""
                 }
             ],
             "hospitationen": [
@@ -15374,7 +15409,20 @@
                 "kommentar": ""
             }
         },
-        "pruefungen": [],
+        "pruefungen": [
+            {
+                "id": "0017fa5f-6675-29f6-430a-d9cdf9785692",
+                "beschreibung": "im Verlauf des Lehrgangs gemäß Ausbildungsvorschrift anhand Anforderungs-Checklisten",
+                "einordnung": "praktisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-6811-83e9-adf1-98ac4e645ce5",
+                "beschreibung": "Durchführung einer Lehrprobe",
+                "einordnung": "praktisch",
+                "gueltigkeit": null
+            }
+        ],
         "prueferberechtigungen": [
             {
                 "id": "0017fa5e-733c-1f05-c916-7f795f1f606c",
@@ -15437,7 +15485,7 @@
             ],
             "hospitationen": [
                 {
-                    "kommentar": ""
+                    "kommentar": "gemäß Ausbildungsvorschrift"
                 }
             ],
             "sonstiges": [],
@@ -15554,7 +15602,7 @@
             ],
             "hospitationen": [
                 {
-                    "kommentar": ""
+                    "kommentar": "gemäß Ausbildungsvorschrift"
                 }
             ],
             "sonstiges": [],
@@ -17006,7 +17054,14 @@
                 "kommentar": ""
             }
         },
-        "pruefungen": [],
+        "pruefungen": [
+            {
+                "id": "0017fa5f-69ad-dddd-2d9e-c3c93053bc5e",
+                "beschreibung": "Lehrprobe zu vorgegebenen Inhalten aus den einzelnen Ausbildungsbereichen des Raftings",
+                "einordnung": "praktisch",
+                "gueltigkeit": null
+            }
+        ],
         "prueferberechtigungen": [
             {
                 "id": "0017fa5e-ec0a-76a0-3fb2-a625a8abcf08",
@@ -17181,7 +17236,7 @@
             ],
             "hospitationen": [
                 {
-                    "kommentar": "Nachweis der Hospitation als Ausbilder im Lehrgang Strömungsretter 1 (SR1) oder Lehrgang Strömungsretter 2 (SR2)"
+                    "kommentar": "Nachweis der Hospitation als Ausbilder im Lehrgang Strömungsretter 1 (1011) und Lehrgang Strömungsretter 2 (1028)"
                 }
             ],
             "sonstiges": [
@@ -17196,8 +17251,8 @@
                 "kommentar": ""
             },
             "aerztliche_tauglichkeit": {
-                "istErforderlich": false,
-                "kommentar": ""
+                "istErforderlich": true,
+                "kommentar": "ODER Selbsterklärung zum Gesundheitszustand"
             },
             "mitgliedschaft": {
                 "istErforderlich": true,
@@ -17859,6 +17914,123 @@
                 "beschreibung": "Prüfungsordnung Schwimmen Rettungsschwimmen",
                 "typ": "po",
                 "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=219&wm=no&v=o"
+            }
+        ]
+    },
+    {
+        "id": "0017fa5f-0433-bb8f-8500-978aaedb173a",
+        "nr": "1093",
+        "poNr": 10,
+        "istAktiv": true,
+        "abkuerzung": null,
+        "name": "Multiplikator Seiltechnik",
+        "stellenLfdNr": 3,
+        "gueltigkeit": null,
+        "beauftragung": null,
+        "wiederholung": null,
+        "pruefungenGueltigkeit": null,
+        "verlaengerungUE": null,
+        "verlaengerungBeauftragungUE": null,
+        "inhalt": [],
+        "voraussetzungen": {
+            "qualifikationen": [
+                {
+                    "qualifikation": {
+                        "id": "0017fa5e-3fb0-e24b-66b4-2e6f4ce604a4",
+                        "nr": "190",
+                        "poNr": 1,
+                        "istAktiv": true,
+                        "abkuerzung": null,
+                        "name": "Allgemeine Multiplikatorenschulung"
+                    },
+                    "kommentar": ""
+                },
+                {
+                    "qualifikation": {
+                        "id": "0017fa5e-8d01-bd82-23e9-612405799ff0",
+                        "nr": "1083",
+                        "poNr": 10,
+                        "istAktiv": true,
+                        "abkuerzung": null,
+                        "name": "Ausbilder Seiltechnik"
+                    },
+                    "kommentar": ""
+                }
+            ],
+            "hospitationen": [
+                {
+                    "kommentar": "gemäß Ausbildungsvorschrift"
+                }
+            ],
+            "sonstiges": [],
+            "mindestalter": {
+                "istErforderlich": false,
+                "alter": 0,
+                "kommentar": ""
+            },
+            "aerztliche_tauglichkeit": {
+                "istErforderlich": false,
+                "kommentar": ""
+            },
+            "mitgliedschaft": {
+                "istErforderlich": true,
+                "kommentar": ""
+            },
+            "befuerwortung": {
+                "istErforderlich": false,
+                "kommentar": ""
+            }
+        },
+        "pruefungen": [],
+        "prueferberechtigungen": [
+            {
+                "id": "0017fa5e-2116-3664-0dd0-bd6d4d8bc2b4",
+                "nr": "180.1",
+                "poNr": 1,
+                "istAktiv": true,
+                "abkuerzung": null,
+                "name": "Gemeinsamer Grundausbildungsblock"
+            },
+            {
+                "id": "0017fa5e-99e4-8cc8-1bbb-45253234159a",
+                "nr": "401",
+                "poNr": 4,
+                "istAktiv": true,
+                "abkuerzung": null,
+                "name": "Basisausbildung Einsatzdienste"
+            },
+            {
+                "id": "0017fa5e-6659-4fcf-6615-7f055b12c492",
+                "nr": "1021",
+                "poNr": 10,
+                "istAktiv": true,
+                "abkuerzung": null,
+                "name": "Seiltechnik 1"
+            },
+            {
+                "id": "0017fa5e-801e-ee41-5db2-750c80da3936",
+                "nr": "1041",
+                "poNr": 10,
+                "istAktiv": true,
+                "abkuerzung": null,
+                "name": "Seiltechnik 2"
+            },
+            {
+                "id": "0017fa5e-8d01-bd82-23e9-612405799ff0",
+                "nr": "1083",
+                "poNr": 10,
+                "istAktiv": true,
+                "abkuerzung": null,
+                "name": "Ausbilder Seiltechnik"
+            }
+        ],
+        "dokumente": [
+            {
+                "id": 346,
+                "titel": "PO SR 3. Auflage_A4_web.pdf",
+                "beschreibung": null,
+                "typ": "po",
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=785029&wm=no&v=o"
             }
         ]
     }
