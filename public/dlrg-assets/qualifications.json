@@ -3710,7 +3710,18 @@
         "pruefungenGueltigkeit": null,
         "verlaengerungUE": null,
         "verlaengerungBeauftragungUE": null,
-        "inhalt": [],
+        "inhalt": [
+            {
+                "lehreinheiten": 0,
+                "inhalt": "Voraussetzungen\n• Mitgliedschaft in der DLRG\n• Basisausbildung Einsatzdienste (401)\n• Erste Hilfe-Lehrgang oder Erste Hilfe-Fortbildung\n• Ärztliche Tauglichkeitsbescheinigung oder Selbsterklärung zum Gesundheitszustand",
+                "einordnung": "uebergreifend"
+            },
+            {
+                "lehreinheiten": 0,
+                "inhalt": "Ausbildungsinhalte\n• Sanitätsausbildung A (331) oder Sanitätsfortbildung (341)\n• Aufbaumodul \"Grundlagen des Katastrophenschutzes und der öffentlichen Gefahrenabwehr\"",
+                "einordnung": "uebergreifend"
+            }
+        ],
         "voraussetzungen": {
             "qualifikationen": [
                 {
@@ -3756,7 +3767,7 @@
             },
             "aerztliche_tauglichkeit": {
                 "istErforderlich": true,
-                "kommentar": ""
+                "kommentar": "oder Selbsterklärung zum Gesundheitszustand"
             },
             "mitgliedschaft": {
                 "istErforderlich": true,
@@ -6580,7 +6591,30 @@
         "verlaengerungBeauftragungUE": null,
         "inhalt": [],
         "voraussetzungen": {
-            "qualifikationen": [],
+            "qualifikationen": [
+                {
+                    "qualifikation": {
+                        "id": "0017fa5e-2116-3664-0dd0-bd6d4d8bc2b4",
+                        "nr": "180.1",
+                        "poNr": 1,
+                        "istAktiv": true,
+                        "abkuerzung": null,
+                        "name": "Gemeinsamer Grundausbildungsblock"
+                    },
+                    "kommentar": ""
+                },
+                {
+                    "qualifikation": {
+                        "id": "0017fa5d-e57d-38cd-3054-f12518dc399e",
+                        "nr": "831",
+                        "poNr": 8,
+                        "istAktiv": true,
+                        "abkuerzung": null,
+                        "name": "Gruppenführerausbildung (Führen in der Führungsstufe A)"
+                    },
+                    "kommentar": ""
+                }
+            ],
             "hospitationen": [],
             "sonstiges": [],
             "mindestalter": {
@@ -6593,7 +6627,7 @@
                 "kommentar": ""
             },
             "mitgliedschaft": {
-                "istErforderlich": false,
+                "istErforderlich": true,
                 "kommentar": ""
             },
             "befuerwortung": {
@@ -6714,6 +6748,14 @@
                 "istAktiv": true,
                 "abkuerzung": null,
                 "name": "Einsatzfähigkeit"
+            },
+            {
+                "id": "0017fa5e-e735-68d8-fc5d-417e2ccee946",
+                "nr": "812",
+                "poNr": 8,
+                "istAktiv": true,
+                "abkuerzung": null,
+                "name": "Landesspezifische Ausbildung"
             }
         ],
         "dokumente": [
@@ -7654,24 +7696,7 @@
             }
         },
         "pruefungen": [],
-        "prueferberechtigungen": [
-            {
-                "id": "0017fa5d-ed8a-fa2e-1c5d-1e60850c0c7c",
-                "nr": "710",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Sprechfunkunterweisung DLRG-Betriebsfunk"
-            },
-            {
-                "id": "0017fa5e-e260-5b12-7401-a9133cb8351e",
-                "nr": "810",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Einsatzfähigkeit"
-            }
-        ],
+        "prueferberechtigungen": [],
         "dokumente": [
             {
                 "id": 252,
@@ -7737,24 +7762,7 @@
             }
         },
         "pruefungen": [],
-        "prueferberechtigungen": [
-            {
-                "id": "0017fa5e-e260-5b12-7401-a9133cb8351e",
-                "nr": "810",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Einsatzfähigkeit"
-            },
-            {
-                "id": "0017fa5e-e260-5b12-7401-a9133cb8351e",
-                "nr": "810",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Einsatzfähigkeit"
-            }
-        ],
+        "prueferberechtigungen": [],
         "dokumente": [
             {
                 "id": 253,
@@ -7781,8 +7789,46 @@
         "verlaengerungBeauftragungUE": null,
         "inhalt": [],
         "voraussetzungen": {
-            "qualifikationen": [],
-            "hospitationen": [],
+            "qualifikationen": [
+                {
+                    "qualifikation": {
+                        "id": "0017fa5e-3fb0-e24b-66b4-2e6f4ce604a4",
+                        "nr": "190",
+                        "poNr": 1,
+                        "istAktiv": true,
+                        "abkuerzung": null,
+                        "name": "Allgemeine Multiplikatorenschulung"
+                    },
+                    "kommentar": ""
+                },
+                {
+                    "qualifikation": {
+                        "id": "0017fa5d-6e4b-3eec-c09c-df4a54559283",
+                        "nr": "881",
+                        "poNr": 8,
+                        "istAktiv": true,
+                        "abkuerzung": null,
+                        "name": "Ausbilder/Prüfer Katastrophenschutz"
+                    },
+                    "kommentar": ""
+                },
+                {
+                    "qualifikation": {
+                        "id": "0017fa5d-e719-92ad-35fc-efccd46b6c13",
+                        "nr": "832",
+                        "poNr": 8,
+                        "istAktiv": true,
+                        "abkuerzung": null,
+                        "name": "Zugführer- und Einsatzführerausbildung (Führen in der Führungsstufe B)"
+                    },
+                    "kommentar": ""
+                }
+            ],
+            "hospitationen": [
+                {
+                    "kommentar": "Hospitation bei einem Zug- oder Verbandsführerlehrgang auf Bun- desebene"
+                }
+            ],
             "sonstiges": [],
             "mindestalter": {
                 "istErforderlich": false,
@@ -7794,7 +7840,7 @@
                 "kommentar": ""
             },
             "mitgliedschaft": {
-                "istErforderlich": false,
+                "istErforderlich": true,
                 "kommentar": ""
             },
             "befuerwortung": {
@@ -7947,6 +7993,14 @@
                 "istAktiv": true,
                 "abkuerzung": null,
                 "name": "Gemeinsamer Grundausbildungsblock - Personen- und vereinsbezogener Bereich"
+            },
+            {
+                "id": "0017fa5e-e735-68d8-fc5d-417e2ccee946",
+                "nr": "812",
+                "poNr": 8,
+                "istAktiv": true,
+                "abkuerzung": null,
+                "name": "Landesspezifische Ausbildung"
             }
         ],
         "dokumente": [
@@ -10851,7 +10905,7 @@
                         "abkuerzung": null,
                         "name": "BOS-Sprechfunker -analog-"
                     },
-                    "kommentar": ""
+                    "kommentar": "oder BOS-Sprechfunkausbildung -digital- (715)"
                 }
             ],
             "hospitationen": [],
@@ -10880,24 +10934,7 @@
             }
         },
         "pruefungen": [],
-        "prueferberechtigungen": [
-            {
-                "id": "0017fa5d-ed8a-fa2e-1c5d-1e60850c0c7c",
-                "nr": "710",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Sprechfunkunterweisung DLRG-Betriebsfunk"
-            },
-            {
-                "id": "0017fa5e-e260-5b12-7401-a9133cb8351e",
-                "nr": "810",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Einsatzfähigkeit"
-            }
-        ],
+        "prueferberechtigungen": [],
         "dokumente": [
             {
                 "id": 251,
@@ -16454,12 +16491,7 @@
                 }
             ],
             "hospitationen": [],
-            "sonstiges": [
-                {
-                    "anzahl": 1,
-                    "kommentar": "mindestens 3 Jahre aktive Tätigkeit als Gruppenführer"
-                }
-            ],
+            "sonstiges": [],
             "mindestalter": {
                 "istErforderlich": false,
                 "alter": 0,
@@ -16620,28 +16652,62 @@
         "abkuerzung": null,
         "name": "Einsatzfähigkeit",
         "stellenLfdNr": 3,
-        "gueltigkeit": null,
+        "gueltigkeit": 1,
         "beauftragung": null,
-        "wiederholung": null,
+        "wiederholung": 1,
         "pruefungenGueltigkeit": null,
         "verlaengerungUE": null,
         "verlaengerungBeauftragungUE": null,
         "inhalt": [],
         "voraussetzungen": {
-            "qualifikationen": [],
+            "qualifikationen": [
+                {
+                    "qualifikation": {
+                        "id": "0017fa5e-99e4-8cc8-1bbb-45253234159a",
+                        "nr": "401",
+                        "poNr": 4,
+                        "istAktiv": true,
+                        "abkuerzung": null,
+                        "name": "Basisausbildung Einsatzdienste"
+                    },
+                    "kommentar": ""
+                },
+                {
+                    "qualifikation": {
+                        "id": "0017fa5d-276b-cdc4-5ab7-63f69d16b5f4",
+                        "nr": "312",
+                        "poNr": 3,
+                        "istAktiv": true,
+                        "abkuerzung": "EH Ausbildung",
+                        "name": "Erste-Hilfe-Ausbildung"
+                    },
+                    "kommentar": ""
+                },
+                {
+                    "qualifikation": {
+                        "id": "0017fa5d-2296-c041-80c6-7a10e772322b",
+                        "nr": "152",
+                        "poNr": 1,
+                        "istAktiv": true,
+                        "abkuerzung": "DRSA Silber",
+                        "name": "Deutsches Rettungsschwimmabzeichen Silber"
+                    },
+                    "kommentar": ""
+                }
+            ],
             "hospitationen": [],
             "sonstiges": [],
             "mindestalter": {
-                "istErforderlich": false,
-                "alter": 0,
-                "kommentar": ""
+                "istErforderlich": true,
+                "alter": 16,
+                "kommentar": "wobei landesrechtliche Vorgaben zu beachten sind."
             },
             "aerztliche_tauglichkeit": {
-                "istErforderlich": false,
-                "kommentar": ""
+                "istErforderlich": true,
+                "kommentar": "oder Selbsterklärung zum Gesundheitszustand"
             },
             "mitgliedschaft": {
-                "istErforderlich": false,
+                "istErforderlich": true,
                 "kommentar": ""
             },
             "befuerwortung": {
@@ -16733,7 +16799,18 @@
         "pruefungenGueltigkeit": null,
         "verlaengerungUE": null,
         "verlaengerungBeauftragungUE": null,
-        "inhalt": [],
+        "inhalt": [
+            {
+                "lehreinheiten": 0,
+                "inhalt": "Voraussetzungen\n• Abgeschlossene Helfergrundausbildung (811)\n• Deutsches Rettungsschwimmabzeichen Silber (152)\n• Aufbaumodul \"Umgang mit Rettungsgeräten und Überwachung von Wasserflächen\" (402)",
+                "einordnung": "uebergreifend"
+            },
+            {
+                "lehreinheiten": 0,
+                "inhalt": "Die Landesspezifische Ausbildung in Niedersachsen ergänzt die Helfergrundausbildung um den Aspekt der Wassergefahren. Die Beurkundung erfolgt auf Grundlage der genannten Voraussetzungen.",
+                "einordnung": "uebergreifend"
+            }
+        ],
         "voraussetzungen": {
             "qualifikationen": [
                 {
@@ -16790,7 +16867,7 @@
             },
             "aerztliche_tauglichkeit": {
                 "istErforderlich": true,
-                "kommentar": ""
+                "kommentar": "oder Selbsterklärung zum Gesundheitszustand"
             },
             "mitgliedschaft": {
                 "istErforderlich": true,
@@ -17724,6 +17801,12 @@
                 "beschreibung": "Kombi-Prüfung Challenge: Anlegen der ABC-Ausrüstung, Schrittsprung vom Beckenrand - Auftauchen - Schnorchel ausblasen - OK-Zeichen, 10m Schnorcheln, Druckausgleich - OK-Zeichen, Tauchparcours: Abtauchen mit kopfgesteuerter Abtauchtechnik an der ersten Markierung (Tauchring auf dem Beckenboden), z.B. Viereckskurs 5 m x 5 m x 5m x 5m. Als Markierung z.B. Tauchring auf dem Beckenboden. Erste Tauchstation / Ring ist auch gleichzeitig letzte Tauchstation / Ring ablegen. Dort kleinen Tauchring auf dem Boden greifen, einmal hochheben, nach oben zeigen und wieder auf dem Boden ablegen. Auftauchen - Schnorchel ausblasen - OK-Zeichen. Ausstieg aus dem Wasser über den Beckenrand und Ablegen der ABC-Ausrüstung",
                 "einordnung": "praktisch",
                 "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-6b4a-37d0-c212-5b2551e911e3",
+                "beschreibung": "20m Streckentauchen ohne Schnorchel, OK-Zeichen",
+                "einordnung": "praktisch",
+                "gueltigkeit": null
             }
         ],
         "prueferberechtigungen": [],
@@ -17737,10 +17820,10 @@
             },
             {
                 "id": 326,
-                "titel": "Prüfungsordnung Tauchen",
+                "titel": "Prüfungsordnung Schwimmen-Rettungsschwimmen.pdf",
                 "beschreibung": "Prüfungsordnung Schwimmen Rettungsschwimmen",
                 "typ": "po",
-                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=219&wm=no&v=o"
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=215&wm=no&v=o"
             },
             {
                 "id": 328,
@@ -17910,10 +17993,10 @@
             },
             {
                 "id": 330,
-                "titel": "Prüfungsordnung Tauchen",
+                "titel": "Prüfungsordnung Schwimmen-Rettungsschwimmen.pdf",
                 "beschreibung": "Prüfungsordnung Schwimmen Rettungsschwimmen",
                 "typ": "po",
-                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=219&wm=no&v=o"
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=215&wm=no&v=o"
             }
         ]
     },
