@@ -5,9 +5,6 @@ on:
   workflow_call:
 
 name: lint
-concurrency:
-  group: ${{ github.workflow }}
-  cancel-in-progress: false
 
 jobs:
   lint:
