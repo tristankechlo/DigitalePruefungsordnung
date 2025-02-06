@@ -12,7 +12,7 @@ concurrency:
 
 jobs:
   lint:
-    uses: .github/workflows/linting.yml@main
+    uses: tristankechlo/DigitalePruefungsordnung/.github/workflows/linting.yml@main
   build:
     needs:
      - lint
