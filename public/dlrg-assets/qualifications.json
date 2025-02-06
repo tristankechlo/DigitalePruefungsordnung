@@ -1569,7 +1569,7 @@
                         "abkuerzung": "SAN A",
                         "name": "Sanitätsausbildung A"
                     },
-                    "kommentar": ""
+                    "kommentar": "oder Sanitätsfortbildung (341)"
                 },
                 {
                     "qualifikation": {
@@ -1625,7 +1625,7 @@
             },
             "aerztliche_tauglichkeit": {
                 "istErforderlich": true,
-                "kommentar": "ärztliche Tauglichkeitsuntersuchung (Best. Nr. 15401353) muss bei Ausbildungsbeginn\r\nvorliegen und darf auch zum Zeitpunkt der Prüfung nicht älter als zwei Jahre sein."
+                "kommentar": "Ärztliche Tauglichkeitsuntersuchung oder Selbsterklärung zum Ge- sundheitszustand"
             },
             "mitgliedschaft": {
                 "istErforderlich": true,
@@ -1748,6 +1748,17 @@
             "qualifikationen": [
                 {
                     "qualifikation": {
+                        "id": "0017fa5e-99e4-8cc8-1bbb-45253234159a",
+                        "nr": "401",
+                        "poNr": 4,
+                        "istAktiv": true,
+                        "abkuerzung": null,
+                        "name": "Basisausbildung Einsatzdienste"
+                    },
+                    "kommentar": ""
+                },
+                {
+                    "qualifikation": {
                         "id": "0017fa5d-3115-e8cc-3f86-8814df478962",
                         "nr": "411",
                         "poNr": 4,
@@ -1755,7 +1766,7 @@
                         "abkuerzung": "WR",
                         "name": "Wasserretter"
                     },
-                    "kommentar": ""
+                    "kommentar": "Erfolgreicher Abschluss mindestens einer der Ausbildungen:\n• Wasserretter (Fachausbildung Wasserrettungsdienst) (411)\n• DLRG - Einsatztaucher Stufe 2 (613)\n• Helfergrundausbildung (811)\n• Strömungsretter 1 (1011)"
                 }
             ],
             "hospitationen": [],
@@ -1900,17 +1911,6 @@
             "qualifikationen": [
                 {
                     "qualifikation": {
-                        "id": "0017fa5d-ebee-a04d-c39b-71557cdc832d",
-                        "nr": "161",
-                        "poNr": 1,
-                        "istAktiv": true,
-                        "abkuerzung": "DSTA",
-                        "name": "Deutsches Schnorcheltauchabzeichen"
-                    },
-                    "kommentar": ""
-                },
-                {
-                    "qualifikation": {
                         "id": "0017fa5d-2296-c041-80c6-7a10e772322b",
                         "nr": "152",
                         "poNr": 1,
@@ -1918,7 +1918,29 @@
                         "abkuerzung": "DRSA Silber",
                         "name": "Deutsches Rettungsschwimmabzeichen Silber"
                     },
-                    "kommentar": ""
+                    "kommentar": "NACHWEIS ZU BEGINN DER AUSBILDUNG"
+                },
+                {
+                    "qualifikation": {
+                        "id": "0017fa5d-ebee-a04d-c39b-71557cdc832d",
+                        "nr": "161",
+                        "poNr": 1,
+                        "istAktiv": true,
+                        "abkuerzung": "DSTA",
+                        "name": "Deutsches Schnorcheltauchabzeichen"
+                    },
+                    "kommentar": "NACHWEIS ZU BEGINN DER AUSBILDUNG"
+                },
+                {
+                    "qualifikation": {
+                        "id": "0017fa5d-3ac0-03d7-103c-c2748500d20b",
+                        "nr": "612",
+                        "poNr": 6,
+                        "istAktiv": true,
+                        "abkuerzung": "ET1",
+                        "name": "DLRG-Einsatztaucher Stufe 1"
+                    },
+                    "kommentar": "NACHWEIS ZUR PRÜFUNG"
                 },
                 {
                     "qualifikation": {
@@ -1929,7 +1951,7 @@
                         "abkuerzung": null,
                         "name": "Basisausbildung Einsatzdienste"
                     },
-                    "kommentar": ""
+                    "kommentar": "NACHWEIS ZUR PRÜFUNG"
                 },
                 {
                     "qualifikation": {
@@ -1940,23 +1962,23 @@
                         "abkuerzung": null,
                         "name": "Modul - Schwimmen in fließenden Gewässern"
                     },
-                    "kommentar": ""
+                    "kommentar": "NACHWEIS ZUR PRÜFUNG"
                 }
             ],
             "hospitationen": [],
             "sonstiges": [],
             "mindestalter": {
                 "istErforderlich": true,
-                "alter": 0,
-                "kommentar": "Mindestalter gemäß DGUV Regel 105-002"
+                "alter": 15,
+                "kommentar": "NACHWEIS ZU BEGINN DER AUSBILDUNG\n\nGemäß DGUV Regel 105-002\n\nAls Taucher bzw. Taucherin dürfen nur gesundheitlich geeignete Versicherte einge- setzt werden. Voraussetzung für die Durchführung eines Unterwasser-Einsatzauftra- ges ist die Vollendung des 18. Lebensjahres und der erfolgreiche Abschluss der Ausbildung zum Taucher bzw. zur Taucherin. Die Ausbildung kann bereits ab dem vollendeten 15. Lebensjahr begonnen werden. Ausgebildete Taucher bzw. Tauche- rinnen unter 18 Jahren dürfen nur an Übungen und Ausbildungen teilnehmen. Die Übungen und Ausbildungen für Personen unter 18 Jahren sind so zu gestalten, dass weder psychische noch physische Gefährdungen zu erwarten sind."
             },
             "aerztliche_tauglichkeit": {
                 "istErforderlich": true,
-                "kommentar": "Tauchtauglichkeit gemäß verbandsinternem Beschluss der DLRG in Anlehnung an die DGUV Regel 105-002"
+                "kommentar": "NACHWEIS ZU BEGINN DER AUSBILDUNG Tauchtauglichkeit gemäß verbandsinternem Beschluss der DLRG in Anlehnung an die DGUV Regel 105-002"
             },
             "mitgliedschaft": {
                 "istErforderlich": true,
-                "kommentar": "Gültige Mitgliedschaft in der DLRG"
+                "kommentar": ""
             },
             "befuerwortung": {
                 "istErforderlich": false,
@@ -2142,7 +2164,7 @@
                         "abkuerzung": "DRSA Silber",
                         "name": "Deutsches Rettungsschwimmabzeichen Silber"
                     },
-                    "kommentar": ""
+                    "kommentar": "NACHWEIS ZU BEGINN DER AUSBILDUNG"
                 },
                 {
                     "qualifikation": {
@@ -2153,7 +2175,7 @@
                         "abkuerzung": "DSTA",
                         "name": "Deutsches Schnorcheltauchabzeichen"
                     },
-                    "kommentar": ""
+                    "kommentar": "NACHWEIS ZU BEGINN DER AUSBILDUNG"
                 },
                 {
                     "qualifikation": {
@@ -2164,7 +2186,7 @@
                         "abkuerzung": null,
                         "name": "Basisausbildung Einsatzdienste"
                     },
-                    "kommentar": ""
+                    "kommentar": "NACHWEIS ZUR PRÜFUNG"
                 },
                 {
                     "qualifikation": {
@@ -2175,23 +2197,28 @@
                         "abkuerzung": null,
                         "name": "Modul - Schwimmen in fließenden Gewässern"
                     },
-                    "kommentar": ""
+                    "kommentar": "NACHWEIS ZUR PRÜFUNG"
                 }
             ],
             "hospitationen": [],
-            "sonstiges": [],
+            "sonstiges": [
+                {
+                    "anzahl": 1,
+                    "kommentar": "NACHWEIS ZUR PRÜFUNG\n\nNachweis der theoretischen und praktischen Ausbildung gemäß bun- deseinheitlicher Ausbildungsvorschrift DLRG-Einsatztaucher Stufe 2 (613)Diese Ausbildung kann auch in getrennten Modulen erfolgen."
+                }
+            ],
             "mindestalter": {
                 "istErforderlich": true,
-                "alter": 0,
-                "kommentar": "Mindestalter gemäß DGUV Regel 105-002"
+                "alter": 15,
+                "kommentar": "NACHWEIS ZU BEGINN DER AUSBILDUNG Gemäß DGUV Regel 105-002 Als Taucher bzw. Taucherin dürfen nur gesundheitlich geeignete Versicherte einge- setzt werden. Voraussetzung für die Durchführung eines Unterwasser-Einsatzauftra- ges ist die Vollendung des 18. Lebensjahres und der erfolgreiche Abschluss der Ausbildung zum Taucher bzw. zur Taucherin. Die Ausbildung kann bereits ab dem vollendeten 15. Lebensjahr begonnen werden. Ausgebildete Taucher bzw. Tauche- rinnen unter 18 Jahren dürfen nur an Übungen und Ausbildungen teilnehmen. Die Übungen und Ausbildungen für Personen unter 18 Jahren sind so zu gestalten, dass weder psychische noch physische Gefährdungen zu erwarten sind."
             },
             "aerztliche_tauglichkeit": {
                 "istErforderlich": true,
-                "kommentar": "Tauchtauglichkeit gemäß verbandsinternem Beschluss der DLRG in Anlehnung an die DGUV Regel 105-002"
+                "kommentar": "NACHWEIS ZU BEGINN DER AUSBILDUNG\nTauchtauglichkeit gemäß verbandsinternem Beschluss der DLRG in Anlehnung an die DGUV Regel 105-002"
             },
             "mitgliedschaft": {
                 "istErforderlich": true,
-                "kommentar": "Gültige Mitgliedschaft in der DLRG"
+                "kommentar": ""
             },
             "befuerwortung": {
                 "istErforderlich": false,
@@ -2269,23 +2296,23 @@
             "qualifikationen": [
                 {
                     "qualifikation": {
-                        "id": "0017fa5d-20fa-666b-61ad-ad4a8f2cfeef",
-                        "nr": "151",
+                        "id": "0017fa5d-2296-c041-80c6-7a10e772322b",
+                        "nr": "152",
                         "poNr": 1,
                         "istAktiv": true,
-                        "abkuerzung": "DRSA Bronze",
-                        "name": "Deutsches Rettungsschwimmabzeichen Bronze"
+                        "abkuerzung": "DRSA Silber",
+                        "name": "Deutsches Rettungsschwimmabzeichen Silber"
                     },
                     "kommentar": "zum Zeitpunkt der Prüfung nicht älter als zwei Jahre"
                 },
                 {
                     "qualifikation": {
-                        "id": "0017fa5d-ebee-a04d-c39b-71557cdc832d",
-                        "nr": "161",
-                        "poNr": 1,
+                        "id": "0017fa5d-3df8-b785-fc02-304b34bddabc",
+                        "nr": "614",
+                        "poNr": 6,
                         "istAktiv": true,
-                        "abkuerzung": "DSTA",
-                        "name": "Deutsches Schnorcheltauchabzeichen"
+                        "abkuerzung": null,
+                        "name": "DLRG-Gerätetauchschein* (CMAS*)"
                     },
                     "kommentar": ""
                 }
@@ -2298,13 +2325,13 @@
                 },
                 {
                     "anzahl": 1,
-                    "kommentar": "Voraussetzungen gemäß Anweisung für die DLRG Gerätetauchausbildungen\r\nund -prüfungen"
+                    "kommentar": "Voraussetzungen gemäß Anweisung für die DLRG Geratetauchausbildungen und -prüfungen"
                 }
             ],
             "mindestalter": {
                 "istErforderlich": true,
-                "alter": 14,
-                "kommentar": "Bei Minderjährigen ist die Einverständniserklärung der sorgeberechtigten Eltern (in der Regel beider Elternteile) erforderlich"
+                "alter": 16,
+                "kommentar": ""
             },
             "aerztliche_tauglichkeit": {
                 "istErforderlich": true,
@@ -3293,19 +3320,41 @@
                         "name": "Führungslehre"
                     },
                     "kommentar": "Führungslehre Ausbildung (421)"
+                },
+                {
+                    "qualifikation": {
+                        "id": "0017fa5d-4c77-e01d-2558-5e90204c7e8b",
+                        "nr": "711",
+                        "poNr": 7,
+                        "istAktiv": true,
+                        "abkuerzung": null,
+                        "name": "DLRG-Sprechfunker"
+                    },
+                    "kommentar": "Erfolgreicher Abschluss mindestens einer der Ausbildungen:\no\tabgeschlossene DLRG-Sprechfunkausbildung (711)\no\tBOS-Sprechfunkausbildung -analog- (712)\no\tBOS-Sprechfunkausbildung -digital- (715)"
+                },
+                {
+                    "qualifikation": {
+                        "id": "0017fa5d-3c5c-5dae-7bbc-43b8f4ef050f",
+                        "nr": "613",
+                        "poNr": 6,
+                        "istAktiv": true,
+                        "abkuerzung": "ET2",
+                        "name": "DLRG-Einsatztaucher Stufe 2"
+                    },
+                    "kommentar": ""
                 }
             ],
             "hospitationen": [],
             "sonstiges": [
                 {
                     "anzahl": 1,
-                    "kommentar": "3 Jahre aktive Tätigkeit als Einsatztaucher Stufe 2"
+                    "kommentar": "Mindestens 30Tauchgänge mit einer Gesamttauchzeit von 900 Mi- nuten nach den Regeln der DGUV Regel 105-002 nach erfolgreicher Prüfung zum Einsatztaucher Stufe 2."
                 }
             ],
             "mindestalter": {
-                "istErforderlich": true,
-                "alter": 21,
-                "kommentar": "Mindestalter 21 Jahre"
+                "istErforderlich": false,
+                "alter": 0,
+                "kommentar": ""
             },
             "aerztliche_tauglichkeit": {
                 "istErforderlich": false,
@@ -3454,11 +3503,16 @@
                         "abkuerzung": null,
                         "name": "Basisausbildung Einsatzdienste"
                     },
-                    "kommentar": ""
+                    "kommentar": "NACHWEIS ZUR PRÜFUNG"
                 }
             ],
             "hospitationen": [],
-            "sonstiges": [],
+            "sonstiges": [
+                {
+                    "anzahl": 1,
+                    "kommentar": "NACHWEIS ZUR PRÜFUNG\nNachweis der theoretischen und praktischen Ausbildung gemäß bun- deseinheitlicher Ausbildungsvorschrift DLRG-Signalmann (641) Diese Ausbildung kann in getrennten Modulen erfolgen."
+                }
+            ],
             "mindestalter": {
                 "istErforderlich": true,
                 "alter": 0,
@@ -5089,6 +5143,17 @@
             "qualifikationen": [
                 {
                     "qualifikation": {
+                        "id": "0017fa5e-2116-3664-0dd0-bd6d4d8bc2b4",
+                        "nr": "180.1",
+                        "poNr": 1,
+                        "istAktiv": true,
+                        "abkuerzung": null,
+                        "name": "Gemeinsamer Grundausbildungsblock"
+                    },
+                    "kommentar": ""
+                },
+                {
+                    "qualifikation": {
                         "id": "0017fa5d-ea52-466d-7fa0-2fe453c8f6c0",
                         "nr": "431",
                         "poNr": 4,
@@ -5101,13 +5166,13 @@
             ],
             "hospitationen": [
                 {
-                    "kommentar": "Nachweis der Hospitation als Ausbilder in der Fachausbildung Wasserrettungsdienst"
+                    "kommentar": "Nachweis der Hospitation als Ausbilder in einem Lehrgang „Was- serretter (Fachausbildung Wasserrettungsdienst)"
                 }
             ],
             "sonstiges": [],
             "mindestalter": {
-                "istErforderlich": true,
-                "alter": 18,
+                "istErforderlich": false,
+                "alter": 0,
                 "kommentar": ""
             },
             "aerztliche_tauglichkeit": {
@@ -5115,7 +5180,7 @@
                 "kommentar": ""
             },
             "mitgliedschaft": {
-                "istErforderlich": false,
+                "istErforderlich": true,
                 "kommentar": ""
             },
             "befuerwortung": {
@@ -5272,7 +5337,11 @@
                     "kommentar": ""
                 }
             ],
-            "hospitationen": [],
+            "hospitationen": [
+                {
+                    "kommentar": "gemäß Ausbildungsrahmenplan Wasserrettungsdienst"
+                }
+            ],
             "sonstiges": [],
             "mindestalter": {
                 "istErforderlich": false,
@@ -5635,23 +5704,12 @@
             "qualifikationen": [
                 {
                     "qualifikation": {
-                        "id": "0017fa5d-3c5c-5dae-7bbc-43b8f4ef050f",
-                        "nr": "613",
-                        "poNr": 6,
-                        "istAktiv": true,
-                        "abkuerzung": "ET2",
-                        "name": "DLRG-Einsatztaucher Stufe 2"
-                    },
-                    "kommentar": "gültige Einsatztauchberechtigung Stufe 2 der DLRG"
-                },
-                {
-                    "qualifikation": {
-                        "id": "0017fa5d-493f-2c6c-c39f-65084d51a649",
-                        "nr": "631",
-                        "poNr": 6,
+                        "id": "0017fa5e-2116-3664-0dd0-bd6d4d8bc2b4",
+                        "nr": "180.1",
+                        "poNr": 1,
                         "istAktiv": true,
                         "abkuerzung": null,
-                        "name": "Taucheinsatzführer"
+                        "name": "Gemeinsamer Grundausbildungsblock"
                     },
                     "kommentar": ""
                 },
@@ -5664,27 +5722,27 @@
                         "abkuerzung": "SAN A",
                         "name": "Sanitätsausbildung A"
                     },
-                    "kommentar": "oder 341"
+                    "kommentar": "oder gültige Sanitätsfortbildung (341)"
                 },
                 {
                     "qualifikation": {
-                        "id": "0017fa5e-2116-3664-0dd0-bd6d4d8bc2b4",
-                        "nr": "180.1",
-                        "poNr": 1,
+                        "id": "0017fa5d-3c5c-5dae-7bbc-43b8f4ef050f",
+                        "nr": "613",
+                        "poNr": 6,
                         "istAktiv": true,
-                        "abkuerzung": null,
-                        "name": "Gemeinsamer Grundausbildungsblock"
+                        "abkuerzung": "ET2",
+                        "name": "DLRG-Einsatztaucher Stufe 2"
                     },
                     "kommentar": ""
                 },
                 {
                     "qualifikation": {
-                        "id": "0017fa5d-2296-c041-80c6-7a10e772322b",
-                        "nr": "152",
-                        "poNr": 1,
+                        "id": "0017fa5d-493f-2c6c-c39f-65084d51a649",
+                        "nr": "631",
+                        "poNr": 6,
                         "istAktiv": true,
-                        "abkuerzung": "DRSA Silber",
-                        "name": "Deutsches Rettungsschwimmabzeichen Silber"
+                        "abkuerzung": null,
+                        "name": "Taucheinsatzführer"
                     },
                     "kommentar": ""
                 }
@@ -5693,13 +5751,17 @@
             "sonstiges": [
                 {
                     "anzahl": 1,
-                    "kommentar": "Assistenz bei der Ausbildung zum DLRG-Einsatztaucher; erfahrener Taucher gemäß DGUV Regel 105-002"
+                    "kommentar": "ErfahrenerTaucher gemäß DGUV Regel 105-002"
+                },
+                {
+                    "anzahl": 1,
+                    "kommentar": "Vorbereitung gemäß Ausbildungsvorschrift DLRG-Lehrtaucher (682)"
                 }
             ],
             "mindestalter": {
                 "istErforderlich": true,
                 "alter": 21,
-                "kommentar": "Jahre"
+                "kommentar": ""
             },
             "aerztliche_tauglichkeit": {
                 "istErforderlich": false,
@@ -6345,17 +6407,6 @@
             "qualifikationen": [
                 {
                     "qualifikation": {
-                        "id": "0017fa5d-3c5c-5dae-7bbc-43b8f4ef050f",
-                        "nr": "613",
-                        "poNr": 6,
-                        "istAktiv": true,
-                        "abkuerzung": "ET2",
-                        "name": "DLRG-Einsatztaucher Stufe 2"
-                    },
-                    "kommentar": ""
-                },
-                {
-                    "qualifikation": {
                         "id": "0017fa5e-3fb0-e24b-66b4-2e6f4ce604a4",
                         "nr": "190",
                         "poNr": 1,
@@ -6364,17 +6415,24 @@
                         "name": "Allgemeine Multiplikatorenschulung"
                     },
                     "kommentar": ""
-                }
-            ],
-            "hospitationen": [
+                },
                 {
-                    "kommentar": "Assistenz bei einer DLRG-Lehrtaucher Prüfung"
+                    "qualifikation": {
+                        "id": "0017fa5d-67d9-d785-7f29-5fc3ad7b967a",
+                        "nr": "682",
+                        "poNr": 6,
+                        "istAktiv": true,
+                        "abkuerzung": null,
+                        "name": "DLRG-Lehrtaucher"
+                    },
+                    "kommentar": ""
                 }
             ],
+            "hospitationen": [],
             "sonstiges": [
                 {
                     "anzahl": 1,
-                    "kommentar": "3 Jahre aktive Tätigkeit als DLRG-Lehrtaucher"
+                    "kommentar": "Vorbereitung gemäß Ausbildungsvorschrift Multiplikator Einsatztau- chen (691)"
                 }
             ],
             "mindestalter": {
@@ -6960,11 +7018,11 @@
                 "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=1354&wm=no&v=o"
             },
             {
-                "id": 284,
-                "titel": "PO Boot - Auflage 13_web.pdf",
+                "id": 349,
+                "titel": "05_PO_Bootswesen_ab_2018.pdf",
                 "beschreibung": null,
                 "typ": "po",
-                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=829265&wm=no&v=o"
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=1394&wm=no&v=o"
             }
         ]
     },
@@ -7187,17 +7245,6 @@
             "qualifikationen": [
                 {
                     "qualifikation": {
-                        "id": "0017fa5e-2116-3664-0dd0-bd6d4d8bc2b4",
-                        "nr": "180.1",
-                        "poNr": 1,
-                        "istAktiv": true,
-                        "abkuerzung": null,
-                        "name": "Gemeinsamer Grundausbildungsblock"
-                    },
-                    "kommentar": ""
-                },
-                {
-                    "qualifikation": {
                         "id": "0017fa5d-d561-b611-6e66-1b9a0dbddc73",
                         "nr": "511",
                         "poNr": 5,
@@ -7206,15 +7253,25 @@
                         "name": "DLRG Bootsführerschein A"
                     },
                     "kommentar": ""
-                }
-            ],
-            "hospitationen": [],
-            "sonstiges": [
+                },
                 {
-                    "anzahl": 1,
-                    "kommentar": "Hospitation als Ausbilder bei der Ausbildung zum DLRG Bootsführerschein A\nHospitation als Ausbilder bei der Ausbildung zum DLRG-Bootsführerschein A"
+                    "qualifikation": {
+                        "id": "0017fa5e-2116-3664-0dd0-bd6d4d8bc2b4",
+                        "nr": "180.1",
+                        "poNr": 1,
+                        "istAktiv": true,
+                        "abkuerzung": null,
+                        "name": "Gemeinsamer Grundausbildungsblock"
+                    },
+                    "kommentar": ""
                 }
             ],
+            "hospitationen": [
+                {
+                    "kommentar": "als Ausbilder bei der Ausbildung zum DLRG Bootsführerschein A Hospitation als Ausbilder bei der Ausbildung zum DLRG-Bootsführerschein A"
+                }
+            ],
+            "sonstiges": [],
             "mindestalter": {
                 "istErforderlich": false,
                 "alter": 0,
@@ -7313,17 +7370,6 @@
             "qualifikationen": [
                 {
                     "qualifikation": {
-                        "id": "0017fa5e-2116-3664-0dd0-bd6d4d8bc2b4",
-                        "nr": "180.1",
-                        "poNr": 1,
-                        "istAktiv": true,
-                        "abkuerzung": null,
-                        "name": "Gemeinsamer Grundausbildungsblock"
-                    },
-                    "kommentar": ""
-                },
-                {
-                    "qualifikation": {
                         "id": "0017fa5d-d6fe-0ff0-a44d-e67a62325627",
                         "nr": "512",
                         "poNr": 5,
@@ -7332,15 +7378,25 @@
                         "name": "DLRG Bootsführerschein B"
                     },
                     "kommentar": ""
-                }
-            ],
-            "hospitationen": [],
-            "sonstiges": [
+                },
                 {
-                    "anzahl": 1,
-                    "kommentar": "Hospitation als Ausbilder bei der Ausbildung zum DLRG  Bootsführerschein B"
+                    "qualifikation": {
+                        "id": "0017fa5e-2116-3664-0dd0-bd6d4d8bc2b4",
+                        "nr": "180.1",
+                        "poNr": 1,
+                        "istAktiv": true,
+                        "abkuerzung": null,
+                        "name": "Gemeinsamer Grundausbildungsblock"
+                    },
+                    "kommentar": ""
                 }
             ],
+            "hospitationen": [
+                {
+                    "kommentar": "als Ausbilder bei der Ausbildung zum DLRG Bootsführerschein B"
+                }
+            ],
+            "sonstiges": [],
             "mindestalter": {
                 "istErforderlich": false,
                 "alter": 0,
@@ -7439,23 +7495,23 @@
             "qualifikationen": [
                 {
                     "qualifikation": {
-                        "id": "0017fa5e-3fb0-e24b-66b4-2e6f4ce604a4",
-                        "nr": "190",
-                        "poNr": 1,
-                        "istAktiv": true,
-                        "abkuerzung": null,
-                        "name": "Allgemeine Multiplikatorenschulung"
-                    },
-                    "kommentar": ""
-                },
-                {
-                    "qualifikation": {
                         "id": "0017fa5d-d89a-69cf-eefc-1ceb8380fa14",
                         "nr": "581",
                         "poNr": 5,
                         "istAktiv": true,
                         "abkuerzung": null,
                         "name": "Ausbilder DLRG Bootsführerschein A"
+                    },
+                    "kommentar": ""
+                },
+                {
+                    "qualifikation": {
+                        "id": "0017fa5e-3fb0-e24b-66b4-2e6f4ce604a4",
+                        "nr": "190",
+                        "poNr": 1,
+                        "istAktiv": true,
+                        "abkuerzung": null,
+                        "name": "Allgemeine Multiplikatorenschulung"
                     },
                     "kommentar": ""
                 }
@@ -7552,23 +7608,23 @@
             "qualifikationen": [
                 {
                     "qualifikation": {
-                        "id": "0017fa5e-3fb0-e24b-66b4-2e6f4ce604a4",
-                        "nr": "190",
-                        "poNr": 1,
-                        "istAktiv": true,
-                        "abkuerzung": null,
-                        "name": "Allgemeine Multiplikatorenschulung"
-                    },
-                    "kommentar": ""
-                },
-                {
-                    "qualifikation": {
                         "id": "0017fa5d-da36-c3af-4e70-beee244c6235",
                         "nr": "582",
                         "poNr": 5,
                         "istAktiv": true,
                         "abkuerzung": null,
                         "name": "Ausbilder DLRG Bootsführerschein B"
+                    },
+                    "kommentar": ""
+                },
+                {
+                    "qualifikation": {
+                        "id": "0017fa5e-3fb0-e24b-66b4-2e6f4ce604a4",
+                        "nr": "190",
+                        "poNr": 1,
+                        "istAktiv": true,
+                        "abkuerzung": null,
+                        "name": "Allgemeine Multiplikatorenschulung"
                     },
                     "kommentar": ""
                 }
@@ -8097,7 +8153,7 @@
                         "abkuerzung": null,
                         "name": "BOS-Sprechfunker -analog-"
                     },
-                    "kommentar": ""
+                    "kommentar": "Erfolgreicher Abschluss mindestens einer der Ausbildungen:\n• abgeschlossene DLRG-Sprechfunkausbildung (711)\n• BOS-Sprechfunkausbildung -analog- (712)\n• BOS-Sprechfunkausbildung -digital- (715)"
                 }
             ],
             "hospitationen": [],
@@ -8117,7 +8173,7 @@
                 "kommentar": ""
             },
             "mitgliedschaft": {
-                "istErforderlich": false,
+                "istErforderlich": true,
                 "kommentar": ""
             },
             "befuerwortung": {
@@ -11977,7 +12033,7 @@
             "sonstiges": [
                 {
                     "anzahl": 1,
-                    "kommentar": "Körperliche Fitness (Details regelt die Ausbildungsvorschrift)"
+                    "kommentar": "Körperliche Fitness (o Lauf-Ausdauertest\no Nachweis 400 m Schwimmen in 8 min)"
                 }
             ],
             "mindestalter": {
@@ -12679,7 +12735,7 @@
             "sonstiges": [
                 {
                     "anzahl": 1,
-                    "kommentar": "Nachweis der Einsatzfähigkeit für Strömungsretter"
+                    "kommentar": "Nachweis der Einsatzfähigkeit für Strömungsretter (1000)"
                 }
             ],
             "mindestalter": {
@@ -13591,23 +13647,23 @@
             "qualifikationen": [
                 {
                     "qualifikation": {
-                        "id": "0017fa5d-20fa-666b-61ad-ad4a8f2cfeef",
-                        "nr": "151",
-                        "poNr": 1,
-                        "istAktiv": true,
-                        "abkuerzung": "DRSA Bronze",
-                        "name": "Deutsches Rettungsschwimmabzeichen Bronze"
-                    },
-                    "kommentar": ""
-                },
-                {
-                    "qualifikation": {
                         "id": "0017fa5e-99e4-8cc8-1bbb-45253234159a",
                         "nr": "401",
                         "poNr": 4,
                         "istAktiv": true,
                         "abkuerzung": null,
                         "name": "Basisausbildung Einsatzdienste"
+                    },
+                    "kommentar": ""
+                },
+                {
+                    "qualifikation": {
+                        "id": "0017fa5d-20fa-666b-61ad-ad4a8f2cfeef",
+                        "nr": "151",
+                        "poNr": 1,
+                        "istAktiv": true,
+                        "abkuerzung": "DRSA Bronze",
+                        "name": "Deutsches Rettungsschwimmabzeichen Bronze"
                     },
                     "kommentar": ""
                 }
@@ -13674,23 +13730,23 @@
             "qualifikationen": [
                 {
                     "qualifikation": {
-                        "id": "0017fa5d-20fa-666b-61ad-ad4a8f2cfeef",
-                        "nr": "151",
-                        "poNr": 1,
-                        "istAktiv": true,
-                        "abkuerzung": "DRSA Bronze",
-                        "name": "Deutsches Rettungsschwimmabzeichen Bronze"
-                    },
-                    "kommentar": ""
-                },
-                {
-                    "qualifikation": {
                         "id": "0017fa5e-99e4-8cc8-1bbb-45253234159a",
                         "nr": "401",
                         "poNr": 4,
                         "istAktiv": true,
                         "abkuerzung": null,
                         "name": "Basisausbildung Einsatzdienste"
+                    },
+                    "kommentar": ""
+                },
+                {
+                    "qualifikation": {
+                        "id": "0017fa5d-20fa-666b-61ad-ad4a8f2cfeef",
+                        "nr": "151",
+                        "poNr": 1,
+                        "istAktiv": true,
+                        "abkuerzung": "DRSA Bronze",
+                        "name": "Deutsches Rettungsschwimmabzeichen Bronze"
                     },
                     "kommentar": ""
                 }
@@ -13912,11 +13968,16 @@
                         "abkuerzung": "EH Ausbildung",
                         "name": "Erste-Hilfe-Ausbildung"
                     },
-                    "kommentar": "nicht älter als 2 Jahre"
+                    "kommentar": "der Erste Hilfe-Fortbildung (321), je- weils nicht älter 2 Jahre"
                 }
             ],
             "hospitationen": [],
-            "sonstiges": [],
+            "sonstiges": [
+                {
+                    "anzahl": 1,
+                    "kommentar": "Die Fähigkeit ist jährlich wie folgt nachzuweisen:\n• run-swim-run (gemäß 411.22)\n• kombinierte Übung (gemäß 411.22)"
+                }
+            ],
             "mindestalter": {
                 "istErforderlich": true,
                 "alter": 16,
@@ -13924,7 +13985,7 @@
             },
             "aerztliche_tauglichkeit": {
                 "istErforderlich": true,
-                "kommentar": ""
+                "kommentar": "oder Selbsterklärung zum Ge- sundheitszustand"
             },
             "mitgliedschaft": {
                 "istErforderlich": true,
@@ -14776,19 +14837,30 @@
             "qualifikationen": [
                 {
                     "qualifikation": {
-                        "id": "0017fa5e-25eb-440d-5f24-a8bb8da95860",
-                        "nr": "12",
+                        "id": "0017fa5e-2116-3664-0dd0-bd6d4d8bc2b4",
+                        "nr": "180.1",
                         "poNr": 1,
-                        "istAktiv": false,
+                        "istAktiv": true,
                         "abkuerzung": null,
-                        "name": "DRSA Silber (bis 1990)"
+                        "name": "Gemeinsamer Grundausbildungsblock"
                     },
-                    "kommentar": "Gemeinsamer Grundausbildungsblock"
+                    "kommentar": ""
+                },
+                {
+                    "qualifikation": {
+                        "id": "0017fa5d-4c77-e01d-2558-5e90204c7e8b",
+                        "nr": "711",
+                        "poNr": 7,
+                        "istAktiv": true,
+                        "abkuerzung": null,
+                        "name": "DLRG-Sprechfunker"
+                    },
+                    "kommentar": ""
                 }
             ],
             "hospitationen": [
                 {
-                    "kommentar": ""
+                    "kommentar": "Assistenz bei mindestens zwei Sprechfunkausbildungen, bestätigt durch den Lehrgangsleiter."
                 }
             ],
             "sonstiges": [],
@@ -14905,14 +14977,14 @@
             "qualifikationen": [
                 {
                     "qualifikation": {
-                        "id": "0017fa5e-25eb-440d-5f24-a8bb8da95860",
-                        "nr": "12",
+                        "id": "0017fa5e-2116-3664-0dd0-bd6d4d8bc2b4",
+                        "nr": "180.1",
                         "poNr": 1,
-                        "istAktiv": false,
+                        "istAktiv": true,
                         "abkuerzung": null,
-                        "name": "DRSA Silber (bis 1990)"
+                        "name": "Gemeinsamer Grundausbildungsblock"
                     },
-                    "kommentar": "Gemeinsamer Grundausbildungsblock"
+                    "kommentar": ""
                 },
                 {
                     "qualifikation": {
@@ -14923,18 +14995,7 @@
                         "abkuerzung": null,
                         "name": "BOS-Sprechfunker -analog-"
                     },
-                    "kommentar": "BOS-Sprechfunker -analog-, und/oder"
-                },
-                {
-                    "qualifikation": {
-                        "id": "0017fa5d-f598-bb91-0fc5-cdb42cd89f54",
-                        "nr": "715",
-                        "poNr": 7,
-                        "istAktiv": true,
-                        "abkuerzung": null,
-                        "name": "BOS-Sprechfunker -digital-"
-                    },
-                    "kommentar": "BOS-Sprechfunker -digital-"
+                    "kommentar": "und/oder BOS-Sprechfunker - digital- (715)"
                 }
             ],
             "hospitationen": [
@@ -15069,7 +15130,7 @@
                         "abkuerzung": null,
                         "name": "Ausbilder Sprechfunk"
                     },
-                    "kommentar": "Ausbilder Sprechfunk"
+                    "kommentar": ""
                 },
                 {
                     "qualifikation": {
@@ -15080,7 +15141,7 @@
                         "abkuerzung": null,
                         "name": "Allgemeine Multiplikatorenschulung"
                     },
-                    "kommentar": "Allgemeine Multiplikatorenschulung oder vergleichbare Qualifikation"
+                    "kommentar": ""
                 }
             ],
             "hospitationen": [],
@@ -15254,14 +15315,18 @@
                         "abkuerzung": null,
                         "name": "Allgemeine Multiplikatorenschulung"
                     },
-                    "kommentar": "Allgemeine Multiplikatorenschulung oder vergleichbare Qualifikation"
+                    "kommentar": ""
                 }
             ],
             "hospitationen": [],
             "sonstiges": [
                 {
                     "anzahl": 1,
-                    "kommentar": "Antrag des zuständigen Landesverbandes oder des Bundesverbandes"
+                    "kommentar": "Eine nach Landesrecht erworbene Qualifikation zur Ausbildung von Ausbildern."
+                },
+                {
+                    "anzahl": 1,
+                    "kommentar": "Antrag des zuständigen Landesverbandes oder des Bundesverban- des"
                 }
             ],
             "mindestalter": {
@@ -17109,7 +17174,7 @@
             ],
             "hospitationen": [
                 {
-                    "kommentar": "Hospitation als Ausbilder an einem Lehrgang Rafting 1\n(1061) und Rafting 2 (1062)"
+                    "kommentar": "Nachweis der Hospitation als Ausbilder an einem Lehrgang Rafting 1 (1061) und Rafting 2 (1062)"
                 }
             ],
             "sonstiges": [],
@@ -17313,13 +17378,16 @@
             ],
             "hospitationen": [
                 {
+                    "kommentar": "Nachweis der Hospitation als Ausbilder im Lehrgang Strömungsret- ter 1 (1011) und Lehrgang Strömungsretter 2 (1028)"
+                },
+                {
                     "kommentar": "Nachweis der Hospitation als Ausbilder im Lehrgang Strömungsretter 1 (1011) und Lehrgang Strömungsretter 2 (1028)"
                 }
             ],
             "sonstiges": [
                 {
                     "anzahl": 1,
-                    "kommentar": "Körperliche Fitness (regelt die Ausbildungsvorschrift)\n& Nachweis 400m Schwimmen in 8 min\n& Lauf- Ausdauertest"
+                    "kommentar": "Körperliche Fitness\no Lauf-Ausdauertest\no Nachweis 400 m Schwimmen in 8 min"
                 }
             ],
             "mindestalter": {
