@@ -10045,8 +10045,13 @@
                 "einordnung": "uebergreifend"
             },
             {
-                "lehreinheiten": 5,
+                "lehreinheiten": 4,
                 "inhalt": "Führung",
+                "einordnung": "uebergreifend"
+            },
+            {
+                "lehreinheiten": 2,
+                "inhalt": "Prävention sexualisierter Gewalt (PsG) - Grundlagen",
                 "einordnung": "uebergreifend"
             }
         ],
@@ -10707,7 +10712,7 @@
                 "einordnung": "fachlich"
             },
             {
-                "lehreinheiten": 4,
+                "lehreinheiten": 3,
                 "inhalt": "Humanität und Sport",
                 "einordnung": "fachlich"
             },
@@ -10717,8 +10722,13 @@
                 "einordnung": "fachlich"
             },
             {
-                "lehreinheiten": 5,
+                "lehreinheiten": 4,
                 "inhalt": "Führung",
+                "einordnung": "fachlich"
+            },
+            {
+                "lehreinheiten": 2,
+                "inhalt": "Prävention sexualisierte Gewalt (PsG) - Grundlagen",
                 "einordnung": "fachlich"
             }
         ],
