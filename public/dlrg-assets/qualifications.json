@@ -2304,17 +2304,6 @@
                         "name": "Deutsches Rettungsschwimmabzeichen Silber"
                     },
                     "kommentar": "zum Zeitpunkt der Prüfung nicht älter als zwei Jahre"
-                },
-                {
-                    "qualifikation": {
-                        "id": "0017fa5d-3df8-b785-fc02-304b34bddabc",
-                        "nr": "614",
-                        "poNr": 6,
-                        "istAktiv": true,
-                        "abkuerzung": null,
-                        "name": "DLRG-Gerätetauchschein* (CMAS*)"
-                    },
-                    "kommentar": ""
                 }
             ],
             "hospitationen": [],
@@ -2325,7 +2314,7 @@
                 },
                 {
                     "anzahl": 1,
-                    "kommentar": "Voraussetzungen gemäß Anweisung für die DLRG Geratetauchausbildungen und -prüfungen"
+                    "kommentar": "Voraussetzungen gemäß Anweisung für die DLRG Gerätetauchausbildungen und -prüfungen"
                 }
             ],
             "mindestalter": {
