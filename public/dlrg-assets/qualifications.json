@@ -2304,17 +2304,6 @@
                         "name": "Deutsches Rettungsschwimmabzeichen Silber"
                     },
                     "kommentar": "zum Zeitpunkt der Prüfung nicht älter als zwei Jahre"
-                },
-                {
-                    "qualifikation": {
-                        "id": "0017fa5d-3df8-b785-fc02-304b34bddabc",
-                        "nr": "614",
-                        "poNr": 6,
-                        "istAktiv": true,
-                        "abkuerzung": null,
-                        "name": "DLRG-Gerätetauchschein* (CMAS*)"
-                    },
-                    "kommentar": ""
                 }
             ],
             "hospitationen": [],
@@ -2325,7 +2314,7 @@
                 },
                 {
                     "anzahl": 1,
-                    "kommentar": "Voraussetzungen gemäß Anweisung für die DLRG Geratetauchausbildungen und -prüfungen"
+                    "kommentar": "Voraussetzungen gemäß Anweisung für die DLRG Gerätetauchausbildungen und -prüfungen"
                 }
             ],
             "mindestalter": {
@@ -3837,131 +3826,6 @@
         "dokumente": [
             {
                 "id": 287,
-                "titel": "PO Kats 2018.pdf",
-                "beschreibung": null,
-                "typ": "po",
-                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=221&wm=no&v=o"
-            }
-        ]
-    },
-    {
-        "id": "0017fa5d-514c-eda6-53bd-f9d98812d175",
-        "nr": "821",
-        "poNr": 8,
-        "istAktiv": true,
-        "abkuerzung": null,
-        "name": "Zusatzausbildung Bootsführer KatS",
-        "stellenLfdNr": 3,
-        "gueltigkeit": null,
-        "beauftragung": null,
-        "wiederholung": null,
-        "pruefungenGueltigkeit": null,
-        "verlaengerungUE": null,
-        "verlaengerungBeauftragungUE": null,
-        "inhalt": [],
-        "voraussetzungen": {
-            "qualifikationen": [
-                {
-                    "qualifikation": {
-                        "id": "0017fa5d-d6fe-0ff0-a44d-e67a62325627",
-                        "nr": "512",
-                        "poNr": 5,
-                        "istAktiv": true,
-                        "abkuerzung": null,
-                        "name": "DLRG Bootsführerschein B"
-                    },
-                    "kommentar": ""
-                },
-                {
-                    "qualifikation": {
-                        "id": "0017fa5e-2116-3664-0dd0-bd6d4d8bc2b4",
-                        "nr": "180.1",
-                        "poNr": 1,
-                        "istAktiv": true,
-                        "abkuerzung": null,
-                        "name": "Gemeinsamer Grundausbildungsblock"
-                    },
-                    "kommentar": ""
-                }
-            ],
-            "hospitationen": [
-                {
-                    "kommentar": ""
-                }
-            ],
-            "sonstiges": [],
-            "mindestalter": {
-                "istErforderlich": false,
-                "alter": 0,
-                "kommentar": ""
-            },
-            "aerztliche_tauglichkeit": {
-                "istErforderlich": false,
-                "kommentar": ""
-            },
-            "mitgliedschaft": {
-                "istErforderlich": true,
-                "kommentar": ""
-            },
-            "befuerwortung": {
-                "istErforderlich": false,
-                "kommentar": ""
-            }
-        },
-        "pruefungen": [],
-        "prueferberechtigungen": [],
-        "dokumente": [
-            {
-                "id": 248,
-                "titel": "PO Kats 2018.pdf",
-                "beschreibung": null,
-                "typ": "po",
-                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=221&wm=no&v=o"
-            }
-        ]
-    },
-    {
-        "id": "0017fa5d-5485-a157-8537-24bbb8deb5e7",
-        "nr": "823",
-        "poNr": 8,
-        "istAktiv": true,
-        "abkuerzung": null,
-        "name": "Zusatzausbildung Kraftfahrer KatS",
-        "stellenLfdNr": 3,
-        "gueltigkeit": null,
-        "beauftragung": null,
-        "wiederholung": null,
-        "pruefungenGueltigkeit": null,
-        "verlaengerungUE": null,
-        "verlaengerungBeauftragungUE": null,
-        "inhalt": [],
-        "voraussetzungen": {
-            "qualifikationen": [],
-            "hospitationen": [],
-            "sonstiges": [],
-            "mindestalter": {
-                "istErforderlich": false,
-                "alter": 0,
-                "kommentar": ""
-            },
-            "aerztliche_tauglichkeit": {
-                "istErforderlich": false,
-                "kommentar": ""
-            },
-            "mitgliedschaft": {
-                "istErforderlich": false,
-                "kommentar": ""
-            },
-            "befuerwortung": {
-                "istErforderlich": false,
-                "kommentar": ""
-            }
-        },
-        "pruefungen": [],
-        "prueferberechtigungen": [],
-        "dokumente": [
-            {
-                "id": 250,
                 "titel": "PO Kats 2018.pdf",
                 "beschreibung": null,
                 "typ": "po",
@@ -6739,7 +6603,7 @@
                 "id": "0017fa5d-5485-a157-8537-24bbb8deb5e7",
                 "nr": "823",
                 "poNr": 8,
-                "istAktiv": true,
+                "istAktiv": false,
                 "abkuerzung": null,
                 "name": "Zusatzausbildung Kraftfahrer KatS"
             },
@@ -7982,7 +7846,7 @@
                 "id": "0017fa5d-5485-a157-8537-24bbb8deb5e7",
                 "nr": "823",
                 "poNr": 8,
-                "istAktiv": true,
+                "istAktiv": false,
                 "abkuerzung": null,
                 "name": "Zusatzausbildung Kraftfahrer KatS"
             },
@@ -14432,8 +14296,8 @@
         "verlaengerungBeauftragungUE": null,
         "inhalt": [
             {
-                "lehreinheiten": 8,
-                "inhalt": "Die Teilnehmer werden befähigt, Ausbilder für die EH/SH Module im Bereich und Auftrag Ihrer Gliederung auszubilden.\nIm Detail werden durchgeführt:\n- staatlicher Auftrag und Rahmenbedingungen\n- Einweisung in die Lehrunterlagen für alle Module\n- Einweisung in die praktische Durchführung aller odule\n- organisatorische Abwicklung",
+                "lehreinheiten": 5,
+                "inhalt": "Die Teilnehmer sind befähigt, Ausbilder für die EHSH-Module 1-3  zu schulen.\nIm Detail werden durchgeführt:\n- staatlicher Auftrag und Rahmenbedingungen\n- Einweisung in die Lehrunterlagen für die Module 1-3\n- Einweisung in die praktische Durchführung Module 1-3\n- organisatorische Abwicklung (Gliederungs- und Ausbilder-Anmeldung, Lehrgangsanmeldung, Lehrgangsabrechnung)",
                 "einordnung": "uebergreifend"
             }
         ],
