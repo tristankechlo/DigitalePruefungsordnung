@@ -336,34 +336,9 @@
         "verlaengerungBeauftragungUE": null,
         "inhalt": [
             {
-                "lehreinheiten": 1,
-                "inhalt": "Gefahren am und im Wasser\r\n- Stehende Gewässer\r\n- Fließende Gewässer\r\n- Schifffahrtstraße\r\n- Küstengebiet",
+                "lehreinheiten": 16,
+                "inhalt": "Rettungsschwimmen in Theorie und Praxis",
                 "einordnung": "uebergreifend"
-            },
-            {
-                "lehreinheiten": 1,
-                "inhalt": "Selbstrettung\r\n- Erschöpfung\r\n- Muskelkrampf",
-                "einordnung": "uebergreifend"
-            },
-            {
-                "lehreinheiten": 0.5,
-                "inhalt": "Praktische Übungen im Wasser\r\n- Unterarmkrampf\r\n- Oberschenkelkrampf\r\n- Waden- und Fußkrampf",
-                "einordnung": "uebergreifend"
-            },
-            {
-                "lehreinheiten": 1,
-                "inhalt": "Einfache Fremdrettung\r\n- Wie kann man anderen helfen?\r\n- Transportieren (Schieben, Ziehen)\r\n- Schleppen",
-                "einordnung": "uebergreifend"
-            },
-            {
-                "lehreinheiten": 0.5,
-                "inhalt": "Praktische Übungen im Wasser\r\n- Ziehen\r\n- Schieben\r\n- Schleppen",
-                "einordnung": "fachlich"
-            },
-            {
-                "lehreinheiten": 1.5,
-                "inhalt": "Beherrschung der Schwimmtechnik\r\n- Kraulschwimmen\r\n- Rückenkraulschwimmen\r\n- Brustschwimmen\r\n- Rückenschwimmen ohne Armtätigkeit",
-                "einordnung": "fachlich"
             }
         ],
         "voraussetzungen": {
