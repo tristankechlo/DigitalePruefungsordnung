@@ -4030,6 +4030,14 @@
                 "istAktiv": true,
                 "abkuerzung": "DSchnA Master",
                 "name": "Deutsches Schnorchelabzeichen Master (Gold)"
+            },
+            {
+                "id": "0017fa5e-e3fc-b4ff-3759-c531519c5321",
+                "nr": "1000",
+                "poNr": 10,
+                "istAktiv": true,
+                "abkuerzung": null,
+                "name": "Einsatzfähigkeit für Strömungsretter"
             }
         ],
         "dokumente": [
@@ -13150,6 +13158,14 @@
                 "istAktiv": true,
                 "abkuerzung": null,
                 "name": "Gemeinsamer Grundausbildungsblock - Personen- und vereinsbezogener Bereich"
+            },
+            {
+                "id": "0017fa5e-e3fc-b4ff-3759-c531519c5321",
+                "nr": "1000",
+                "poNr": 10,
+                "istAktiv": true,
+                "abkuerzung": null,
+                "name": "Einsatzfähigkeit für Strömungsretter"
             }
         ],
         "dokumente": [
@@ -16651,7 +16667,7 @@
         "stellenLfdNr": 3,
         "gueltigkeit": null,
         "beauftragung": null,
-        "wiederholung": null,
+        "wiederholung": 1,
         "pruefungenGueltigkeit": null,
         "verlaengerungUE": null,
         "verlaengerungBeauftragungUE": null,
@@ -17307,6 +17323,22 @@
                 "istAktiv": true,
                 "abkuerzung": null,
                 "name": "Modul Wildwasser"
+            },
+            {
+                "id": "0017fa5e-6cca-b769-f162-a0b1cdb6ae11",
+                "nr": "1023",
+                "poNr": 10,
+                "istAktiv": true,
+                "abkuerzung": null,
+                "name": "Modul Raft als Einsatzmittel"
+            },
+            {
+                "id": "0017fa5e-e3fc-b4ff-3759-c531519c5321",
+                "nr": "1000",
+                "poNr": 10,
+                "istAktiv": true,
+                "abkuerzung": null,
+                "name": "Einsatzfähigkeit für Strömungsretter"
             }
         ],
         "dokumente": [
