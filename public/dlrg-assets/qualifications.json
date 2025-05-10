@@ -14957,6 +14957,14 @@
                 "istAktiv": false,
                 "abkuerzung": null,
                 "name": "Fortbildung Fernmeldebetriebsstelle"
+            },
+            {
+                "id": "0017fa5f-05d0-157d-fc9f-90ab449962fc",
+                "nr": "715",
+                "poNr": 7,
+                "istAktiv": true,
+                "abkuerzung": null,
+                "name": "BOS-Sprechfunker -digital- (Niedersachsen)"
             }
         ],
         "dokumente": [
@@ -15142,6 +15150,14 @@
                 "istAktiv": true,
                 "abkuerzung": null,
                 "name": "Gemeinsamer Grundausbildungsblock - Personen- und vereinsbezogener Bereich"
+            },
+            {
+                "id": "0017fa5f-05d0-157d-fc9f-90ab449962fc",
+                "nr": "715",
+                "poNr": 7,
+                "istAktiv": true,
+                "abkuerzung": null,
+                "name": "BOS-Sprechfunker -digital- (Niedersachsen)"
             }
         ],
         "dokumente": [
@@ -15293,6 +15309,14 @@
                 "istAktiv": true,
                 "abkuerzung": null,
                 "name": "Gemeinsamer Grundausbildungsblock - Personen- und vereinsbezogener Bereich"
+            },
+            {
+                "id": "0017fa5f-05d0-157d-fc9f-90ab449962fc",
+                "nr": "715",
+                "poNr": 7,
+                "istAktiv": true,
+                "abkuerzung": null,
+                "name": "BOS-Sprechfunker -digital- (Niedersachsen)"
             }
         ],
         "dokumente": [
@@ -18063,6 +18087,86 @@
                 "beschreibung": null,
                 "typ": "po",
                 "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=785029&wm=no&v=o"
+            }
+        ]
+    },
+    {
+        "id": "0017fa5f-05d0-157d-fc9f-90ab449962fc",
+        "nr": "715",
+        "poNr": 7,
+        "istAktiv": true,
+        "abkuerzung": null,
+        "name": "BOS-Sprechfunker -digital- (Niedersachsen)",
+        "stellenLfdNr": 3,
+        "gueltigkeit": null,
+        "beauftragung": null,
+        "wiederholung": null,
+        "pruefungenGueltigkeit": null,
+        "verlaengerungUE": null,
+        "verlaengerungBeauftragungUE": null,
+        "inhalt": [
+            {
+                "lehreinheiten": 16,
+                "inhalt": "Die Tätigkeit als Einsatzkraft beinhaltet auch das sichere\nBedienen eines Funkgerätes, sowie die sichere\nVerkehrsabwicklung. Sprechfunkgeräte sind Führungs- und\nEinsatzmittel. Ihre Bedienung und Beherrschung erfordert ein\numfangreiches Fachwissen und regelmäßige, eigenständige\nFortbildungen im Sprechfunkbereich. Die Ausbildung zum\nBOS-Sprechfunker ist für die Bedienung von BOSFunkgeräten\nerforderlich (BOS: Behörden und Organisationen\nmit Sicherheitsaufgaben).",
+                "einordnung": "fachlich"
+            }
+        ],
+        "voraussetzungen": {
+            "qualifikationen": [],
+            "hospitationen": [],
+            "sonstiges": [
+                {
+                    "anzahl": 1,
+                    "kommentar": "Die Vorraussetzungen für die Prüfung sind in den landesrechtlichen Bestimmungen geregelt."
+                }
+            ],
+            "mindestalter": {
+                "istErforderlich": false,
+                "alter": 0,
+                "kommentar": ""
+            },
+            "aerztliche_tauglichkeit": {
+                "istErforderlich": false,
+                "kommentar": ""
+            },
+            "mitgliedschaft": {
+                "istErforderlich": false,
+                "kommentar": ""
+            },
+            "befuerwortung": {
+                "istErforderlich": false,
+                "kommentar": ""
+            }
+        },
+        "pruefungen": [
+            {
+                "id": "0017fa5f-6ce6-91c4-6b4c-5ec165c6fa5d",
+                "beschreibung": "Theorie: Inhalt, Art und Umfang der Prüfung richten sich nach den jeweiligen landesrechtlichen Bestimmungen.",
+                "einordnung": "theoretisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-6e82-ebb8-294c-ce9e1e9012b8",
+                "beschreibung": "Praxis: Inhalt, Art und Umfang der Prüfung richten sich nach den jeweiligen landesrechtlichen Bestimmungen.",
+                "einordnung": "praktisch",
+                "gueltigkeit": null
+            }
+        ],
+        "prueferberechtigungen": [],
+        "dokumente": [
+            {
+                "id": 350,
+                "titel": "11401207 PO IuK 2024_7.Auflage-digital.pdf",
+                "beschreibung": null,
+                "typ": "po",
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=829282&wm=no&v=o"
+            },
+            {
+                "id": 352,
+                "titel": "Verpflichtung_Handout_Gesetztestexte_20250101.pdf",
+                "beschreibung": "Auszug aus dem Strafgesetzbuch & TDDDG",
+                "typ": "merkblatt",
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=834573&wm=no&v=o"
             }
         ]
     }
