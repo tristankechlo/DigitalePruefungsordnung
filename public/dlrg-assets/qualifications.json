@@ -18169,5 +18169,87 @@
                 "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=834573&wm=no&v=o"
             }
         ]
+    },
+    {
+        "id": "0017fa5f-076c-6f6c-8904-f5dfd69bbb49",
+        "nr": "371",
+        "poNr": 3,
+        "istAktiv": true,
+        "abkuerzung": null,
+        "name": "Pädagogische Lehrkräfteausbildung",
+        "stellenLfdNr": 3,
+        "gueltigkeit": null,
+        "beauftragung": null,
+        "wiederholung": null,
+        "pruefungenGueltigkeit": null,
+        "verlaengerungUE": null,
+        "verlaengerungBeauftragungUE": null,
+        "inhalt": [],
+        "voraussetzungen": {
+            "qualifikationen": [],
+            "hospitationen": [],
+            "sonstiges": [],
+            "mindestalter": {
+                "istErforderlich": false,
+                "alter": 0,
+                "kommentar": ""
+            },
+            "aerztliche_tauglichkeit": {
+                "istErforderlich": false,
+                "kommentar": ""
+            },
+            "mitgliedschaft": {
+                "istErforderlich": false,
+                "kommentar": ""
+            },
+            "befuerwortung": {
+                "istErforderlich": false,
+                "kommentar": ""
+            }
+        },
+        "pruefungen": [],
+        "prueferberechtigungen": [],
+        "dokumente": []
+    },
+    {
+        "id": "0017fa5f-0908-c95b-2a30-c7291784bc50",
+        "nr": "372",
+        "poNr": 3,
+        "istAktiv": true,
+        "abkuerzung": null,
+        "name": "Dozent in der Erwachsenenbildung",
+        "stellenLfdNr": 3,
+        "gueltigkeit": null,
+        "beauftragung": null,
+        "wiederholung": null,
+        "pruefungenGueltigkeit": null,
+        "verlaengerungUE": null,
+        "verlaengerungBeauftragungUE": null,
+        "inhalt": [],
+        "voraussetzungen": {
+            "qualifikationen": [],
+            "hospitationen": [],
+            "sonstiges": [],
+            "mindestalter": {
+                "istErforderlich": false,
+                "alter": 0,
+                "kommentar": ""
+            },
+            "aerztliche_tauglichkeit": {
+                "istErforderlich": false,
+                "kommentar": ""
+            },
+            "mitgliedschaft": {
+                "istErforderlich": false,
+                "kommentar": ""
+            },
+            "befuerwortung": {
+                "istErforderlich": false,
+                "kommentar": ""
+            }
+        },
+        "pruefungen": [],
+        "prueferberechtigungen": [],
+        "dokumente": []
     }
 ]
