@@ -3637,6 +3637,13 @@
                 "beschreibung": "PO 7",
                 "typ": "po",
                 "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=829282&wm=no&v=o"
+            },
+            {
+                "id": 218,
+                "titel": "25408180 ANW Sprechfunkdienst_14.Neuauflage-online.pdf",
+                "beschreibung": "Funkdienstanweisung",
+                "typ": "merkblatt",
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=866654&wm=no&v=o"
             }
         ]
     },
@@ -3704,6 +3711,13 @@
                 "beschreibung": null,
                 "typ": "po",
                 "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=829282&wm=no&v=o"
+            },
+            {
+                "id": 221,
+                "titel": "25408180 ANW Sprechfunkdienst_14.Neuauflage-online.pdf",
+                "beschreibung": "Funkdienstanweisung",
+                "typ": "merkblatt",
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=866654&wm=no&v=o"
             },
             {
                 "id": 347,
@@ -6865,11 +6879,11 @@
                 "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=1354&wm=no&v=o"
             },
             {
-                "id": 349,
-                "titel": "05_PO_Bootswesen_ab_2018.pdf",
+                "id": 357,
+                "titel": "PO Boot - Auflage 13_web.pdf",
                 "beschreibung": null,
                 "typ": "po",
-                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=1394&wm=no&v=o"
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=866653&wm=no&v=o"
             }
         ]
     },
@@ -7065,11 +7079,11 @@
                 "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=1354&wm=no&v=o"
             },
             {
-                "id": 285,
+                "id": 355,
                 "titel": "PO Boot - Auflage 13_web.pdf",
                 "beschreibung": null,
                 "typ": "po",
-                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=829265&wm=no&v=o"
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=866653&wm=no&v=o"
             }
         ]
     },
@@ -7194,7 +7208,7 @@
                 "titel": "PO Boot - Auflage 13_web.pdf",
                 "beschreibung": null,
                 "typ": "po",
-                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=829265&wm=no&v=o"
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=866653&wm=no&v=o"
             }
         ]
     },
@@ -7319,7 +7333,7 @@
                 "titel": "PO Boot - Auflage 13_web.pdf",
                 "beschreibung": null,
                 "typ": "po",
-                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=829265&wm=no&v=o"
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=866653&wm=no&v=o"
             }
         ]
     },
@@ -7432,7 +7446,7 @@
                 "titel": "PO Boot - Auflage 13_web.pdf",
                 "beschreibung": null,
                 "typ": "po",
-                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=829265&wm=no&v=o"
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=866653&wm=no&v=o"
             }
         ]
     },
@@ -7545,7 +7559,7 @@
                 "titel": "PO Boot - Auflage 13_web.pdf",
                 "beschreibung": null,
                 "typ": "po",
-                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=829265&wm=no&v=o"
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=866653&wm=no&v=o"
             }
         ]
     },
@@ -8268,11 +8282,18 @@
         "prueferberechtigungen": [],
         "dokumente": [
             {
-                "id": 320,
+                "id": 358,
                 "titel": "11401207 PO IuK 2024_7.Auflage-digital.pdf",
                 "beschreibung": null,
                 "typ": "po",
                 "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=829282&wm=no&v=o"
+            },
+            {
+                "id": 359,
+                "titel": "25408180 ANW Sprechfunkdienst_14.Neuauflage-online.pdf",
+                "beschreibung": null,
+                "typ": "merkblatt",
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=866654&wm=no&v=o"
             }
         ]
     },
@@ -9022,6 +9043,13 @@
                 "beschreibung": null,
                 "typ": "po",
                 "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=829282&wm=no&v=o"
+            },
+            {
+                "id": 222,
+                "titel": "25408180 ANW Sprechfunkdienst_14.Neuauflage-online.pdf",
+                "beschreibung": "Funkdienstanweisung",
+                "typ": "merkblatt",
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=866654&wm=no&v=o"
             },
             {
                 "id": 348,
@@ -10717,7 +10745,7 @@
                 "titel": "PO Boot - Auflage 13_web.pdf",
                 "beschreibung": null,
                 "typ": "po",
-                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=829265&wm=no&v=o"
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=866653&wm=no&v=o"
             }
         ]
     },
@@ -11620,6 +11648,13 @@
                 "beschreibung": "PO 7",
                 "typ": "po",
                 "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=829282&wm=no&v=o"
+            },
+            {
+                "id": 235,
+                "titel": "25408180 ANW Sprechfunkdienst_14.Neuauflage-online.pdf",
+                "beschreibung": "Funkdienstanweisung",
+                "typ": "merkblatt",
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=866654&wm=no&v=o"
             }
         ]
     },
@@ -11750,6 +11785,13 @@
                 "beschreibung": "PO 7",
                 "typ": "po",
                 "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=829282&wm=no&v=o"
+            },
+            {
+                "id": 239,
+                "titel": "25408180 ANW Sprechfunkdienst_14.Neuauflage-online.pdf",
+                "beschreibung": "Funkdienstanweisung",
+                "typ": "merkblatt",
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=866654&wm=no&v=o"
             }
         ]
     },
@@ -13876,7 +13918,15 @@
             }
         ],
         "prueferberechtigungen": [],
-        "dokumente": []
+        "dokumente": [
+            {
+                "id": 353,
+                "titel": "PO_WRD_2020_7.Auflage.pdf",
+                "beschreibung": null,
+                "typ": "po",
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=1395&wm=no&v=o"
+            }
+        ]
     },
     {
         "id": "0017fa5e-a6c7-5c13-4528-22754c404b34",
@@ -14820,6 +14870,13 @@
                 "beschreibung": "PO 7",
                 "typ": "po",
                 "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=829282&wm=no&v=o"
+            },
+            {
+                "id": 225,
+                "titel": "25408180 ANW Sprechfunkdienst_14.Neuauflage-online.pdf",
+                "beschreibung": "Funkdienstanweisung",
+                "typ": "merkblatt",
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=866654&wm=no&v=o"
             }
         ]
     },
@@ -14974,6 +15031,13 @@
                 "beschreibung": "PO 7",
                 "typ": "po",
                 "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=829282&wm=no&v=o"
+            },
+            {
+                "id": 227,
+                "titel": "25408180 ANW Sprechfunkdienst_14.Neuauflage-online.pdf",
+                "beschreibung": "Funkdienstanweisung",
+                "typ": "merkblatt",
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=866654&wm=no&v=o"
             }
         ]
     },
@@ -15162,6 +15226,13 @@
         ],
         "dokumente": [
             {
+                "id": 230,
+                "titel": "25408180 ANW Sprechfunkdienst_14.Neuauflage-online.pdf",
+                "beschreibung": "Funkdienstanweisung",
+                "typ": "merkblatt",
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=866654&wm=no&v=o"
+            },
+            {
                 "id": 323,
                 "titel": "11401207 PO IuK 2024_7.Auflage-digital.pdf",
                 "beschreibung": null,
@@ -15326,6 +15397,13 @@
                 "beschreibung": "PO 7",
                 "typ": "po",
                 "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=829282&wm=no&v=o"
+            },
+            {
+                "id": 234,
+                "titel": "25408180 ANW Sprechfunkdienst_14.Neuauflage-online.pdf",
+                "beschreibung": "Funkdienstanweisung",
+                "typ": "merkblatt",
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=866654&wm=no&v=o"
             }
         ]
     },
@@ -18160,6 +18238,13 @@
                 "beschreibung": null,
                 "typ": "po",
                 "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=829282&wm=no&v=o"
+            },
+            {
+                "id": 351,
+                "titel": "25408180 ANW Sprechfunkdienst_14.Neuauflage-online.pdf",
+                "beschreibung": "Funkdienstanweisung",
+                "typ": "merkblatt",
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=866654&wm=no&v=o"
             },
             {
                 "id": 352,
