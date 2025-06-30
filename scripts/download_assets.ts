@@ -52,7 +52,7 @@ const defaultAssets: Asset[] = [
 async function fetchAssets(): Promise<Set<Asset>> {
     try {
         console.log("Starting Download of all qualifications");
-        const response = await fetch('https://api.dlrg.net/ausbildung/v1/qualifikationen?activeOnly=false', FETCH_OPTIONS);
+        const response = await fetch('https://api.dlrg.net/ausbildung/v1/qualifikationen?activeOnly=true', FETCH_OPTIONS);
         if (!response.ok) {
             throw response;
         }
