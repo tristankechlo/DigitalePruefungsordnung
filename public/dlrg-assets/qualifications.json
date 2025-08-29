@@ -3834,7 +3834,7 @@
         "beauftragung": null,
         "wiederholung": null,
         "pruefungenGueltigkeit": null,
-        "verlaengerungUE": null,
+        "verlaengerungUE": 15,
         "verlaengerungBeauftragungUE": null,
         "inhalt": [],
         "voraussetzungen": {
@@ -15929,7 +15929,7 @@
         "beauftragung": null,
         "wiederholung": null,
         "pruefungenGueltigkeit": null,
-        "verlaengerungUE": null,
+        "verlaengerungUE": 15,
         "verlaengerungBeauftragungUE": null,
         "inhalt": [],
         "voraussetzungen": {
@@ -18306,6 +18306,47 @@
         "wiederholung": null,
         "pruefungenGueltigkeit": null,
         "verlaengerungUE": null,
+        "verlaengerungBeauftragungUE": null,
+        "inhalt": [],
+        "voraussetzungen": {
+            "qualifikationen": [],
+            "hospitationen": [],
+            "sonstiges": [],
+            "mindestalter": {
+                "istErforderlich": false,
+                "alter": 0,
+                "kommentar": ""
+            },
+            "aerztliche_tauglichkeit": {
+                "istErforderlich": false,
+                "kommentar": ""
+            },
+            "mitgliedschaft": {
+                "istErforderlich": false,
+                "kommentar": ""
+            },
+            "befuerwortung": {
+                "istErforderlich": false,
+                "kommentar": ""
+            }
+        },
+        "pruefungen": [],
+        "prueferberechtigungen": [],
+        "dokumente": []
+    },
+    {
+        "id": "0017fa5f-0aa5-2349-e023-0487b9f70243",
+        "nr": "283",
+        "poNr": 2,
+        "istAktiv": true,
+        "abkuerzung": "ÜL-C Sportartübergreiffend",
+        "name": "DOSB Übungsleiter C \"Breitensport\" (Sportartübergreifend)",
+        "stellenLfdNr": 3,
+        "gueltigkeit": 4,
+        "beauftragung": null,
+        "wiederholung": null,
+        "pruefungenGueltigkeit": null,
+        "verlaengerungUE": 15,
         "verlaengerungBeauftragungUE": null,
         "inhalt": [],
         "voraussetzungen": {
