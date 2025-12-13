@@ -18374,5 +18374,166 @@
         "pruefungen": [],
         "prueferberechtigungen": [],
         "dokumente": []
+    },
+    {
+        "id": "0017fa5f-0c41-7d38-aadb-adfc70952957",
+        "nr": "361",
+        "poNr": 3,
+        "istAktiv": true,
+        "abkuerzung": "PSNV-E Peer",
+        "name": "Psychosoziale Notfallversorgung für Einsatzkräfte",
+        "stellenLfdNr": 3,
+        "gueltigkeit": 2,
+        "beauftragung": null,
+        "wiederholung": null,
+        "pruefungenGueltigkeit": null,
+        "verlaengerungUE": 16,
+        "verlaengerungBeauftragungUE": null,
+        "inhalt": [
+            {
+                "lehreinheiten": 2,
+                "inhalt": "Einführung in die PSNV",
+                "einordnung": "fachlich"
+            },
+            {
+                "lehreinheiten": 6,
+                "inhalt": "Stress und Stressbewältigung",
+                "einordnung": "fachlich"
+            },
+            {
+                "lehreinheiten": 6,
+                "inhalt": "Psychotraumatologie",
+                "einordnung": "fachlich"
+            },
+            {
+                "lehreinheiten": 6,
+                "inhalt": "Eigenschutz und Selbstfürsorge",
+                "einordnung": "fachlich"
+            },
+            {
+                "lehreinheiten": 10,
+                "inhalt": "Grundlagen der Kommunikation und Gesprächsführung",
+                "einordnung": "fachlich"
+            },
+            {
+                "lehreinheiten": 6,
+                "inhalt": "Grundlagen und Rahmenbedingungen der PSNV-E",
+                "einordnung": "fachlich"
+            },
+            {
+                "lehreinheiten": 3,
+                "inhalt": "Psychoedukation",
+                "einordnung": "fachlich"
+            },
+            {
+                "lehreinheiten": 10,
+                "inhalt": "Interventionen am Ereignistag (theoretisch und praktisch)",
+                "einordnung": "fachlich"
+            },
+            {
+                "lehreinheiten": 10,
+                "inhalt": "Intervention an Folgetagen (theoretisch und praktisch)",
+                "einordnung": "fachlich"
+            },
+            {
+                "lehreinheiten": 2,
+                "inhalt": "Tertiäre Maßnahmen: Weitervermittlung/Überleitung, Wegweisung, Ressourcenaktivierung",
+                "einordnung": "fachlich"
+            },
+            {
+                "lehreinheiten": 6,
+                "inhalt": "Komplexe / Besondere Interventionen",
+                "einordnung": "fachlich"
+            },
+            {
+                "lehreinheiten": 5,
+                "inhalt": "Tod oder schwere Verletzung im Einsatz oder dienstlichen Kontext",
+                "einordnung": "fachlich"
+            },
+            {
+                "lehreinheiten": 4,
+                "inhalt": "Suizidalität und Suizid",
+                "einordnung": "fachlich"
+            },
+            {
+                "lehreinheiten": 4,
+                "inhalt": "Möglichkeiten und Grenzen der Einsatznachsorge",
+                "einordnung": "fachlich"
+            },
+            {
+                "lehreinheiten": 20,
+                "inhalt": "Primärprävention inkl. didaktische Grundlagen",
+                "einordnung": "fachlich"
+            }
+        ],
+        "voraussetzungen": {
+            "qualifikationen": [
+                {
+                    "qualifikation": {
+                        "id": "0017fa5e-99e4-8cc8-1bbb-45253234159a",
+                        "nr": "401",
+                        "poNr": 4,
+                        "istAktiv": true,
+                        "abkuerzung": null,
+                        "name": "Basisausbildung Einsatzdienste"
+                    },
+                    "kommentar": ""
+                }
+            ],
+            "hospitationen": [],
+            "sonstiges": [
+                {
+                    "anzahl": 1,
+                    "kommentar": "aktive Tätigkeit in einem Fachbereich der DLRG"
+                }
+            ],
+            "mindestalter": {
+                "istErforderlich": true,
+                "alter": 24,
+                "kommentar": "zum Abschluss der Ausbildung"
+            },
+            "aerztliche_tauglichkeit": {
+                "istErforderlich": false,
+                "kommentar": ""
+            },
+            "mitgliedschaft": {
+                "istErforderlich": true,
+                "kommentar": ""
+            },
+            "befuerwortung": {
+                "istErforderlich": false,
+                "kommentar": ""
+            }
+        },
+        "pruefungen": [
+            {
+                "id": "0017fa5f-701f-45ab-fc13-aabc2ee6f7e3",
+                "beschreibung": "schriftliche Prüfung im Umfang (40 % der Gesamtprüfungsleistung)",
+                "einordnung": "theoretisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-71bb-9f9f-e3a0-f31c496e46d0",
+                "beschreibung": "Durchführung eines Einzelgesprächs (60 % der Gesamtprüfungsleistung)",
+                "einordnung": "praktisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-7357-f993-dff4-a7bf20c89c74",
+                "beschreibung": "persönliches Auswahlgespräch",
+                "einordnung": "praktisch",
+                "gueltigkeit": null
+            }
+        ],
+        "prueferberechtigungen": [],
+        "dokumente": [
+            {
+                "id": 372,
+                "titel": "",
+                "beschreibung": null,
+                "typ": "po",
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=627611&wm=no&v=o"
+            }
+        ]
     }
 ]
