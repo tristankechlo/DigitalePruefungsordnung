@@ -10522,6 +10522,30 @@
                 "istAktiv": true,
                 "abkuerzung": "DSTA",
                 "name": "Deutsches Schnorcheltauchabzeichen"
+            },
+            {
+                "id": "0017fa5e-f5b4-9230-f74a-d475a051fd59",
+                "nr": "162",
+                "poNr": 1,
+                "istAktiv": true,
+                "abkuerzung": "DSchnA Basic",
+                "name": "Deutsches Schnorchelabzeichen Basic (Bronze)"
+            },
+            {
+                "id": "0017fa5e-f750-ec1e-b3f0-0101be414a8c",
+                "nr": "163",
+                "poNr": 1,
+                "istAktiv": true,
+                "abkuerzung": "DSchnA Challenge",
+                "name": "Deutsches Schnorchelabzeichen Challenge (Silber)"
+            },
+            {
+                "id": "0017fa5e-f8ed-460c-855b-999b90bd272a",
+                "nr": "164",
+                "poNr": 1,
+                "istAktiv": true,
+                "abkuerzung": "DSchnA Master",
+                "name": "Deutsches Schnorchelabzeichen Master (Gold)"
             }
         ],
         "dokumente": []
