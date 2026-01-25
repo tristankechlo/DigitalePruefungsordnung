@@ -61,6 +61,8 @@ export default function Qualification(props: QualificationProps) {
     const titel = quali.dokumente.find((d) => d.typ === DokumentTyp.Abzeichen)?.titel;
     const abzeichenUrl = "__MAIN_URL__/dlrg-assets/icons/" + titel;
     const hasIcon = titel === undefined ? false : true;
+    const neededFor = [...appState.qualifications?.values() || []]
+        .filter(q => q.voraussetzungen.qualifikationen.find(a => a.qualifikation.id === quali.id));
 
     return (
         <Container size={rem(1100)} my='md' className={classes.container}>
@@ -125,6 +127,17 @@ export default function Qualification(props: QualificationProps) {
                         </Accordion.Panel>
                     </Accordion.Item> : null}
 
+                {neededFor.length >= 1 &&
+                    <Accordion.Item value='voraussetzung_für'>
+                        <Accordion.Control>Voraussetzung für:</Accordion.Control>
+                        <Accordion.Panel>
+                            {neededFor.map((q) => (
+                                <LinkedQualification key={q.id} q={q} />
+                            ))}
+                        </Accordion.Panel>
+                    </Accordion.Item>
+                }
+
                 {hasSonstiges ? // render the 'sonstiges' category if needed
                     <Accordion.Item value='sonstiges'>
                         <Accordion.Control>Sonstiges</Accordion.Control>
@@ -154,7 +167,7 @@ export default function Qualification(props: QualificationProps) {
 
 
             </Accordion>
-        </Container>
+        </Container >
     );
 
 }
