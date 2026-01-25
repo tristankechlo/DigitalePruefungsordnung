@@ -6,7 +6,7 @@ const defaultProps = {
     color: 'currentColor',
 } as TablerIconsProps;
 
-export const IconWalkieTalkie = (props: TablerIconsProps) => {
+export const IconWalkieTalkie = (props: TablerIconsProps = defaultProps) => {
 
     const { width, height, color, ...rest } = props;
 
@@ -18,7 +18,7 @@ export const IconWalkieTalkie = (props: TablerIconsProps) => {
     );
 }
 
-export const IconWhistle = (props: TablerIconsProps) => {
+export const IconWhistle = (props: TablerIconsProps = defaultProps) => {
 
     const { width, height, color, ...rest } = props;
 
@@ -29,6 +29,3 @@ export const IconWhistle = (props: TablerIconsProps) => {
 
     );
 }
-
-IconWalkieTalkie.defaultProps = defaultProps;
-IconWhistle.defaultProps = defaultProps;
