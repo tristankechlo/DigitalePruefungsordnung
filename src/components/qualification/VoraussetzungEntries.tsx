@@ -1,22 +1,30 @@
 import type { IVoraussetzung, IVoraussetzungMindestalter } from "../../types/DLRGTypes";
-import { Text } from "@mantine/core";
+import { Flex, Stack, Text } from "@mantine/core";
 import { TEXT_PROPS } from '../../util/CommonProps';
+import { IconCake, TablerIconsProps } from "@tabler/icons-react";
 
 interface VoraussetzungGenericProps extends IVoraussetzung {
     text: string;
+    icon?: (props: TablerIconsProps) => JSX.Element;
 }
 
 // renders a generic requirement
-export function VoraussetzungGeneric({ istErforderlich, kommentar, text }: VoraussetzungGenericProps) {
+export function VoraussetzungGeneric({ istErforderlich, kommentar, text, icon: Icon }: VoraussetzungGenericProps) {
 
     if (!istErforderlich) { return null; }
 
-    // add brackets to the comment if there aren't any already (api is inconsistent, sometimes there are already brackets present)
-    const isInBrackets = kommentar.startsWith("(") && kommentar.endsWith(")");
-    const suffix = (kommentar.length > 0) ? isInBrackets ? ` ${kommentar}` : ` (${kommentar})` : "";
+    const hasComment = kommentar.length > 0;
 
     return (
-        <Text {...TEXT_PROPS}><b>{text}</b>{suffix}</Text>
+        <Flex gap="xs" align="center" pb={TEXT_PROPS.pb} mb="xs">
+            {Icon ? <Icon size={24} style={{ minWidth: "24px" }} /> : null}
+            <Stack gap={0}>
+                <Text size={TEXT_PROPS.size} lh="xs" fw="bold">{text}</Text>
+                {hasComment &&
+                    <Text size={TEXT_PROPS.size} lh="xs">{kommentar}</Text>
+                }
+            </Stack>
+        </Flex>
     );
 
 }
@@ -29,7 +37,10 @@ export function VoraussetzungMindestalter({ istErforderlich, alter, kommentar }:
     const suffix = (kommentar.length > 0) ? ` (${kommentar})` : "";
 
     return (
-        <Text {...TEXT_PROPS}><b>Mindestalter:</b> {alter} Jahre{suffix}</Text>
+        <Flex gap="xs" align="center" pb={TEXT_PROPS.pb} mb="xs">
+            <IconCake size={24} />
+            <Text size={TEXT_PROPS.size} lh="xs"><b>Mindestalter:</b> {alter} Jahre{suffix}</Text>
+        </Flex>
     );
 
 }

@@ -1,18 +1,19 @@
 import { VoraussetzungGeneric, VoraussetzungMindestalter } from './qualification/VoraussetzungEntries';
 import { PruefungEinordnung, InhaltEinordnung, DokumentTyp } from '../types/DLRGTypes';
-import { Container, Title, rem, Text, Accordion, Grid, Image } from '@mantine/core';
-import { InhaltCategory } from './qualification/InhaltCategory';
+import { Container, Title, rem, Text, Accordion, Grid, Image, Box } from '@mantine/core';
+import { IconClipboardHeart, IconUserCheck } from '@tabler/icons-react';
+import LinkedQualification from './qualification/LinkedQualification';
+import { getQualification, qualificationToUrl } from '../util/Utils';
 import { PrüfungCategory } from './qualification/PrüfungCategory';
 import { TEXT_PROPS, SUBTITLE_PROPS } from '../util/CommonProps';
-import type { IQualifikation } from '../types/DLRGTypes';
-import LinkedQualification from './qualification/LinkedQualification';
+import { InhaltCategory } from './qualification/InhaltCategory';
 import ConditionalEntry from './qualification/ConditionalEntry';
-import { useLocation } from 'react-router-dom';
+import type { IQualifikation } from '../types/DLRGTypes';
 import Dokumente from './qualification/DokumenteEntry';
 import classes from './Qualification.module.css';
+import { useLocation } from 'react-router-dom';
 import { AppState } from '../util/AppState';
 import { useContext } from 'react';
-import { getQualification, qualificationToUrl } from '../util/Utils';
 
 
 // check if the categorie 'sonstiges' should be rendered
@@ -61,8 +62,11 @@ export default function Qualification(props: QualificationProps) {
     const titel = quali.dokumente.find((d) => d.typ === DokumentTyp.Abzeichen)?.titel;
     const abzeichenUrl = "__MAIN_URL__/dlrg-assets/icons/" + titel;
     const hasIcon = titel === undefined ? false : true;
+
     const neededFor = [...appState.qualifications?.values() || []]
         .filter(q => q.voraussetzungen.qualifikationen.find(a => a.qualifikation.id === quali.id));
+    const createdBy = [...appState.qualifications?.values() || []]
+        .filter(q => q.prueferberechtigungen.find(a => a.id === quali.id));
 
     return (
         <Container size={rem(1100)} my='md' className={classes.container}>
@@ -89,9 +93,17 @@ export default function Qualification(props: QualificationProps) {
                         <Accordion.Control>Voraussetzungen</Accordion.Control>
                         <Accordion.Panel>
                             <VoraussetzungMindestalter {...quali.voraussetzungen.mindestalter} />
-                            <VoraussetzungGeneric {...quali.voraussetzungen.aerztliche_tauglichkeit} text='Ärztliche Tauglichkeitserklärung erforderlich' />
-                            <VoraussetzungGeneric {...quali.voraussetzungen.mitgliedschaft} text='Mitgliedschaft in der DLRG erforderlich' />
-                            <VoraussetzungGeneric {...quali.voraussetzungen.befuerwortung} text='Befürwortung durch den Ortsverein erforderlich' />
+                            <VoraussetzungGeneric
+                                {...quali.voraussetzungen.aerztliche_tauglichkeit}
+                                text='Ärztliche Tauglichkeitserklärung'
+                                icon={IconClipboardHeart}
+                            />
+                            <VoraussetzungGeneric
+                                {...quali.voraussetzungen.mitgliedschaft}
+                                text='Mitgliedschaft in der DLRG'
+                                icon={IconUserCheck}
+                            />
+                            <VoraussetzungGeneric {...quali.voraussetzungen.befuerwortung} text='Befürwortung durch den Ortsverein' />
                             {quali.voraussetzungen.qualifikationen.filter((q) => q.qualifikation.istAktiv).length > 0 ? <Text {...SUBTITLE_PROPS}>Erforderliche Qualifikationen:</Text> : null}
                             {quali.voraussetzungen.qualifikationen.filter((q) => q.qualifikation.istAktiv).map((q, i) =>
                                 <LinkedQualification key={i} q={q.qualifikation} c={q.kommentar} />
@@ -127,11 +139,22 @@ export default function Qualification(props: QualificationProps) {
                         </Accordion.Panel>
                     </Accordion.Item> : null}
 
-                {neededFor.length >= 1 &&
-                    <Accordion.Item value='voraussetzung_für'>
-                        <Accordion.Control>Voraussetzung für:</Accordion.Control>
+                {neededFor.length > 0 &&
+                    <Accordion.Item value='voraussetzung_fuer'>
+                        <Accordion.Control>Als Voraussetzung für folgende Qualifikationen benötigt:</Accordion.Control>
                         <Accordion.Panel>
                             {neededFor.map((q) => (
+                                <LinkedQualification key={q.id} q={q} />
+                            ))}
+                        </Accordion.Panel>
+                    </Accordion.Item>
+                }
+
+                {createdBy.length > 0 &&
+                    <Accordion.Item value='erstellt_von'>
+                        <Accordion.Control>Ausgestellt/Geprüft durch:</Accordion.Control>
+                        <Accordion.Panel>
+                            {createdBy.map((q) => (
                                 <LinkedQualification key={q.id} q={q} />
                             ))}
                         </Accordion.Panel>
