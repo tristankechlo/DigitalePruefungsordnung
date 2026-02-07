@@ -1,11 +1,12 @@
 import type { IVoraussetzung, IVoraussetzungMindestalter } from "../../types/DLRGTypes";
 import { Flex, Stack, Text } from "@mantine/core";
 import { TEXT_PROPS } from '../../util/CommonProps';
-import { IconCake, TablerIconsProps } from "@tabler/icons-react";
+import { IconCake } from "@tabler/icons-react";
+import { CustomIconType } from "../../util/Icons";
 
 interface VoraussetzungGenericProps extends IVoraussetzung {
     text: string;
-    icon?: (props: TablerIconsProps) => JSX.Element;
+    icon?: CustomIconType;
 }
 
 // renders a generic requirement

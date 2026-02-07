@@ -1,28 +1,27 @@
 import {
-    IconSwimming, IconWaterpolo, IconFirstAidKit, IconLifebuoy, IconSpeedboat, IconScubaMask, IconCloudStorm, IconBan, IconStar, IconJacket
+    IconSwimming, IconWaterpolo, IconFirstAidKit, IconLifebuoy, IconSpeedboat, IconScubaMask, IconCloudStorm, IconBan, IconJacket
 } from '@tabler/icons-react';
-import type { TablerIconsProps } from '@tabler/icons-react';
-import { IconWalkieTalkie, IconWhistle } from '../util/Icons';
 import { Box, Divider, Flex, ScrollArea, Skeleton, Stack, Text, UnstyledButton } from "@mantine/core";
-import classes from './style.module.css';
+import { CustomIconType, IconWalkieTalkie, IconWhistle } from '../util/Icons';
+import { getActivePO, sanitizeName } from '../util/Utils';
+import { FORMATTING_OPTIONS } from '../util/CommonProps';
 import { NavLink, useLocation } from 'react-router-dom';
 import ExternalLink from '../components/ExternalLink';
 import ProjectInfoModal from './ProjectInfo';
-import { FORMATTING_OPTIONS } from '../util/CommonProps';
-import { useContext } from 'react';
 import { AppState } from '../util/AppState';
-import { getActivePO, sanitizeName } from '../util/Utils';
+import { useContext } from 'react';
+import classes from './style.module.css';
 
 /* 
     the icons that will be used in the navigation, order of icons matters,
-    based on the assumption that the number of the departmets stays the same
+    based on the assumption that the number of the departments stays the same
 */
-const ICONS = [
-    IconStar, IconSwimming, IconWaterpolo, IconFirstAidKit, IconLifebuoy,
-    IconSpeedboat, IconScubaMask, IconWalkieTalkie, IconCloudStorm, IconWhistle, IconJacket
+const ICONS: CustomIconType[] = [
+    IconSwimming, IconWaterpolo, IconFirstAidKit, IconLifebuoy, IconSpeedboat,
+    IconScubaMask, IconWalkieTalkie, IconCloudStorm, IconWhistle, IconJacket
 ];
 
-function NavigationItem({ path, name, active, Icon }: { path: string, name: string, active: boolean, Icon: (props: TablerIconsProps) => JSX.Element }) {
+function NavigationItem({ path, name, active, Icon }: { path: string, name: string, active: boolean, Icon: CustomIconType }) {
     return (
         <UnstyledButton component={NavLink} to={path} className={classes.link} data-active={active}>
             <Icon className={classes.linkIcon} stroke={1.75} />
@@ -50,7 +49,7 @@ export default function Navigation() {
                     {/* Display all entries, or 10 placefillers until data is loaded */}
                     {pos ? pos.map((po, i) => {
                         const Icon = ICONS[i] || IconBan;
-                        const path = po.name === 'Vorauswahl' ? '/' : `/${sanitizeName(po.name)}`;
+                        const path = `/${sanitizeName(po.name)}`;
                         return (
                             <NavigationItem key={i} name={po.name} path={path} active={selectedPo === po.nr} Icon={Icon} />
                         );

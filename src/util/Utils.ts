@@ -1,35 +1,35 @@
-import { IAppState } from "./AppState";
 import type { IQualifikation, IQualifikationInfo } from "../types/DLRGTypes";
+import { IAppState } from "./AppState";
 
 // changes also needed in vite-plugin.ts
 export function sanitizeName(name: string) {
-    name = name.toLowerCase();
-    name = name.replace(/ä/g, 'ae');
-    name = name.replace(/ö/g, 'oe');
-    name = name.replace(/ü/g, 'ue');
-    name = name.replace(/[^a-z0-9.*]+/g, '-');
-    if (name.slice(-1) === '-') {
-        name = name.substring(0, name.length - 1);
+    let tmpName = name.toLowerCase();
+    tmpName = tmpName.replace(/ä/g, 'ae');
+    tmpName = tmpName.replace(/ö/g, 'oe');
+    tmpName = tmpName.replace(/ü/g, 'ue');
+    tmpName = tmpName.replace(/[^a-z0-9.*]+/g, '-');
+    if (tmpName.slice(-1) === '-') {
+        tmpName = tmpName.substring(0, tmpName.length - 1);
     }
-    return name;
+    return tmpName;
 }
 
 export function qualificationToUrl(q: IQualifikation | IQualifikationInfo) {
-    const number = q.nr == "Ohne" ? '' : `${q.nr}-`;
+    const number = q.nr === "Ohne" ? '' : `${q.nr}-`;
     return number + sanitizeName(q.name);
 }
 
 export function getActivePO(search: string, appState: IAppState): number {
-    search = search.replace(/\//g, ''); // remove slashes
-    const po = appState.pos?.find((po) => search === sanitizeName(po.name));
+    const tmpSearch = search.replace(/\//g, ''); // remove slashes
+    const po = appState.pos?.find((po) => tmpSearch === sanitizeName(po.name));
     if (po !== undefined) {
         return po.nr;
     }
-    const quali = getQualification(search, appState);
+    const quali = getQualification(tmpSearch, appState);
     if (quali !== undefined) {
         return quali.poNr;
     }
-    return 0;
+    return 1;
 }
 
 export function getQualification(search: string, appState: IAppState): IQualifikation | undefined {
@@ -38,6 +38,10 @@ export function getQualification(search: string, appState: IAppState): IQualifik
         return appState.qualifications?.get(x);
     }
     return appState.qualifications?.get(search);
+}
+
+export function compareQualification(a: IQualifikationInfo, b: IQualifikationInfo) {
+    return a.nr.localeCompare(b.nr);
 }
 
 // collection of special links, where routing should work too

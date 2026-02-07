@@ -4,7 +4,7 @@ import classes from './style.module.css';
 // component that will be rendered when the data from the api is still loading
 export default function Loading({ size = 50 }: { size?: number }) {
     return (
-        <Center mx='auto'>
+        <Center mx='auto' mt="xl">
             <Box className={classes.ring} h={size} w={size}>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50.5 50.5" width={size} height={size}>
                     <path fill="#FFED00" d="M25.436.489C11.75.489.657 11.583.657 25.267c0 13.686 11.094 24.78 24.779 24.78s24.779-11.095 24.779-24.78C50.215 11.583 39.121.489 25.436.489zm0 39.234c-7.983 0-14.453-6.473-14.453-14.455 0-7.981 6.47-14.454 14.453-14.454 7.984 0 14.455 6.473 14.455 14.454 0 7.982-6.471 14.455-14.455 14.455z" />

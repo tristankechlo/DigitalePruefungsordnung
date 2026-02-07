@@ -2,8 +2,6 @@ import { InhaltEinordnung, PruefungEinordnung } from "../../types/DLRGTypes";
 import { TEXT_PROPS, SUBTITLE_PROPS } from '../../util/CommonProps';
 import type { IInhalt, IPruefung } from "../../types/DLRGTypes";
 import { Text, List } from "@mantine/core";
-import classes from './main.module.css';
-import React from "react";
 
 
 function hasType(array: (IInhalt | IPruefung)[], e: InhaltEinordnung | PruefungEinordnung) {
@@ -24,17 +22,20 @@ export function PrüfungCategory({ pruefungen, einordnung, title }: PrüfungCate
     }
 
     return (
-        <React.Fragment>
+        <>
             <Text {...SUBTITLE_PROPS}>{title}</Text>
-            <List {...TEXT_PROPS} withPadding={true} pl="0.5rem" icon="•" classNames={{
-                itemWrapper: classes.listItemWrapper
-            }}>
-                {pruefungen.filter((p) => p.einordnung === einordnung).map((pruefung, i) => {
+            <List>
+                {pruefungen.filter((p) => p.einordnung === einordnung).map((pruefung) => {
                     const suffix = pruefung.gueltigkeit ? ` (Gültigkeit in Monaten: ${pruefung.gueltigkeit})` : "";
-                    return (<List.Item key={i} className='listItem'>{pruefung.beschreibung}{suffix}</List.Item>);
+
+                    return (
+                        <List.Item key={pruefung.id} p={0} m={0}>
+                            <Text {...TEXT_PROPS}>{pruefung.beschreibung}{suffix}</Text>
+                        </List.Item>
+                    );
                 })}
             </List>
-        </React.Fragment>
+        </>
     );
 
 }

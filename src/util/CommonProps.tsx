@@ -1,12 +1,12 @@
-import { MantineSize } from '@mantine/core';
+import { MantineSize, TextProps } from '@mantine/core';
 
 export const TEXT_PROPS = {
     size: 'sm',
-    pb: '0.4rem',
-} as {
-    pb: React.CSSProperties['paddingBottom'];
-    size: MantineSize;
-};
+    pb: '0.3rem',
+    style: {
+        hyphens: "auto"
+    }
+} as TextProps;
 
 export const SUBTITLE_PROPS = {
     size: 'sm',

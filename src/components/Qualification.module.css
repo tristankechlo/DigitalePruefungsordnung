@@ -1,15 +1,9 @@
 .mainTitle {
-    color: #0069b4;
     hyphens: auto;
     word-break: break-word;
-
-    @media (min-width: $mantine-breakpoint-sm) {
-        padding-left: var(--mantine-spacing-md);
-    }
 }
 
 .container {
-    padding: 0px 2px;
     display: flex;
     flex-direction: column;
 
@@ -34,42 +28,8 @@
 
 }
 
-.accordionLabel {
-    font-size: 18px;
-    font-weight: 600;
-    padding: var(--mantine-spacing-xs) 0px;
-    flex: 1 1;
-
-    @media (min-width: $mantine-breakpoint-sm) {
-        flex: none;
-        padding-right: 10px;
-    }
-}
-
-.accordionControl {
-    padding-left: 2px;
-    justify-content: flex-end;
-
-    @media (min-width: $mantine-breakpoint-sm) {
-        padding: 0px var(--mantine-spacing-md);
-    }
-}
-
-.accordionContent {
-    padding-left: 2px;
-    display: flex;
-    flex-direction: column;
-
-    @media (min-width: $mantine-breakpoint-sm) {
-        padding: var(--mantine-spacing-md);
-        padding-top: calc(var(--mantine-spacing-xs) / 2);
-    }
-}
-
-.abkuerzung {
-    padding-left: 2px;
-
-    @media (min-width: $mantine-breakpoint-sm) {
-        padding: 0px var(--mantine-spacing-md);
-    }
+.dividerTitle {
+    text-wrap: auto;
+    hyphens: auto;
+    word-break: break-word;
 }

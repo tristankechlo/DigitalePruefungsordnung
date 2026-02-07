@@ -5,10 +5,6 @@
     }
 }
 
-.listItemWrapper {
-    align-items: flex-start !important;
-}
-
 .dokumenteRoot {
     display: grid;
     grid-template-columns: auto 1fr;

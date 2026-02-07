@@ -23,13 +23,13 @@ async function fetchWrapper<T>(url: string): Promise<T> {
 
 /* Gibt die Nummern und Namen aller Prüfungsordnungen aus */
 async function getAllPOs(): Promise<IPruefungsordnungInfo[]> {
-    const url = "__MAIN_URL__/dlrg-assets/po.json";
+    const url = "/dlrg-assets/po.json";
     return fetchWrapper(url);
 }
 
 /* Gibt alle Qualifikationen mit sämtlichen Inhalten aus */
 async function getAllQualifications(): Promise<IQualifikation[]> {
-    const url = `__MAIN_URL__/dlrg-assets/qualifications.json`;
+    const url = `/dlrg-assets/qualifications.json`;
     return fetchWrapper(url);
 }
 
