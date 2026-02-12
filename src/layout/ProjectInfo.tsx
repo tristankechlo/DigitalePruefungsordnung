@@ -1,9 +1,9 @@
 import { Alert, Button, Checkbox, Flex, Modal, Text, Title, UnstyledButton } from '@mantine/core';
 import { useDisclosure, useLocalStorage } from '@mantine/hooks';
-import { IconInfoCircle } from '@tabler/icons-react';
-import { useEffect, useState } from 'react';
 import ExternalLink from '../components/ExternalLink';
+import { IconInfoCircle } from '@tabler/icons-react';
 import classes from './style.module.css';
+import { useState } from 'react';
 
 const STORAGE_KEY = "hide-disclaimer";
 const getInitialValue = (): boolean => {
@@ -13,18 +13,10 @@ const getInitialValue = (): boolean => {
 
 export default function ProjectInfoModal() {
 
-    const [disclaimerHidden, hideDisclaimer] = useLocalStorage<boolean>({ key: STORAGE_KEY });
-    const [opened, { open, close }] = useDisclosure(disclaimerHidden);
+    const initial = getInitialValue();
+    const [disclaimerHidden, hideDisclaimer] = useLocalStorage<boolean>({ key: STORAGE_KEY, defaultValue: initial });
+    const [opened, { open, close }] = useDisclosure(!initial);
     const [checked, setChecked] = useState(false);
-
-    useEffect(() => {
-        const initial = getInitialValue();
-        // open disclaimer if it is not already accepted
-        if (initial === false) { open(); }
-        hideDisclaimer(initial);
-        // set initial state of the checkbox
-        setChecked(initial);
-    }, [open, hideDisclaimer]);
 
     const closeModal = () => {
         hideDisclaimer(!!checked)

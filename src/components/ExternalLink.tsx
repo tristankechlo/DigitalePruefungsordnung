@@ -1,6 +1,6 @@
-import { Button } from "@mantine/core";
 import { IconExternalLink } from '@tabler/icons-react';
 import classes from './ExternalLink.module.css';
+import { Button } from "@mantine/core";
 
 interface ExternalLinkProps {
     text: string;

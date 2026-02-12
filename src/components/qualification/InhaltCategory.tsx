@@ -1,8 +1,7 @@
 import { InhaltEinordnung, PruefungEinordnung } from "../../types/DLRGTypes";
 import { TEXT_PROPS, SUBTITLE_PROPS } from '../../util/CommonProps';
 import type { IInhalt, IPruefung } from "../../types/DLRGTypes";
-import { Text } from "@mantine/core";
-import React from "react";
+import { List, Text } from "@mantine/core";
 
 
 function hasType(array: (IInhalt | IPruefung)[], e: InhaltEinordnung | PruefungEinordnung) {
@@ -17,12 +16,18 @@ export function InhaltCategory({ inhalte, e, title }: { inhalte: IInhalt[], e: I
     }
 
     return (
-        <React.Fragment>
+        <>
             <Text {...SUBTITLE_PROPS}>{title}:</Text>
-            {inhalte.filter((i) => i.einordnung === e).map((inhalt, i) => {
-                const suffix = inhalt.lehreinheiten > 0 ? ` (${inhalt.lehreinheiten} LE)` : "";
-                return (<Text {...TEXT_PROPS} key={i}>- {inhalt.inhalt}{suffix}</Text>);
-            })}
-        </React.Fragment>
+            <List>
+                {inhalte.filter((i) => i.einordnung === e).map((inhalt, i) => {
+                    const suffix = inhalt.lehreinheiten > 0 ? ` (${inhalt.lehreinheiten} LE)` : "";
+                    return (
+                        <List.Item key={i} p={0} m={0}>
+                            <Text {...TEXT_PROPS} pb={0}>{inhalt.inhalt}{suffix}</Text>
+                        </List.Item>
+                    );
+                })}
+            </List>
+        </>
     );
 }

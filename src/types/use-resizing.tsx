@@ -8,8 +8,8 @@ import { useIsomorphicEffect, useWindowEvent } from '@mantine/hooks';
  */
 export function useResizing({ transitionDuration }: { transitionDuration: number | undefined }) {
     const [resizing, setResizing] = useState(false);
-    const resizingTimeout = useRef<number>();
-    const disabledTimeout = useRef<number>();
+    const resizingTimeout = useRef<number>(-1);
+    const disabledTimeout = useRef<number>(-1);
 
     useWindowEvent('resize', () => {
         setResizing(true);

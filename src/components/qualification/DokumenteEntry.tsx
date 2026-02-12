@@ -16,7 +16,6 @@ function getDocIcon(d: IDokument) {
 
 interface DokumenteProps {
     dokumente: IDokument[];
-    title: string;
 }
 
 export default function Dokumente({ dokumente }: DokumenteProps) {
@@ -25,7 +24,7 @@ export default function Dokumente({ dokumente }: DokumenteProps) {
 
     return (
         <>
-            {dokumente.map((dokument, i) => {
+            {dokumente.map((dokument) => {
                 const Icon = getDocIcon(dokument);
 
                 // if there is a document title present present, use it
@@ -36,7 +35,7 @@ export default function Dokumente({ dokumente }: DokumenteProps) {
                         ? Object.keys(DokumentTyp)[Object.values(DokumentTyp).indexOf(dokument.typ)] // use enum name as title
                         : "Dokumenten Titel unbekannt");
                 return (
-                    <UnstyledButton key={i} component='a' href={dokument.link} target='_blank' rel='noreferrer' className={classes.dokumenteRoot} mb={TEXT_PROPS.pb}>
+                    <UnstyledButton key={dokument.id} component='a' href={dokument.link} target='_blank' rel='noreferrer' className={classes.dokumenteRoot} mb={TEXT_PROPS.pb}>
                         <Icon stroke={1.75} size={25} color='blue' />
                         <Text {...TEXT_PROPS} c='blue' pb={0}>{title}</Text>
                     </UnstyledButton>
