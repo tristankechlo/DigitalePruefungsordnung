@@ -23,14 +23,14 @@ export function PrüfungCategory({ pruefungen, einordnung, title }: PrüfungCate
 
     return (
         <>
-            <Text {...SUBTITLE_PROPS}>{title}</Text>
+            <Text {...SUBTITLE_PROPS} pt={SUBTITLE_PROPS.pb}>{title}</Text>
             <List>
                 {pruefungen.filter((p) => p.einordnung === einordnung).map((pruefung) => {
                     const suffix = pruefung.gueltigkeit ? ` (Gültigkeit in Monaten: ${pruefung.gueltigkeit})` : "";
 
                     return (
                         <List.Item key={pruefung.id} p={0} m={0}>
-                            <Text {...TEXT_PROPS}>{pruefung.beschreibung}{suffix}</Text>
+                            <Text {...TEXT_PROPS} pb={0}>{pruefung.beschreibung}{suffix}</Text>
                         </List.Item>
                     );
                 })}

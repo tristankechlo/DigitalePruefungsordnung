@@ -23,7 +23,7 @@ export function InhaltCategory({ inhalte, e, title }: { inhalte: IInhalt[], e: I
                     const suffix = inhalt.lehreinheiten > 0 ? ` (${inhalt.lehreinheiten} LE)` : "";
                     return (
                         <List.Item key={i} p={0} m={0}>
-                            <Text {...TEXT_PROPS}>{inhalt.inhalt}{suffix}</Text>
+                            <Text {...TEXT_PROPS} pb={0}>{inhalt.inhalt}{suffix}</Text>
                         </List.Item>
                     );
                 })}

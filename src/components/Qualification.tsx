@@ -176,7 +176,7 @@ export default function Qualification(props: QualificationProps) {
 
             {hasRelation && (<>
                 <Divider {...DIVIDER_PROPS} label={
-                    <Title {...DIVIDER_TITLE_PROPS}>Beziehung zu anderen Qualifikationen</Title>}
+                    <Title {...DIVIDER_TITLE_PROPS}>Verknüpfungen</Title>}
                 />
 
                 <Accordion multiple value={props.openTabs} onChange={props.setOpenTabs}>
