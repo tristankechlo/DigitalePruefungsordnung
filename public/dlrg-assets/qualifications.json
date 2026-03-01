@@ -13116,14 +13116,6 @@
                 "name": "Seiltechnik 1"
             },
             {
-                "id": "0017fa5e-733c-1f05-c916-7f795f1f606c",
-                "nr": "1025",
-                "poNr": 10,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Modul Absturzsicherung"
-            },
-            {
                 "id": "0017fa5e-801e-ee41-5db2-750c80da3936",
                 "nr": "1041",
                 "poNr": 10,
@@ -15768,6 +15760,14 @@
                 "istAktiv": true,
                 "abkuerzung": null,
                 "name": "Gemeinsamer Grundausbildungsblock - Personen- und vereinsbezogener Bereich"
+            },
+            {
+                "id": "0017fa5e-733c-1f05-c916-7f795f1f606c",
+                "nr": "1025",
+                "poNr": 10,
+                "istAktiv": true,
+                "abkuerzung": null,
+                "name": "Modul Absturzsicherung"
             }
         ],
         "dokumente": [
@@ -18195,6 +18195,14 @@
                 "istAktiv": true,
                 "abkuerzung": null,
                 "name": "Ausbilder Seiltechnik"
+            },
+            {
+                "id": "0017fa5e-733c-1f05-c916-7f795f1f606c",
+                "nr": "1025",
+                "poNr": 10,
+                "istAktiv": true,
+                "abkuerzung": null,
+                "name": "Modul Absturzsicherung"
             }
         ],
         "dokumente": [
