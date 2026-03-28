@@ -6594,7 +6594,7 @@
                 "poNr": 8,
                 "istAktiv": true,
                 "abkuerzung": null,
-                "name": "Verbandsführerausbildung (Führen in der Führungsstufe C)"
+                "name": "Verbandführerausbildung (Führen in der Führungsstufe C)"
             },
             {
                 "id": "0017fa5d-5485-a157-8537-24bbb8deb5e7",
@@ -7870,7 +7870,7 @@
                 "poNr": 8,
                 "istAktiv": true,
                 "abkuerzung": null,
-                "name": "Verbandsführerausbildung (Führen in der Führungsstufe C)"
+                "name": "Verbandführerausbildung (Führen in der Führungsstufe C)"
             },
             {
                 "id": "0017fa5e-dd8b-4d4c-a69f-dcd201414040",
@@ -10934,7 +10934,7 @@
         "poNr": 8,
         "istAktiv": true,
         "abkuerzung": null,
-        "name": "Verbandsführerausbildung (Führen in der Führungsstufe C)",
+        "name": "Verbandführerausbildung (Führen in der Führungsstufe C)",
         "stellenLfdNr": 3,
         "gueltigkeit": null,
         "beauftragung": null,
@@ -13242,6 +13242,14 @@
                 "istAktiv": true,
                 "abkuerzung": null,
                 "name": "Einsatzfähigkeit für Strömungsretter"
+            },
+            {
+                "id": "0017fa5e-903a-7153-2537-52d8743191dc",
+                "nr": "1091",
+                "poNr": 10,
+                "istAktiv": true,
+                "abkuerzung": null,
+                "name": "Multiplikator Strömungsrettung"
             }
         ],
         "dokumente": [
