@@ -7707,7 +7707,7 @@
         "abkuerzung": null,
         "name": "Multiplikator Katastrophenschutz",
         "stellenLfdNr": 3,
-        "gueltigkeit": 4,
+        "gueltigkeit": null,
         "beauftragung": null,
         "wiederholung": null,
         "pruefungenGueltigkeit": null,
@@ -7927,6 +7927,14 @@
                 "istAktiv": true,
                 "abkuerzung": null,
                 "name": "Landesspezifische Ausbildung"
+            },
+            {
+                "id": "0017fa5e-e0c4-0125-c56f-f8f9ca1eba93",
+                "nr": "843",
+                "poNr": 8,
+                "istAktiv": true,
+                "abkuerzung": null,
+                "name": "Fachberater in Katastrophenschutz-Stäben/Krisenstäben"
             }
         ],
         "dokumente": [
