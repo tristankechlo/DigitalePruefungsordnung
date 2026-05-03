@@ -4315,7 +4315,7 @@
             },
             {
                 "id": "0017fa5e-08ec-f220-6bcf-edb69167e5eb",
-                "nr": "Ohne",
+                "nr": "_",
                 "poNr": 1,
                 "istAktiv": true,
                 "abkuerzung": null,
@@ -9603,7 +9603,7 @@
     },
     {
         "id": "0017fa5e-08ec-f220-6bcf-edb69167e5eb",
-        "nr": "Ohne",
+        "nr": "_",
         "poNr": 1,
         "istAktiv": true,
         "abkuerzung": null,
