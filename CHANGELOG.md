@@ -1,5 +1,14 @@
 # Changelog
 
+## Version 1.3.1 - 2026-05-03
+
+- aktuellste DLRG-Assets
+
+## Version 1.3.0 - 2026-02-12
+
+- Verbesserungen der Qualifikations-Ansicht
+- Geänderte DLRG-Assets können schneller veröffentlicht werden
+
 ## Version 1.2.4 - 2024-11-20
 
 - aktuellste DLRG-Assets
