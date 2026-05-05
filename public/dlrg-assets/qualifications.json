@@ -15202,14 +15202,6 @@
                 "name": "Ausbilder Sprechfunk"
             },
             {
-                "id": "0017fa5e-b87f-3923-191c-e06695f4a760",
-                "nr": "782",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Ausbilder BOS-Sprechfunk"
-            },
-            {
                 "id": "0017fa5e-99e4-8cc8-1bbb-45253234159a",
                 "nr": "401",
                 "poNr": 4,
@@ -15438,6 +15430,14 @@
                 "istAktiv": true,
                 "abkuerzung": null,
                 "name": "BOS-Sprechfunker -digital- (Niedersachsen)"
+            },
+            {
+                "id": "0017fa5e-b87f-3923-191c-e06695f4a760",
+                "nr": "782",
+                "poNr": 7,
+                "istAktiv": true,
+                "abkuerzung": null,
+                "name": "Ausbilder BOS-Sprechfunk"
             }
         ],
         "dokumente": [
