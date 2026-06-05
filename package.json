@@ -15,7 +15,7 @@
         "@mantine/hooks": "^8.3.13",
         "react": "^19.2.3",
         "react-dom": "^19.2.3",
-        "react-router-dom": "^7.13.0"
+        "react-router-dom": "^7.16.0"
     },
     "devDependencies": {
         "@rollup/plugin-replace": "^6.0.3",
