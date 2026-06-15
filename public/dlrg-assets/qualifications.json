@@ -4075,6 +4075,13 @@
                 "beschreibung": null,
                 "typ": "merkblatt",
                 "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=228&wm=no&v=o"
+            },
+            {
+                "id": 375,
+                "titel": "Schwimmkampagne__2026_Ausschreibung.pdf",
+                "beschreibung": "Förderung Ausbilder und Schwimmausbildung",
+                "typ": "merkblatt",
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=919926&wm=no&v=o"
             }
         ]
     },
@@ -5807,6 +5814,14 @@
                 "istAktiv": true,
                 "abkuerzung": "DSchnA Master",
                 "name": "Deutsches Schnorchelabzeichen Master (Gold)"
+            },
+            {
+                "id": "0017fa5f-1116-8b05-87ac-32e607d0ff98",
+                "nr": "632",
+                "poNr": 6,
+                "istAktiv": true,
+                "abkuerzung": "Tauchen - Führung von komplexen Lagen",
+                "name": "Fortbildung Taucheinsatzführer „Führung von komplexen Lagen“"
             }
         ],
         "dokumente": [
@@ -6482,6 +6497,14 @@
                 "istAktiv": true,
                 "abkuerzung": null,
                 "name": "Gemeinsamer Grundausbildungsblock - Personen- und vereinsbezogener Bereich"
+            },
+            {
+                "id": "0017fa5f-1116-8b05-87ac-32e607d0ff98",
+                "nr": "632",
+                "poNr": 6,
+                "istAktiv": true,
+                "abkuerzung": "Tauchen - Führung von komplexen Lagen",
+                "name": "Fortbildung Taucheinsatzführer „Führung von komplexen Lagen“"
             }
         ],
         "dokumente": [
@@ -9418,6 +9441,13 @@
                 "beschreibung": null,
                 "typ": "merkblatt",
                 "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=228&wm=no&v=o"
+            },
+            {
+                "id": 376,
+                "titel": "Schwimmkampagne__2026_Ausschreibung.pdf",
+                "beschreibung": "Förderung Ausbilder und Schwimmausbildung",
+                "typ": "merkblatt",
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=919926&wm=no&v=o"
             }
         ]
     },
@@ -10063,6 +10093,13 @@
                 "beschreibung": null,
                 "typ": "po",
                 "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=215&wm=no&v=o"
+            },
+            {
+                "id": 378,
+                "titel": "Schwimmkampagne__2026_Ausschreibung.pdf",
+                "beschreibung": null,
+                "typ": "merkblatt",
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=919926&wm=no&v=o"
             }
         ]
     },
@@ -17605,6 +17642,13 @@
                 "beschreibung": null,
                 "typ": "po",
                 "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=215&wm=no&v=o"
+            },
+            {
+                "id": 377,
+                "titel": "Schwimmkampagne__2026_Ausschreibung.pdf",
+                "beschreibung": null,
+                "typ": "merkblatt",
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=919926&wm=no&v=o"
             }
         ]
     },
@@ -18599,6 +18643,72 @@
                 "beschreibung": null,
                 "typ": "po",
                 "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=627611&wm=no&v=o"
+            }
+        ]
+    },
+    {
+        "id": "0017fa5f-1116-8b05-87ac-32e607d0ff98",
+        "nr": "632",
+        "poNr": 6,
+        "istAktiv": true,
+        "abkuerzung": "Tauchen - Führung von komplexen Lagen",
+        "name": "Fortbildung Taucheinsatzführer „Führung von komplexen Lagen“",
+        "stellenLfdNr": 3,
+        "gueltigkeit": null,
+        "beauftragung": null,
+        "wiederholung": null,
+        "pruefungenGueltigkeit": null,
+        "verlaengerungUE": null,
+        "verlaengerungBeauftragungUE": null,
+        "inhalt": [],
+        "voraussetzungen": {
+            "qualifikationen": [
+                {
+                    "qualifikation": {
+                        "id": "0017fa5d-493f-2c6c-c39f-65084d51a649",
+                        "nr": "631",
+                        "poNr": 6,
+                        "istAktiv": true,
+                        "abkuerzung": null,
+                        "name": "Taucheinsatzführer"
+                    },
+                    "kommentar": ""
+                }
+            ],
+            "hospitationen": [],
+            "sonstiges": [
+                {
+                    "anzahl": 1,
+                    "kommentar": "2 Jahre aktive Tätigkeit als Taucheinsatzführer"
+                }
+            ],
+            "mindestalter": {
+                "istErforderlich": false,
+                "alter": 0,
+                "kommentar": ""
+            },
+            "aerztliche_tauglichkeit": {
+                "istErforderlich": false,
+                "kommentar": ""
+            },
+            "mitgliedschaft": {
+                "istErforderlich": true,
+                "kommentar": ""
+            },
+            "befuerwortung": {
+                "istErforderlich": false,
+                "kommentar": ""
+            }
+        },
+        "pruefungen": [],
+        "prueferberechtigungen": [],
+        "dokumente": [
+            {
+                "id": 374,
+                "titel": "Prüfungsordnung Tauchen",
+                "beschreibung": null,
+                "typ": "po",
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?db=assets&aid=219&wm=no&v=o"
             }
         ]
     }
