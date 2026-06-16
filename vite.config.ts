@@ -33,7 +33,7 @@ export default defineConfig({
     build: {
         outDir: 'build',
         sourcemap: false,
-        target: 'ES2022',
+        target: 'es2021',
     },
     plugins: [
         react(),
