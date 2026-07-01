@@ -4,6 +4,10 @@
         "name": "Schwimmen / Rettungsschwimmen"
     },
     {
+        "nr": 2,
+        "name": "Breiten- und Gesundheitssport"
+    },
+    {
         "nr": 3,
         "name": "Medizin"
     },
@@ -34,9 +38,5 @@
     {
         "nr": 10,
         "name": "Strömungsrettung"
-    },
-    {
-        "nr": 2,
-        "name": "Breiten- und Gesundheitssport"
     }
 ]
