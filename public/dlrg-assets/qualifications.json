@@ -2042,22 +2042,6 @@
                 "istAktiv": true,
                 "abkuerzung": null,
                 "name": "Gemeinsamer Grundausbildungsblock"
-            },
-            {
-                "id": "0017fa5e-4af7-578d-1267-d9910b49de31",
-                "nr": "721",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": "UBI",
-                "name": "UKW-Sprechfunkzeugnis für den Binnenschifffahrtsfunk (UBI)"
-            },
-            {
-                "id": "0017fa5e-4c93-b172-34e4-57e5972befae",
-                "nr": "722",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": "DFbz",
-                "name": "Dienst-Funkbetriebszeugnis (DFbz)"
             }
         ],
         "dokumente": [
@@ -3406,24 +3390,7 @@
             }
         },
         "pruefungen": [],
-        "prueferberechtigungen": [
-            {
-                "id": "0017fa5e-ba1b-930d-c04e-04eef7b3fccd",
-                "nr": "791",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Multiplikator Sprechfunk"
-            },
-            {
-                "id": "0017fa5e-bbb7-ecf8-7c45-956a89dcbf5c",
-                "nr": "792",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Multiplikator BOS-Sprechfunk"
-            }
-        ],
+        "prueferberechtigungen": [],
         "dokumente": [
             {
                 "id": 197,
@@ -5067,7 +5034,7 @@
                 "titel": "PO_EH_SAN.pdf",
                 "beschreibung": null,
                 "typ": "po",
-                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?gldid=-3&aid=216g&v=o&cv=5&wm=no"
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?gldid=-3&aid=216g&v=o&cv=7&wm=no"
             }
         ]
     },
@@ -5142,7 +5109,7 @@
                 "titel": "PO_EH_SAN.pdf",
                 "beschreibung": null,
                 "typ": "po",
-                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?gldid=-3&aid=216g&v=o&cv=5&wm=no"
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?gldid=-3&aid=216g&v=o&cv=7&wm=no"
             }
         ]
     },
@@ -5191,7 +5158,7 @@
                 "titel": "PO_EH_SAN.pdf",
                 "beschreibung": null,
                 "typ": "po",
-                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?gldid=-3&aid=216g&v=o&cv=5&wm=no"
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?gldid=-3&aid=216g&v=o&cv=7&wm=no"
             }
         ]
     },
@@ -5289,7 +5256,7 @@
                 "titel": "PO_EH_SAN.pdf",
                 "beschreibung": null,
                 "typ": "po",
-                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?gldid=-3&aid=216g&v=o&cv=5&wm=no"
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?gldid=-3&aid=216g&v=o&cv=7&wm=no"
             },
             {
                 "id": 44,
@@ -5523,7 +5490,7 @@
                 "titel": "PO_EH_SAN.pdf",
                 "beschreibung": null,
                 "typ": "po",
-                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?gldid=-3&aid=216g&v=o&cv=5&wm=no"
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?gldid=-3&aid=216g&v=o&cv=7&wm=no"
             }
         ]
     },
@@ -5649,6 +5616,13 @@
                 "beschreibung": null,
                 "typ": "abzeichen",
                 "link": "https://dlrg.net/global/Apps/Asset/assetService.php?gldid=-3&aid=309g&v=o&wm=no"
+            },
+            {
+                "id": 48,
+                "titel": "PO_EH_SAN.pdf",
+                "beschreibung": null,
+                "typ": "po",
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?gldid=-3&aid=216g&v=o&cv=7&wm=no"
             }
         ]
     },
@@ -5731,7 +5705,7 @@
                 "titel": "PO_EH_SAN.pdf",
                 "beschreibung": null,
                 "typ": "po",
-                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?gldid=-3&aid=216g&v=o&cv=5&wm=no"
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?gldid=-3&aid=216g&v=o&cv=7&wm=no"
             }
         ]
     },
@@ -5872,7 +5846,15 @@
         },
         "pruefungen": [],
         "prueferberechtigungen": [],
-        "dokumente": []
+        "dokumente": [
+            {
+                "id": 131,
+                "titel": "PO_EH_SAN.pdf",
+                "beschreibung": null,
+                "typ": "po",
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?gldid=-3&aid=216g&v=o&cv=7&wm=no"
+            }
+        ]
     },
     {
         "id": "0017fa5d-f0c3-adef-0c33-bb46fd497e4b",
@@ -6047,7 +6029,15 @@
         },
         "pruefungen": [],
         "prueferberechtigungen": [],
-        "dokumente": []
+        "dokumente": [
+            {
+                "id": 132,
+                "titel": "PO_EH_SAN.pdf",
+                "beschreibung": null,
+                "typ": "po",
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?gldid=-3&aid=216g&v=o&cv=7&wm=no"
+            }
+        ]
     },
     {
         "id": "0017fa5d-f260-07cf-a348-ab23d29c9b18",
@@ -6071,7 +6061,7 @@
             },
             {
                 "lehreinheiten": 0,
-                "inhalt": "Relevante Rechtsgebiete für den RUND-Leiter & RUND-Ausbilder",
+                "inhalt": "Relevante Rechtsgebiete für den RUND-Leiter &amp; RUND-Ausbilder",
                 "einordnung": "uebergreifend"
             },
             {
@@ -6263,7 +6253,15 @@
         },
         "pruefungen": [],
         "prueferberechtigungen": [],
-        "dokumente": []
+        "dokumente": [
+            {
+                "id": 133,
+                "titel": "PO_EH_SAN.pdf",
+                "beschreibung": null,
+                "typ": "po",
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?gldid=-3&aid=216g&v=o&cv=7&wm=no"
+            }
+        ]
     },
     {
         "id": "0017fa5f-0c41-7d38-aadb-adfc70952957",
@@ -6416,7 +6414,15 @@
             }
         ],
         "prueferberechtigungen": [],
-        "dokumente": []
+        "dokumente": [
+            {
+                "id": 302,
+                "titel": "PO_EH_SAN.pdf",
+                "beschreibung": null,
+                "typ": "po",
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?gldid=-3&aid=216g&v=o&cv=7&wm=no"
+            }
+        ]
     },
     {
         "id": "0017fa5f-076c-6f6c-8904-f5dfd69bbb49",
@@ -6480,7 +6486,15 @@
         },
         "pruefungen": [],
         "prueferberechtigungen": [],
-        "dokumente": []
+        "dokumente": [
+            {
+                "id": 512,
+                "titel": "PO_EH_SAN.pdf",
+                "beschreibung": null,
+                "typ": "po",
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?gldid=-3&aid=216g&v=o&cv=7&wm=no"
+            }
+        ]
     },
     {
         "id": "0017fa5f-0908-c95b-2a30-c7291784bc50",
@@ -6553,7 +6567,15 @@
         },
         "pruefungen": [],
         "prueferberechtigungen": [],
-        "dokumente": []
+        "dokumente": [
+            {
+                "id": 513,
+                "titel": "PO_EH_SAN.pdf",
+                "beschreibung": null,
+                "typ": "po",
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?gldid=-3&aid=216g&v=o&cv=7&wm=no"
+            }
+        ]
     },
     {
         "id": "0017fa5d-5c93-6293-ec76-66864a8ed7ea",
@@ -6651,7 +6673,15 @@
                 "name": "Erste Hilfe-Schulung in Bildungs- und Betreuungseinrichtungen für Kinder"
             }
         ],
-        "dokumente": []
+        "dokumente": [
+            {
+                "id": 91,
+                "titel": "PO_EH_SAN.pdf",
+                "beschreibung": null,
+                "typ": "po",
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?gldid=-3&aid=216g&v=o&cv=7&wm=no"
+            }
+        ]
     },
     {
         "id": "0017fa5d-5e2f-bc6d-0c3c-b5bf514bd607",
@@ -6749,7 +6779,15 @@
                 "name": "Sanitätsfortbildung"
             }
         ],
-        "dokumente": []
+        "dokumente": [
+            {
+                "id": 92,
+                "titel": "PO_EH_SAN.pdf",
+                "beschreibung": null,
+                "typ": "po",
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?gldid=-3&aid=216g&v=o&cv=7&wm=no"
+            }
+        ]
     },
     {
         "id": "0017fa5d-f3fc-61b0-4f24-069d51961d61",
@@ -6867,7 +6905,15 @@
                 "name": "RUND-Ausbilder"
             }
         ],
-        "dokumente": []
+        "dokumente": [
+            {
+                "id": 134,
+                "titel": "PO_EH_SAN.pdf",
+                "beschreibung": null,
+                "typ": "po",
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?gldid=-3&aid=216g&v=o&cv=7&wm=no"
+            }
+        ]
     },
     {
         "id": "0017fa5e-1c41-28bb-7776-9b57240f1a2e",
@@ -6953,7 +6999,15 @@
                 "name": "Erste Hilfe bei Kindernotfällen"
             }
         ],
-        "dokumente": []
+        "dokumente": [
+            {
+                "id": 175,
+                "titel": "PO_EH_SAN.pdf",
+                "beschreibung": null,
+                "typ": "po",
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?gldid=-3&aid=216g&v=o&cv=7&wm=no"
+            }
+        ]
     },
     {
         "id": "0017fa5d-5fcc-1646-40c9-7054cf40033a",
@@ -7166,7 +7220,15 @@
                 "name": "Pädagogische Lehrkräfteausbildung"
             }
         ],
-        "dokumente": []
+        "dokumente": [
+            {
+                "id": 93,
+                "titel": "PO_EH_SAN.pdf",
+                "beschreibung": null,
+                "typ": "po",
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?gldid=-3&aid=216g&v=o&cv=7&wm=no"
+            }
+        ]
     },
     {
         "id": "0017fa5d-6168-701f-8a1c-9647770df89d",
@@ -7328,7 +7390,15 @@
                 "name": "Einweiser EHSH"
             }
         ],
-        "dokumente": []
+        "dokumente": [
+            {
+                "id": 94,
+                "titel": "PO_EH_SAN.pdf",
+                "beschreibung": null,
+                "typ": "po",
+                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?gldid=-3&aid=216g&v=o&cv=7&wm=no"
+            }
+        ]
     },
     {
         "id": "0017fa5e-99e4-8cc8-1bbb-45253234159a",
@@ -7577,7 +7647,7 @@
             },
             {
                 "lehreinheiten": 0,
-                "inhalt": "Festmachen von Booten\r\n",
+                "inhalt": "Festmachen von Booten",
                 "einordnung": "fachlich"
             },
             {
@@ -7685,7 +7755,7 @@
         "inhalt": [
             {
                 "lehreinheiten": 0,
-                "inhalt": "Die persönliche Schutzausstattung beim Strömungsschwimmen\r\n",
+                "inhalt": "Die persönliche Schutzausstattung beim Strömungsschwimmen",
                 "einordnung": "fachlich"
             },
             {
@@ -7838,7 +7908,7 @@
             },
             {
                 "lehreinheiten": 0,
-                "inhalt": "Einsatztaktik Sucheinsatz ",
+                "inhalt": "Einsatztaktik Sucheinsatz",
                 "einordnung": "fachlich"
             }
         ],
@@ -8154,7 +8224,7 @@
             },
             {
                 "lehreinheiten": 0,
-                "inhalt": "Gewöhnung an die Umgebung im Freigewässer\r\n",
+                "inhalt": "Gewöhnung an die Umgebung im Freigewässer",
                 "einordnung": "fachlich"
             },
             {
@@ -8342,7 +8412,7 @@
         "inhalt": [
             {
                 "lehreinheiten": 0,
-                "inhalt": "Beschaffenheit von Eis\r\n",
+                "inhalt": "Beschaffenheit von Eis",
                 "einordnung": "fachlich"
             },
             {
@@ -8352,27 +8422,27 @@
             },
             {
                 "lehreinheiten": 0,
-                "inhalt": "Prävention\r\n",
+                "inhalt": "Prävention",
                 "einordnung": "fachlich"
             },
             {
                 "lehreinheiten": 0,
-                "inhalt": "Hypothermie\r\n",
+                "inhalt": "Hypothermie",
                 "einordnung": "fachlich"
             },
             {
                 "lehreinheiten": 0,
-                "inhalt": "Beinaheertrinken\r\n",
+                "inhalt": "Beinaheertrinken",
                 "einordnung": "fachlich"
             },
             {
                 "lehreinheiten": 0,
-                "inhalt": "Kaltwasserreflex\r\n",
+                "inhalt": "Kaltwasserreflex",
                 "einordnung": "fachlich"
             },
             {
                 "lehreinheiten": 0,
-                "inhalt": "Bergungstrauma\r\n",
+                "inhalt": "Bergungstrauma",
                 "einordnung": "fachlich"
             },
             {
@@ -8382,22 +8452,22 @@
             },
             {
                 "lehreinheiten": 0,
-                "inhalt": "PSA\r\n",
+                "inhalt": "PSA",
                 "einordnung": "fachlich"
             },
             {
                 "lehreinheiten": 0,
-                "inhalt": "Hilfsmittel und Zusatzausrüstung\r\n",
+                "inhalt": "Hilfsmittel und Zusatzausrüstung",
                 "einordnung": "fachlich"
             },
             {
                 "lehreinheiten": 0,
-                "inhalt": "Rettungstechniken\r\n",
+                "inhalt": "Rettungstechniken",
                 "einordnung": "fachlich"
             },
             {
                 "lehreinheiten": 0,
-                "inhalt": "Sicherung von Einsatzkräften und Einsatzstellen  ",
+                "inhalt": "Sicherung von Einsatzkräften und Einsatzstellen",
                 "einordnung": "fachlich"
             },
             {
@@ -8914,30 +8984,6 @@
                 "name": "Deutsches Schnorcheltauchabzeichen"
             },
             {
-                "id": "0017fa5e-2116-3664-0dd0-bd6d4d8bc2b4",
-                "nr": "180.1",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Gemeinsamer Grundausbildungsblock"
-            },
-            {
-                "id": "0017fa5e-4af7-578d-1267-d9910b49de31",
-                "nr": "721",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": "UBI",
-                "name": "UKW-Sprechfunkzeugnis für den Binnenschifffahrtsfunk (UBI)"
-            },
-            {
-                "id": "0017fa5e-4c93-b172-34e4-57e5972befae",
-                "nr": "722",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": "DFbz",
-                "name": "Dienst-Funkbetriebszeugnis (DFbz)"
-            },
-            {
                 "id": "0017fa5e-99e4-8cc8-1bbb-45253234159a",
                 "nr": "401",
                 "poNr": 4,
@@ -9119,14 +9165,6 @@
                 "name": "Ausbilder Wasserrettungsdienst"
             },
             {
-                "id": "0017fa5d-64a1-23d2-5b16-24470ec1a06a",
-                "nr": "491",
-                "poNr": 4,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Multiplikator WRD"
-            },
-            {
                 "id": "0017fa5d-ea52-466d-7fa0-2fe453c8f6c0",
                 "nr": "431",
                 "poNr": 4,
@@ -9141,22 +9179,6 @@
                 "istAktiv": true,
                 "abkuerzung": "DSTA",
                 "name": "Deutsches Schnorcheltauchabzeichen"
-            },
-            {
-                "id": "0017fa5d-ed8a-fa2e-1c5d-1e60850c0c7c",
-                "nr": "710",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Sprechfunkunterweisung DLRG-Betriebsfunk"
-            },
-            {
-                "id": "0017fa5d-ed8a-fa2e-1c5d-1e60850c0c7c",
-                "nr": "710",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Sprechfunkunterweisung DLRG-Betriebsfunk"
             },
             {
                 "id": "0017fa5e-0dc1-ffc6-1642-eba8c7dfc24d",
@@ -9181,30 +9203,6 @@
                 "istAktiv": true,
                 "abkuerzung": null,
                 "name": "Gemeinsamer Grundausbildungsblock"
-            },
-            {
-                "id": "0017fa5e-2116-3664-0dd0-bd6d4d8bc2b4",
-                "nr": "180.1",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Gemeinsamer Grundausbildungsblock"
-            },
-            {
-                "id": "0017fa5e-4af7-578d-1267-d9910b49de31",
-                "nr": "721",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": "UBI",
-                "name": "UKW-Sprechfunkzeugnis für den Binnenschifffahrtsfunk (UBI)"
-            },
-            {
-                "id": "0017fa5e-4c93-b172-34e4-57e5972befae",
-                "nr": "722",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": "DFbz",
-                "name": "Dienst-Funkbetriebszeugnis (DFbz)"
             },
             {
                 "id": "0017fa5e-99e4-8cc8-1bbb-45253234159a",
@@ -9269,22 +9267,6 @@
                 "istAktiv": true,
                 "abkuerzung": null,
                 "name": "Modul - Eisrettung"
-            },
-            {
-                "id": "0017fa5e-ba1b-930d-c04e-04eef7b3fccd",
-                "nr": "791",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Multiplikator Sprechfunk"
-            },
-            {
-                "id": "0017fa5e-bbb7-ecf8-7c45-956a89dcbf5c",
-                "nr": "792",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Multiplikator BOS-Sprechfunk"
             },
             {
                 "id": "0017fa5e-e260-5b12-7401-a9133cb8351e",
@@ -9724,13 +9706,13 @@
         "pruefungen": [
             {
                 "id": "0017fa5e-cf0c-23ff-5b15-2daf7c818eb6",
-                "beschreibung": "Amtlicher Teil gemäß Fragenkatalog für den amtlichen Sportbootführerschein mit dem Geltungsbereich Seeschifffahrtsstraßen ",
+                "beschreibung": "Amtlicher Teil gemäß Fragenkatalog für den amtlichen Sportbootführerschein mit dem Geltungsbereich Seeschifffahrtsstraßen",
                 "einordnung": "praktisch",
                 "gueltigkeit": null
             },
             {
                 "id": "0017fa5e-d0a8-7deb-2520-39c1b05ed63b",
-                "beschreibung": "DLRG-spezifischer Teil ",
+                "beschreibung": "DLRG-spezifischer Teil",
                 "einordnung": "praktisch",
                 "gueltigkeit": null
             },
@@ -9931,30 +9913,6 @@
                 "name": "DLRG Bootsführerschein A"
             },
             {
-                "id": "0017fa5e-2116-3664-0dd0-bd6d4d8bc2b4",
-                "nr": "180.1",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Gemeinsamer Grundausbildungsblock"
-            },
-            {
-                "id": "0017fa5e-4af7-578d-1267-d9910b49de31",
-                "nr": "721",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": "UBI",
-                "name": "UKW-Sprechfunkzeugnis für den Binnenschifffahrtsfunk (UBI)"
-            },
-            {
-                "id": "0017fa5e-4c93-b172-34e4-57e5972befae",
-                "nr": "722",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": "DFbz",
-                "name": "Dienst-Funkbetriebszeugnis (DFbz)"
-            },
-            {
                 "id": "0017fa5e-99e4-8cc8-1bbb-45253234159a",
                 "nr": "401",
                 "poNr": 4,
@@ -10070,30 +10028,6 @@
                 "istAktiv": true,
                 "abkuerzung": null,
                 "name": "DLRG Bootsführerschein B"
-            },
-            {
-                "id": "0017fa5e-2116-3664-0dd0-bd6d4d8bc2b4",
-                "nr": "180.1",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Gemeinsamer Grundausbildungsblock"
-            },
-            {
-                "id": "0017fa5e-4af7-578d-1267-d9910b49de31",
-                "nr": "721",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": "UBI",
-                "name": "UKW-Sprechfunkzeugnis für den Binnenschifffahrtsfunk (UBI)"
-            },
-            {
-                "id": "0017fa5e-4c93-b172-34e4-57e5972befae",
-                "nr": "722",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": "DFbz",
-                "name": "Dienst-Funkbetriebszeugnis (DFbz)"
             },
             {
                 "id": "0017fa5e-99e4-8cc8-1bbb-45253234159a",
@@ -10217,14 +10151,6 @@
                 "name": "Ausbilder DLRG Bootsführerschein A"
             },
             {
-                "id": "0017fa5d-dbd3-1d8e-c2ab-cc82f7372888",
-                "nr": "591",
-                "poNr": 5,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Multiplikator DLRG Bootsführerschein A"
-            },
-            {
                 "id": "0017fa5e-0dc1-ffc6-1642-eba8c7dfc24d",
                 "nr": "180.1a",
                 "poNr": 1,
@@ -10247,30 +10173,6 @@
                 "istAktiv": true,
                 "abkuerzung": null,
                 "name": "Gemeinsamer Grundausbildungsblock"
-            },
-            {
-                "id": "0017fa5e-2116-3664-0dd0-bd6d4d8bc2b4",
-                "nr": "180.1",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Gemeinsamer Grundausbildungsblock"
-            },
-            {
-                "id": "0017fa5e-4af7-578d-1267-d9910b49de31",
-                "nr": "721",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": "UBI",
-                "name": "UKW-Sprechfunkzeugnis für den Binnenschifffahrtsfunk (UBI)"
-            },
-            {
-                "id": "0017fa5e-4c93-b172-34e4-57e5972befae",
-                "nr": "722",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": "DFbz",
-                "name": "Dienst-Funkbetriebszeugnis (DFbz)"
             },
             {
                 "id": "0017fa5e-99e4-8cc8-1bbb-45253234159a",
@@ -10394,14 +10296,6 @@
                 "name": "Ausbilder DLRG Bootsführerschein B"
             },
             {
-                "id": "0017fa5d-dd6f-776e-4bad-45aaaee3e70e",
-                "nr": "592",
-                "poNr": 5,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Multiplikator DLRG Bootsführerschein B"
-            },
-            {
                 "id": "0017fa5e-0dc1-ffc6-1642-eba8c7dfc24d",
                 "nr": "180.1a",
                 "poNr": 1,
@@ -10424,30 +10318,6 @@
                 "istAktiv": true,
                 "abkuerzung": null,
                 "name": "Gemeinsamer Grundausbildungsblock"
-            },
-            {
-                "id": "0017fa5e-2116-3664-0dd0-bd6d4d8bc2b4",
-                "nr": "180.1",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Gemeinsamer Grundausbildungsblock"
-            },
-            {
-                "id": "0017fa5e-4af7-578d-1267-d9910b49de31",
-                "nr": "721",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": "UBI",
-                "name": "UKW-Sprechfunkzeugnis für den Binnenschifffahrtsfunk (UBI)"
-            },
-            {
-                "id": "0017fa5e-4c93-b172-34e4-57e5972befae",
-                "nr": "722",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": "DFbz",
-                "name": "Dienst-Funkbetriebszeugnis (DFbz)"
             },
             {
                 "id": "0017fa5e-99e4-8cc8-1bbb-45253234159a",
@@ -10480,22 +10350,6 @@
                 "istAktiv": true,
                 "abkuerzung": null,
                 "name": "Modul - Einsatz bei Dunkelheit"
-            },
-            {
-                "id": "0017fa5e-ba1b-930d-c04e-04eef7b3fccd",
-                "nr": "791",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Multiplikator Sprechfunk"
-            },
-            {
-                "id": "0017fa5e-bbb7-ecf8-7c45-956a89dcbf5c",
-                "nr": "792",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Multiplikator BOS-Sprechfunk"
             }
         ],
         "dokumente": [
@@ -10718,7 +10572,7 @@
             },
             {
                 "id": "0017fa5d-6e4b-3eec-7b5c-ceab11693ae0",
-                "beschreibung": "Prüfungsteil Einsatztauchen\r\nDurchführung nachfolgender Tauchgänge / Übungen in Form einer Einsatzübung\r\nvon mindestens 20 Min. in Wassertiefen zwischen 6 und 10 m gem.\r\nSicherheitsregeln, wobei folgende Aufgaben erfolgreich zu erfüllen sind:\r\n- Leinenführung (Suchübung als Signalmann und als Taucher)\r\n- Ausführen einer Unterwasserarbeit ohne technische Hilfsmittel\r\n- Rettungsübung:\r\nDer Prüfling hat unter Einbindung des gesamten Tauchtrupps\r\neinen in 6 bis 10 m Tiefe wartenden Kameraden anzutauchen;\r\nbeide haben vollständige Tauchausrüstung zu tragen (einschließlich\r\nSignalleine); die Signalleine des zu rettenden Tauchers darf vom Prüfling zur Orientierung verwendet werden. Der zu rettende Taucher ist mit seiner Tauchausrüstung unter Beachtung der maximalen Aufstiegsgeschwindigkeit sachgerecht an die Oberfläche\r\nund an Land zu bringen; danach Diagnose nach vorgegebenem\r\nUnfallschema und unverzügliche Einleitung der erforderlichen Ersten Hilfe-Maßnahmen einschließlich einer ggf. veranlassten Demonstration der Herz-Lungen-Wiederbelebung (HLW) über 3 Min.\r\nDauer; anfertigen eines Unfallprotokolls für den Notarzt. ",
+                "beschreibung": "Prüfungsteil Einsatztauchen\r\nDurchführung nachfolgender Tauchgänge / Übungen in Form einer Einsatzübung\r\nvon mindestens 20 Min. in Wassertiefen zwischen 6 und 10 m gem.\r\nSicherheitsregeln, wobei folgende Aufgaben erfolgreich zu erfüllen sind:\r\n- Leinenführung (Suchübung als Signalmann und als Taucher)\r\n- Ausführen einer Unterwasserarbeit ohne technische Hilfsmittel\r\n- Rettungsübung:\r\nDer Prüfling hat unter Einbindung des gesamten Tauchtrupps\r\neinen in 6 bis 10 m Tiefe wartenden Kameraden anzutauchen;\r\nbeide haben vollständige Tauchausrüstung zu tragen (einschließlich\r\nSignalleine); die Signalleine des zu rettenden Tauchers darf vom Prüfling zur Orientierung verwendet werden. Der zu rettende Taucher ist mit seiner Tauchausrüstung unter Beachtung der maximalen Aufstiegsgeschwindigkeit sachgerecht an die Oberfläche\r\nund an Land zu bringen; danach Diagnose nach vorgegebenem\r\nUnfallschema und unverzügliche Einleitung der erforderlichen Ersten Hilfe-Maßnahmen einschließlich einer ggf. veranlassten Demonstration der Herz-Lungen-Wiederbelebung (HLW) über 3 Min.\r\nDauer; anfertigen eines Unfallprotokolls für den Notarzt.",
                 "einordnung": "praktisch",
                 "gueltigkeit": null
             },
@@ -10963,7 +10817,7 @@
         "pruefungen": [
             {
                 "id": "0017fa5d-7183-f2a0-98bd-12bb9ccc2bb7",
-                "beschreibung": "Schriftliche Prüfung gem. bundeseinheitlichem Fragebogen\r\n",
+                "beschreibung": "Schriftliche Prüfung gem. bundeseinheitlichem Fragebogen",
                 "einordnung": "praktisch",
                 "gueltigkeit": null
             },
@@ -10975,13 +10829,13 @@
             },
             {
                 "id": "0017fa5d-7659-002f-609d-9e4a77becde7",
-                "beschreibung": "Prüfungsteil Einsatztauchen Durchführung nachfolgender Tauchgänge / Übungen in Form einer Einsatzübung von mindestens 20 Min. in Wassertiefen zwischen 6 und 20 m gem. Sicherheitsregeln, wobei folgende Aufgaben erfolgreich zu erfüllen sind: \r\n- Leinenführung (Suchübung als Signalmann und als Taucher) \r\n- Ausführen einer Unterwasserarbeit ohne technische Hilfsmittel \r\n- Taucheinsatzführung eines Tauchtrupps\r\n- Ausführen einer Unterwasserarbeit mit technischen Hilfsmitteln\r\n- Rettungsübung: Der Prüfling hat unter Einbindung des gesamten Tauchtrupps einen in 6 bis 20 m Tiefe wartenden Kameraden anzutauchen; beide haben vollständige Tauchausrüstung zu tragen (einschließlich Signalleine); die Signalleine des zu rettenden Tauchers darf vom Prüfling zur Orientierung verwendet werden. Der zu rettende Taucher ist mit seiner Tauchausrüstung unter Beachtung der maximalen Aufstiegsgeschwindigkeit sachgerecht an die Oberfläche und an Land zu bringen; danach Diagnose nach vorgegebenem Unfallschema und unverzügliche Einleitung der erforderlichen Ersten Hilfe-Maßnahmen einschließlich einer ggf. veranlassten Demonstration der Herz-Lungen-Wiederbelebung (HLW) über 3 Min. Dauer; anfertigen eines Unfallprotokolls für den Notarzt.  ",
+                "beschreibung": "Prüfungsteil Einsatztauchen Durchführung nachfolgender Tauchgänge / Übungen in Form einer Einsatzübung von mindestens 20 Min. in Wassertiefen zwischen 6 und 20 m gem. Sicherheitsregeln, wobei folgende Aufgaben erfolgreich zu erfüllen sind: \r\n- Leinenführung (Suchübung als Signalmann und als Taucher) \r\n- Ausführen einer Unterwasserarbeit ohne technische Hilfsmittel \r\n- Taucheinsatzführung eines Tauchtrupps\r\n- Ausführen einer Unterwasserarbeit mit technischen Hilfsmitteln\r\n- Rettungsübung: Der Prüfling hat unter Einbindung des gesamten Tauchtrupps einen in 6 bis 20 m Tiefe wartenden Kameraden anzutauchen; beide haben vollständige Tauchausrüstung zu tragen (einschließlich Signalleine); die Signalleine des zu rettenden Tauchers darf vom Prüfling zur Orientierung verwendet werden. Der zu rettende Taucher ist mit seiner Tauchausrüstung unter Beachtung der maximalen Aufstiegsgeschwindigkeit sachgerecht an die Oberfläche und an Land zu bringen; danach Diagnose nach vorgegebenem Unfallschema und unverzügliche Einleitung der erforderlichen Ersten Hilfe-Maßnahmen einschließlich einer ggf. veranlassten Demonstration der Herz-Lungen-Wiederbelebung (HLW) über 3 Min. Dauer; anfertigen eines Unfallprotokolls für den Notarzt.",
                 "einordnung": "praktisch",
                 "gueltigkeit": null
             },
             {
                 "id": "0017fa5d-74bc-a655-0937-045f838890b9",
-                "beschreibung": "Knotenkunde: Kreuzknoten, Palstek, Schotstek, Roringstek, Webeleinstek (von diesen Knoten sind der Palstek sowie zwei weitere Knoten nach freier Wahl vorzuführen) ",
+                "beschreibung": "Knotenkunde: Kreuzknoten, Palstek, Schotstek, Roringstek, Webeleinstek (von diesen Knoten sind der Palstek sowie zwei weitere Knoten nach freier Wahl vorzuführen)",
                 "einordnung": "praktisch",
                 "gueltigkeit": null
             }
@@ -13439,7 +13293,7 @@
             },
             {
                 "id": "0017fa5d-e0a8-2b2d-56c3-69712f24aba1",
-                "beschreibung": "Rettungsübung:\r\nDer Prüfling hat unter Einbindung des gesamten Tauchtrupps einen\r\nin 10 bis 20 m Tiefe wartenden Kameraden anzutauchen; beide\r\nhaben vollständige Tauchausrüstung zu tragen. Der zu rettende\r\nTaucher ist mit seiner Tauchausrüstung unter Beachtung der maximalen Aufstiegsgeschwindigkeit sachgerecht an die Oberfläche zu bringen und an Land zu bringen; danach Diagnose nach vorgegebenem Unfallschema und unverzügliche Einleitung\r\nder erforderlichen Ersten Hilfe-Maßnahmen einschließlich einer ggf. veranlassten Demonstration der Herz-Lungen-Wiederbelebung (HLW) über 3 Min. Dauer; Anfertigen eines Unfallprotokolls für den Notarzt. ",
+                "beschreibung": "Rettungsübung:\r\nDer Prüfling hat unter Einbindung des gesamten Tauchtrupps einen\r\nin 10 bis 20 m Tiefe wartenden Kameraden anzutauchen; beide\r\nhaben vollständige Tauchausrüstung zu tragen. Der zu rettende\r\nTaucher ist mit seiner Tauchausrüstung unter Beachtung der maximalen Aufstiegsgeschwindigkeit sachgerecht an die Oberfläche zu bringen und an Land zu bringen; danach Diagnose nach vorgegebenem Unfallschema und unverzügliche Einleitung\r\nder erforderlichen Ersten Hilfe-Maßnahmen einschließlich einer ggf. veranlassten Demonstration der Herz-Lungen-Wiederbelebung (HLW) über 3 Min. Dauer; Anfertigen eines Unfallprotokolls für den Notarzt.",
                 "einordnung": "praktisch",
                 "gueltigkeit": null
             }
@@ -13486,60 +13340,12 @@
                 "name": "Signalmann"
             },
             {
-                "id": "0017fa5d-4adb-8644-ea18-ac222b031106",
-                "nr": "641",
-                "poNr": 6,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Signalmann"
-            },
-            {
-                "id": "0017fa5d-4adb-8644-ea18-ac222b031106",
-                "nr": "641",
-                "poNr": 6,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Signalmann"
-            },
-            {
                 "id": "0017fa5d-ebee-a04d-c39b-71557cdc832d",
                 "nr": "161",
                 "poNr": 1,
                 "istAktiv": true,
                 "abkuerzung": "DSTA",
                 "name": "Deutsches Schnorcheltauchabzeichen"
-            },
-            {
-                "id": "0017fa5d-ed8a-fa2e-1c5d-1e60850c0c7c",
-                "nr": "710",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Sprechfunkunterweisung DLRG-Betriebsfunk"
-            },
-            {
-                "id": "0017fa5e-2116-3664-0dd0-bd6d4d8bc2b4",
-                "nr": "180.1",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Gemeinsamer Grundausbildungsblock"
-            },
-            {
-                "id": "0017fa5e-4af7-578d-1267-d9910b49de31",
-                "nr": "721",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": "UBI",
-                "name": "UKW-Sprechfunkzeugnis für den Binnenschifffahrtsfunk (UBI)"
-            },
-            {
-                "id": "0017fa5e-4c93-b172-34e4-57e5972befae",
-                "nr": "722",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": "DFbz",
-                "name": "Dienst-Funkbetriebszeugnis (DFbz)"
             },
             {
                 "id": "0017fa5e-99e4-8cc8-1bbb-45253234159a",
@@ -13976,22 +13782,6 @@
                 "name": "Signalmann"
             },
             {
-                "id": "0017fa5d-4adb-8644-ea18-ac222b031106",
-                "nr": "641",
-                "poNr": 6,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Signalmann"
-            },
-            {
-                "id": "0017fa5d-4adb-8644-ea18-ac222b031106",
-                "nr": "641",
-                "poNr": 6,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Signalmann"
-            },
-            {
                 "id": "0017fa5d-67d9-d785-7f29-5fc3ad7b967a",
                 "nr": "682",
                 "poNr": 6,
@@ -14006,14 +13796,6 @@
                 "istAktiv": true,
                 "abkuerzung": "DSTA",
                 "name": "Deutsches Schnorcheltauchabzeichen"
-            },
-            {
-                "id": "0017fa5d-ed8a-fa2e-1c5d-1e60850c0c7c",
-                "nr": "710",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Sprechfunkunterweisung DLRG-Betriebsfunk"
             },
             {
                 "id": "0017fa5e-0dc1-ffc6-1642-eba8c7dfc24d",
@@ -14038,30 +13820,6 @@
                 "istAktiv": true,
                 "abkuerzung": null,
                 "name": "Gemeinsamer Grundausbildungsblock"
-            },
-            {
-                "id": "0017fa5e-2116-3664-0dd0-bd6d4d8bc2b4",
-                "nr": "180.1",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Gemeinsamer Grundausbildungsblock"
-            },
-            {
-                "id": "0017fa5e-4af7-578d-1267-d9910b49de31",
-                "nr": "721",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": "UBI",
-                "name": "UKW-Sprechfunkzeugnis für den Binnenschifffahrtsfunk (UBI)"
-            },
-            {
-                "id": "0017fa5e-4c93-b172-34e4-57e5972befae",
-                "nr": "722",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": "DFbz",
-                "name": "Dienst-Funkbetriebszeugnis (DFbz)"
             },
             {
                 "id": "0017fa5e-99e4-8cc8-1bbb-45253234159a",
@@ -14094,22 +13852,6 @@
                 "istAktiv": true,
                 "abkuerzung": null,
                 "name": "Modul - Einsatz bei Dunkelheit"
-            },
-            {
-                "id": "0017fa5e-ba1b-930d-c04e-04eef7b3fccd",
-                "nr": "791",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Multiplikator Sprechfunk"
-            },
-            {
-                "id": "0017fa5e-bbb7-ecf8-7c45-956a89dcbf5c",
-                "nr": "792",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Multiplikator BOS-Sprechfunk"
             },
             {
                 "id": "0017fa5e-c229-54a4-3be4-0ee6ab5235c1",
@@ -14400,17 +14142,17 @@
                 "einordnung": "fachlich"
             },
             {
-                "lehreinheiten": 1,
+                "lehreinheiten": 2,
                 "inhalt": "Gerätekunde",
                 "einordnung": "fachlich"
             },
             {
-                "lehreinheiten": 2.5,
-                "inhalt": "Verkehrsabwicklung im Betriebsfunk, Dokumentation und Funkrufnamensystematik\r\n",
+                "lehreinheiten": 2,
+                "inhalt": "Verkehrsabwicklung im Betriebsfunk, Dokumentation und Funkrufnamensystematik",
                 "einordnung": "fachlich"
             },
             {
-                "lehreinheiten": 3.5,
+                "lehreinheiten": 2,
                 "inhalt": "Praktische Übungen",
                 "einordnung": "fachlich"
             }
@@ -14443,14 +14185,14 @@
             {
                 "id": 128,
                 "titel": "25408180 ANW Sprechfunkdienst_14.Neuauflage-online.pdf",
-                "beschreibung": null,
+                "beschreibung": "Funkdienstanweisung",
                 "typ": "merkblatt",
                 "link": "https://dlrg.net/global/Apps/Asset/assetService.php?gldid=-3&aid=866654g&v=o&wm=no"
             },
             {
                 "id": 129,
                 "titel": "11401207 PO IuK 2024_7.Auflage-digital.pdf",
-                "beschreibung": null,
+                "beschreibung": "PO 7",
                 "typ": "po",
                 "link": "https://dlrg.net/global/Apps/Asset/assetService.php?gldid=-3&aid=829282g&v=o&wm=no"
             }
@@ -14508,7 +14250,7 @@
             },
             {
                 "lehreinheiten": 1,
-                "inhalt": "Trouble Shooting ",
+                "inhalt": "Trouble Shooting",
                 "einordnung": "fachlich"
             },
             {
@@ -14615,7 +14357,7 @@
             "sonstiges": [
                 {
                     "anzahl": 1,
-                    "kommentar": "Die Voraussetzungen für die Prüfung sind in den landesrechtlichen Bestimmungen geregelt. "
+                    "kommentar": "Die Voraussetzungen für die Prüfung sind in den landesrechtlichen Bestimmungen geregelt."
                 }
             ],
             "mindestalter": {
@@ -14645,7 +14387,7 @@
             },
             {
                 "id": "0017fa5e-3606-c6f1-6f5d-aadd05fd4593",
-                "beschreibung": "Praxis: Inhalt, Art und Umfang der Prüfung richten sich nach den jeweiligen landesrechtlichen Bestimmungen. ",
+                "beschreibung": "Praxis: Inhalt, Art und Umfang der Prüfung richten sich nach den jeweiligen landesrechtlichen Bestimmungen.",
                 "einordnung": "praktisch",
                 "gueltigkeit": null
             }
@@ -14863,7 +14605,7 @@
         "name": "UKW-Sprechfunkzeugnis für den Binnenschifffahrtsfunk (UBI)",
         "stellenLfdNr": 3,
         "gueltigkeit": null,
-        "beauftragung": null,
+        "beauftragung": 4,
         "wiederholung": null,
         "pruefungenGueltigkeit": null,
         "verlaengerungUE": null,
@@ -14990,7 +14732,7 @@
         "name": "Dienst-Funkbetriebszeugnis (DFbz)",
         "stellenLfdNr": 3,
         "gueltigkeit": null,
-        "beauftragung": null,
+        "beauftragung": 4,
         "wiederholung": null,
         "pruefungenGueltigkeit": null,
         "verlaengerungUE": null,
@@ -15043,7 +14785,7 @@
             },
             {
                 "lehreinheiten": 8,
-                "inhalt": "Prüfungsvorbereitung ",
+                "inhalt": "Prüfungsvorbereitung",
                 "einordnung": "fachlich"
             }
         ],
@@ -15204,30 +14946,6 @@
                 "name": "Sprechfunkunterweisung DLRG-Betriebsfunk"
             },
             {
-                "id": "0017fa5e-2116-3664-0dd0-bd6d4d8bc2b4",
-                "nr": "180.1",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Gemeinsamer Grundausbildungsblock"
-            },
-            {
-                "id": "0017fa5e-4af7-578d-1267-d9910b49de31",
-                "nr": "721",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": "UBI",
-                "name": "UKW-Sprechfunkzeugnis für den Binnenschifffahrtsfunk (UBI)"
-            },
-            {
-                "id": "0017fa5e-4c93-b172-34e4-57e5972befae",
-                "nr": "722",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": "DFbz",
-                "name": "Dienst-Funkbetriebszeugnis (DFbz)"
-            },
-            {
                 "id": "0017fa5e-4e30-0b57-6c27-41fde04632c3",
                 "nr": "741",
                 "poNr": 7,
@@ -15380,28 +15098,12 @@
                 "name": "BOS-Sprechfunker -analog-"
             },
             {
-                "id": "0017fa5e-2116-3664-0dd0-bd6d4d8bc2b4",
-                "nr": "180.1",
-                "poNr": 1,
+                "id": "0017fa5d-f598-bb91-0fc5-cdb42cd89f54",
+                "nr": "715",
+                "poNr": 7,
                 "istAktiv": true,
                 "abkuerzung": null,
-                "name": "Gemeinsamer Grundausbildungsblock"
-            },
-            {
-                "id": "0017fa5e-4af7-578d-1267-d9910b49de31",
-                "nr": "721",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": "UBI",
-                "name": "UKW-Sprechfunkzeugnis für den Binnenschifffahrtsfunk (UBI)"
-            },
-            {
-                "id": "0017fa5e-4c93-b172-34e4-57e5972befae",
-                "nr": "722",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": "DFbz",
-                "name": "Dienst-Funkbetriebszeugnis (DFbz)"
+                "name": "BOS-Sprechfunker -digital-"
             },
             {
                 "id": "0017fa5e-4e30-0b57-6c27-41fde04632c3",
@@ -15593,30 +15295,6 @@
                 "name": "Gemeinsamer Grundausbildungsblock"
             },
             {
-                "id": "0017fa5e-2116-3664-0dd0-bd6d4d8bc2b4",
-                "nr": "180.1",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Gemeinsamer Grundausbildungsblock"
-            },
-            {
-                "id": "0017fa5e-4af7-578d-1267-d9910b49de31",
-                "nr": "721",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": "UBI",
-                "name": "UKW-Sprechfunkzeugnis für den Binnenschifffahrtsfunk (UBI)"
-            },
-            {
-                "id": "0017fa5e-4c93-b172-34e4-57e5972befae",
-                "nr": "722",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": "DFbz",
-                "name": "Dienst-Funkbetriebszeugnis (DFbz)"
-            },
-            {
                 "id": "0017fa5e-4e30-0b57-6c27-41fde04632c3",
                 "nr": "741",
                 "poNr": 7,
@@ -15687,30 +15365,6 @@
                 "istAktiv": true,
                 "abkuerzung": null,
                 "name": "Ausbilder Sprechfunk"
-            },
-            {
-                "id": "0017fa5e-ba1b-930d-c04e-04eef7b3fccd",
-                "nr": "791",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Multiplikator Sprechfunk"
-            },
-            {
-                "id": "0017fa5e-bbb7-ecf8-7c45-956a89dcbf5c",
-                "nr": "792",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Multiplikator BOS-Sprechfunk"
-            },
-            {
-                "id": "0017fa5f-05d0-157d-fc9f-90ab449962fc",
-                "nr": "715-NI",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "BOS-Sprechfunker -digital- (Niedersachsen)"
             }
         ],
         "dokumente": [
@@ -15724,7 +15378,7 @@
             {
                 "id": 254,
                 "titel": "11401207 PO IuK 2024_7.Auflage-digital.pdf",
-                "beschreibung": null,
+                "beschreibung": "PO 7",
                 "typ": "po",
                 "link": "https://dlrg.net/global/Apps/Asset/assetService.php?gldid=-3&aid=829282g&v=o&wm=no"
             }
@@ -15799,12 +15453,12 @@
                 "name": "BOS-Sprechfunker -analog-"
             },
             {
-                "id": "0017fa5d-4e14-39f5-755e-7c52dfd087ce",
-                "nr": "712",
+                "id": "0017fa5d-f598-bb91-0fc5-cdb42cd89f54",
+                "nr": "715",
                 "poNr": 7,
                 "istAktiv": true,
                 "abkuerzung": null,
-                "name": "BOS-Sprechfunker -analog-"
+                "name": "BOS-Sprechfunker -digital-"
             },
             {
                 "id": "0017fa5e-0dc1-ffc6-1642-eba8c7dfc24d",
@@ -15831,38 +15485,6 @@
                 "name": "Gemeinsamer Grundausbildungsblock"
             },
             {
-                "id": "0017fa5e-2116-3664-0dd0-bd6d4d8bc2b4",
-                "nr": "180.1",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Gemeinsamer Grundausbildungsblock"
-            },
-            {
-                "id": "0017fa5e-4af7-578d-1267-d9910b49de31",
-                "nr": "721",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": "UBI",
-                "name": "UKW-Sprechfunkzeugnis für den Binnenschifffahrtsfunk (UBI)"
-            },
-            {
-                "id": "0017fa5e-4c93-b172-34e4-57e5972befae",
-                "nr": "722",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": "DFbz",
-                "name": "Dienst-Funkbetriebszeugnis (DFbz)"
-            },
-            {
-                "id": "0017fa5e-4e30-0b57-6c27-41fde04632c3",
-                "nr": "741",
-                "poNr": 7,
-                "istAktiv": false,
-                "abkuerzung": null,
-                "name": "Fortbildung Sprechfunk Wasserrettungsdienst (WRD)"
-            },
-            {
                 "id": "0017fa5e-4e30-0b57-6c27-41fde04632c3",
                 "nr": "741",
                 "poNr": 7,
@@ -15879,76 +15501,12 @@
                 "name": "Fortbildung Sprechfunk Katastrophenschutz"
             },
             {
-                "id": "0017fa5e-4fcc-653c-b830-97da993b4246",
-                "nr": "742",
-                "poNr": 7,
-                "istAktiv": false,
-                "abkuerzung": null,
-                "name": "Fortbildung Sprechfunk Katastrophenschutz"
-            },
-            {
                 "id": "0017fa5e-5168-bf22-1900-597c74adb910",
                 "nr": "743",
                 "poNr": 7,
                 "istAktiv": false,
                 "abkuerzung": null,
                 "name": "Fortbildung Fernmeldebetriebsstelle"
-            },
-            {
-                "id": "0017fa5e-5168-bf22-1900-597c74adb910",
-                "nr": "743",
-                "poNr": 7,
-                "istAktiv": false,
-                "abkuerzung": null,
-                "name": "Fortbildung Fernmeldebetriebsstelle"
-            },
-            {
-                "id": "0017fa5e-99e4-8cc8-1bbb-45253234159a",
-                "nr": "401",
-                "poNr": 4,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Basisausbildung Einsatzdienste"
-            },
-            {
-                "id": "0017fa5e-aa00-0fe6-df43-90e785f48be8",
-                "nr": "405",
-                "poNr": 4,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Modul - Einsatz bei Dunkelheit"
-            },
-            {
-                "id": "0017fa5e-b87f-3923-191c-e06695f4a760",
-                "nr": "782",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Ausbilder BOS-Sprechfunk"
-            },
-            {
-                "id": "0017fa5e-ba1b-930d-c04e-04eef7b3fccd",
-                "nr": "791",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Multiplikator Sprechfunk"
-            },
-            {
-                "id": "0017fa5e-bbb7-ecf8-7c45-956a89dcbf5c",
-                "nr": "792",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Multiplikator BOS-Sprechfunk"
-            },
-            {
-                "id": "0017fa5f-05d0-157d-fc9f-90ab449962fc",
-                "nr": "715-NI",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "BOS-Sprechfunker -digital- (Niedersachsen)"
             },
             {
                 "id": "0017fa5f-05d0-157d-fc9f-90ab449962fc",
@@ -16879,230 +16437,6 @@
         "pruefungen": [],
         "prueferberechtigungen": [
             {
-                "id": "0017fa5d-35ea-f651-4a64-c2731a201094",
-                "nr": "421",
-                "poNr": 4,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Führungslehre"
-            },
-            {
-                "id": "0017fa5d-4fb0-93cd-da2b-056b1c31c5c8",
-                "nr": "811",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": "HGA",
-                "name": "Helfergrundausbildung"
-            },
-            {
-                "id": "0017fa5d-4fb0-93cd-da2b-056b1c31c5c8",
-                "nr": "811",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": "HGA",
-                "name": "Helfergrundausbildung"
-            },
-            {
-                "id": "0017fa5d-5485-a157-8537-24bbb8deb5e7",
-                "nr": "823",
-                "poNr": 8,
-                "istAktiv": false,
-                "abkuerzung": null,
-                "name": "Zusatzausbildung Kraftfahrer KatS"
-            },
-            {
-                "id": "0017fa5d-5485-a157-8537-24bbb8deb5e7",
-                "nr": "823",
-                "poNr": 8,
-                "istAktiv": false,
-                "abkuerzung": null,
-                "name": "Zusatzausbildung Kraftfahrer KatS"
-            },
-            {
-                "id": "0017fa5d-6e4b-3eec-c09c-df4a54559283",
-                "nr": "881",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Ausbilder/Prüfer Katastrophenschutz"
-            },
-            {
-                "id": "0017fa5d-e57d-38cd-3054-f12518dc399e",
-                "nr": "831",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Gruppenführerausbildung (Führen in der Führungsstufe A)"
-            },
-            {
-                "id": "0017fa5d-e57d-38cd-3054-f12518dc399e",
-                "nr": "831",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Gruppenführerausbildung (Führen in der Führungsstufe A)"
-            },
-            {
-                "id": "0017fa5d-e719-92ad-35fc-efccd46b6c13",
-                "nr": "832",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Zugführer- und Einsatzführerausbildung (Führen in der Führungsstufe B)"
-            },
-            {
-                "id": "0017fa5d-ed8a-fa2e-1c5d-1e60850c0c7c",
-                "nr": "710",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Sprechfunkunterweisung DLRG-Betriebsfunk"
-            },
-            {
-                "id": "0017fa5d-ed8a-fa2e-1c5d-1e60850c0c7c",
-                "nr": "710",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Sprechfunkunterweisung DLRG-Betriebsfunk"
-            },
-            {
-                "id": "0017fa5e-0dc1-ffc6-1642-eba8c7dfc24d",
-                "nr": "180.1a",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Gemeinsamer Grundausbildungsblock - Methodik-Didaktik"
-            },
-            {
-                "id": "0017fa5e-0f5e-59a8-234b-6cf44e1430e0",
-                "nr": "180.1b",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Gemeinsamer Grundausbildungsblock - Personen- und vereinsbezogener Bereich"
-            },
-            {
-                "id": "0017fa5e-2116-3664-0dd0-bd6d4d8bc2b4",
-                "nr": "180.1",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Gemeinsamer Grundausbildungsblock"
-            },
-            {
-                "id": "0017fa5e-2116-3664-0dd0-bd6d4d8bc2b4",
-                "nr": "180.1",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Gemeinsamer Grundausbildungsblock"
-            },
-            {
-                "id": "0017fa5e-3606-c6f1-b49d-bc9cb4c77eda",
-                "nr": "830",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Truppführerausbildung"
-            },
-            {
-                "id": "0017fa5e-3606-c6f1-b49d-bc9cb4c77eda",
-                "nr": "830",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Truppführerausbildung"
-            },
-            {
-                "id": "0017fa5e-37a3-20d5-c906-c240249c105c",
-                "nr": "833",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Verbandführerausbildung (Führen in der Führungsstufe C)"
-            },
-            {
-                "id": "0017fa5e-4af7-578d-1267-d9910b49de31",
-                "nr": "721",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": "UBI",
-                "name": "UKW-Sprechfunkzeugnis für den Binnenschifffahrtsfunk (UBI)"
-            },
-            {
-                "id": "0017fa5e-4c93-b172-34e4-57e5972befae",
-                "nr": "722",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": "DFbz",
-                "name": "Dienst-Funkbetriebszeugnis (DFbz)"
-            },
-            {
-                "id": "0017fa5e-99e4-8cc8-1bbb-45253234159a",
-                "nr": "401",
-                "poNr": 4,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Basisausbildung Einsatzdienste"
-            },
-            {
-                "id": "0017fa5e-9b80-e6b1-3832-672590cfc427",
-                "nr": "402",
-                "poNr": 4,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Modul - Umgang mit Rettungsgeräten und Überwachung von Wasserflächen"
-            },
-            {
-                "id": "0017fa5e-aa00-0fe6-df43-90e785f48be8",
-                "nr": "405",
-                "poNr": 4,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Modul - Einsatz bei Dunkelheit"
-            },
-            {
-                "id": "0017fa5e-ba1b-930d-c04e-04eef7b3fccd",
-                "nr": "791",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Multiplikator Sprechfunk"
-            },
-            {
-                "id": "0017fa5e-bbb7-ecf8-7c45-956a89dcbf5c",
-                "nr": "792",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Multiplikator BOS-Sprechfunk"
-            },
-            {
-                "id": "0017fa5e-dd8b-4d4c-a69f-dcd201414040",
-                "nr": "841",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Fachberater in Einsatzleitungen"
-            },
-            {
-                "id": "0017fa5e-df27-a739-2ba4-b4e4472d4796",
-                "nr": "842",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Einführung in die Stabsarbeit (Führen in der Führungsstufe D)"
-            },
-            {
-                "id": "0017fa5e-e0c4-0125-c56f-f8f9ca1eba93",
-                "nr": "843",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Fachberater in Katastrophenschutz-Stäben/Krisenstäben"
-            },
-            {
                 "id": "0017fa5e-e260-5b12-7401-a9133cb8351e",
                 "nr": "810",
                 "poNr": 8,
@@ -17125,38 +16459,6 @@
                 "istAktiv": true,
                 "abkuerzung": null,
                 "name": "Einsatzfähigkeit"
-            },
-            {
-                "id": "0017fa5e-e260-5b12-7401-a9133cb8351e",
-                "nr": "810",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Einsatzfähigkeit"
-            },
-            {
-                "id": "0017fa5e-e260-5b12-7401-a9133cb8351e",
-                "nr": "810",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Einsatzfähigkeit"
-            },
-            {
-                "id": "0017fa5e-e735-68d8-fc5d-417e2ccee946",
-                "nr": "812",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Landesspezifische Ausbildung"
-            },
-            {
-                "id": "0017fa5e-e735-68d8-fc5d-417e2ccee946",
-                "nr": "812",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Landesspezifische Ausbildung"
             }
         ],
         "dokumente": [
@@ -17272,30 +16574,6 @@
                 "name": "Zugführer- und Einsatzführerausbildung (Führen in der Führungsstufe B)"
             },
             {
-                "id": "0017fa5d-ed8a-fa2e-1c5d-1e60850c0c7c",
-                "nr": "710",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Sprechfunkunterweisung DLRG-Betriebsfunk"
-            },
-            {
-                "id": "0017fa5d-ed8a-fa2e-1c5d-1e60850c0c7c",
-                "nr": "710",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Sprechfunkunterweisung DLRG-Betriebsfunk"
-            },
-            {
-                "id": "0017fa5e-2116-3664-0dd0-bd6d4d8bc2b4",
-                "nr": "180.1",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Gemeinsamer Grundausbildungsblock"
-            },
-            {
                 "id": "0017fa5e-3606-c6f1-b49d-bc9cb4c77eda",
                 "nr": "830",
                 "poNr": 8,
@@ -17310,22 +16588,6 @@
                 "istAktiv": true,
                 "abkuerzung": null,
                 "name": "Verbandführerausbildung (Führen in der Führungsstufe C)"
-            },
-            {
-                "id": "0017fa5e-4af7-578d-1267-d9910b49de31",
-                "nr": "721",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": "UBI",
-                "name": "UKW-Sprechfunkzeugnis für den Binnenschifffahrtsfunk (UBI)"
-            },
-            {
-                "id": "0017fa5e-4c93-b172-34e4-57e5972befae",
-                "nr": "722",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": "DFbz",
-                "name": "Dienst-Funkbetriebszeugnis (DFbz)"
             },
             {
                 "id": "0017fa5e-99e4-8cc8-1bbb-45253234159a",
@@ -17568,22 +16830,6 @@
                 "name": "Zugführer- und Einsatzführerausbildung (Führen in der Führungsstufe B)"
             },
             {
-                "id": "0017fa5d-ed8a-fa2e-1c5d-1e60850c0c7c",
-                "nr": "710",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Sprechfunkunterweisung DLRG-Betriebsfunk"
-            },
-            {
-                "id": "0017fa5d-ed8a-fa2e-1c5d-1e60850c0c7c",
-                "nr": "710",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Sprechfunkunterweisung DLRG-Betriebsfunk"
-            },
-            {
                 "id": "0017fa5e-0dc1-ffc6-1642-eba8c7dfc24d",
                 "nr": "180.1a",
                 "poNr": 1,
@@ -17598,14 +16844,6 @@
                 "istAktiv": true,
                 "abkuerzung": null,
                 "name": "Gemeinsamer Grundausbildungsblock - Personen- und vereinsbezogener Bereich"
-            },
-            {
-                "id": "0017fa5e-2116-3664-0dd0-bd6d4d8bc2b4",
-                "nr": "180.1",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Gemeinsamer Grundausbildungsblock"
             },
             {
                 "id": "0017fa5e-2116-3664-0dd0-bd6d4d8bc2b4",
@@ -17640,22 +16878,6 @@
                 "name": "Verbandführerausbildung (Führen in der Führungsstufe C)"
             },
             {
-                "id": "0017fa5e-4af7-578d-1267-d9910b49de31",
-                "nr": "721",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": "UBI",
-                "name": "UKW-Sprechfunkzeugnis für den Binnenschifffahrtsfunk (UBI)"
-            },
-            {
-                "id": "0017fa5e-4c93-b172-34e4-57e5972befae",
-                "nr": "722",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": "DFbz",
-                "name": "Dienst-Funkbetriebszeugnis (DFbz)"
-            },
-            {
                 "id": "0017fa5e-99e4-8cc8-1bbb-45253234159a",
                 "nr": "401",
                 "poNr": 4,
@@ -17678,22 +16900,6 @@
                 "istAktiv": true,
                 "abkuerzung": null,
                 "name": "Modul - Einsatz bei Dunkelheit"
-            },
-            {
-                "id": "0017fa5e-ba1b-930d-c04e-04eef7b3fccd",
-                "nr": "791",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Multiplikator Sprechfunk"
-            },
-            {
-                "id": "0017fa5e-bbb7-ecf8-7c45-956a89dcbf5c",
-                "nr": "792",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Multiplikator BOS-Sprechfunk"
             },
             {
                 "id": "0017fa5e-dd8b-4d4c-a69f-dcd201414040",
@@ -19031,16 +18237,7 @@
             }
         },
         "pruefungen": [],
-        "prueferberechtigungen": [
-            {
-                "id": "0017fa5e-e260-5b12-7401-a9133cb8351e",
-                "nr": "810",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Einsatzfähigkeit"
-            }
-        ],
+        "prueferberechtigungen": [],
         "dokumente": [
             {
                 "id": 223,
@@ -19112,24 +18309,7 @@
             }
         },
         "pruefungen": [],
-        "prueferberechtigungen": [
-            {
-                "id": "0017fa5e-e260-5b12-7401-a9133cb8351e",
-                "nr": "810",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Einsatzfähigkeit"
-            },
-            {
-                "id": "0017fa5e-e260-5b12-7401-a9133cb8351e",
-                "nr": "810",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Einsatzfähigkeit"
-            }
-        ],
+        "prueferberechtigungen": [],
         "dokumente": [
             {
                 "id": 224,
@@ -19767,30 +18947,6 @@
         ],
         "prueferberechtigungen": [
             {
-                "id": "0017fa5e-2116-3664-0dd0-bd6d4d8bc2b4",
-                "nr": "180.1",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Gemeinsamer Grundausbildungsblock"
-            },
-            {
-                "id": "0017fa5e-4af7-578d-1267-d9910b49de31",
-                "nr": "721",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": "UBI",
-                "name": "UKW-Sprechfunkzeugnis für den Binnenschifffahrtsfunk (UBI)"
-            },
-            {
-                "id": "0017fa5e-4c93-b172-34e4-57e5972befae",
-                "nr": "722",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": "DFbz",
-                "name": "Dienst-Funkbetriebszeugnis (DFbz)"
-            },
-            {
                 "id": "0017fa5e-6320-9c02-9d15-750b58967e35",
                 "nr": "1012",
                 "poNr": 10,
@@ -19904,60 +19060,12 @@
         ],
         "prueferberechtigungen": [
             {
-                "id": "0017fa5d-ed8a-fa2e-1c5d-1e60850c0c7c",
-                "nr": "710",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Sprechfunkunterweisung DLRG-Betriebsfunk"
-            },
-            {
-                "id": "0017fa5d-ed8a-fa2e-1c5d-1e60850c0c7c",
-                "nr": "710",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Sprechfunkunterweisung DLRG-Betriebsfunk"
-            },
-            {
-                "id": "0017fa5e-2116-3664-0dd0-bd6d4d8bc2b4",
-                "nr": "180.1",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Gemeinsamer Grundausbildungsblock"
-            },
-            {
-                "id": "0017fa5e-4af7-578d-1267-d9910b49de31",
-                "nr": "721",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": "UBI",
-                "name": "UKW-Sprechfunkzeugnis für den Binnenschifffahrtsfunk (UBI)"
-            },
-            {
-                "id": "0017fa5e-4c93-b172-34e4-57e5972befae",
-                "nr": "722",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": "DFbz",
-                "name": "Dienst-Funkbetriebszeugnis (DFbz)"
-            },
-            {
                 "id": "0017fa5e-6659-4fcf-6615-7f055b12c492",
                 "nr": "1021",
                 "poNr": 10,
                 "istAktiv": true,
                 "abkuerzung": null,
                 "name": "Seiltechnik 1"
-            },
-            {
-                "id": "0017fa5e-7003-6b37-b3af-b86f680801db",
-                "nr": "1024",
-                "poNr": 10,
-                "istAktiv": false,
-                "abkuerzung": null,
-                "name": "Modul Canyoning"
             },
             {
                 "id": "0017fa5e-733c-1f05-c916-7f795f1f606c",
@@ -19982,14 +19090,6 @@
                 "istAktiv": true,
                 "abkuerzung": "SRT",
                 "name": "Strömungsrettungs-Techniker (SRT)"
-            },
-            {
-                "id": "0017fa5e-e260-5b12-7401-a9133cb8351e",
-                "nr": "810",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Einsatzfähigkeit"
             }
         ],
         "dokumente": [
@@ -20088,30 +19188,6 @@
             }
         ],
         "prueferberechtigungen": [
-            {
-                "id": "0017fa5e-2116-3664-0dd0-bd6d4d8bc2b4",
-                "nr": "180.1",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Gemeinsamer Grundausbildungsblock"
-            },
-            {
-                "id": "0017fa5e-4af7-578d-1267-d9910b49de31",
-                "nr": "721",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": "UBI",
-                "name": "UKW-Sprechfunkzeugnis für den Binnenschifffahrtsfunk (UBI)"
-            },
-            {
-                "id": "0017fa5e-4c93-b172-34e4-57e5972befae",
-                "nr": "722",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": "DFbz",
-                "name": "Dienst-Funkbetriebszeugnis (DFbz)"
-            },
             {
                 "id": "0017fa5e-733c-1f05-c916-7f795f1f606c",
                 "nr": "1025",
@@ -20320,22 +19396,6 @@
         "pruefungen": [],
         "prueferberechtigungen": [
             {
-                "id": "0017fa5d-ed8a-fa2e-1c5d-1e60850c0c7c",
-                "nr": "710",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Sprechfunkunterweisung DLRG-Betriebsfunk"
-            },
-            {
-                "id": "0017fa5d-ed8a-fa2e-1c5d-1e60850c0c7c",
-                "nr": "710",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Sprechfunkunterweisung DLRG-Betriebsfunk"
-            },
-            {
                 "id": "0017fa5e-0dc1-ffc6-1642-eba8c7dfc24d",
                 "nr": "180.1a",
                 "poNr": 1,
@@ -20360,76 +19420,12 @@
                 "name": "Gemeinsamer Grundausbildungsblock"
             },
             {
-                "id": "0017fa5e-2116-3664-0dd0-bd6d4d8bc2b4",
-                "nr": "180.1",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Gemeinsamer Grundausbildungsblock"
-            },
-            {
-                "id": "0017fa5e-4af7-578d-1267-d9910b49de31",
-                "nr": "721",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": "UBI",
-                "name": "UKW-Sprechfunkzeugnis für den Binnenschifffahrtsfunk (UBI)"
-            },
-            {
-                "id": "0017fa5e-4c93-b172-34e4-57e5972befae",
-                "nr": "722",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": "DFbz",
-                "name": "Dienst-Funkbetriebszeugnis (DFbz)"
-            },
-            {
-                "id": "0017fa5e-6659-4fcf-6615-7f055b12c492",
-                "nr": "1021",
-                "poNr": 10,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Seiltechnik 1"
-            },
-            {
                 "id": "0017fa5e-7003-6b37-b3af-b86f680801db",
                 "nr": "1024",
                 "poNr": 10,
                 "istAktiv": false,
                 "abkuerzung": null,
                 "name": "Modul Canyoning"
-            },
-            {
-                "id": "0017fa5e-7003-6b37-b3af-b86f680801db",
-                "nr": "1024",
-                "poNr": 10,
-                "istAktiv": false,
-                "abkuerzung": null,
-                "name": "Modul Canyoning"
-            },
-            {
-                "id": "0017fa5e-733c-1f05-c916-7f795f1f606c",
-                "nr": "1025",
-                "poNr": 10,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Modul Absturzsicherung"
-            },
-            {
-                "id": "0017fa5e-801e-ee41-5db2-750c80da3936",
-                "nr": "1041",
-                "poNr": 10,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Seiltechnik 2"
-            },
-            {
-                "id": "0017fa5e-8357-a211-1299-a8e80408855e",
-                "nr": "1051",
-                "poNr": 10,
-                "istAktiv": true,
-                "abkuerzung": "SRT",
-                "name": "Strömungsrettungs-Techniker (SRT)"
             },
             {
                 "id": "0017fa5e-8690-55e1-1a9a-8c316279f3e5",
@@ -20438,38 +19434,6 @@
                 "istAktiv": false,
                 "abkuerzung": null,
                 "name": "Ausbilder Strömungsrettung"
-            },
-            {
-                "id": "0017fa5e-903a-7153-2537-52d8743191dc",
-                "nr": "1091",
-                "poNr": 10,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Multiplikator Strömungsrettung"
-            },
-            {
-                "id": "0017fa5e-ba1b-930d-c04e-04eef7b3fccd",
-                "nr": "791",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Multiplikator Sprechfunk"
-            },
-            {
-                "id": "0017fa5e-bbb7-ecf8-7c45-956a89dcbf5c",
-                "nr": "792",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Multiplikator BOS-Sprechfunk"
-            },
-            {
-                "id": "0017fa5e-e260-5b12-7401-a9133cb8351e",
-                "nr": "810",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Einsatzfähigkeit"
             },
             {
                 "id": "0017fa5e-e3fc-b4ff-3759-c531519c5321",
@@ -20589,60 +19553,12 @@
                 "name": "Gemeinsamer Grundausbildungsblock"
             },
             {
-                "id": "0017fa5e-2116-3664-0dd0-bd6d4d8bc2b4",
-                "nr": "180.1",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Gemeinsamer Grundausbildungsblock"
-            },
-            {
-                "id": "0017fa5e-4af7-578d-1267-d9910b49de31",
-                "nr": "721",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": "UBI",
-                "name": "UKW-Sprechfunkzeugnis für den Binnenschifffahrtsfunk (UBI)"
-            },
-            {
-                "id": "0017fa5e-4c93-b172-34e4-57e5972befae",
-                "nr": "722",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": "DFbz",
-                "name": "Dienst-Funkbetriebszeugnis (DFbz)"
-            },
-            {
-                "id": "0017fa5e-6320-9c02-9d15-750b58967e35",
-                "nr": "1012",
-                "poNr": 10,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Sachkundiger PSA gegen Absturz"
-            },
-            {
                 "id": "0017fa5e-89c9-09b1-75b5-1eee31435eb7",
                 "nr": "1082",
                 "poNr": 10,
                 "istAktiv": true,
                 "abkuerzung": null,
                 "name": "Ausbilder Sachkunde PSA gegen Absturz"
-            },
-            {
-                "id": "0017fa5e-ba1b-930d-c04e-04eef7b3fccd",
-                "nr": "791",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Multiplikator Sprechfunk"
-            },
-            {
-                "id": "0017fa5e-bbb7-ecf8-7c45-956a89dcbf5c",
-                "nr": "792",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Multiplikator BOS-Sprechfunk"
             }
         ],
         "dokumente": [
@@ -20845,54 +19761,6 @@
                 "istAktiv": true,
                 "abkuerzung": null,
                 "name": "Gemeinsamer Grundausbildungsblock"
-            },
-            {
-                "id": "0017fa5e-2116-3664-0dd0-bd6d4d8bc2b4",
-                "nr": "180.1",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Gemeinsamer Grundausbildungsblock"
-            },
-            {
-                "id": "0017fa5e-4af7-578d-1267-d9910b49de31",
-                "nr": "721",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": "UBI",
-                "name": "UKW-Sprechfunkzeugnis für den Binnenschifffahrtsfunk (UBI)"
-            },
-            {
-                "id": "0017fa5e-4c93-b172-34e4-57e5972befae",
-                "nr": "722",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": "DFbz",
-                "name": "Dienst-Funkbetriebszeugnis (DFbz)"
-            },
-            {
-                "id": "0017fa5e-733c-1f05-c916-7f795f1f606c",
-                "nr": "1025",
-                "poNr": 10,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Modul Absturzsicherung"
-            },
-            {
-                "id": "0017fa5e-ba1b-930d-c04e-04eef7b3fccd",
-                "nr": "791",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Multiplikator Sprechfunk"
-            },
-            {
-                "id": "0017fa5e-bbb7-ecf8-7c45-956a89dcbf5c",
-                "nr": "792",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Multiplikator BOS-Sprechfunk"
             },
             {
                 "id": "0017fa5e-bd54-46e3-4d03-91d9ff118aaf",
