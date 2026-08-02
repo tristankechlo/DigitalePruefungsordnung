@@ -2843,7 +2843,7 @@
             },
             {
                 "id": "0017fa5e-a38e-a83f-fe26-63ae55b49453",
-                "nr": "410.2",
+                "nr": "410",
                 "poNr": 4,
                 "istAktiv": true,
                 "abkuerzung": null,
@@ -2851,7 +2851,7 @@
             },
             {
                 "id": "0017fa5e-a38e-a83f-fe26-63ae55b49453",
-                "nr": "410.2",
+                "nr": "410",
                 "poNr": 4,
                 "istAktiv": true,
                 "abkuerzung": null,
@@ -3289,7 +3289,7 @@
             },
             {
                 "id": "0017fa5e-a38e-a83f-fe26-63ae55b49453",
-                "nr": "410.2",
+                "nr": "410",
                 "poNr": 4,
                 "istAktiv": true,
                 "abkuerzung": null,
@@ -3918,7 +3918,7 @@
             },
             {
                 "id": "0017fa5e-a38e-a83f-fe26-63ae55b49453",
-                "nr": "410.2",
+                "nr": "410",
                 "poNr": 4,
                 "istAktiv": true,
                 "abkuerzung": null,
@@ -3926,7 +3926,7 @@
             },
             {
                 "id": "0017fa5e-a38e-a83f-fe26-63ae55b49453",
-                "nr": "410.2",
+                "nr": "410",
                 "poNr": 4,
                 "istAktiv": true,
                 "abkuerzung": null,
@@ -8093,7 +8093,7 @@
     },
     {
         "id": "0017fa5e-a38e-a83f-fe26-63ae55b49453",
-        "nr": "410.2",
+        "nr": "410",
         "poNr": 4,
         "istAktiv": true,
         "abkuerzung": null,
@@ -8150,7 +8150,7 @@
                 "kommentar": ""
             },
             "aerztliche_tauglichkeit": {
-                "istErforderlich": true,
+                "istErforderlich": false,
                 "kommentar": ""
             },
             "mitgliedschaft": {
@@ -8319,11 +8319,20 @@
                 }
             ],
             "hospitationen": [],
-            "sonstiges": [],
+            "sonstiges": [
+                {
+                    "anzahl": 1,
+                    "kommentar": "äquivalente medizinische Ausbildung gem. Bestimmungen"
+                },
+                {
+                    "anzahl": 1,
+                    "kommentar": "höherwertige medizinische Ausbildung gem. Bestimmungen"
+                }
+            ],
             "mindestalter": {
                 "istErforderlich": true,
                 "alter": 16,
-                "kommentar": "16 Jahre am ersten Prüfungstag (411.12); zu Ausbildungsbeginn genügen 12 Jahre (411.11)."
+                "kommentar": ""
             },
             "aerztliche_tauglichkeit": {
                 "istErforderlich": true,
@@ -8342,7 +8351,7 @@
             {
                 "id": "0017fa5e-47be-a3c2-c682-0e571be4d751",
                 "beschreibung": "Theoretische Prüfung",
-                "einordnung": "praktisch",
+                "einordnung": "theoretisch",
                 "gueltigkeit": null
             },
             {
@@ -8353,19 +8362,19 @@
             },
             {
                 "id": "0017fa5e-5168-bf21-d3c0-47953b3a9311",
-                "beschreibung": "Kombinierte Übung",
+                "beschreibung": "Kombinierte Übung im Freigewässer",
                 "einordnung": "praktisch",
                 "gueltigkeit": null
             },
             {
                 "id": "0017fa5e-54a1-72ec-d3b3-0e267d3b6ebf",
-                "beschreibung": "Knoten",
+                "beschreibung": "Knotenkunde",
                 "einordnung": "praktisch",
                 "gueltigkeit": null
             },
             {
                 "id": "0017fa5e-5976-809d-ef6f-605854ca5e6b",
-                "beschreibung": "run - swim - run",
+                "beschreibung": "run - swim - run im Freigewässer",
                 "einordnung": "praktisch",
                 "gueltigkeit": null
             }
@@ -8613,7 +8622,7 @@
                         "nr": "613",
                         "poNr": 6,
                         "istAktiv": true,
-                        "abkuerzung": "ET2",
+                        "abkuerzung": "DLRG-ET2",
                         "name": "DLRG-Einsatztaucher Stufe 2"
                     },
                     "kommentar": ""
@@ -8638,7 +8647,7 @@
                         "abkuerzung": "SR1",
                         "name": "Strömungsretter 1 (SR1)"
                     },
-                    "kommentar": "PO nennt 'Strömungsretter 1 (1011)'; aufgelöst auf die aktive PO10-Ausbildung id=214 (PO4-413 SR1 ist inaktiv)."
+                    "kommentar": ""
                 }
             ],
             "hospitationen": [],
@@ -8661,7 +8670,14 @@
                 "kommentar": ""
             }
         },
-        "pruefungen": [],
+        "pruefungen": [
+            {
+                "id": "0017fa5f-7690-ad7c-16ef-55cfd080cfc4",
+                "beschreibung": "Lehrgespräch",
+                "einordnung": "theoretisch",
+                "gueltigkeit": null
+            }
+        ],
         "prueferberechtigungen": [],
         "dokumente": [
             {
@@ -8787,6 +8803,10 @@
                 {
                     "anzahl": 1,
                     "kommentar": "Mindestens 2 Jahre aktive Mitarbeit im Wasserrettungsdienst (nachzuweisen durch Bescheinigung der Gliederung/des Bundesverbandes)."
+                },
+                {
+                    "anzahl": 1,
+                    "kommentar": "Befürwortung des Bundesverbandes"
                 }
             ],
             "mindestalter": {
@@ -8811,7 +8831,7 @@
             {
                 "id": "0017fa5e-9848-32de-ceca-7cbc7e06fdf2",
                 "beschreibung": "Multiple Choice Test",
-                "einordnung": "praktisch",
+                "einordnung": "theoretisch",
                 "gueltigkeit": null
             },
             {
@@ -8824,7 +8844,7 @@
         "prueferberechtigungen": [
             {
                 "id": "0017fa5e-a38e-a83f-fe26-63ae55b49453",
-                "nr": "410.2",
+                "nr": "410",
                 "poNr": 4,
                 "istAktiv": true,
                 "abkuerzung": null,
@@ -8858,7 +8878,7 @@
         "name": "Ausbilder Wasserrettungsdienst",
         "stellenLfdNr": 3,
         "gueltigkeit": null,
-        "beauftragung": null,
+        "beauftragung": 4,
         "wiederholung": null,
         "pruefungenGueltigkeit": null,
         "verlaengerungUE": null,
@@ -8949,7 +8969,20 @@
                 "kommentar": ""
             }
         },
-        "pruefungen": [],
+        "pruefungen": [
+            {
+                "id": "0017fa5f-79c9-6164-a103-b4f3d32479b7",
+                "beschreibung": "schriftliche Ausarbeitung zu einem vorgegebenen Thema im Bereich Wasserrettungsdienst",
+                "einordnung": "theoretisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-782d-0770-5196-4f3f0e23e769",
+                "beschreibung": "Lehrprobe zu den einzelnen Ausbildungsbereichen",
+                "einordnung": "praktisch",
+                "gueltigkeit": null
+            }
+        ],
         "prueferberechtigungen": [
             {
                 "id": "0017fa5d-3115-e8cc-3f86-8814df478962",
@@ -9017,7 +9050,7 @@
             },
             {
                 "id": "0017fa5e-a38e-a83f-fe26-63ae55b49453",
-                "nr": "410.2",
+                "nr": "410",
                 "poNr": 4,
                 "istAktiv": true,
                 "abkuerzung": null,
@@ -9025,7 +9058,7 @@
             },
             {
                 "id": "0017fa5e-a38e-a83f-fe26-63ae55b49453",
-                "nr": "410.2",
+                "nr": "410",
                 "poNr": 4,
                 "istAktiv": true,
                 "abkuerzung": null,
@@ -9082,7 +9115,7 @@
         "abkuerzung": null,
         "name": "Multiplikator WRD",
         "stellenLfdNr": 3,
-        "gueltigkeit": 4,
+        "gueltigkeit": null,
         "beauftragung": null,
         "wiederholung": null,
         "pruefungenGueltigkeit": null,
@@ -9135,7 +9168,7 @@
             },
             "befuerwortung": {
                 "istErforderlich": true,
-                "kommentar": ""
+                "kommentar": "durch den Landesverband"
             }
         },
         "pruefungen": [],
@@ -9238,7 +9271,7 @@
             },
             {
                 "id": "0017fa5e-a38e-a83f-fe26-63ae55b49453",
-                "nr": "410.2",
+                "nr": "410",
                 "poNr": 4,
                 "istAktiv": true,
                 "abkuerzung": null,
@@ -9246,7 +9279,7 @@
             },
             {
                 "id": "0017fa5e-a38e-a83f-fe26-63ae55b49453",
-                "nr": "410.2",
+                "nr": "410",
                 "poNr": 4,
                 "istAktiv": true,
                 "abkuerzung": null,
@@ -9394,7 +9427,7 @@
                         "abkuerzung": "WR",
                         "name": "Wasserretter"
                     },
-                    "kommentar": "Vorlage der Fachausbildung Wasserrettungsdienst (411) ersetzt 401"
+                    "kommentar": ""
                 },
                 {
                     "qualifikation": {
@@ -9416,7 +9449,7 @@
                         "abkuerzung": "WR",
                         "name": "Wasserretter"
                     },
-                    "kommentar": "Vorlage der Fachausbildung Wasserrettungsdienst (411) ersetzt 402"
+                    "kommentar": ""
                 },
                 {
                     "qualifikation": {
@@ -9438,7 +9471,7 @@
                         "abkuerzung": "WR",
                         "name": "Wasserretter"
                     },
-                    "kommentar": "Vorlage der Fachausbildung Wasserrettungsdienst (411) ersetzt 404"
+                    "kommentar": ""
                 }
             ],
             "hospitationen": [],
@@ -9449,7 +9482,7 @@
                 },
                 {
                     "anzahl": 1,
-                    "kommentar": "Teilnahme an einem Vorbereitungslehrgang; entfällt bei bereits vorhandenem DLRG-Bootsführerschein B (512)"
+                    "kommentar": "Teilnahme an einem Vorbereitungslehrgang"
                 },
                 {
                     "anzahl": 15,
@@ -9478,13 +9511,13 @@
             {
                 "id": "0017fa5e-c6fe-6265-a07e-450e6c84fc56",
                 "beschreibung": "Amtlicher Teil gemäß Fragenkatalog für den amtlichen Sportbootführerschein mit dem Geltungsbereich Binnenschifffahrtsstraßen",
-                "einordnung": "praktisch",
+                "einordnung": "theoretisch",
                 "gueltigkeit": null
             },
             {
                 "id": "0017fa5e-c89a-bc51-02a9-353a4d63af4d",
-                "beschreibung": "DLRG-spezifischer Teil",
-                "einordnung": "praktisch",
+                "beschreibung": "DLRG-spezifischer Teil schriftlich",
+                "einordnung": "theoretisch",
                 "gueltigkeit": null
             },
             {
@@ -9502,6 +9535,18 @@
             {
                 "id": "0017fa5e-cd6f-ca13-a5d0-8d998b4f9c6d",
                 "beschreibung": "Motorenkunde",
+                "einordnung": "praktisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-7b65-bb59-0537-86eed22523b2",
+                "beschreibung": "Knotenkunde",
+                "einordnung": "praktisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-7d02-154d-7e31-c530bdc88261",
+                "beschreibung": "Umgang mit PSAgE",
                 "einordnung": "praktisch",
                 "gueltigkeit": null
             }
@@ -9623,7 +9668,7 @@
                         "abkuerzung": "WR",
                         "name": "Wasserretter"
                     },
-                    "kommentar": "Vorlage der Fachausbildung Wasserrettungsdienst (411) ersetzt 401"
+                    "kommentar": ""
                 },
                 {
                     "qualifikation": {
@@ -9645,7 +9690,7 @@
                         "abkuerzung": "WR",
                         "name": "Wasserretter"
                     },
-                    "kommentar": "Vorlage der Fachausbildung Wasserrettungsdienst (411) ersetzt 402"
+                    "kommentar": ""
                 },
                 {
                     "qualifikation": {
@@ -9667,7 +9712,7 @@
                         "abkuerzung": "WR",
                         "name": "Wasserretter"
                     },
-                    "kommentar": "Vorlage der Fachausbildung Wasserrettungsdienst (411) ersetzt 404"
+                    "kommentar": ""
                 }
             ],
             "hospitationen": [],
@@ -9678,7 +9723,7 @@
                 },
                 {
                     "anzahl": 1,
-                    "kommentar": "Teilnahme an einem Vorbereitungslehrgang; entfällt bei bereits vorhandenem DLRG-Bootsführerschein A (511)"
+                    "kommentar": "Teilnahme an einem Vorbereitungslehrgang"
                 },
                 {
                     "anzahl": 15,
@@ -9707,18 +9752,18 @@
             {
                 "id": "0017fa5e-cf0c-23ff-5b15-2daf7c818eb6",
                 "beschreibung": "Amtlicher Teil gemäß Fragenkatalog für den amtlichen Sportbootführerschein mit dem Geltungsbereich Seeschifffahrtsstraßen",
-                "einordnung": "praktisch",
+                "einordnung": "theoretisch",
                 "gueltigkeit": null
             },
             {
                 "id": "0017fa5e-d0a8-7deb-2520-39c1b05ed63b",
-                "beschreibung": "DLRG-spezifischer Teil",
-                "einordnung": "praktisch",
+                "beschreibung": "DLRG-spezifischer Teil schriftlich",
+                "einordnung": "theoretisch",
                 "gueltigkeit": null
             },
             {
                 "id": "0017fa5e-d244-d7d7-03f1-b1d0d98a0ec5",
-                "beschreibung": "Fahrpraxis / Kreuzpeilung",
+                "beschreibung": "Fahrpraxis",
                 "einordnung": "praktisch",
                 "gueltigkeit": null
             },
@@ -9731,6 +9776,18 @@
             {
                 "id": "0017fa5e-d57d-8bae-ffe7-e5e8d654c21b",
                 "beschreibung": "Motorenkunde",
+                "einordnung": "praktisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-803a-c936-ae79-868c2581d206",
+                "beschreibung": "Umgang mit PSAgE",
+                "einordnung": "praktisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-7e9e-6f42-0bf2-6fba48b132ce",
+                "beschreibung": "Knotenkunde",
                 "einordnung": "praktisch",
                 "gueltigkeit": null
             }
@@ -9847,7 +9904,7 @@
         "name": "Ausbilder DLRG Bootsführerschein A",
         "stellenLfdNr": 3,
         "gueltigkeit": null,
-        "beauftragung": null,
+        "beauftragung": 4,
         "wiederholung": null,
         "pruefungenGueltigkeit": null,
         "verlaengerungUE": null,
@@ -9880,7 +9937,7 @@
             ],
             "hospitationen": [
                 {
-                    "kommentar": "Hospitation als Ausbilder bei der Ausbildung zum DLRG-Bootsführerschein A"
+                    "kommentar": ""
                 }
             ],
             "sonstiges": [],
@@ -9899,7 +9956,7 @@
             },
             "befuerwortung": {
                 "istErforderlich": true,
-                "kommentar": ""
+                "kommentar": "des Landesverbandes"
             }
         },
         "pruefungen": [],
@@ -9997,7 +10054,7 @@
             ],
             "hospitationen": [
                 {
-                    "kommentar": "Hospitation als Ausbilder bei der Ausbildung zum DLRG-Bootsführerschein B"
+                    "kommentar": ""
                 }
             ],
             "sonstiges": [],
@@ -10016,7 +10073,7 @@
             },
             "befuerwortung": {
                 "istErforderlich": true,
-                "kommentar": ""
+                "kommentar": "des Landesverbandes"
             }
         },
         "pruefungen": [],
@@ -10129,7 +10186,7 @@
             },
             "befuerwortung": {
                 "istErforderlich": true,
-                "kommentar": ""
+                "kommentar": "des Landesverbandes"
             }
         },
         "pruefungen": [],
@@ -10274,7 +10331,7 @@
             },
             "befuerwortung": {
                 "istErforderlich": true,
-                "kommentar": ""
+                "kommentar": "des Landesverbandes"
             }
         },
         "pruefungen": [],
@@ -10367,7 +10424,7 @@
         "nr": "612",
         "poNr": 6,
         "istAktiv": true,
-        "abkuerzung": "ET1",
+        "abkuerzung": "DLRG-ET1",
         "name": "DLRG-Einsatztaucher Stufe 1",
         "stellenLfdNr": 3,
         "gueltigkeit": null,
@@ -10512,7 +10569,7 @@
                         "abkuerzung": null,
                         "name": "Modul - Schwimmen in fließenden Gewässern"
                     },
-                    "kommentar": "Aufbaumodul Schwimmen in fließenden Gewässern."
+                    "kommentar": ""
                 },
                 {
                     "qualifikation": {
@@ -10550,7 +10607,7 @@
             },
             "mitgliedschaft": {
                 "istErforderlich": true,
-                "kommentar": "Mitgliedschaft in der DLRG."
+                "kommentar": ""
             },
             "befuerwortung": {
                 "istErforderlich": false,
@@ -10560,25 +10617,19 @@
         "pruefungen": [
             {
                 "id": "0017fa5d-6b12-8b38-b116-38284c4af468",
-                "beschreibung": "Prüfung der festgelegten Sachgebiete (siehe Ausbildungsvorschrift Einsatztaucher Stufe 1) auf bundeseinheitlichem Prüfungsbogen",
+                "beschreibung": "Prüfung der Tauchtheorie",
                 "einordnung": "theoretisch",
                 "gueltigkeit": null
             },
             {
                 "id": "0017fa5d-6cae-e512-8bd6-4db84f62cef3",
-                "beschreibung": "Prüfungsteil Schnorcheltauchen im Freigewässer \r\njeweils 400 m in Bauch-, Seiten- und Rückenlage ohne Armbewegung,\r\ndanach 300 m Schnorcheln mit nur einer Flosse (Schwimmlage nach Wunsch)\r\n- 10 m Tieftauchen\r\n- 35 m Streckentauchen\r\n- 60 Sekunden Zeittauchen",
+                "beschreibung": "Prüfungsteil Schnorcheltauchen im Freigewässer",
                 "einordnung": "praktisch",
                 "gueltigkeit": null
             },
             {
                 "id": "0017fa5d-6e4b-3eec-7b5c-ceab11693ae0",
-                "beschreibung": "Prüfungsteil Einsatztauchen\r\nDurchführung nachfolgender Tauchgänge / Übungen in Form einer Einsatzübung\r\nvon mindestens 20 Min. in Wassertiefen zwischen 6 und 10 m gem.\r\nSicherheitsregeln, wobei folgende Aufgaben erfolgreich zu erfüllen sind:\r\n- Leinenführung (Suchübung als Signalmann und als Taucher)\r\n- Ausführen einer Unterwasserarbeit ohne technische Hilfsmittel\r\n- Rettungsübung:\r\nDer Prüfling hat unter Einbindung des gesamten Tauchtrupps\r\neinen in 6 bis 10 m Tiefe wartenden Kameraden anzutauchen;\r\nbeide haben vollständige Tauchausrüstung zu tragen (einschließlich\r\nSignalleine); die Signalleine des zu rettenden Tauchers darf vom Prüfling zur Orientierung verwendet werden. Der zu rettende Taucher ist mit seiner Tauchausrüstung unter Beachtung der maximalen Aufstiegsgeschwindigkeit sachgerecht an die Oberfläche\r\nund an Land zu bringen; danach Diagnose nach vorgegebenem\r\nUnfallschema und unverzügliche Einleitung der erforderlichen Ersten Hilfe-Maßnahmen einschließlich einer ggf. veranlassten Demonstration der Herz-Lungen-Wiederbelebung (HLW) über 3 Min.\r\nDauer; anfertigen eines Unfallprotokolls für den Notarzt.",
-                "einordnung": "praktisch",
-                "gueltigkeit": null
-            },
-            {
-                "id": "0017fa5d-6fe7-98c6-7fa9-bb014500d164",
-                "beschreibung": "Knotenkunde:\r\nKreuzknoten, Palstek, Schotstek, Roringstek, Webeleinstek (von\r\ndiesen Knoten sind der Palstek sowie zwei weitere Knoten nach\r\nfreier Wahl vorzuführen)",
+                "beschreibung": "Prüfungsteil Einsatztauchen",
                 "einordnung": "praktisch",
                 "gueltigkeit": null
             }
@@ -10599,7 +10650,7 @@
         "nr": "613",
         "poNr": 6,
         "istAktiv": true,
-        "abkuerzung": "ET2",
+        "abkuerzung": "DLRG-ET2",
         "name": "DLRG-Einsatztaucher Stufe 2",
         "stellenLfdNr": 3,
         "gueltigkeit": null,
@@ -10769,7 +10820,7 @@
                         "abkuerzung": null,
                         "name": "Modul - Schwimmen in fließenden Gewässern"
                     },
-                    "kommentar": "Aufbaumodul Schwimmen in fließenden Gewässern."
+                    "kommentar": ""
                 },
                 {
                     "qualifikation": {
@@ -10817,25 +10868,19 @@
         "pruefungen": [
             {
                 "id": "0017fa5d-7183-f2a0-98bd-12bb9ccc2bb7",
-                "beschreibung": "Schriftliche Prüfung gem. bundeseinheitlichem Fragebogen",
-                "einordnung": "praktisch",
+                "beschreibung": "Prüfungsteil Tauchtheorie",
+                "einordnung": "theoretisch",
                 "gueltigkeit": null
             },
             {
                 "id": "0017fa5d-7320-4c7a-c696-d5dacb6de314",
-                "beschreibung": "Prüfungsteil Schnorcheltauchen im Freigewässer jeweils 400 m in Bauch-, Seiten- und Rückenlage ohne Armbewegung, danach 300 m Schnorcheln mit nur einer Flosse (Schwimmlage nach Wunsch) - 10 m Tieftauchen - 35 m Streckentauchen - 60 Sekunden Zeittauchen",
+                "beschreibung": "Prüfungsteil Schnorcheltauchen im Freigewässer",
                 "einordnung": "praktisch",
                 "gueltigkeit": null
             },
             {
                 "id": "0017fa5d-7659-002f-609d-9e4a77becde7",
-                "beschreibung": "Prüfungsteil Einsatztauchen Durchführung nachfolgender Tauchgänge / Übungen in Form einer Einsatzübung von mindestens 20 Min. in Wassertiefen zwischen 6 und 20 m gem. Sicherheitsregeln, wobei folgende Aufgaben erfolgreich zu erfüllen sind: \r\n- Leinenführung (Suchübung als Signalmann und als Taucher) \r\n- Ausführen einer Unterwasserarbeit ohne technische Hilfsmittel \r\n- Taucheinsatzführung eines Tauchtrupps\r\n- Ausführen einer Unterwasserarbeit mit technischen Hilfsmitteln\r\n- Rettungsübung: Der Prüfling hat unter Einbindung des gesamten Tauchtrupps einen in 6 bis 20 m Tiefe wartenden Kameraden anzutauchen; beide haben vollständige Tauchausrüstung zu tragen (einschließlich Signalleine); die Signalleine des zu rettenden Tauchers darf vom Prüfling zur Orientierung verwendet werden. Der zu rettende Taucher ist mit seiner Tauchausrüstung unter Beachtung der maximalen Aufstiegsgeschwindigkeit sachgerecht an die Oberfläche und an Land zu bringen; danach Diagnose nach vorgegebenem Unfallschema und unverzügliche Einleitung der erforderlichen Ersten Hilfe-Maßnahmen einschließlich einer ggf. veranlassten Demonstration der Herz-Lungen-Wiederbelebung (HLW) über 3 Min. Dauer; anfertigen eines Unfallprotokolls für den Notarzt.",
-                "einordnung": "praktisch",
-                "gueltigkeit": null
-            },
-            {
-                "id": "0017fa5d-74bc-a655-0937-045f838890b9",
-                "beschreibung": "Knotenkunde: Kreuzknoten, Palstek, Schotstek, Roringstek, Webeleinstek (von diesen Knoten sind der Palstek sowie zwei weitere Knoten nach freier Wahl vorzuführen)",
+                "beschreibung": "Prüfungsteil Einsatztauchen",
                 "einordnung": "praktisch",
                 "gueltigkeit": null
             }
@@ -11310,7 +11355,7 @@
                         "abkuerzung": null,
                         "name": "Führungslehre"
                     },
-                    "kommentar": "Führungslehre Ausbildung (421)."
+                    "kommentar": ""
                 },
                 {
                     "qualifikation": {
@@ -11321,7 +11366,7 @@
                         "abkuerzung": null,
                         "name": "DLRG-Sprechfunker"
                     },
-                    "kommentar": "Abgeschlossene DLRG-Sprechfunkausbildung."
+                    "kommentar": ""
                 },
                 {
                     "qualifikation": {
@@ -11332,7 +11377,7 @@
                         "abkuerzung": null,
                         "name": "BOS-Sprechfunker -analog-"
                     },
-                    "kommentar": "BOS-Sprechfunkausbildung -analog-."
+                    "kommentar": ""
                 },
                 {
                     "qualifikation": {
@@ -11343,7 +11388,7 @@
                         "abkuerzung": null,
                         "name": "BOS-Sprechfunker -digital-"
                     },
-                    "kommentar": "BOS-Sprechfunkausbildung -digital- (bundesweit, id=150)."
+                    "kommentar": ""
                 },
                 {
                     "qualifikation": {
@@ -11351,10 +11396,10 @@
                         "nr": "613",
                         "poNr": 6,
                         "istAktiv": true,
-                        "abkuerzung": "ET2",
+                        "abkuerzung": "DLRG-ET2",
                         "name": "DLRG-Einsatztaucher Stufe 2"
                     },
-                    "kommentar": "Gültige DLRG-Einsatztaucherberechtigung Stufe 2 (613)."
+                    "kommentar": ""
                 }
             ],
             "hospitationen": [],
@@ -11375,17 +11420,23 @@
             },
             "mitgliedschaft": {
                 "istErforderlich": true,
-                "kommentar": "Mitgliedschaft in der DLRG."
+                "kommentar": ""
             },
             "befuerwortung": {
                 "istErforderlich": true,
-                "kommentar": "Befürwortung durch die zuständige Gliederung."
+                "kommentar": ""
             }
         },
         "pruefungen": [
             {
                 "id": "0017fa5d-cbb7-9ad7-99fe-1beba24927a5",
-                "beschreibung": "Die Prüfung ist in Form eines Lehrgespräches und eines Planspieles abzuhalten. \r\nEine Zensierung der Prüfung findet nicht statt. Es gibt nur die Ergebnisse „bestanden“ und „nicht bestanden“. Eine Wiederholung ist möglich.",
+                "beschreibung": "Lehrgespräch",
+                "einordnung": "theoretisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5f-81d7-232b-65c7-09a706dcfd19",
+                "beschreibung": "Planspiel",
                 "einordnung": "praktisch",
                 "gueltigkeit": null
             }
@@ -11406,7 +11457,7 @@
         "nr": "632",
         "poNr": 6,
         "istAktiv": true,
-        "abkuerzung": "Tauchen - Führung von komplexen Lagen",
+        "abkuerzung": "FoBi Taucheinsatzführer",
         "name": "Fortbildung Taucheinsatzführer „Führung von komplexen Lagen“",
         "stellenLfdNr": 3,
         "gueltigkeit": null,
@@ -11434,7 +11485,7 @@
             "sonstiges": [
                 {
                     "anzahl": 1,
-                    "kommentar": "2 Jahre aktive Tätigkeit als Taucheinsatzführer."
+                    "kommentar": "2 Jahre aktive Tätigkeit als Taucheinsatzführer (631)"
                 }
             ],
             "mindestalter": {
@@ -11448,11 +11499,11 @@
             },
             "mitgliedschaft": {
                 "istErforderlich": true,
-                "kommentar": "Mitgliedschaft in der DLRG."
+                "kommentar": ""
             },
             "befuerwortung": {
                 "istErforderlich": true,
-                "kommentar": "Befürwortung durch die zuständige Gliederung."
+                "kommentar": ""
             }
         },
         "pruefungen": [],
@@ -11603,7 +11654,7 @@
             },
             "mitgliedschaft": {
                 "istErforderlich": true,
-                "kommentar": "Gültige Mitgliedschaft in der DLRG."
+                "kommentar": ""
             },
             "befuerwortung": {
                 "istErforderlich": false,
@@ -11613,13 +11664,13 @@
         "pruefungen": [
             {
                 "id": "0017fa5d-e244-850d-1e18-25537173980e",
-                "beschreibung": "Schriftliche Prüfung gemäß bundeseinheitlichem Fragebogen",
+                "beschreibung": "theoretische Prüfung",
                 "einordnung": "theoretisch",
                 "gueltigkeit": null
             },
             {
                 "id": "0017fa5d-e3e0-deec-fa33-4ccb630ee4c6",
-                "beschreibung": "Die Prüfung ist in Form einer Übung zu absolvieren.",
+                "beschreibung": "Prüfungsteil Taucherdienst",
                 "einordnung": "praktisch",
                 "gueltigkeit": null
             }
@@ -12884,6 +12935,47 @@
         "dokumente": []
     },
     {
+        "id": "0017fa5e-d8b6-3f87-9437-dca7a343994f",
+        "nr": "662",
+        "poNr": 6,
+        "istAktiv": true,
+        "abkuerzung": null,
+        "name": "Schnorchelbrevet Basic",
+        "stellenLfdNr": 3,
+        "gueltigkeit": null,
+        "beauftragung": null,
+        "wiederholung": null,
+        "pruefungenGueltigkeit": null,
+        "verlaengerungUE": null,
+        "verlaengerungBeauftragungUE": null,
+        "inhalt": [],
+        "voraussetzungen": {
+            "qualifikationen": [],
+            "hospitationen": [],
+            "sonstiges": [],
+            "mindestalter": {
+                "istErforderlich": false,
+                "alter": 0,
+                "kommentar": ""
+            },
+            "aerztliche_tauglichkeit": {
+                "istErforderlich": false,
+                "kommentar": ""
+            },
+            "mitgliedschaft": {
+                "istErforderlich": false,
+                "kommentar": ""
+            },
+            "befuerwortung": {
+                "istErforderlich": false,
+                "kommentar": ""
+            }
+        },
+        "pruefungen": [],
+        "prueferberechtigungen": [],
+        "dokumente": []
+    },
+    {
         "id": "0017fa5e-da52-9973-dae9-70b461ef04fc",
         "nr": "663",
         "poNr": 6,
@@ -13148,7 +13240,7 @@
         "name": "DLRG-Lehrtaucher",
         "stellenLfdNr": 3,
         "gueltigkeit": null,
-        "beauftragung": null,
+        "beauftragung": 4,
         "wiederholung": null,
         "pruefungenGueltigkeit": null,
         "verlaengerungUE": null,
@@ -13206,10 +13298,10 @@
                         "nr": "613",
                         "poNr": 6,
                         "istAktiv": true,
-                        "abkuerzung": "ET2",
+                        "abkuerzung": "DLRG-ET2",
                         "name": "DLRG-Einsatztaucher Stufe 2"
                     },
-                    "kommentar": "Gültige DLRG-Einsatztaucherberechtigung Stufe 2 (613)."
+                    "kommentar": ""
                 },
                 {
                     "qualifikation": {
@@ -13241,17 +13333,35 @@
             },
             "mitgliedschaft": {
                 "istErforderlich": true,
-                "kommentar": "Mitgliedschaft in der DLRG."
+                "kommentar": ""
             },
             "befuerwortung": {
                 "istErforderlich": true,
-                "kommentar": "Befürwortung durch den Landesverband oder den Bundesverband."
+                "kommentar": "des Landesverbandes"
             }
         },
         "pruefungen": [
             {
                 "id": "0017fa5d-d561-b611-2926-0a65edfc3210",
-                "beschreibung": "Schriftliche Prüfung",
+                "beschreibung": "schriftliche Prüfung",
+                "einordnung": "theoretisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5d-d89a-69cf-a9bc-0bb2bcd8a287",
+                "beschreibung": "Abhalten einer Lehrprobe (Zielgruppe Einsatztaucher)",
+                "einordnung": "theoretisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5d-dbd3-1d8e-7d6b-bb4589a823a9",
+                "beschreibung": "schriftliche Ausarbeitung (Zielgruppe Lehrtaucher)",
+                "einordnung": "theoretisch",
+                "gueltigkeit": null
+            },
+            {
+                "id": "0017fa5d-dd6f-776e-066d-346aede18b77",
+                "beschreibung": "Mindestens 3 Tauchgänge als Tauchausbilder",
                 "einordnung": "praktisch",
                 "gueltigkeit": null
             },
@@ -13262,38 +13372,14 @@
                 "gueltigkeit": null
             },
             {
-                "id": "0017fa5d-d89a-69cf-a9bc-0bb2bcd8a287",
-                "beschreibung": "Abhalten einer Lehrprobe (Zielgruppe Einsatztaucher)",
-                "einordnung": "praktisch",
-                "gueltigkeit": null
-            },
-            {
-                "id": "0017fa5d-da36-c3af-0930-adb30a30b404",
-                "beschreibung": "mündliche Prüfung",
-                "einordnung": "praktisch",
-                "gueltigkeit": null
-            },
-            {
-                "id": "0017fa5d-dbd3-1d8e-7d6b-bb4589a823a9",
-                "beschreibung": "schriftliche Ausarbeitung (Zielgruppe Lehrtaucher)",
-                "einordnung": "praktisch",
-                "gueltigkeit": null
-            },
-            {
-                "id": "0017fa5d-dd6f-776e-066d-346aede18b77",
-                "beschreibung": "Mindestens 3 Tauchgänge als Tauchausbilder:\r\n- Tauchen mit Anfängern (Einweisung in das Leinentauchen)\r\n- Leinentauchgang bei Nacht\r\n- Arbeiten unter Wasser\r\nBei einem dieser Tauchgänge hat der Prüfling die Leistungen der anderen Taucher zu bewerten.",
-                "einordnung": "praktisch",
-                "gueltigkeit": null
-            },
-            {
                 "id": "0017fa5d-df0b-d14d-a435-1923e97f8572",
-                "beschreibung": "Durchführung eines Einsatztauchgangs als Taucheinsatzführer:\r\nDie Aufgabe des Einsatztauchgangs wird durch die Prüfungskommission\r\nfestgelegt.",
+                "beschreibung": "Durchführung eines Einsatztauchgangs als Taucheinsatzführer",
                 "einordnung": "praktisch",
                 "gueltigkeit": null
             },
             {
                 "id": "0017fa5d-e0a8-2b2d-56c3-69712f24aba1",
-                "beschreibung": "Rettungsübung:\r\nDer Prüfling hat unter Einbindung des gesamten Tauchtrupps einen\r\nin 10 bis 20 m Tiefe wartenden Kameraden anzutauchen; beide\r\nhaben vollständige Tauchausrüstung zu tragen. Der zu rettende\r\nTaucher ist mit seiner Tauchausrüstung unter Beachtung der maximalen Aufstiegsgeschwindigkeit sachgerecht an die Oberfläche zu bringen und an Land zu bringen; danach Diagnose nach vorgegebenem Unfallschema und unverzügliche Einleitung\r\nder erforderlichen Ersten Hilfe-Maßnahmen einschließlich einer ggf. veranlassten Demonstration der Herz-Lungen-Wiederbelebung (HLW) über 3 Min. Dauer; Anfertigen eines Unfallprotokolls für den Notarzt.",
+                "beschreibung": "Rettungsübung",
                 "einordnung": "praktisch",
                 "gueltigkeit": null
             }
@@ -13312,7 +13398,7 @@
                 "nr": "612",
                 "poNr": 6,
                 "istAktiv": true,
-                "abkuerzung": "ET1",
+                "abkuerzung": "DLRG-ET1",
                 "name": "DLRG-Einsatztaucher Stufe 1"
             },
             {
@@ -13320,7 +13406,7 @@
                 "nr": "613",
                 "poNr": 6,
                 "istAktiv": true,
-                "abkuerzung": "ET2",
+                "abkuerzung": "DLRG-ET2",
                 "name": "DLRG-Einsatztaucher Stufe 2"
             },
             {
@@ -13365,7 +13451,7 @@
             },
             {
                 "id": "0017fa5e-a38e-a83f-fe26-63ae55b49453",
-                "nr": "410.2",
+                "nr": "410",
                 "poNr": 4,
                 "istAktiv": true,
                 "abkuerzung": null,
@@ -13641,7 +13727,7 @@
         "name": "Multiplikator Einsatztauchen",
         "stellenLfdNr": 3,
         "gueltigkeit": null,
-        "beauftragung": null,
+        "beauftragung": 4,
         "wiederholung": null,
         "pruefungenGueltigkeit": null,
         "verlaengerungUE": null,
@@ -13674,7 +13760,7 @@
                         "abkuerzung": null,
                         "name": "Allgemeine Multiplikatorenschulung"
                     },
-                    "kommentar": "In der PO als '190.1' bezeichnet; aktiver Katalogeintrag ist poNr=190 (id=196)."
+                    "kommentar": ""
                 },
                 {
                     "qualifikation": {
@@ -13701,30 +13787,30 @@
             },
             "mitgliedschaft": {
                 "istErforderlich": true,
-                "kommentar": "Mitgliedschaft in der DLRG."
+                "kommentar": ""
             },
             "befuerwortung": {
                 "istErforderlich": true,
-                "kommentar": "Befürwortung durch den zuständigen Landesverband und den Bundesverband."
+                "kommentar": "des Landesverbandes"
             }
         },
         "pruefungen": [
             {
                 "id": "0017fa5d-cd53-f4b6-533f-61737d83ee9e",
                 "beschreibung": "Abhalten einer Lehrprobe (Zielgruppe Lehrtaucher)",
-                "einordnung": "praktisch",
+                "einordnung": "theoretisch",
                 "gueltigkeit": null
             },
             {
                 "id": "0017fa5d-cef0-4e95-2147-1287f5c94423",
                 "beschreibung": "Unterrichtsbeurteilung",
-                "einordnung": "praktisch",
+                "einordnung": "theoretisch",
                 "gueltigkeit": null
             },
             {
                 "id": "0017fa5d-d08c-a874-0415-2f29bdbbc21d",
                 "beschreibung": "Bewertung von schriftlichen Ausarbeitungen",
-                "einordnung": "praktisch",
+                "einordnung": "theoretisch",
                 "gueltigkeit": null
             },
             {
@@ -13754,7 +13840,7 @@
                 "nr": "612",
                 "poNr": 6,
                 "istAktiv": true,
-                "abkuerzung": "ET1",
+                "abkuerzung": "DLRG-ET1",
                 "name": "DLRG-Einsatztaucher Stufe 1"
             },
             {
@@ -13762,7 +13848,7 @@
                 "nr": "613",
                 "poNr": 6,
                 "istAktiv": true,
-                "abkuerzung": "ET2",
+                "abkuerzung": "DLRG-ET2",
                 "name": "DLRG-Einsatztaucher Stufe 2"
             },
             {
@@ -13839,7 +13925,7 @@
             },
             {
                 "id": "0017fa5e-a38e-a83f-fe26-63ae55b49453",
-                "nr": "410.2",
+                "nr": "410",
                 "poNr": 4,
                 "istAktiv": true,
                 "abkuerzung": null,
@@ -15575,12 +15661,7 @@
                 }
             ],
             "hospitationen": [],
-            "sonstiges": [
-                {
-                    "anzahl": 1,
-                    "kommentar": "EH-Lehrgang oder EH-Fortbildung"
-                }
-            ],
+            "sonstiges": [],
             "mindestalter": {
                 "istErforderlich": true,
                 "alter": 16,
@@ -15625,18 +15706,7 @@
         "pruefungenGueltigkeit": null,
         "verlaengerungUE": null,
         "verlaengerungBeauftragungUE": null,
-        "inhalt": [
-            {
-                "lehreinheiten": 0,
-                "inhalt": "Voraussetzungen\n• Mitgliedschaft in der DLRG\n• Basisausbildung Einsatzdienste (401)\n• Erste Hilfe-Lehrgang oder Erste Hilfe-Fortbildung\n• Ärztliche Tauglichkeitsbescheinigung oder Selbsterklärung zum Gesundheitszustand",
-                "einordnung": "uebergreifend"
-            },
-            {
-                "lehreinheiten": 0,
-                "inhalt": "Ausbildungsinhalte\n• Sanitätsausbildung A (331) oder Sanitätsfortbildung (341)\n• Aufbaumodul \"Grundlagen des Katastrophenschutzes und der öffentlichen Gefahrenabwehr\"",
-                "einordnung": "uebergreifend"
-            }
-        ],
+        "inhalt": [],
         "voraussetzungen": {
             "qualifikationen": [
                 {
@@ -15659,16 +15729,33 @@
                         "abkuerzung": "DRSA Silber",
                         "name": "Deutsches Rettungsschwimmabzeichen Silber"
                     },
+                    "kommentar": "Ausführungsbestimmungen: \nIn Landesverbänden, in denen Einheiten ohne Wasserrettungsbezug tätig \nsind (z.B. ABC / Betreuung / Sanität), können für diese Helfer die Voraus\nsetzungen Deutsches Rettungsschwimmabzeichen Silber (152) entfallen."
+                },
+                {
+                    "qualifikation": {
+                        "id": "0017fa5d-276b-cdc4-5ab7-63f69d16b5f4",
+                        "nr": "312",
+                        "poNr": 3,
+                        "istAktiv": true,
+                        "abkuerzung": "EH Ausbildung",
+                        "name": "Erste-Hilfe-Ausbildung"
+                    },
+                    "kommentar": ""
+                },
+                {
+                    "qualifikation": {
+                        "id": "0017fa5d-2908-279a-cce9-ddcbbc07d782",
+                        "nr": "321",
+                        "poNr": 3,
+                        "istAktiv": true,
+                        "abkuerzung": "EH Fortbildung",
+                        "name": "Erste-Hilfe-Fortbildung"
+                    },
                     "kommentar": ""
                 }
             ],
             "hospitationen": [],
-            "sonstiges": [
-                {
-                    "anzahl": 1,
-                    "kommentar": "Erste-Hilfe-Lehrgang oder Erste-Hilfe-Fortbildung"
-                }
-            ],
+            "sonstiges": [],
             "mindestalter": {
                 "istErforderlich": false,
                 "alter": 0,
@@ -15689,15 +15776,7 @@
         },
         "pruefungen": [],
         "prueferberechtigungen": [],
-        "dokumente": [
-            {
-                "id": 81,
-                "titel": "PO Kats 2018.pdf",
-                "beschreibung": null,
-                "typ": "po",
-                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?gldid=-3&aid=221g&v=o&cv=5&wm=no"
-            }
-        ]
+        "dokumente": []
     },
     {
         "id": "0017fa5e-e735-68d8-fc5d-417e2ccee946",
@@ -15781,7 +15860,7 @@
             },
             "aerztliche_tauglichkeit": {
                 "istErforderlich": true,
-                "kommentar": "oder Selbsterklärung zum Gesundheitszustand"
+                "kommentar": ""
             },
             "mitgliedschaft": {
                 "istErforderlich": true,
@@ -15797,55 +15876,6 @@
         "dokumente": [
             {
                 "id": 266,
-                "titel": "PO Kats 2018.pdf",
-                "beschreibung": null,
-                "typ": "po",
-                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?gldid=-3&aid=221g&v=o&cv=5&wm=no"
-            }
-        ]
-    },
-    {
-        "id": "0017fa5e-346a-6d0d-b4fb-22b33d46a877",
-        "nr": "824",
-        "poNr": 8,
-        "istAktiv": true,
-        "abkuerzung": null,
-        "name": "Zusatzausbildung Hochwasserschutz und Deichverteidigung",
-        "stellenLfdNr": 3,
-        "gueltigkeit": null,
-        "beauftragung": null,
-        "wiederholung": null,
-        "pruefungenGueltigkeit": null,
-        "verlaengerungUE": null,
-        "verlaengerungBeauftragungUE": null,
-        "inhalt": [],
-        "voraussetzungen": {
-            "qualifikationen": [],
-            "hospitationen": [],
-            "sonstiges": [],
-            "mindestalter": {
-                "istErforderlich": false,
-                "alter": 0,
-                "kommentar": ""
-            },
-            "aerztliche_tauglichkeit": {
-                "istErforderlich": false,
-                "kommentar": ""
-            },
-            "mitgliedschaft": {
-                "istErforderlich": false,
-                "kommentar": ""
-            },
-            "befuerwortung": {
-                "istErforderlich": false,
-                "kommentar": ""
-            }
-        },
-        "pruefungen": [],
-        "prueferberechtigungen": [],
-        "dokumente": [
-            {
-                "id": 187,
                 "titel": "PO Kats 2018.pdf",
                 "beschreibung": null,
                 "typ": "po",
@@ -16019,14 +16049,6 @@
                 "istAktiv": true,
                 "abkuerzung": null,
                 "name": "Einsatzfähigkeit"
-            },
-            {
-                "id": "0017fa5e-e260-5b12-7401-a9133cb8351e",
-                "nr": "810",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Einsatzfähigkeit"
             }
         ],
         "dokumente": [
@@ -16090,27 +16112,11 @@
             },
             "befuerwortung": {
                 "istErforderlich": true,
-                "kommentar": ""
+                "kommentar": "des Landesverbandes"
             }
         },
         "pruefungen": [],
         "prueferberechtigungen": [
-            {
-                "id": "0017fa5e-e260-5b12-7401-a9133cb8351e",
-                "nr": "810",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Einsatzfähigkeit"
-            },
-            {
-                "id": "0017fa5e-e260-5b12-7401-a9133cb8351e",
-                "nr": "810",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Einsatzfähigkeit"
-            },
             {
                 "id": "0017fa5e-e260-5b12-7401-a9133cb8351e",
                 "nr": "810",
@@ -16181,36 +16187,11 @@
             },
             "befuerwortung": {
                 "istErforderlich": true,
-                "kommentar": ""
+                "kommentar": "des Landesverbandes"
             }
         },
         "pruefungen": [],
-        "prueferberechtigungen": [
-            {
-                "id": "0017fa5e-e260-5b12-7401-a9133cb8351e",
-                "nr": "810",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Einsatzfähigkeit"
-            },
-            {
-                "id": "0017fa5e-e260-5b12-7401-a9133cb8351e",
-                "nr": "810",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Einsatzfähigkeit"
-            },
-            {
-                "id": "0017fa5e-e260-5b12-7401-a9133cb8351e",
-                "nr": "810",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Einsatzfähigkeit"
-            }
-        ],
+        "prueferberechtigungen": [],
         "dokumente": [
             {
                 "id": 189,
@@ -16267,28 +16248,11 @@
             },
             "befuerwortung": {
                 "istErforderlich": true,
-                "kommentar": "Entsendung durch die zuständige Organisation/Dienststelle bzw. Befürwortung durch die zuständige Gliederung"
+                "kommentar": "Entsendung durch die zuständige Organisation/Dienststelle"
             }
         },
         "pruefungen": [],
-        "prueferberechtigungen": [
-            {
-                "id": "0017fa5e-e260-5b12-7401-a9133cb8351e",
-                "nr": "810",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Einsatzfähigkeit"
-            },
-            {
-                "id": "0017fa5e-e260-5b12-7401-a9133cb8351e",
-                "nr": "810",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Einsatzfähigkeit"
-            }
-        ],
+        "prueferberechtigungen": [],
         "dokumente": [
             {
                 "id": 260,
@@ -16345,36 +16309,11 @@
             },
             "befuerwortung": {
                 "istErforderlich": true,
-                "kommentar": "Entsendung durch den zuständigen Landesverband/Bundesverband bzw. die zuständige Dienststelle"
+                "kommentar": "Entsendung durch den zuständigen Landesverband"
             }
         },
         "pruefungen": [],
-        "prueferberechtigungen": [
-            {
-                "id": "0017fa5e-e260-5b12-7401-a9133cb8351e",
-                "nr": "810",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Einsatzfähigkeit"
-            },
-            {
-                "id": "0017fa5e-e260-5b12-7401-a9133cb8351e",
-                "nr": "810",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Einsatzfähigkeit"
-            },
-            {
-                "id": "0017fa5e-e260-5b12-7401-a9133cb8351e",
-                "nr": "810",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Einsatzfähigkeit"
-            }
-        ],
+        "prueferberechtigungen": [],
         "dokumente": [
             {
                 "id": 261,
@@ -16431,36 +16370,11 @@
             },
             "befuerwortung": {
                 "istErforderlich": true,
-                "kommentar": "Entsendung durch die zuständige Organisation/Dienststelle bzw. Befürwortung durch den zuständigen Landes-/Bundesverband"
+                "kommentar": "Entsendung durch die zuständige Organisation/Dienststelle"
             }
         },
         "pruefungen": [],
-        "prueferberechtigungen": [
-            {
-                "id": "0017fa5e-e260-5b12-7401-a9133cb8351e",
-                "nr": "810",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Einsatzfähigkeit"
-            },
-            {
-                "id": "0017fa5e-e260-5b12-7401-a9133cb8351e",
-                "nr": "810",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Einsatzfähigkeit"
-            },
-            {
-                "id": "0017fa5e-e260-5b12-7401-a9133cb8351e",
-                "nr": "810",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Einsatzfähigkeit"
-            }
-        ],
+        "prueferberechtigungen": [],
         "dokumente": [
             {
                 "id": 262,
@@ -16480,7 +16394,7 @@
         "name": "Ausbilder/Prüfer Katastrophenschutz",
         "stellenLfdNr": 3,
         "gueltigkeit": null,
-        "beauftragung": null,
+        "beauftragung": 4,
         "wiederholung": null,
         "pruefungenGueltigkeit": null,
         "verlaengerungUE": null,
@@ -16528,7 +16442,7 @@
             },
             "befuerwortung": {
                 "istErforderlich": true,
-                "kommentar": ""
+                "kommentar": "des Landesverbandes"
             }
         },
         "pruefungen": [],
@@ -16636,22 +16550,6 @@
                 "istAktiv": true,
                 "abkuerzung": null,
                 "name": "Fachberater in Katastrophenschutz-Stäben/Krisenstäben"
-            },
-            {
-                "id": "0017fa5e-e260-5b12-7401-a9133cb8351e",
-                "nr": "810",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Einsatzfähigkeit"
-            },
-            {
-                "id": "0017fa5e-e260-5b12-7401-a9133cb8351e",
-                "nr": "810",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Einsatzfähigkeit"
             },
             {
                 "id": "0017fa5e-e260-5b12-7401-a9133cb8351e",
@@ -16733,7 +16631,10 @@
             ],
             "hospitationen": [
                 {
-                    "kommentar": "Hospitation bei einem Zug- oder Verbandsführerlehrgang auf Bundesebene"
+                    "kommentar": ""
+                },
+                {
+                    "kommentar": ""
                 }
             ],
             "sonstiges": [],
@@ -16752,42 +16653,18 @@
             },
             "befuerwortung": {
                 "istErforderlich": true,
-                "kommentar": ""
+                "kommentar": "des Landesverbandes"
             }
         },
         "pruefungen": [],
         "prueferberechtigungen": [
             {
-                "id": "0017fa5d-35ea-f651-4a64-c2731a201094",
-                "nr": "421",
-                "poNr": 4,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Führungslehre"
-            },
-            {
                 "id": "0017fa5d-4fb0-93cd-da2b-056b1c31c5c8",
                 "nr": "811",
                 "poNr": 8,
                 "istAktiv": true,
                 "abkuerzung": "HGA",
                 "name": "Helfergrundausbildung"
-            },
-            {
-                "id": "0017fa5d-4fb0-93cd-da2b-056b1c31c5c8",
-                "nr": "811",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": "HGA",
-                "name": "Helfergrundausbildung"
-            },
-            {
-                "id": "0017fa5d-5485-a157-8537-24bbb8deb5e7",
-                "nr": "823",
-                "poNr": 8,
-                "istAktiv": false,
-                "abkuerzung": null,
-                "name": "Zusatzausbildung Kraftfahrer KatS"
             },
             {
                 "id": "0017fa5d-5485-a157-8537-24bbb8deb5e7",
@@ -16812,22 +16689,6 @@
                 "istAktiv": true,
                 "abkuerzung": null,
                 "name": "Gruppenführerausbildung (Führen in der Führungsstufe A)"
-            },
-            {
-                "id": "0017fa5d-e57d-38cd-3054-f12518dc399e",
-                "nr": "831",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Gruppenführerausbildung (Führen in der Führungsstufe A)"
-            },
-            {
-                "id": "0017fa5d-e719-92ad-35fc-efccd46b6c13",
-                "nr": "832",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Zugführer- und Einsatzführerausbildung (Führen in der Führungsstufe B)"
             },
             {
                 "id": "0017fa5e-0dc1-ffc6-1642-eba8c7dfc24d",
@@ -16862,116 +16723,12 @@
                 "name": "Truppführerausbildung"
             },
             {
-                "id": "0017fa5e-3606-c6f1-b49d-bc9cb4c77eda",
-                "nr": "830",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Truppführerausbildung"
-            },
-            {
-                "id": "0017fa5e-37a3-20d5-c906-c240249c105c",
-                "nr": "833",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Verbandführerausbildung (Führen in der Führungsstufe C)"
-            },
-            {
-                "id": "0017fa5e-99e4-8cc8-1bbb-45253234159a",
-                "nr": "401",
-                "poNr": 4,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Basisausbildung Einsatzdienste"
-            },
-            {
-                "id": "0017fa5e-9b80-e6b1-3832-672590cfc427",
-                "nr": "402",
-                "poNr": 4,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Modul - Umgang mit Rettungsgeräten und Überwachung von Wasserflächen"
-            },
-            {
-                "id": "0017fa5e-aa00-0fe6-df43-90e785f48be8",
-                "nr": "405",
-                "poNr": 4,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Modul - Einsatz bei Dunkelheit"
-            },
-            {
-                "id": "0017fa5e-dd8b-4d4c-a69f-dcd201414040",
-                "nr": "841",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Fachberater in Einsatzleitungen"
-            },
-            {
-                "id": "0017fa5e-df27-a739-2ba4-b4e4472d4796",
-                "nr": "842",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Einführung in die Stabsarbeit (Führen in der Führungsstufe D)"
-            },
-            {
-                "id": "0017fa5e-e0c4-0125-c56f-f8f9ca1eba93",
-                "nr": "843",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Fachberater in Katastrophenschutz-Stäben/Krisenstäben"
-            },
-            {
                 "id": "0017fa5e-e260-5b12-7401-a9133cb8351e",
                 "nr": "810",
                 "poNr": 8,
                 "istAktiv": true,
                 "abkuerzung": null,
                 "name": "Einsatzfähigkeit"
-            },
-            {
-                "id": "0017fa5e-e260-5b12-7401-a9133cb8351e",
-                "nr": "810",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Einsatzfähigkeit"
-            },
-            {
-                "id": "0017fa5e-e260-5b12-7401-a9133cb8351e",
-                "nr": "810",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Einsatzfähigkeit"
-            },
-            {
-                "id": "0017fa5e-e260-5b12-7401-a9133cb8351e",
-                "nr": "810",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Einsatzfähigkeit"
-            },
-            {
-                "id": "0017fa5e-e260-5b12-7401-a9133cb8351e",
-                "nr": "810",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Einsatzfähigkeit"
-            },
-            {
-                "id": "0017fa5e-e735-68d8-fc5d-417e2ccee946",
-                "nr": "812",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Landesspezifische Ausbildung"
             },
             {
                 "id": "0017fa5e-e735-68d8-fc5d-417e2ccee946",
@@ -18844,7 +18601,7 @@
             },
             {
                 "id": "0017fa5e-a38e-a83f-fe26-63ae55b49453",
-                "nr": "410.2",
+                "nr": "410",
                 "poNr": 4,
                 "istAktiv": true,
                 "abkuerzung": null,
