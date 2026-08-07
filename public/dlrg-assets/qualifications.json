@@ -17178,7 +17178,7 @@
         "abkuerzung": null,
         "name": "Einsatzfähigkeit für Strömungsretter",
         "stellenLfdNr": 3,
-        "gueltigkeit": null,
+        "gueltigkeit": 1,
         "beauftragung": null,
         "wiederholung": 1,
         "pruefungenGueltigkeit": null,
@@ -17320,7 +17320,7 @@
                         "abkuerzung": "DRSA Silber",
                         "name": "Deutsches Rettungsschwimmabzeichen Silber"
                     },
-                    "kommentar": "DRSA Silber - zum Prüfungszeitpunkt nicht älter als 2 Jahre"
+                    "kommentar": ""
                 },
                 {
                     "qualifikation": {
@@ -17332,13 +17332,24 @@
                         "name": "Sanitätsausbildung A"
                     },
                     "kommentar": ""
+                },
+                {
+                    "qualifikation": {
+                        "id": "0017fa5e-e3fc-b4ff-3759-c531519c5321",
+                        "nr": "1000",
+                        "poNr": 10,
+                        "istAktiv": true,
+                        "abkuerzung": null,
+                        "name": "Einsatzfähigkeit für Strömungsretter"
+                    },
+                    "kommentar": ""
                 }
             ],
             "hospitationen": [],
             "sonstiges": [
                 {
                     "anzahl": 1,
-                    "kommentar": "Körperliche Fitness: Lauf-Ausdauertest (zeitnah vor praktischem Lehrgangsteil) und Nachweis 400 m Schwimmen in 8 min (formlose Bescheinigung der entsendenden Gliederung möglich)"
+                    "kommentar": "Körperliche Fitness: Lauf-Ausdauertest (zeitnah vor praktischem Lehrgangsteil)"
                 }
             ],
             "mindestalter": {
@@ -17348,11 +17359,11 @@
             },
             "aerztliche_tauglichkeit": {
                 "istErforderlich": true,
-                "kommentar": "Ärztliche Tauglichkeitsuntersuchung oder Selbsterklärung; muss bei Ausbildungsbeginn vorliegen und darf zum Prüfungszeitpunkt nicht älter als 2 Jahre sein"
+                "kommentar": ""
             },
             "mitgliedschaft": {
                 "istErforderlich": true,
-                "kommentar": "Mitgliedschaft in der DLRG; muss vor Beginn der Ausbildung nachgewiesen werden"
+                "kommentar": ""
             },
             "befuerwortung": {
                 "istErforderlich": false,
@@ -17431,11 +17442,11 @@
             },
             "mitgliedschaft": {
                 "istErforderlich": true,
-                "kommentar": "Mitgliedschaft in der DLRG"
+                "kommentar": ""
             },
             "befuerwortung": {
                 "istErforderlich": true,
-                "kommentar": "Befürwortung der Gliederung"
+                "kommentar": ""
             }
         },
         "pruefungen": [
@@ -17489,7 +17500,7 @@
                         "abkuerzung": "SR1",
                         "name": "Strömungsretter 1 (SR1)"
                     },
-                    "kommentar": "PO nennt 'Ausbildung zum Strömungsretter (1011)'"
+                    "kommentar": ""
                 }
             ],
             "hospitationen": [],
@@ -17505,11 +17516,11 @@
             },
             "mitgliedschaft": {
                 "istErforderlich": true,
-                "kommentar": "Mitgliedschaft in der DLRG"
+                "kommentar": ""
             },
             "befuerwortung": {
                 "istErforderlich": true,
-                "kommentar": "Befürwortung der Gliederung"
+                "kommentar": ""
             }
         },
         "pruefungen": [
@@ -17557,7 +17568,7 @@
                         "abkuerzung": null,
                         "name": "Einsatzfähigkeit für Strömungsretter"
                     },
-                    "kommentar": "Nachweis der Einsatzfähigkeit für Strömungsretter (1000)"
+                    "kommentar": ""
                 },
                 {
                     "qualifikation": {
@@ -17580,15 +17591,15 @@
             },
             "aerztliche_tauglichkeit": {
                 "istErforderlich": true,
-                "kommentar": "Ärztliche Tauglichkeitsuntersuchung oder Selbsterklärung zum Gesundheitszustand"
+                "kommentar": ""
             },
             "mitgliedschaft": {
                 "istErforderlich": true,
-                "kommentar": "Mitgliedschaft in der DLRG"
+                "kommentar": ""
             },
             "befuerwortung": {
                 "istErforderlich": true,
-                "kommentar": "Befürwortung der Gliederung"
+                "kommentar": ""
             }
         },
         "pruefungen": [
@@ -17882,18 +17893,29 @@
                         "abkuerzung": null,
                         "name": "Führungslehre"
                     },
-                    "kommentar": "PO nennt 'Modul Führungslehre (421)'"
+                    "kommentar": ""
+                },
+                {
+                    "qualifikation": {
+                        "id": "0017fa5e-e3fc-b4ff-3759-c531519c5321",
+                        "nr": "1000",
+                        "poNr": 10,
+                        "istAktiv": true,
+                        "abkuerzung": null,
+                        "name": "Einsatzfähigkeit für Strömungsretter"
+                    },
+                    "kommentar": ""
                 }
             ],
             "hospitationen": [],
             "sonstiges": [
                 {
                     "anzahl": 1,
-                    "kommentar": "Nachweis entsprechender schwimmerischer Erfahrung im Wildwasser (mind. WW-Stufe 2); ersetzt Modul Wildwasser als Eingangsvoraussetzung"
+                    "kommentar": "Nachweis entsprechender schwimmerischer Erfahrung im Wildwasser (mind. WW-Stufe 2)"
                 },
                 {
                     "anzahl": 1,
-                    "kommentar": "Körperliche Fitness: Lauf-Ausdauertest und Nachweis 400 m Schwimmen in 8 min (formlose Bescheinigung der entsendenden Gliederung möglich)"
+                    "kommentar": "Körperliche Fitness: Lauf-Ausdauertest"
                 }
             ],
             "mindestalter": {
@@ -17903,15 +17925,15 @@
             },
             "aerztliche_tauglichkeit": {
                 "istErforderlich": true,
-                "kommentar": "Ärztliche Tauglichkeitsuntersuchung oder Selbsterklärung zum Gesundheitszustand"
+                "kommentar": ""
             },
             "mitgliedschaft": {
                 "istErforderlich": true,
-                "kommentar": "Mitgliedschaft in der DLRG"
+                "kommentar": ""
             },
             "befuerwortung": {
                 "istErforderlich": true,
-                "kommentar": "Befürwortung der entsendenden Gliederung"
+                "kommentar": ""
             }
         },
         "pruefungen": [
@@ -18103,7 +18125,7 @@
                         "abkuerzung": null,
                         "name": "Einsatzfähigkeit für Strömungsretter"
                     },
-                    "kommentar": "Nachweis der Einsatzfähigkeit für Strömungsretter (1000)"
+                    "kommentar": ""
                 },
                 {
                     "qualifikation": {
@@ -18137,15 +18159,15 @@
             },
             "aerztliche_tauglichkeit": {
                 "istErforderlich": true,
-                "kommentar": "Ärztliche Tauglichkeitsuntersuchung oder Selbsterklärung zum Gesundheitszustand"
+                "kommentar": ""
             },
             "mitgliedschaft": {
                 "istErforderlich": true,
-                "kommentar": "Mitgliedschaft in der DLRG"
+                "kommentar": ""
             },
             "befuerwortung": {
                 "istErforderlich": true,
-                "kommentar": "Befürwortung der Gliederung"
+                "kommentar": ""
             }
         },
         "pruefungen": [
@@ -18176,7 +18198,7 @@
         "name": "Strömungsrettungs-Techniker (SRT)",
         "stellenLfdNr": 3,
         "gueltigkeit": null,
-        "beauftragung": null,
+        "beauftragung": 4,
         "wiederholung": null,
         "pruefungenGueltigkeit": null,
         "verlaengerungUE": null,
@@ -18216,15 +18238,15 @@
             },
             "aerztliche_tauglichkeit": {
                 "istErforderlich": true,
-                "kommentar": "Ärztliche Tauglichkeitsuntersuchung oder Selbsterklärung zum Gesundheitszustand"
+                "kommentar": ""
             },
             "mitgliedschaft": {
                 "istErforderlich": true,
-                "kommentar": "Mitgliedschaft in der DLRG"
+                "kommentar": ""
             },
             "befuerwortung": {
                 "istErforderlich": true,
-                "kommentar": "Befürwortung der Gliederung"
+                "kommentar": ""
             }
         },
         "pruefungen": [
@@ -18272,7 +18294,7 @@
                         "abkuerzung": null,
                         "name": "Einsatzfähigkeit für Strömungsretter"
                     },
-                    "kommentar": "Nachweis der Einsatzfähigkeit für Strömungsretter (1000)"
+                    "kommentar": ""
                 },
                 {
                     "qualifikation": {
@@ -18311,18 +18333,25 @@
             },
             "aerztliche_tauglichkeit": {
                 "istErforderlich": true,
-                "kommentar": "Ärztliche Tauglichkeitsuntersuchung oder Selbsterklärung zum Gesundheitszustand"
+                "kommentar": ""
             },
             "mitgliedschaft": {
                 "istErforderlich": true,
-                "kommentar": "Mitgliedschaft in der DLRG"
+                "kommentar": ""
             },
             "befuerwortung": {
                 "istErforderlich": true,
-                "kommentar": "Befürwortung der Gliederung"
+                "kommentar": ""
             }
         },
-        "pruefungen": [],
+        "pruefungen": [
+            {
+                "id": "0017fa5f-8373-7d20-31da-f90b9f65511a",
+                "beschreibung": "Praktischer Nachweis der Ausbildungsinhalte gemäß Ausbildungsvorschrift.",
+                "einordnung": "praktisch",
+                "gueltigkeit": null
+            }
+        ],
         "prueferberechtigungen": [],
         "dokumente": [
             {
@@ -18360,7 +18389,7 @@
                         "abkuerzung": null,
                         "name": "Einsatzfähigkeit für Strömungsretter"
                     },
-                    "kommentar": "Nachweis der Einsatzfähigkeit für Strömungsretter (1000)"
+                    "kommentar": ""
                 },
                 {
                     "qualifikation": {
@@ -18394,18 +18423,25 @@
             },
             "aerztliche_tauglichkeit": {
                 "istErforderlich": true,
-                "kommentar": "Ärztliche Tauglichkeitsuntersuchung oder Selbsterklärung zum Gesundheitszustand"
+                "kommentar": ""
             },
             "mitgliedschaft": {
                 "istErforderlich": true,
-                "kommentar": "Mitgliedschaft in der DLRG"
+                "kommentar": ""
             },
             "befuerwortung": {
                 "istErforderlich": true,
-                "kommentar": "Befürwortung der Gliederung"
+                "kommentar": ""
             }
         },
-        "pruefungen": [],
+        "pruefungen": [
+            {
+                "id": "0017fa5f-850f-d715-12b5-54baa1bd6b1f",
+                "beschreibung": "Praktischer Nachweis der Ausbildungsinhalte gemäß Ausbildungsvorschrift.",
+                "einordnung": "praktisch",
+                "gueltigkeit": null
+            }
+        ],
         "prueferberechtigungen": [],
         "dokumente": [
             {
@@ -18443,7 +18479,7 @@
                         "abkuerzung": "TrpFhr SR",
                         "name": "Truppführer Strömungsrettung (TrpFhr SR)"
                     },
-                    "kommentar": "PO: 'TrpFhr Strömungsrettung (1030)'"
+                    "kommentar": ""
                 },
                 {
                     "qualifikation": {
@@ -18454,7 +18490,7 @@
                         "abkuerzung": null,
                         "name": "Gemeinsamer Grundausbildungsblock"
                     },
-                    "kommentar": "PO: 'gemeinsamer Grundausbildungsblock (180)'"
+                    "kommentar": ""
                 },
                 {
                     "qualifikation": {
@@ -18470,16 +18506,16 @@
             ],
             "hospitationen": [
                 {
-                    "kommentar": "Nachweis der Hospitation als Ausbilder im Lehrgang Strömungsretter 1 (1011)"
+                    "kommentar": ""
                 },
                 {
-                    "kommentar": "Nachweis der Hospitation als Ausbilder im Lehrgang Strömungsretter 2 (1028)"
+                    "kommentar": ""
                 }
             ],
             "sonstiges": [
                 {
                     "anzahl": 1,
-                    "kommentar": "Körperliche Fitness: Lauf-Ausdauertest und Nachweis 400 m Schwimmen in 8 min"
+                    "kommentar": "Körperliche Fitness: Lauf-Ausdauertest"
                 }
             ],
             "mindestalter": {
@@ -18489,15 +18525,15 @@
             },
             "aerztliche_tauglichkeit": {
                 "istErforderlich": true,
-                "kommentar": "Ärztliche Tauglichkeitsuntersuchung oder Selbsterklärung zum Gesundheitszustand"
+                "kommentar": ""
             },
             "mitgliedschaft": {
                 "istErforderlich": true,
-                "kommentar": "Mitgliedschaft in der DLRG"
+                "kommentar": ""
             },
             "befuerwortung": {
                 "istErforderlich": true,
-                "kommentar": "Befürwortung des zuständigen Landesverbands oder des Bundesverbandes"
+                "kommentar": "des zuständigen Landesverbands"
             }
         },
         "pruefungen": [
@@ -18660,7 +18696,7 @@
                         "abkuerzung": null,
                         "name": "Sachkundiger PSA gegen Absturz"
                     },
-                    "kommentar": "PO: 'Sachkundiger PSA gegen Absturz gem. DGUV (1012)'"
+                    "kommentar": ""
                 },
                 {
                     "qualifikation": {
@@ -18671,7 +18707,7 @@
                         "abkuerzung": null,
                         "name": "Gemeinsamer Grundausbildungsblock"
                     },
-                    "kommentar": "PO: 'gemeinsamer Grundausbildungsblock (180)'"
+                    "kommentar": ""
                 }
             ],
             "hospitationen": [],
@@ -18687,18 +18723,18 @@
             },
             "mitgliedschaft": {
                 "istErforderlich": true,
-                "kommentar": "Mitgliedschaft in der DLRG"
+                "kommentar": ""
             },
             "befuerwortung": {
                 "istErforderlich": true,
-                "kommentar": "Befürwortung durch den Landes- oder Bundesverband"
+                "kommentar": "durch den Landesverband"
             }
         },
         "pruefungen": [
             {
                 "id": "0017fa5f-6003-c229-6730-18b833357733",
                 "beschreibung": "Durchführung einer Lehrprobe aus ausgewählten Themen der Sachkunde",
-                "einordnung": "theoretisch",
+                "einordnung": "praktisch",
                 "gueltigkeit": null
             }
         ],
@@ -18748,7 +18784,7 @@
                         "abkuerzung": null,
                         "name": "Gemeinsamer Grundausbildungsblock"
                     },
-                    "kommentar": "PO: 'Gemeinsamer Grundausbildungsblock (180)'"
+                    "kommentar": ""
                 },
                 {
                     "qualifikation": {
@@ -18759,15 +18795,15 @@
                         "abkuerzung": "SRT",
                         "name": "Strömungsrettungs-Techniker (SRT)"
                     },
-                    "kommentar": "PO: 'Strömungsrettungs-Techniker SRT (1051)'"
+                    "kommentar": ""
                 }
             ],
             "hospitationen": [
                 {
-                    "kommentar": "Nachweis der Hospitation als Ausbilder an einem Lehrgang SRT (1051)"
+                    "kommentar": ""
                 },
                 {
-                    "kommentar": "Nachweis der Hospitation als Ausbilder an einem Lehrgang Seiltechnik 2 (1041)"
+                    "kommentar": ""
                 }
             ],
             "sonstiges": [],
@@ -18782,11 +18818,11 @@
             },
             "mitgliedschaft": {
                 "istErforderlich": true,
-                "kommentar": "Mitgliedschaft in der DLRG"
+                "kommentar": ""
             },
             "befuerwortung": {
                 "istErforderlich": true,
-                "kommentar": "Befürwortung des Landes- oder Bundesverbandes"
+                "kommentar": "durch den Landesverband"
             }
         },
         "pruefungen": [
@@ -18896,7 +18932,7 @@
                         "abkuerzung": null,
                         "name": "Gemeinsamer Grundausbildungsblock"
                     },
-                    "kommentar": "PO: 'Gemeinsamer Grundausbildungsblock (180)'"
+                    "kommentar": ""
                 },
                 {
                     "qualifikation": {
@@ -18907,7 +18943,7 @@
                         "abkuerzung": null,
                         "name": "Modul Absturzsicherung"
                     },
-                    "kommentar": "PO: 'Nachweis Modul Absturzsicherung (1025)'"
+                    "kommentar": ""
                 }
             ],
             "hospitationen": [],
@@ -18919,15 +18955,15 @@
             },
             "aerztliche_tauglichkeit": {
                 "istErforderlich": true,
-                "kommentar": "Nachweis ärztliche Tauglichkeitsuntersuchung oder Selbsterklärung zum Gesundheitszustand"
+                "kommentar": ""
             },
             "mitgliedschaft": {
                 "istErforderlich": true,
-                "kommentar": "Mitgliedschaft in der DLRG"
+                "kommentar": ""
             },
             "befuerwortung": {
                 "istErforderlich": true,
-                "kommentar": "Befürwortung des Landes- oder Bundesverbandes"
+                "kommentar": "des Landesverbandes"
             }
         },
         "pruefungen": [
@@ -18990,7 +19026,7 @@
                         "abkuerzung": null,
                         "name": "Gemeinsamer Grundausbildungsblock"
                     },
-                    "kommentar": "PO: 'Gemeinsamer Grundausbildungsblock (180)'"
+                    "kommentar": ""
                 },
                 {
                     "qualifikation": {
@@ -19017,10 +19053,10 @@
             ],
             "hospitationen": [
                 {
-                    "kommentar": "Nachweis der Hospitation als Ausbilder an einem Lehrgang Rafting 1 (1061)"
+                    "kommentar": ""
                 },
                 {
-                    "kommentar": "Nachweis der Hospitation als Ausbilder an einem Lehrgang Rafting 2 (1062)"
+                    "kommentar": ""
                 }
             ],
             "sonstiges": [],
@@ -19031,15 +19067,15 @@
             },
             "aerztliche_tauglichkeit": {
                 "istErforderlich": true,
-                "kommentar": "Nachweis ärztliche Tauglichkeitsuntersuchung oder Selbsterklärung zum Gesundheitszustand"
+                "kommentar": ""
             },
             "mitgliedschaft": {
                 "istErforderlich": true,
-                "kommentar": "Mitgliedschaft in der DLRG"
+                "kommentar": ""
             },
             "befuerwortung": {
                 "istErforderlich": true,
-                "kommentar": "Befürwortung des Landes- oder Bundesverbandes"
+                "kommentar": "des Landesverbandes"
             }
         },
         "pruefungen": [
@@ -19112,7 +19148,7 @@
                         "abkuerzung": null,
                         "name": "Allgemeine Multiplikatorenschulung"
                     },
-                    "kommentar": "PO: 'Allgemeine Multiplikatorenschulung (190)'; aufgelöst auf PO1-Katalogeintrag id196 poNr=190. Ausnahmen durch BV möglich."
+                    "kommentar": ""
                 },
                 {
                     "qualifikation": {
@@ -19128,7 +19164,7 @@
             ],
             "hospitationen": [
                 {
-                    "kommentar": "Hospitationen gemäß Ausbildungsvorschrift (kein konkreter Lehrgang in der PO benannt)"
+                    "kommentar": ""
                 }
             ],
             "sonstiges": [],
@@ -19143,11 +19179,11 @@
             },
             "mitgliedschaft": {
                 "istErforderlich": true,
-                "kommentar": "Mitgliedschaft in der DLRG"
+                "kommentar": ""
             },
             "befuerwortung": {
                 "istErforderlich": true,
-                "kommentar": "Befürwortung des Bundesverbandes"
+                "kommentar": "des Bundesverbandes"
             }
         },
         "pruefungen": [],
@@ -19245,7 +19281,7 @@
                         "abkuerzung": null,
                         "name": "Allgemeine Multiplikatorenschulung"
                     },
-                    "kommentar": "PO: 'Allgemeine Multiplikatorenschulung (190)'"
+                    "kommentar": ""
                 },
                 {
                     "qualifikation": {
@@ -19261,7 +19297,7 @@
             ],
             "hospitationen": [
                 {
-                    "kommentar": "Hospitationen gemäß Ausbildungsvorschrift (kein konkreter Lehrgang in der PO benannt)"
+                    "kommentar": ""
                 }
             ],
             "sonstiges": [],
@@ -19276,11 +19312,11 @@
             },
             "mitgliedschaft": {
                 "istErforderlich": true,
-                "kommentar": "Mitgliedschaft in der DLRG"
+                "kommentar": ""
             },
             "befuerwortung": {
                 "istErforderlich": true,
-                "kommentar": "Befürwortung des Bundesverbandes"
+                "kommentar": "des Bundesverbandes"
             }
         },
         "pruefungen": [],
@@ -19354,7 +19390,7 @@
                         "abkuerzung": null,
                         "name": "Allgemeine Multiplikatorenschulung"
                     },
-                    "kommentar": "PO: 'Allgemeine Multiplikatorenschulung (190)'"
+                    "kommentar": ""
                 },
                 {
                     "qualifikation": {
@@ -19370,7 +19406,7 @@
             ],
             "hospitationen": [
                 {
-                    "kommentar": "Hospitationen gemäß Ausbildungsvorschrift (kein konkreter Lehrgang in der PO benannt)"
+                    "kommentar": ""
                 }
             ],
             "sonstiges": [],
@@ -19385,11 +19421,11 @@
             },
             "mitgliedschaft": {
                 "istErforderlich": true,
-                "kommentar": "Mitgliedschaft in der DLRG"
+                "kommentar": ""
             },
             "befuerwortung": {
                 "istErforderlich": true,
-                "kommentar": "Befürwortung des Bundesverbandes"
+                "kommentar": "des Bundesverbandes"
             }
         },
         "pruefungen": [],
@@ -19455,7 +19491,7 @@
                         "abkuerzung": null,
                         "name": "Allgemeine Multiplikatorenschulung"
                     },
-                    "kommentar": "PO: 'Allgemeine Multiplikatorenschulung (190)'"
+                    "kommentar": ""
                 },
                 {
                     "qualifikation": {
@@ -19471,7 +19507,7 @@
             ],
             "hospitationen": [
                 {
-                    "kommentar": "Hospitationen gemäß Ausbildungsvorschrift (kein konkreter Lehrgang in der PO benannt)"
+                    "kommentar": ""
                 }
             ],
             "sonstiges": [],
@@ -19486,11 +19522,11 @@
             },
             "mitgliedschaft": {
                 "istErforderlich": true,
-                "kommentar": "Mitgliedschaft in der DLRG"
+                "kommentar": ""
             },
             "befuerwortung": {
                 "istErforderlich": true,
-                "kommentar": "Befürwortung des Bundesverbandes"
+                "kommentar": "des Bundesverbandes"
             }
         },
         "pruefungen": [],
@@ -19564,7 +19600,7 @@
                         "abkuerzung": null,
                         "name": "Allgemeine Multiplikatorenschulung"
                     },
-                    "kommentar": "PO: 'Allgemeine Multiplikatorenschulung (190)'"
+                    "kommentar": ""
                 },
                 {
                     "qualifikation": {
@@ -19580,7 +19616,7 @@
             ],
             "hospitationen": [
                 {
-                    "kommentar": "Hospitationen gemäß Ausbildungsvorschrift (kein konkreter Lehrgang in der PO benannt)"
+                    "kommentar": ""
                 }
             ],
             "sonstiges": [],
@@ -19595,11 +19631,11 @@
             },
             "mitgliedschaft": {
                 "istErforderlich": true,
-                "kommentar": "Mitgliedschaft in der DLRG"
+                "kommentar": ""
             },
             "befuerwortung": {
                 "istErforderlich": true,
-                "kommentar": "Befürwortung des Bundesverbandes"
+                "kommentar": "des Bundesverbandes"
             }
         },
         "pruefungen": [],
