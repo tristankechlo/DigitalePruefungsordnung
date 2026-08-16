@@ -16691,6 +16691,14 @@
                 "name": "Gruppenführerausbildung (Führen in der Führungsstufe A)"
             },
             {
+                "id": "0017fa5d-e719-92ad-35fc-efccd46b6c13",
+                "nr": "832",
+                "poNr": 8,
+                "istAktiv": true,
+                "abkuerzung": null,
+                "name": "Zugführer- und Einsatzführerausbildung (Führen in der Führungsstufe B)"
+            },
+            {
                 "id": "0017fa5e-0dc1-ffc6-1642-eba8c7dfc24d",
                 "nr": "180.1a",
                 "poNr": 1,
@@ -16721,6 +16729,14 @@
                 "istAktiv": true,
                 "abkuerzung": null,
                 "name": "Truppführerausbildung"
+            },
+            {
+                "id": "0017fa5e-37a3-20d5-c906-c240249c105c",
+                "nr": "833",
+                "poNr": 8,
+                "istAktiv": true,
+                "abkuerzung": null,
+                "name": "Verbandführerausbildung (Führen in der Führungsstufe C)"
             },
             {
                 "id": "0017fa5e-e260-5b12-7401-a9133cb8351e",
