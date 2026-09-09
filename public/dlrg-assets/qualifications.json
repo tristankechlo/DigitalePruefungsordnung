@@ -2602,36 +2602,12 @@
                 "name": "Deutsches Schwimmabzeichen Bronze (Freischwimmer)"
             },
             {
-                "id": "0017fa5d-15b3-f192-cdb3-ceeda7f4fa81",
-                "nr": "121",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": "DSA Bronze",
-                "name": "Deutsches Schwimmabzeichen Bronze (Freischwimmer)"
-            },
-            {
                 "id": "0017fa5d-1750-4b68-5b5f-acf50201417e",
                 "nr": "122",
                 "poNr": 1,
                 "istAktiv": true,
                 "abkuerzung": "DSA Silber",
                 "name": "Deutsches Schwimmabzeichen Silber"
-            },
-            {
-                "id": "0017fa5d-1750-4b68-5b5f-acf50201417e",
-                "nr": "122",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": "DSA Silber",
-                "name": "Deutsches Schwimmabzeichen Silber"
-            },
-            {
-                "id": "0017fa5d-18ec-a53d-fdd1-f63a1f5272b3",
-                "nr": "123",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": "DSA Gold",
-                "name": "Deutsches Schwimmabzeichen Gold"
             },
             {
                 "id": "0017fa5d-18ec-a53d-fdd1-f63a1f5272b3",
@@ -2650,22 +2626,6 @@
                 "name": "Deutsches Schwimmabzeichen Bronze - bis 2020"
             },
             {
-                "id": "0017fa5d-1a88-ff13-b50a-aabdb28b26b6",
-                "nr": "131",
-                "poNr": 1,
-                "istAktiv": false,
-                "abkuerzung": "DSA Bronze",
-                "name": "Deutsches Schwimmabzeichen Bronze - bis 2020"
-            },
-            {
-                "id": "0017fa5d-1c25-58e9-8109-ca806e4df620",
-                "nr": "132",
-                "poNr": 1,
-                "istAktiv": false,
-                "abkuerzung": "DSA Silber",
-                "name": "Deutsches Schwimmabzeichen Silber - bis 2020"
-            },
-            {
                 "id": "0017fa5d-1c25-58e9-8109-ca806e4df620",
                 "nr": "132",
                 "poNr": 1,
@@ -2680,30 +2640,6 @@
                 "istAktiv": false,
                 "abkuerzung": "DSA Gold",
                 "name": "Deutsches Schwimmabzeichen Gold - bis 2020"
-            },
-            {
-                "id": "0017fa5d-1dc1-b2bf-61cf-5583053d798d",
-                "nr": "133",
-                "poNr": 1,
-                "istAktiv": false,
-                "abkuerzung": "DSA Gold",
-                "name": "Deutsches Schwimmabzeichen Gold - bis 2020"
-            },
-            {
-                "id": "0017fa5d-1f5e-0c95-575b-4bc629fc499c",
-                "nr": "141",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Juniorretter"
-            },
-            {
-                "id": "0017fa5d-1f5e-0c95-575b-4bc629fc499c",
-                "nr": "141",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Juniorretter"
             },
             {
                 "id": "0017fa5d-1f5e-0c95-575b-4bc629fc499c",
@@ -2722,36 +2658,12 @@
                 "name": "Deutsches Rettungsschwimmabzeichen Bronze"
             },
             {
-                "id": "0017fa5d-20fa-666b-61ad-ad4a8f2cfeef",
-                "nr": "151",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": "DRSA Bronze",
-                "name": "Deutsches Rettungsschwimmabzeichen Bronze"
-            },
-            {
                 "id": "0017fa5d-2296-c041-80c6-7a10e772322b",
                 "nr": "152",
                 "poNr": 1,
                 "istAktiv": true,
                 "abkuerzung": "DRSA Silber",
                 "name": "Deutsches Rettungsschwimmabzeichen Silber"
-            },
-            {
-                "id": "0017fa5d-2296-c041-80c6-7a10e772322b",
-                "nr": "152",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": "DRSA Silber",
-                "name": "Deutsches Rettungsschwimmabzeichen Silber"
-            },
-            {
-                "id": "0017fa5d-2433-1a17-b4a5-b219e56e7bf8",
-                "nr": "153",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": "DRSA Gold",
-                "name": "Deutsches Rettungsschwimmabzeichen Gold"
             },
             {
                 "id": "0017fa5d-2433-1a17-b4a5-b219e56e7bf8",
@@ -2770,52 +2682,12 @@
                 "name": "Deutsches Schnorcheltauchabzeichen"
             },
             {
-                "id": "0017fa5d-ebee-a04d-c39b-71557cdc832d",
-                "nr": "161",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": "DSTA",
-                "name": "Deutsches Schnorcheltauchabzeichen"
-            },
-            {
                 "id": "0017fa5d-fa6d-c933-ce51-a8afe2b02922",
                 "nr": "111",
                 "poNr": 1,
                 "istAktiv": true,
                 "abkuerzung": null,
                 "name": "Frühschwimmer (Seepferdchen)"
-            },
-            {
-                "id": "0017fa5d-fa6d-c933-ce51-a8afe2b02922",
-                "nr": "111",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Frühschwimmer (Seepferdchen)"
-            },
-            {
-                "id": "0017fa5d-fa6d-c933-ce51-a8afe2b02922",
-                "nr": "111",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Frühschwimmer (Seepferdchen)"
-            },
-            {
-                "id": "0017fa5d-fc0a-2314-e20d-1e432970afc5",
-                "nr": "112",
-                "poNr": 1,
-                "istAktiv": false,
-                "abkuerzung": null,
-                "name": "Schwimmzeugnis für Erwachsene bis 2020"
-            },
-            {
-                "id": "0017fa5d-fc0a-2314-e20d-1e432970afc5",
-                "nr": "112",
-                "poNr": 1,
-                "istAktiv": false,
-                "abkuerzung": null,
-                "name": "Schwimmzeugnis für Erwachsene bis 2020"
             },
             {
                 "id": "0017fa5d-fc0a-2314-e20d-1e432970afc5",
@@ -2834,36 +2706,12 @@
                 "name": "Basisausbildung Einsatzdienste"
             },
             {
-                "id": "0017fa5e-99e4-8cc8-1bbb-45253234159a",
-                "nr": "401",
-                "poNr": 4,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Basisausbildung Einsatzdienste"
-            },
-            {
                 "id": "0017fa5e-a38e-a83f-fe26-63ae55b49453",
                 "nr": "410",
                 "poNr": 4,
                 "istAktiv": true,
                 "abkuerzung": null,
                 "name": "Einsatzfähigkeit Wasserrettungsdienst"
-            },
-            {
-                "id": "0017fa5e-a38e-a83f-fe26-63ae55b49453",
-                "nr": "410",
-                "poNr": 4,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Einsatzfähigkeit Wasserrettungsdienst"
-            },
-            {
-                "id": "0017fa5e-e260-5b12-7401-a9133cb8351e",
-                "nr": "810",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Einsatzfähigkeit"
             },
             {
                 "id": "0017fa5e-e260-5b12-7401-a9133cb8351e",
@@ -2890,60 +2738,12 @@
                 "name": "Deutsches Schnorchelabzeichen Basic (Bronze)"
             },
             {
-                "id": "0017fa5e-f5b4-9230-f74a-d475a051fd59",
-                "nr": "162",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": "DSchnA Basic",
-                "name": "Deutsches Schnorchelabzeichen Basic (Bronze)"
-            },
-            {
-                "id": "0017fa5e-f5b4-9230-f74a-d475a051fd59",
-                "nr": "162",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": "DSchnA Basic",
-                "name": "Deutsches Schnorchelabzeichen Basic (Bronze)"
-            },
-            {
                 "id": "0017fa5e-f750-ec1e-b3f0-0101be414a8c",
                 "nr": "163",
                 "poNr": 1,
                 "istAktiv": true,
                 "abkuerzung": "DSchnA Challenge",
                 "name": "Deutsches Schnorchelabzeichen Challenge (Silber)"
-            },
-            {
-                "id": "0017fa5e-f750-ec1e-b3f0-0101be414a8c",
-                "nr": "163",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": "DSchnA Challenge",
-                "name": "Deutsches Schnorchelabzeichen Challenge (Silber)"
-            },
-            {
-                "id": "0017fa5e-f750-ec1e-b3f0-0101be414a8c",
-                "nr": "163",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": "DSchnA Challenge",
-                "name": "Deutsches Schnorchelabzeichen Challenge (Silber)"
-            },
-            {
-                "id": "0017fa5e-f8ed-460c-855b-999b90bd272a",
-                "nr": "164",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": "DSchnA Master",
-                "name": "Deutsches Schnorchelabzeichen Master (Gold)"
-            },
-            {
-                "id": "0017fa5e-f8ed-460c-855b-999b90bd272a",
-                "nr": "164",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": "DSchnA Master",
-                "name": "Deutsches Schnorchelabzeichen Master (Gold)"
             },
             {
                 "id": "0017fa5e-f8ed-460c-855b-999b90bd272a",
@@ -3477,60 +3277,12 @@
                 "name": "Deutsches Schwimmabzeichen Bronze (Freischwimmer)"
             },
             {
-                "id": "0017fa5d-15b3-f192-cdb3-ceeda7f4fa81",
-                "nr": "121",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": "DSA Bronze",
-                "name": "Deutsches Schwimmabzeichen Bronze (Freischwimmer)"
-            },
-            {
-                "id": "0017fa5d-15b3-f192-cdb3-ceeda7f4fa81",
-                "nr": "121",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": "DSA Bronze",
-                "name": "Deutsches Schwimmabzeichen Bronze (Freischwimmer)"
-            },
-            {
                 "id": "0017fa5d-1750-4b68-5b5f-acf50201417e",
                 "nr": "122",
                 "poNr": 1,
                 "istAktiv": true,
                 "abkuerzung": "DSA Silber",
                 "name": "Deutsches Schwimmabzeichen Silber"
-            },
-            {
-                "id": "0017fa5d-1750-4b68-5b5f-acf50201417e",
-                "nr": "122",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": "DSA Silber",
-                "name": "Deutsches Schwimmabzeichen Silber"
-            },
-            {
-                "id": "0017fa5d-1750-4b68-5b5f-acf50201417e",
-                "nr": "122",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": "DSA Silber",
-                "name": "Deutsches Schwimmabzeichen Silber"
-            },
-            {
-                "id": "0017fa5d-18ec-a53d-fdd1-f63a1f5272b3",
-                "nr": "123",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": "DSA Gold",
-                "name": "Deutsches Schwimmabzeichen Gold"
-            },
-            {
-                "id": "0017fa5d-18ec-a53d-fdd1-f63a1f5272b3",
-                "nr": "123",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": "DSA Gold",
-                "name": "Deutsches Schwimmabzeichen Gold"
             },
             {
                 "id": "0017fa5d-18ec-a53d-fdd1-f63a1f5272b3",
@@ -3549,38 +3301,6 @@
                 "name": "Deutsches Schwimmabzeichen Bronze - bis 2020"
             },
             {
-                "id": "0017fa5d-1a88-ff13-b50a-aabdb28b26b6",
-                "nr": "131",
-                "poNr": 1,
-                "istAktiv": false,
-                "abkuerzung": "DSA Bronze",
-                "name": "Deutsches Schwimmabzeichen Bronze - bis 2020"
-            },
-            {
-                "id": "0017fa5d-1a88-ff13-b50a-aabdb28b26b6",
-                "nr": "131",
-                "poNr": 1,
-                "istAktiv": false,
-                "abkuerzung": "DSA Bronze",
-                "name": "Deutsches Schwimmabzeichen Bronze - bis 2020"
-            },
-            {
-                "id": "0017fa5d-1c25-58e9-8109-ca806e4df620",
-                "nr": "132",
-                "poNr": 1,
-                "istAktiv": false,
-                "abkuerzung": "DSA Silber",
-                "name": "Deutsches Schwimmabzeichen Silber - bis 2020"
-            },
-            {
-                "id": "0017fa5d-1c25-58e9-8109-ca806e4df620",
-                "nr": "132",
-                "poNr": 1,
-                "istAktiv": false,
-                "abkuerzung": "DSA Silber",
-                "name": "Deutsches Schwimmabzeichen Silber - bis 2020"
-            },
-            {
                 "id": "0017fa5d-1c25-58e9-8109-ca806e4df620",
                 "nr": "132",
                 "poNr": 1,
@@ -3595,46 +3315,6 @@
                 "istAktiv": false,
                 "abkuerzung": "DSA Gold",
                 "name": "Deutsches Schwimmabzeichen Gold - bis 2020"
-            },
-            {
-                "id": "0017fa5d-1dc1-b2bf-61cf-5583053d798d",
-                "nr": "133",
-                "poNr": 1,
-                "istAktiv": false,
-                "abkuerzung": "DSA Gold",
-                "name": "Deutsches Schwimmabzeichen Gold - bis 2020"
-            },
-            {
-                "id": "0017fa5d-1dc1-b2bf-61cf-5583053d798d",
-                "nr": "133",
-                "poNr": 1,
-                "istAktiv": false,
-                "abkuerzung": "DSA Gold",
-                "name": "Deutsches Schwimmabzeichen Gold - bis 2020"
-            },
-            {
-                "id": "0017fa5d-1f5e-0c95-575b-4bc629fc499c",
-                "nr": "141",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Juniorretter"
-            },
-            {
-                "id": "0017fa5d-1f5e-0c95-575b-4bc629fc499c",
-                "nr": "141",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Juniorretter"
-            },
-            {
-                "id": "0017fa5d-1f5e-0c95-575b-4bc629fc499c",
-                "nr": "141",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Juniorretter"
             },
             {
                 "id": "0017fa5d-1f5e-0c95-575b-4bc629fc499c",
@@ -3653,60 +3333,12 @@
                 "name": "Deutsches Rettungsschwimmabzeichen Bronze"
             },
             {
-                "id": "0017fa5d-20fa-666b-61ad-ad4a8f2cfeef",
-                "nr": "151",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": "DRSA Bronze",
-                "name": "Deutsches Rettungsschwimmabzeichen Bronze"
-            },
-            {
-                "id": "0017fa5d-20fa-666b-61ad-ad4a8f2cfeef",
-                "nr": "151",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": "DRSA Bronze",
-                "name": "Deutsches Rettungsschwimmabzeichen Bronze"
-            },
-            {
                 "id": "0017fa5d-2296-c041-80c6-7a10e772322b",
                 "nr": "152",
                 "poNr": 1,
                 "istAktiv": true,
                 "abkuerzung": "DRSA Silber",
                 "name": "Deutsches Rettungsschwimmabzeichen Silber"
-            },
-            {
-                "id": "0017fa5d-2296-c041-80c6-7a10e772322b",
-                "nr": "152",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": "DRSA Silber",
-                "name": "Deutsches Rettungsschwimmabzeichen Silber"
-            },
-            {
-                "id": "0017fa5d-2296-c041-80c6-7a10e772322b",
-                "nr": "152",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": "DRSA Silber",
-                "name": "Deutsches Rettungsschwimmabzeichen Silber"
-            },
-            {
-                "id": "0017fa5d-2433-1a17-b4a5-b219e56e7bf8",
-                "nr": "153",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": "DRSA Gold",
-                "name": "Deutsches Rettungsschwimmabzeichen Gold"
-            },
-            {
-                "id": "0017fa5d-2433-1a17-b4a5-b219e56e7bf8",
-                "nr": "153",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": "DRSA Gold",
-                "name": "Deutsches Rettungsschwimmabzeichen Gold"
             },
             {
                 "id": "0017fa5d-2433-1a17-b4a5-b219e56e7bf8",
@@ -3741,68 +3373,12 @@
                 "name": "Deutsches Schnorcheltauchabzeichen"
             },
             {
-                "id": "0017fa5d-ebee-a04d-c39b-71557cdc832d",
-                "nr": "161",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": "DSTA",
-                "name": "Deutsches Schnorcheltauchabzeichen"
-            },
-            {
                 "id": "0017fa5d-fa6d-c933-ce51-a8afe2b02922",
                 "nr": "111",
                 "poNr": 1,
                 "istAktiv": true,
                 "abkuerzung": null,
                 "name": "Frühschwimmer (Seepferdchen)"
-            },
-            {
-                "id": "0017fa5d-fa6d-c933-ce51-a8afe2b02922",
-                "nr": "111",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Frühschwimmer (Seepferdchen)"
-            },
-            {
-                "id": "0017fa5d-fa6d-c933-ce51-a8afe2b02922",
-                "nr": "111",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Frühschwimmer (Seepferdchen)"
-            },
-            {
-                "id": "0017fa5d-fa6d-c933-ce51-a8afe2b02922",
-                "nr": "111",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Frühschwimmer (Seepferdchen)"
-            },
-            {
-                "id": "0017fa5d-fc0a-2314-e20d-1e432970afc5",
-                "nr": "112",
-                "poNr": 1,
-                "istAktiv": false,
-                "abkuerzung": null,
-                "name": "Schwimmzeugnis für Erwachsene bis 2020"
-            },
-            {
-                "id": "0017fa5d-fc0a-2314-e20d-1e432970afc5",
-                "nr": "112",
-                "poNr": 1,
-                "istAktiv": false,
-                "abkuerzung": null,
-                "name": "Schwimmzeugnis für Erwachsene bis 2020"
-            },
-            {
-                "id": "0017fa5d-fc0a-2314-e20d-1e432970afc5",
-                "nr": "112",
-                "poNr": 1,
-                "istAktiv": false,
-                "abkuerzung": null,
-                "name": "Schwimmzeugnis für Erwachsene bis 2020"
             },
             {
                 "id": "0017fa5d-fc0a-2314-e20d-1e432970afc5",
@@ -3909,36 +3485,12 @@
                 "name": "Basisausbildung Einsatzdienste"
             },
             {
-                "id": "0017fa5e-99e4-8cc8-1bbb-45253234159a",
-                "nr": "401",
-                "poNr": 4,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Basisausbildung Einsatzdienste"
-            },
-            {
                 "id": "0017fa5e-a38e-a83f-fe26-63ae55b49453",
                 "nr": "410",
                 "poNr": 4,
                 "istAktiv": true,
                 "abkuerzung": null,
                 "name": "Einsatzfähigkeit Wasserrettungsdienst"
-            },
-            {
-                "id": "0017fa5e-a38e-a83f-fe26-63ae55b49453",
-                "nr": "410",
-                "poNr": 4,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Einsatzfähigkeit Wasserrettungsdienst"
-            },
-            {
-                "id": "0017fa5e-e260-5b12-7401-a9133cb8351e",
-                "nr": "810",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Einsatzfähigkeit"
             },
             {
                 "id": "0017fa5e-e260-5b12-7401-a9133cb8351e",
@@ -3965,60 +3517,12 @@
                 "name": "Deutsches Schnorchelabzeichen Basic (Bronze)"
             },
             {
-                "id": "0017fa5e-f5b4-9230-f74a-d475a051fd59",
-                "nr": "162",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": "DSchnA Basic",
-                "name": "Deutsches Schnorchelabzeichen Basic (Bronze)"
-            },
-            {
-                "id": "0017fa5e-f5b4-9230-f74a-d475a051fd59",
-                "nr": "162",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": "DSchnA Basic",
-                "name": "Deutsches Schnorchelabzeichen Basic (Bronze)"
-            },
-            {
                 "id": "0017fa5e-f750-ec1e-b3f0-0101be414a8c",
                 "nr": "163",
                 "poNr": 1,
                 "istAktiv": true,
                 "abkuerzung": "DSchnA Challenge",
                 "name": "Deutsches Schnorchelabzeichen Challenge (Silber)"
-            },
-            {
-                "id": "0017fa5e-f750-ec1e-b3f0-0101be414a8c",
-                "nr": "163",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": "DSchnA Challenge",
-                "name": "Deutsches Schnorchelabzeichen Challenge (Silber)"
-            },
-            {
-                "id": "0017fa5e-f750-ec1e-b3f0-0101be414a8c",
-                "nr": "163",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": "DSchnA Challenge",
-                "name": "Deutsches Schnorchelabzeichen Challenge (Silber)"
-            },
-            {
-                "id": "0017fa5e-f8ed-460c-855b-999b90bd272a",
-                "nr": "164",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": "DSchnA Master",
-                "name": "Deutsches Schnorchelabzeichen Master (Gold)"
-            },
-            {
-                "id": "0017fa5e-f8ed-460c-855b-999b90bd272a",
-                "nr": "164",
-                "poNr": 1,
-                "istAktiv": true,
-                "abkuerzung": "DSchnA Master",
-                "name": "Deutsches Schnorchelabzeichen Master (Gold)"
             },
             {
                 "id": "0017fa5e-f8ed-460c-855b-999b90bd272a",
@@ -7100,14 +6604,6 @@
                 "name": "Lebensrettende Sofortmaßnahmen"
             },
             {
-                "id": "0017fa5d-25cf-73ed-fd4b-55663bc47501",
-                "nr": "311",
-                "poNr": 3,
-                "istAktiv": false,
-                "abkuerzung": "LSM",
-                "name": "Lebensrettende Sofortmaßnahmen"
-            },
-            {
                 "id": "0017fa5d-276b-cdc4-5ab7-63f69d16b5f4",
                 "nr": "312",
                 "poNr": 3,
@@ -7178,14 +6674,6 @@
                 "istAktiv": true,
                 "abkuerzung": null,
                 "name": "Gemeinsamer Grundausbildungsblock"
-            },
-            {
-                "id": "0017fa5e-393f-7ab9-f236-339e3f66f7a9",
-                "nr": "324",
-                "poNr": 3,
-                "istAktiv": false,
-                "abkuerzung": null,
-                "name": "AED-Auffrischungs-Lehrgang"
             },
             {
                 "id": "0017fa5e-393f-7ab9-f236-339e3f66f7a9",
@@ -9057,14 +8545,6 @@
                 "name": "Einsatzfähigkeit Wasserrettungsdienst"
             },
             {
-                "id": "0017fa5e-a38e-a83f-fe26-63ae55b49453",
-                "nr": "410",
-                "poNr": 4,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Einsatzfähigkeit Wasserrettungsdienst"
-            },
-            {
                 "id": "0017fa5e-aa00-0fe6-df43-90e785f48be8",
                 "nr": "405",
                 "poNr": 4,
@@ -9079,14 +8559,6 @@
                 "istAktiv": true,
                 "abkuerzung": null,
                 "name": "Modul - Eisrettung"
-            },
-            {
-                "id": "0017fa5e-e260-5b12-7401-a9133cb8351e",
-                "nr": "810",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Einsatzfähigkeit"
             },
             {
                 "id": "0017fa5e-e260-5b12-7401-a9133cb8351e",
@@ -9278,14 +8750,6 @@
                 "name": "Einsatzfähigkeit Wasserrettungsdienst"
             },
             {
-                "id": "0017fa5e-a38e-a83f-fe26-63ae55b49453",
-                "nr": "410",
-                "poNr": 4,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Einsatzfähigkeit Wasserrettungsdienst"
-            },
-            {
                 "id": "0017fa5e-aa00-0fe6-df43-90e785f48be8",
                 "nr": "405",
                 "poNr": 4,
@@ -9300,14 +8764,6 @@
                 "istAktiv": true,
                 "abkuerzung": null,
                 "name": "Modul - Eisrettung"
-            },
-            {
-                "id": "0017fa5e-e260-5b12-7401-a9133cb8351e",
-                "nr": "810",
-                "poNr": 8,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Einsatzfähigkeit"
             },
             {
                 "id": "0017fa5e-e260-5b12-7401-a9133cb8351e",
@@ -9803,91 +9259,6 @@
             },
             {
                 "id": 109,
-                "titel": "PO Boot - Auflage 13_web.pdf",
-                "beschreibung": null,
-                "typ": "po",
-                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?gldid=-3&aid=866653g&v=o&wm=no"
-            }
-        ]
-    },
-    {
-        "id": "0017fa5e-22b2-9047-1426-4ad58eaaefc7",
-        "nr": "513",
-        "poNr": 5,
-        "istAktiv": true,
-        "abkuerzung": null,
-        "name": "DLRG-Bootsführerschein A/B",
-        "stellenLfdNr": 3,
-        "gueltigkeit": null,
-        "beauftragung": null,
-        "wiederholung": null,
-        "pruefungenGueltigkeit": null,
-        "verlaengerungUE": null,
-        "verlaengerungBeauftragungUE": null,
-        "inhalt": [
-            {
-                "lehreinheiten": 0,
-                "inhalt": "Erwirbt der Bewerber die Qualifikationen DLRG-Bootsführer A (511) und DLRG-Bootsführer B (512) wird ihm die Lizenz DLRG-Bootsführer A/B erteilt.",
-                "einordnung": "uebergreifend"
-            }
-        ],
-        "voraussetzungen": {
-            "qualifikationen": [
-                {
-                    "qualifikation": {
-                        "id": "0017fa5d-d561-b611-6e66-1b9a0dbddc73",
-                        "nr": "511",
-                        "poNr": 5,
-                        "istAktiv": true,
-                        "abkuerzung": null,
-                        "name": "DLRG Bootsführerschein A"
-                    },
-                    "kommentar": ""
-                },
-                {
-                    "qualifikation": {
-                        "id": "0017fa5d-d6fe-0ff0-a44d-e67a62325627",
-                        "nr": "512",
-                        "poNr": 5,
-                        "istAktiv": true,
-                        "abkuerzung": null,
-                        "name": "DLRG Bootsführerschein B"
-                    },
-                    "kommentar": ""
-                }
-            ],
-            "hospitationen": [],
-            "sonstiges": [],
-            "mindestalter": {
-                "istErforderlich": false,
-                "alter": 0,
-                "kommentar": ""
-            },
-            "aerztliche_tauglichkeit": {
-                "istErforderlich": false,
-                "kommentar": ""
-            },
-            "mitgliedschaft": {
-                "istErforderlich": false,
-                "kommentar": ""
-            },
-            "befuerwortung": {
-                "istErforderlich": false,
-                "kommentar": ""
-            }
-        },
-        "pruefungen": [],
-        "prueferberechtigungen": [],
-        "dokumente": [
-            {
-                "id": 179,
-                "titel": "dlrg-bf.gif",
-                "beschreibung": null,
-                "typ": "abzeichen",
-                "link": "https://dlrg.net/global/Apps/Asset/assetService.php?gldid=-3&aid=1354g&v=o&wm=no"
-            },
-            {
-                "id": 181,
                 "titel": "PO Boot - Auflage 13_web.pdf",
                 "beschreibung": null,
                 "typ": "po",
@@ -15333,22 +14704,6 @@
                 "name": "DLRG-Sprechfunker"
             },
             {
-                "id": "0017fa5d-4c77-e01d-2558-5e90204c7e8b",
-                "nr": "711",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "DLRG-Sprechfunker"
-            },
-            {
-                "id": "0017fa5d-ed8a-fa2e-1c5d-1e60850c0c7c",
-                "nr": "710",
-                "poNr": 7,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Sprechfunkunterweisung DLRG-Betriebsfunk"
-            },
-            {
                 "id": "0017fa5d-ed8a-fa2e-1c5d-1e60850c0c7c",
                 "nr": "710",
                 "poNr": 7,
@@ -15389,36 +14744,12 @@
                 "name": "Fortbildung Sprechfunk Wasserrettungsdienst (WRD)"
             },
             {
-                "id": "0017fa5e-4e30-0b57-6c27-41fde04632c3",
-                "nr": "741",
-                "poNr": 7,
-                "istAktiv": false,
-                "abkuerzung": null,
-                "name": "Fortbildung Sprechfunk Wasserrettungsdienst (WRD)"
-            },
-            {
                 "id": "0017fa5e-4fcc-653c-b830-97da993b4246",
                 "nr": "742",
                 "poNr": 7,
                 "istAktiv": false,
                 "abkuerzung": null,
                 "name": "Fortbildung Sprechfunk Katastrophenschutz"
-            },
-            {
-                "id": "0017fa5e-4fcc-653c-b830-97da993b4246",
-                "nr": "742",
-                "poNr": 7,
-                "istAktiv": false,
-                "abkuerzung": null,
-                "name": "Fortbildung Sprechfunk Katastrophenschutz"
-            },
-            {
-                "id": "0017fa5e-5168-bf22-1900-597c74adb910",
-                "nr": "743",
-                "poNr": 7,
-                "istAktiv": false,
-                "abkuerzung": null,
-                "name": "Fortbildung Fernmeldebetriebsstelle"
             },
             {
                 "id": "0017fa5e-5168-bf22-1900-597c74adb910",
@@ -19251,14 +18582,6 @@
                 "istAktiv": true,
                 "abkuerzung": null,
                 "name": "Einsatzfähigkeit für Strömungsretter"
-            },
-            {
-                "id": "0017fa5e-f27b-de55-bc53-bf83b78ea0f3",
-                "nr": "1081",
-                "poNr": 10,
-                "istAktiv": true,
-                "abkuerzung": null,
-                "name": "Ausbilder Strömungsrettung"
             }
         ],
         "dokumente": [
