@@ -13,7 +13,7 @@ function sanitizeName(name: string) {
     return name;
 }
 
-function compare(a, b) {
+function compare(a: SitemapQualification, b: SitemapQualification) {
     let a2 = Number.parseFloat(a.nr);
     let b2 = Number.parseFloat(b.nr);
     if (!Number.isNaN(a2) && !Number.isNaN(b2)) {
@@ -48,7 +48,7 @@ export default function sitemapPlugin(): PluginOption {
             // download all qualifications
             let url = "https://api.dlrg.net/ausbildung/v1/qualifikationen?activeOnly=true"
             const response = await fetch(url, { method: 'GET', headers: { 'Accept': 'application/json' } });
-            const json = await response.json();
+            const json: SitemapQualification[] = await response.json();
             this.info(`Loaded ${json.length} qualifications`)
 
             // add qualifications to sitemap
@@ -93,4 +93,9 @@ class SitemapBuilder {
 interface SitemapEntry {
     loc: string,
     lastmod: string
+}
+
+interface SitemapQualification {
+    nr: string,
+    name: string
 }
