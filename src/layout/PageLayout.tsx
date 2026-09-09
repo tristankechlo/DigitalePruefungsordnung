@@ -5,6 +5,7 @@ import Navigation from "./Navigation";
 import classes from './style.module.css';
 import { Suspense, useEffect } from "react";
 import { useResizing } from "../types/use-resizing";
+import { GlobalSpotlight, SearchBar, SearchButton } from "./Search";
 import Loading from "./Loading";
 
 
@@ -22,14 +23,19 @@ export default function PageLayout() {
     return (
         <div className={classes.appshell}>
             <header className={classes.header}>
-                <Group h="100%" px="md" justify='space-between'>
+                <Group h="100%" px={{ base: 'xs', sm: 'md' }} justify='space-between'>
                     <UnstyledButton component={NavLink} to="/" title="Home">
                         <Title c='#ffed00' size='1em'>Digitale Prüfungsordnung</Title>
                         {/* <Image height={40} src="https://api.dlrg.net/logo/v1/stammverband/svg?size=144&line1=Digitale&line2=Pr%C3%BCfungsordnung&farbe=vollfarbe&stacked=false" alt="Logo" /> */}
                     </UnstyledButton>
-                    <Burger opened={opened} onClick={toggle} hiddenFrom="sm" size="md" color='white' />
+                    <Group gap='xs'>
+                        <SearchBar />
+                        <SearchButton />
+                        <Burger opened={opened} onClick={toggle} hiddenFrom="sm" size="md" color='white' />
+                    </Group>
                 </Group>
             </header>
+            <GlobalSpotlight />
             <nav className={classes.nav} data-opened={opened} data-resizing={resizing}>
                 <Navigation />
             </nav>

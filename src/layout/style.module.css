@@ -70,6 +70,34 @@
     left: 110vw;
 }
 
+/* ----------------------------
+ * STYLE FOR THE GLOBAL SEARCH
+ * ---------------------------- */
+.searchBar {
+    display: flex;
+    align-items: center;
+    gap: var(--mantine-spacing-xs);
+    height: 36px;
+    width: 320px;
+    max-width: 40vw;
+    padding: 0 5px 0 var(--mantine-spacing-sm);
+    border-radius: var(--mantine-radius-sm);
+    border: calc(0.0625rem * var(--mantine-scale)) solid rgba(255, 255, 255, 0.45);
+    background-color: rgba(255, 255, 255, 0.15);
+    color: var(--mantine-color-white);
+}
+
+.searchBar:hover {
+    border-color: var(--mantine-color-white);
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+.searchBarLabel {
+    flex: 1;
+    text-align: left;
+    font-size: var(--mantine-font-size-sm);
+}
+
 .main {
     height: calc(100vh - var(--header-height));
     width: 100%;
