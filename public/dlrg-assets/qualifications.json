@@ -18778,6 +18778,14 @@
                 "name": "Gemeinsamer Grundausbildungsblock"
             },
             {
+                "id": "0017fa5e-8357-a211-1299-a8e80408855e",
+                "nr": "1051",
+                "poNr": 10,
+                "istAktiv": true,
+                "abkuerzung": "SRT",
+                "name": "Strömungsrettungs-Techniker (SRT)"
+            },
+            {
                 "id": "0017fa5e-8d01-bd82-23e9-612405799ff0",
                 "nr": "1083",
                 "poNr": 10,
