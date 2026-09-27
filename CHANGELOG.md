@@ -1,5 +1,11 @@
 # Changelog
 
+## Version 1.4.0 - 2026-09-08
+
+- doppelte Einträge bei den Prüferberechtigungen werden rausgefiltert
+- aktuellste DLRG-Assets
+- Suchleiste eingefügt
+
 ## Version 1.3.1 - 2026-05-03
 
 - aktuellste DLRG-Assets

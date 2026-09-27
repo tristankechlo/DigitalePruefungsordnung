@@ -13,6 +13,9 @@ export default function minifyJson(publicDir: string): PluginOption {
         name: 'vite-plugin-minify-json',
 
         async generateBundle(options) {
+            if (!options.dir) {
+                throw new Error("vite-plugin-minify-json: 'options.dir' is not set");
+            }
             const outDir = path.join(options.dir, dlrg);
             if (!fs.existsSync(outDir)) {
                 fs.mkdirSync(outDir);

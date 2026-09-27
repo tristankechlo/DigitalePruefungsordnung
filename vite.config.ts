@@ -7,7 +7,7 @@ import sitemapPlugin from './vite-plugins/sitemap.js';
 import minifyJson from './vite-plugins/minify-json.js';
 import path from 'path';
 
-import packageJson from './package.json';
+import packageJson from './package.json' with {type: "json"};
 const VERSION = packageJson.version;
 const MAIN_URL = packageJson.homepage;
 const HASH = (process.env.HASH ?? "").substring(0, 8);

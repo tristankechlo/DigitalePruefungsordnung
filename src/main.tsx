@@ -1,4 +1,5 @@
 import "@mantine/core/styles.css";
+import "@mantine/spotlight/styles.css";
 import { MantineProvider, createTheme } from "@mantine/core";
 import { BrowserRouter } from "react-router-dom";
 import ReactDOM from "react-dom/client";

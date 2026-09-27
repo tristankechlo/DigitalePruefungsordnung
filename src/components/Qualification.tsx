@@ -71,7 +71,7 @@ export default function Qualification(props: QualificationProps) {
     return (
         <Container size={rem(1100)} mt='md' mb="xl" className={classes.container}>
 
-            <Grid gutter={0} justify='space-between'>
+            <Grid gap={0} justify='space-between'>
                 <Grid.Col span="auto">
                     <Group gap={0} align="center" mb="xs">
                         <Pill bg="#0069b4" c="white" size='md' mr="xs">{quali.nr}</Pill>
