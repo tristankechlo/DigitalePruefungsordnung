@@ -18560,6 +18560,14 @@
                 "name": "Gemeinsamer Grundausbildungsblock"
             },
             {
+                "id": "0017fa5e-6659-4fcf-6615-7f055b12c492",
+                "nr": "1021",
+                "poNr": 10,
+                "istAktiv": true,
+                "abkuerzung": null,
+                "name": "Seiltechnik 1"
+            },
+            {
                 "id": "0017fa5e-7003-6b37-b3af-b86f680801db",
                 "nr": "1024",
                 "poNr": 10,
@@ -18776,6 +18784,22 @@
                 "istAktiv": true,
                 "abkuerzung": null,
                 "name": "Gemeinsamer Grundausbildungsblock"
+            },
+            {
+                "id": "0017fa5e-6659-4fcf-6615-7f055b12c492",
+                "nr": "1021",
+                "poNr": 10,
+                "istAktiv": true,
+                "abkuerzung": null,
+                "name": "Seiltechnik 1"
+            },
+            {
+                "id": "0017fa5e-801e-ee41-5db2-750c80da3936",
+                "nr": "1041",
+                "poNr": 10,
+                "istAktiv": true,
+                "abkuerzung": null,
+                "name": "Seiltechnik 2"
             },
             {
                 "id": "0017fa5e-8357-a211-1299-a8e80408855e",
