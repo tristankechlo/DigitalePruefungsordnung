@@ -2297,6 +2297,11 @@
                 "lehreinheiten": 1,
                 "inhalt": "Altersgemäße Differenzierung der Schwimmlehrmethodik",
                 "einordnung": "fachlich"
+            },
+            {
+                "lehreinheiten": 2,
+                "inhalt": "PsG - Grundlagen für Ausbilder",
+                "einordnung": "fachlich"
             }
         ],
         "voraussetzungen": {
