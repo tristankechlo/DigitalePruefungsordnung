@@ -16075,6 +16075,30 @@
                 "name": "Verbandführerausbildung (Führen in der Führungsstufe C)"
             },
             {
+                "id": "0017fa5e-dd8b-4d4c-a69f-dcd201414040",
+                "nr": "841",
+                "poNr": 8,
+                "istAktiv": true,
+                "abkuerzung": null,
+                "name": "Fachberater in Einsatzleitungen"
+            },
+            {
+                "id": "0017fa5e-df27-a739-2ba4-b4e4472d4796",
+                "nr": "842",
+                "poNr": 8,
+                "istAktiv": true,
+                "abkuerzung": null,
+                "name": "Einführung in die Stabsarbeit (Führen in der Führungsstufe D)"
+            },
+            {
+                "id": "0017fa5e-e0c4-0125-c56f-f8f9ca1eba93",
+                "nr": "843",
+                "poNr": 8,
+                "istAktiv": true,
+                "abkuerzung": null,
+                "name": "Fachberater in Katastrophenschutz-Stäben/Krisenstäben"
+            },
+            {
                 "id": "0017fa5e-e260-5b12-7401-a9133cb8351e",
                 "nr": "810",
                 "poNr": 8,
